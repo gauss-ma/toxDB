@@ -1,0 +1,141 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>tóxico.db</title>
+        
+        <!-- JS LIBS: -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+        <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+        <!-- CSS      -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- SCRIPTS -->
+
+        <script type="text/javascript" src="toxicoDB.js">//JQUERY</script>
+
+
+</head> 
+
+<body>
+
+
+    <table id="COCsTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Contaminante</th>
+                <th>CAS</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Contaminante</th>
+                <th>CAS</th>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+</body>
+
+
+
+
+
+<script>
+   // TABLAS
+   //$(document).ready(function () {
+   //        $('#grid').DataTable();
+   //    });
+   
+   //$(document).ready(function() {
+   //    $('#COCsTable').DataTable( {
+   //        data: COCs_list,
+   //        "columns": [
+   //            { "data": "id" },
+   //            { "data": "COC" },
+   //            { "data": "CAS" }
+   //        ]
+   //    } );
+   //} );
+
+//$.ajax({
+//  dataType: "json",
+//  url: url,
+//  data: data,
+//  success: success
+//});
+//$.ajax({
+//    url: "toxicoDB.csv",
+//    async: false,
+//    success: function (csvd) {
+//        var items = $.csv.toObjects(csvd);
+//        var jsonobject = JSON.stringify(items);
+//        alert(jsonobject);
+//    },
+//    dataType: "text",
+//    complete: function () {
+//        // call a function on complete 
+//    }
+//});
+
+//var items= [];
+//var data=[];
+//
+//function success(data) {
+//  // do something with data, which is an object
+//	console.log("hola vieja!");
+//	$.each( data, function( key, val ) {
+//	   items.push(key+"="+val );
+//	});
+//
+//};
+//
+//
+//$.ajax({
+//  dataType: "json",
+//  url: "db.json",
+//  data: data,
+//  success: success, 
+//});
+//
+//
+//
+//
+//$.getJSON( "db.json", function( data ) {
+//  var items = [];
+//  console.log(data[1]);
+//  $.each( data, function( key, val ) {
+//    items.push( "<li id='" + key + "'>" + val + "</li>" );
+//  });
+// 
+//  $( "<ul/>", {
+//    "class": "my-new-list",
+//    html: items.join( "" )
+//  }).appendTo( "body" );
+//});
+
+$(document).ready(function() {
+   $('#COCsTable').DataTable( {
+        "ajax":{
+		url: 'db.json',
+		dataSrc: 'cocs',
+    },
+    "columns": [
+    { "data": "name" },
+    { "data": "CAS" },
+    //{ "data": "type" },
+  ]
+    } );
+} );
+
+
+
+</script>
+
+
+
+
+
+
+</html>

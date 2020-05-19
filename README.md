@@ -7,6 +7,9 @@
 ---
 Variable           | Descripción:                                  |
 --------------     | --------------------------------------------- |
+**`` name     ``** | Name of the compound of interest              |
+**`` CAS      ``** | Chemical Abstracts Service Registry Number    |
+**`` type     ``** | Type (O:Organic; I:Inorganic)                 |
 **`` m_mol    ``** | Molecular Weight (g/mol)		   	   |
 **`` S        ``** | Solubility @ 20-25 degC (mg/L)		   |
 **`` p_vap    ``** | Vapor pressure @ 20-25 degC (mmHG)	           |
@@ -42,5 +45,7 @@ Variable           | Descripción:                                  |
 **``HH_w_drink``** | Human health: Drinking / freshwater fish	   |
 **``HH_fish   ``** | Human health: Fresh water fishing only	   |
 **``HH_fish_salt``** | Human health: Salt water fishing only       |
+
+
 ---
 

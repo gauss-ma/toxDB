@@ -1,0 +1,2272 @@
+{
+"cocs":[
+  {
+    "name": "chloral",
+    "CAS": 75876
+  },
+  {
+    "name": "chloral-hydrate-1-1-ethanediol-2-2-2-trichloro",
+    "CAS": 302170
+  },
+  {
+    "name": "chloramben-amiben-3-amino-2-5-dichlorobenzoic-acid",
+    "CAS": 133904
+  },
+  {
+    "name": "chlordane-technical",
+    "CAS": 12789036
+  },
+  {
+    "name": "chlordane-cis-alpha-chlordane",
+    "CAS": 5103719
+  },
+  {
+    "name": "chlordane-gamma",
+    "CAS": 57749
+  },
+  {
+    "name": "chlorfenvinphos",
+    "CAS": 470906
+  },
+  {
+    "name": "chlorine",
+    "CAS": 7782505
+  },
+  {
+    "name": "chloro-1-3-butadiene-2",
+    "CAS": 126998
+  },
+  {
+    "name": "chloro-2-propanol-1",
+    "CAS": 127004
+  },
+  {
+    "name": "acridine",
+    "CAS": 260946
+  },
+  {
+    "name": "chloro-3-methylphenol-4",
+    "CAS": 59507
+  },
+  {
+    "name": "chloroaniline-p",
+    "CAS": 106478
+  },
+  {
+    "name": "chlorobenzene",
+    "CAS": 108907
+  },
+  {
+    "name": "chlorobenzilate",
+    "CAS": 510156
+  },
+  {
+    "name": "chlorobromomethane-bromochloromethane",
+    "CAS": 74975
+  },
+  {
+    "name": "chlorodifluoromethane",
+    "CAS": 75456
+  },
+  {
+    "name": "chloroethane",
+    "CAS": 75003
+  },
+  {
+    "name": "chloroethanol-2",
+    "CAS": 107073
+  },
+  {
+    "name": "chloroethoxy-ethene-2-2-chloroethylvinylether",
+    "CAS": 110758
+  },
+  {
+    "name": "chloroform",
+    "CAS": 67663
+  },
+  {
+    "name": "acrolein",
+    "CAS": 107028
+  },
+  {
+    "name": "chlorohexane-1",
+    "CAS": 544105
+  },
+  {
+    "name": "chloromethane",
+    "CAS": 74873
+  },
+  {
+    "name": "chloronaphthalene-1",
+    "CAS": 90131
+  },
+  {
+    "name": "chloronaphthalene-2",
+    "CAS": 91587
+  },
+  {
+    "name": "chloronitrobenzene-p-1-chloro-4-nitrobenzene",
+    "CAS": 100005
+  },
+  {
+    "name": "chlorophenol-2",
+    "CAS": 95578
+  },
+  {
+    "name": "chlorophenol-3",
+    "CAS": 108430
+  },
+  {
+    "name": "chlorophenol-4",
+    "CAS": 106489
+  },
+  {
+    "name": "chlorophenyl-phenylether-4",
+    "CAS": 7005723
+  },
+  {
+    "name": "chloropropane-2",
+    "CAS": 75296
+  },
+  {
+    "name": "acrylamide",
+    "CAS": 79061
+  },
+  {
+    "name": "chlorothalonil",
+    "CAS": 1897456
+  },
+  {
+    "name": "chlorotoluene-o",
+    "CAS": 95498
+  },
+  {
+    "name": "chlorotoluene-p-4-chlorotoluene",
+    "CAS": 106434
+  },
+  {
+    "name": "chlorpyrifos",
+    "CAS": 2921882
+  },
+  {
+    "name": "chromium-iii-total-chromium",
+    "CAS": 16065831
+  },
+  {
+    "name": "chromium-iii-total-chromium",
+    "CAS": 7440473
+  },
+  {
+    "name": "chromium-vi",
+    "CAS": 18540299
+  },
+  {
+    "name": "chrysene",
+    "CAS": 218019
+  },
+  {
+    "name": "cobalt",
+    "CAS": 7440484
+  },
+  {
+    "name": "copolymer-acrylamide",
+    "CAS": 69418264
+  },
+  {
+    "name": "acrylic-acid",
+    "CAS": 79107
+  },
+  {
+    "name": "copper",
+    "CAS": 7440508
+  },
+  {
+    "name": "coronene",
+    "CAS": 191071
+  },
+  {
+    "name": "coumaphos",
+    "CAS": 56724
+  },
+  {
+    "name": "cresol-m",
+    "CAS": 108394
+  },
+  {
+    "name": "cresol-o",
+    "CAS": 95487
+  },
+  {
+    "name": "cresol-p",
+    "CAS": 106445
+  },
+  {
+    "name": "crotonaldehyde",
+    "CAS": 123739
+  },
+  {
+    "name": "cumene",
+    "CAS": 98828
+  },
+  {
+    "name": "cyanazine",
+    "CAS": 21725462
+  },
+  {
+    "name": "cyanide",
+    "CAS": 57125
+  },
+  {
+    "name": "acrylonitrile",
+    "CAS": 107131
+  },
+  {
+    "name": "cyanogen",
+    "CAS": 460195
+  },
+  {
+    "name": "cycloate",
+    "CAS": 1134232
+  },
+  {
+    "name": "cyclohexane",
+    "CAS": 110827
+  },
+  {
+    "name": "cyclohexanol",
+    "CAS": 108930
+  },
+  {
+    "name": "cyclohexanone",
+    "CAS": 108941
+  },
+  {
+    "name": "cyclotetramethylenetetranitramine-hmx",
+    "CAS": 2691410
+  },
+  {
+    "name": "cyclotrimethylenetrinitramine",
+    "CAS": 121824
+  },
+  {
+    "name": "cymene-isopropyltoluene",
+    "CAS": 99876
+  },
+  {
+    "name": "cymoxanil",
+    "CAS": 57966957
+  },
+  {
+    "name": "dacthal-dcpa",
+    "CAS": 1861321
+  },
+  {
+    "name": "adipic-acid-hexanedioic-acid",
+    "CAS": 124049
+  },
+  {
+    "name": "dalapon-sodium-salt-2-2-dichloropropanoic-acid",
+    "CAS": 75990
+  },
+  {
+    "name": "ddd",
+    "CAS": 72548
+  },
+  {
+    "name": "dde",
+    "CAS": 72559
+  },
+  {
+    "name": "ddt",
+    "CAS": 50293
+  },
+  {
+    "name": "demeton",
+    "CAS": 8065483
+  },
+  {
+    "name": "diacetone-alcohol-4-hydroxy-4-methyl-2-pentanone",
+    "CAS": 123422
+  },
+  {
+    "name": "diallate",
+    "CAS": 2303164
+  },
+  {
+    "name": "diazinon",
+    "CAS": 333415
+  },
+  {
+    "name": "dibenz-a-h-acridine",
+    "CAS": 226368
+  },
+  {
+    "name": "dibenz-a-h-anthracene",
+    "CAS": 53703
+  },
+  {
+    "name": "alachlor",
+    "CAS": 15972608
+  },
+  {
+    "name": "dibenz-a-j-acridine",
+    "CAS": 224420
+  },
+  {
+    "name": "dibenzofuran",
+    "CAS": 132649
+  },
+  {
+    "name": "dibenzothiophene",
+    "CAS": 132650
+  },
+  {
+    "name": "dibromo-3-chloropropane-1-2",
+    "CAS": 96128
+  },
+  {
+    "name": "dibromochloromethane",
+    "CAS": 124481
+  },
+  {
+    "name": "dibromofluoromethane",
+    "CAS": 1868537
+  },
+  {
+    "name": "dicamba",
+    "CAS": 1918009
+  },
+  {
+    "name": "dichloro-2-butene-1-4",
+    "CAS": 764410
+  },
+  {
+    "name": "dichloro-2-butene-1-4-trans",
+    "CAS": 110576
+  },
+  {
+    "name": "dichlorobenzene-1-2",
+    "CAS": 95501
+  },
+  {
+    "name": "aldicarb",
+    "CAS": 116063
+  },
+  {
+    "name": "dichlorobenzene-1-3",
+    "CAS": 541731
+  },
+  {
+    "name": "dichlorobenzene-1-4",
+    "CAS": 106467
+  },
+  {
+    "name": "dichlorobenzidine-3-3",
+    "CAS": 91941
+  },
+  {
+    "name": "dichlorobutane-2-3",
+    "CAS": 7581977
+  },
+  {
+    "name": "dichlorodifluoromethane",
+    "CAS": 75718
+  },
+  {
+    "name": "dichloroethane-1-1",
+    "CAS": 75343
+  },
+  {
+    "name": "dichloroethane-1-2",
+    "CAS": 107062
+  },
+  {
+    "name": "dichloroethylene-1-1",
+    "CAS": 75354
+  },
+  {
+    "name": "dichloroethylene-cis-1-2",
+    "CAS": 156592
+  },
+  {
+    "name": "dichloroethylene-trans-1-2",
+    "CAS": 156605
+  },
+  {
+    "name": "aldicarb-sulfone",
+    "CAS": 1646884
+  },
+  {
+    "name": "dichlorophenol-2-3",
+    "CAS": 576249
+  },
+  {
+    "name": "dichlorophenol-2-4",
+    "CAS": 120832
+  },
+  {
+    "name": "dichlorophenol-2-5",
+    "CAS": 583788
+  },
+  {
+    "name": "dichlorophenol-3-4",
+    "CAS": 95772
+  },
+  {
+    "name": "dichlorophenol-3-5",
+    "CAS": 591355
+  },
+  {
+    "name": "dichlorophenoxy-2-4-butyric-acid-4-2-4-db",
+    "CAS": 94826
+  },
+  {
+    "name": "dichlorophenoxyacetic-acid-2-4",
+    "CAS": 94757
+  },
+  {
+    "name": "dichloroprop-2-2-4-dichlorophenoxy-propanoic-acid",
+    "CAS": 120365
+  },
+  {
+    "name": "dichloropropane-1-2",
+    "CAS": 78875
+  },
+  {
+    "name": "aldrin",
+    "CAS": 309002
+  },
+  {
+    "name": "acenaphthene",
+    "CAS": 83329
+  },
+  {
+    "name": "dichloropropane-1-3",
+    "CAS": 142289
+  },
+  {
+    "name": "dichloropropane-2-2",
+    "CAS": 594207
+  },
+  {
+    "name": "dichloropropanol-2-3",
+    "CAS": 616239
+  },
+  {
+    "name": "dichloropropene-1-1",
+    "CAS": 563586
+  },
+  {
+    "name": "dichloropropene-1-3",
+    "CAS": 542756
+  },
+  {
+    "name": "dichloropropene-1-3-cis",
+    "CAS": 10061015
+  },
+  {
+    "name": "dichloropropene-1-3-trans",
+    "CAS": 10061026
+  },
+  {
+    "name": "dichlorvos",
+    "CAS": 62737
+  },
+  {
+    "name": "dicrotophos-bidrin",
+    "CAS": 141662
+  },
+  {
+    "name": "dicyclopentadiene",
+    "CAS": 77736
+  },
+  {
+    "name": "allyl-alcohol",
+    "CAS": 107186
+  },
+  {
+    "name": "dieldrin",
+    "CAS": 60571
+  },
+  {
+    "name": "diethanolamine",
+    "CAS": 111422
+  },
+  {
+    "name": "diethyl-phthalate",
+    "CAS": 84662
+  },
+  {
+    "name": "diethylene-glycol",
+    "CAS": 111466
+  },
+  {
+    "name": "diethylene-glycol-monobutyl-ether",
+    "CAS": 112345
+  },
+  {
+    "name": "diethylhexyl-adipate",
+    "CAS": 103231
+  },
+  {
+    "name": "diethylstilbestrol",
+    "CAS": 56531
+  },
+  {
+    "name": "diisobutylene-trimethyl-1-pentene-2-4-4",
+    "CAS": 107391
+  },
+  {
+    "name": "diisopropyl-ether-2-2-oxybis-propane",
+    "CAS": 108203
+  },
+  {
+    "name": "dimethenamid",
+    "CAS": 87674688
+  },
+  {
+    "name": "allyl-chloride",
+    "CAS": 107051
+  },
+  {
+    "name": "dimethoate",
+    "CAS": 60515
+  },
+  {
+    "name": "dimethoxybenzidine-3-3",
+    "CAS": 119904
+  },
+  {
+    "name": "dimethyl-phenol-2-4",
+    "CAS": 105679
+  },
+  {
+    "name": "dimethylaminoazobenzene-p",
+    "CAS": 60117
+  },
+  {
+    "name": "dimethylbenz-a-anthracene-7-12",
+    "CAS": 57976
+  },
+  {
+    "name": "dimethylbenzidine-3-3",
+    "CAS": 119937
+  },
+  {
+    "name": "dimethylnaphthalene-1-3",
+    "CAS": 575417
+  },
+  {
+    "name": "dimethylphenethylamine-alpha-alpha",
+    "CAS": 122098
+  },
+  {
+    "name": "dimethylphthalate",
+    "CAS": 131113
+  },
+  {
+    "name": "di-n-butyl-phthalate",
+    "CAS": 84742
+  },
+  {
+    "name": "aluminum",
+    "CAS": 7429905
+  },
+  {
+    "name": "dinitro-2-methylphenol-4-6",
+    "CAS": 534521
+  },
+  {
+    "name": "dinitrobenzene-1-3",
+    "CAS": 99650
+  },
+  {
+    "name": "dinitrobenzene-1-4",
+    "CAS": 100254
+  },
+  {
+    "name": "dinitrophenol-2-4",
+    "CAS": 51285
+  },
+  {
+    "name": "dinitrophenol-2-5",
+    "CAS": 329715
+  },
+  {
+    "name": "dinitrotoluene-2-4",
+    "CAS": 121142
+  },
+  {
+    "name": "dinitrotoluene-2-6",
+    "CAS": 606202
+  },
+  {
+    "name": "di-n-octyl-phthalate",
+    "CAS": 117840
+  },
+  {
+    "name": "dinoseb",
+    "CAS": 88857
+  },
+  {
+    "name": "dioxane-1-4",
+    "CAS": 123911
+  },
+  {
+    "name": "ametryn",
+    "CAS": 834128
+  },
+  {
+    "name": "dioxin-2-3-7-8-tcdd",
+    "CAS": 1746016
+  },
+  {
+    "name": "diphenyl-oxide",
+    "CAS": 101848
+  },
+  {
+    "name": "diphenylamine",
+    "CAS": 122394
+  },
+  {
+    "name": "diphenylhydrazine-1-2",
+    "CAS": 122667
+  },
+  {
+    "name": "diquat",
+    "CAS": 85007
+  },
+  {
+    "name": "disulfoton",
+    "CAS": 298044
+  },
+  {
+    "name": "diuron",
+    "CAS": 330541
+  },
+  {
+    "name": "endosulfan",
+    "CAS": 115297
+  },
+  {
+    "name": "endosulfan-i",
+    "CAS": 959988
+  },
+  {
+    "name": "endosulfan-ii",
+    "CAS": 33213659
+  },
+  {
+    "name": "amino-2-6-dinitrotoluene-4",
+    "CAS": 19406510
+  },
+  {
+    "name": "endosulfan-sulfate",
+    "CAS": 1031078
+  },
+  {
+    "name": "endothall",
+    "CAS": 145733
+  },
+  {
+    "name": "endrin",
+    "CAS": 72208
+  },
+  {
+    "name": "endrin-aldehyde",
+    "CAS": 7421934
+  },
+  {
+    "name": "endrin-ketone",
+    "CAS": 53494705
+  },
+  {
+    "name": "epichlorohydrin",
+    "CAS": 106898
+  },
+  {
+    "name": "epn-o-ethyl-o-4-nitrophenyl-phenylphosphonothioate",
+    "CAS": 2104645
+  },
+  {
+    "name": "esfenvalerate",
+    "CAS": 66230044
+  },
+  {
+    "name": "ethalfluralin-sonolan",
+    "CAS": 55283686
+  },
+  {
+    "name": "ethanol",
+    "CAS": 64175
+  },
+  {
+    "name": "amino-4-6-dinitrotoluene-2",
+    "CAS": 35572782
+  },
+  {
+    "name": "ethion",
+    "CAS": 563122
+  },
+  {
+    "name": "ethoprop",
+    "CAS": 13194484
+  },
+  {
+    "name": "ethoxy-ethanol-2",
+    "CAS": 110805
+  },
+  {
+    "name": "ethyl-acetate",
+    "CAS": 141786
+  },
+  {
+    "name": "ethyl-acrylate",
+    "CAS": 140885
+  },
+  {
+    "name": "ethyl-benzene",
+    "CAS": 100414
+  },
+  {
+    "name": "ethyl-dipropylthiocarbamate-s",
+    "CAS": 759944
+  },
+  {
+    "name": "ethyl-ether",
+    "CAS": 60297
+  },
+  {
+    "name": "ethyl-methacrylate",
+    "CAS": 97632
+  },
+  {
+    "name": "ethyl-methanesulfonate",
+    "CAS": 62500
+  },
+  {
+    "name": "aminobiphenyl-4-1-1-biphenyl-4-amine",
+    "CAS": 92671
+  },
+  {
+    "name": "ethyl-tert-butyl-ether-2-ethyl-2-ethoxypropane",
+    "CAS": 637923
+  },
+  {
+    "name": "ethyl-1-hexanol-2",
+    "CAS": 104767
+  },
+  {
+    "name": "ethyl-2-hexenal-2",
+    "CAS": 645625
+  },
+  {
+    "name": "ethyl-2-methyl-benzene-1",
+    "CAS": 611143
+  },
+  {
+    "name": "ethyl-4-methyl-benzene-1",
+    "CAS": 622968
+  },
+  {
+    "name": "ethylene-dibromide",
+    "CAS": 106934
+  },
+  {
+    "name": "ethylene-glycol",
+    "CAS": 107211
+  },
+  {
+    "name": "ethylene-oxide",
+    "CAS": 75218
+  },
+  {
+    "name": "ethylene-thiourea",
+    "CAS": 96457
+  },
+  {
+    "name": "ethylenediamine",
+    "CAS": 107153
+  },
+  {
+    "name": "aminopyridine-4",
+    "CAS": 504245
+  },
+  {
+    "name": "ethylhexyl-acrylate-2",
+    "CAS": 103117
+  },
+  {
+    "name": "famphur",
+    "CAS": 52857
+  },
+  {
+    "name": "fensulfothion",
+    "CAS": 115902
+  },
+  {
+    "name": "fenthion",
+    "CAS": 55389
+  },
+  {
+    "name": "fluoranthene",
+    "CAS": 206440
+  },
+  {
+    "name": "fluorene",
+    "CAS": 86737
+  },
+  {
+    "name": "fluorine-soluble-fluoride",
+    "CAS": 7782414
+  },
+  {
+    "name": "fonofos",
+    "CAS": 944229
+  },
+  {
+    "name": "formaldehyde",
+    "CAS": 50000
+  },
+  {
+    "name": "formic-acid",
+    "CAS": 64186
+  },
+  {
+    "name": "ammonia",
+    "CAS": 7664417
+  },
+  {
+    "name": "furan",
+    "CAS": 110009
+  },
+  {
+    "name": "furfural",
+    "CAS": 98011
+  },
+  {
+    "name": "glycidylaldehyde",
+    "CAS": 765344
+  },
+  {
+    "name": "glyphosate",
+    "CAS": 1071836
+  },
+  {
+    "name": "heptachlor",
+    "CAS": 76448
+  },
+  {
+    "name": "heptachlor-epoxide",
+    "CAS": 1024573
+  },
+  {
+    "name": "heptane-n",
+    "CAS": 142825
+  },
+  {
+    "name": "heptanoic-acid-n",
+    "CAS": 111148
+  },
+  {
+    "name": "hexachlorobenzene",
+    "CAS": 118741
+  },
+  {
+    "name": "hexachlorobutadiene",
+    "CAS": 87683
+  },
+  {
+    "name": "aniline",
+    "CAS": 62533
+  },
+  {
+    "name": "acenaphthylene",
+    "CAS": 208968
+  },
+  {
+    "name": "hexachlorocyclohexane-alpha",
+    "CAS": 319846
+  },
+  {
+    "name": "hexachlorocyclohexane-beta",
+    "CAS": 319857
+  },
+  {
+    "name": "hexachlorocyclohexane-delta",
+    "CAS": 319868
+  },
+  {
+    "name": "hexachlorocyclohexane-gamma",
+    "CAS": 58899
+  },
+  {
+    "name": "hexachlorocyclohexane-techn",
+    "CAS": 608731
+  },
+  {
+    "name": "hexachlorocyclopentadiene",
+    "CAS": 77474
+  },
+  {
+    "name": "hexachloroethane",
+    "CAS": 67721
+  },
+  {
+    "name": "hexachlorophene",
+    "CAS": 70304
+  },
+  {
+    "name": "hexachloropropylene",
+    "CAS": 1888717
+  },
+  {
+    "name": "hexane-n",
+    "CAS": 110543
+  },
+  {
+    "name": "anthracene",
+    "CAS": 120127
+  },
+  {
+    "name": "hexanediol-1-6",
+    "CAS": 629118
+  },
+  {
+    "name": "hexanoic-acid",
+    "CAS": 142621
+  },
+  {
+    "name": "hexanone-2",
+    "CAS": 591786
+  },
+  {
+    "name": "hexazinone",
+    "CAS": 51235042
+  },
+  {
+    "name": "hexylene-glycol-2-methyl-2-4-pentanediol",
+    "CAS": 107415
+  },
+  {
+    "name": "hydrazine",
+    "CAS": 302012
+  },
+  {
+    "name": "indene",
+    "CAS": 95136
+  },
+  {
+    "name": "indeno-1-2-3-cd-pyrene",
+    "CAS": 193395
+  },
+  {
+    "name": "isobutyl-alcohol",
+    "CAS": 78831
+  },
+  {
+    "name": "isobutylene-2-methyl-1-propene",
+    "CAS": 115117
+  },
+  {
+    "name": "anthraquinone-9-10",
+    "CAS": 84651
+  },
+  {
+    "name": "isobutyric-acid",
+    "CAS": 79312
+  },
+  {
+    "name": "isodrin",
+    "CAS": 465736
+  },
+  {
+    "name": "isophorone",
+    "CAS": 78591
+  },
+  {
+    "name": "isopropyl-acetate",
+    "CAS": 108214
+  },
+  {
+    "name": "isopropyl-alcohol",
+    "CAS": 67630
+  },
+  {
+    "name": "isosafrole",
+    "CAS": 120581
+  },
+  {
+    "name": "kelthane-dicofol",
+    "CAS": 115322
+  },
+  {
+    "name": "kepone",
+    "CAS": 143500
+  },
+  {
+    "name": "lead-inorganic",
+    "CAS": 7439921
+  },
+  {
+    "name": "lithium",
+    "CAS": 7439932
+  },
+  {
+    "name": "antimony",
+    "CAS": 7440360
+  },
+  {
+    "name": "malathion",
+    "CAS": 121755
+  },
+  {
+    "name": "maleic-anhydride",
+    "CAS": 108316
+  },
+  {
+    "name": "maleic-hydrazide",
+    "CAS": 123331
+  },
+  {
+    "name": "malononitrile",
+    "CAS": 109773
+  },
+  {
+    "name": "mancozeb",
+    "CAS": 8018017
+  },
+  {
+    "name": "manganese",
+    "CAS": 7439965
+  },
+  {
+    "name": "mcpa-4-chloro-2-methylphenoxy-acetic-acid",
+    "CAS": 94746
+  },
+  {
+    "name": "mcpp-2-4-chloro-2-methylphenoxy-propanoic-acid",
+    "CAS": 7085190
+  },
+  {
+    "name": "mercury-tier-1-ph-4-9",
+    "CAS": 7439976
+  },
+  {
+    "name": "mercury-tier-1-ph-6-8",
+    "CAS": 7439976
+  },
+  {
+    "name": "aramite",
+    "CAS": 140578
+  },
+  {
+    "name": "merphos",
+    "CAS": 150505
+  },
+  {
+    "name": "methacrylic-acid-2-methyl-2-propenoic-acid",
+    "CAS": 79414
+  },
+  {
+    "name": "methacrylonitrile",
+    "CAS": 126987
+  },
+  {
+    "name": "methanol",
+    "CAS": 67561
+  },
+  {
+    "name": "methapyrilene",
+    "CAS": 91805
+  },
+  {
+    "name": "methomyl",
+    "CAS": 16752775
+  },
+  {
+    "name": "methoxychlor",
+    "CAS": 72435
+  },
+  {
+    "name": "methoxyethanol-2",
+    "CAS": 109864
+  },
+  {
+    "name": "methyl-acetate-acetic-acid-methyl-ester",
+    "CAS": 79209
+  },
+  {
+    "name": "methyl-acrylate",
+    "CAS": 96333
+  },
+  {
+    "name": "arsenic",
+    "CAS": 7440382
+  },
+  {
+    "name": "methyl-chrysene-1",
+    "CAS": 3351288
+  },
+  {
+    "name": "methyl-chrysene-2",
+    "CAS": 3351324
+  },
+  {
+    "name": "methyl-chrysene-6",
+    "CAS": 1705857
+  },
+  {
+    "name": "methyl-cyclohexane",
+    "CAS": 108872
+  },
+  {
+    "name": "methyl-ethyl-ketone",
+    "CAS": 78933
+  },
+  {
+    "name": "methyl-iodide-iodomethane",
+    "CAS": 74884
+  },
+  {
+    "name": "methyl-isobutyl-ketone",
+    "CAS": 108101
+  },
+  {
+    "name": "methyl-mercury",
+    "CAS": 22967926
+  },
+  {
+    "name": "methyl-methacrylate",
+    "CAS": 80626
+  },
+  {
+    "name": "methyl-methanesulfonate",
+    "CAS": 66273
+  },
+  {
+    "name": "arsine",
+    "CAS": 7784421
+  },
+  {
+    "name": "methyl-naphthalene-1",
+    "CAS": 90120
+  },
+  {
+    "name": "methyl-parathion",
+    "CAS": 298000
+  },
+  {
+    "name": "methyl-t-butyl-ether-mtbe",
+    "CAS": 1634044
+  },
+  {
+    "name": "methyl-1-butene-2",
+    "CAS": 563462
+  },
+  {
+    "name": "methyl-1-propanal-2-isobutyraldehyde",
+    "CAS": 78842
+  },
+  {
+    "name": "methyl-2-butene-2",
+    "CAS": 513359
+  },
+  {
+    "name": "methyl-2-pentenal-2",
+    "CAS": 623369
+  },
+  {
+    "name": "methyl-5-nitroaniline-2-5-nitro-o-toluidine",
+    "CAS": 99558
+  },
+  {
+    "name": "methylcholanthrene-3",
+    "CAS": 56495
+  },
+  {
+    "name": "methylene-bromide",
+    "CAS": 74953
+  },
+  {
+    "name": "asbestos",
+    "CAS": 1332214
+  },
+  {
+    "name": "methylene-chloride",
+    "CAS": 75092
+  },
+  {
+    "name": "methylene-bis-2-chloroaniline-4-4",
+    "CAS": 101144
+  },
+  {
+    "name": "methylmecury-hydroxide",
+    "CAS": 1184572
+  },
+  {
+    "name": "methylnaphthalene-2",
+    "CAS": 91576
+  },
+  {
+    "name": "methylpyrrolidone-n",
+    "CAS": 872504
+  },
+  {
+    "name": "methyltetrahydrofuran-2",
+    "CAS": 96479
+  },
+  {
+    "name": "methyltetrahydropyran-2",
+    "CAS": 10141727
+  },
+  {
+    "name": "metolachlor",
+    "CAS": 51218452
+  },
+  {
+    "name": "mirex",
+    "CAS": 2385855
+  },
+  {
+    "name": "molinate",
+    "CAS": 2212671
+  },
+  {
+    "name": "atrazine",
+    "CAS": 1912249
+  },
+  {
+    "name": "molybdenum",
+    "CAS": 7439987
+  },
+  {
+    "name": "morpholine",
+    "CAS": 110918
+  },
+  {
+    "name": "naled",
+    "CAS": 300765
+  },
+  {
+    "name": "naphthalene",
+    "CAS": 91203
+  },
+  {
+    "name": "naphthoquinone-1-4",
+    "CAS": 130154
+  },
+  {
+    "name": "naphthylamine-1",
+    "CAS": 134327
+  },
+  {
+    "name": "naphthylamine-2",
+    "CAS": 91598
+  },
+  {
+    "name": "napropamide",
+    "CAS": 15299997
+  },
+  {
+    "name": "neopentyl-glycol",
+    "CAS": 126307
+  },
+  {
+    "name": "nickel-and-compounds",
+    "CAS": 7440020
+  },
+  {
+    "name": "azinphos-methyl-guthion",
+    "CAS": 86500
+  },
+  {
+    "name": "nitrite",
+    "CAS": 14797650
+  },
+  {
+    "name": "nitroaniline-2",
+    "CAS": 88744
+  },
+  {
+    "name": "nitroaniline-3",
+    "CAS": 99092
+  },
+  {
+    "name": "nitroaniline-4",
+    "CAS": 100016
+  },
+  {
+    "name": "nitrobenzene",
+    "CAS": 98953
+  },
+  {
+    "name": "nitroglycerin",
+    "CAS": 55630
+  },
+  {
+    "name": "nitrophenol-2",
+    "CAS": 88755
+  },
+  {
+    "name": "nitrophenol-3",
+    "CAS": 554847
+  },
+  {
+    "name": "nitrophenol-4",
+    "CAS": 100027
+  },
+  {
+    "name": "azobenzene",
+    "CAS": 103333
+  },
+  {
+    "name": "acetaldehyde",
+    "CAS": 75070
+  },
+  {
+    "name": "nitropropane-2",
+    "CAS": 79469
+  },
+  {
+    "name": "nitroquinoline-n-oxide-4",
+    "CAS": 56575
+  },
+  {
+    "name": "nitrosodiethanolamine",
+    "CAS": 1116547
+  },
+  {
+    "name": "nitrosodiethylamine-n",
+    "CAS": 55185
+  },
+  {
+    "name": "nitrosodimethylamine-n",
+    "CAS": 62759
+  },
+  {
+    "name": "nitrosodi-n-butylamine-n",
+    "CAS": 924163
+  },
+  {
+    "name": "nitrosodi-n-propylamine-n",
+    "CAS": 621647
+  },
+  {
+    "name": "nitrosodiphenylamine",
+    "CAS": 86306
+  },
+  {
+    "name": "nitroso-methyl-ethyl-amine-n",
+    "CAS": 10595956
+  },
+  {
+    "name": "nitrosomorpholine-n",
+    "CAS": 59892
+  },
+  {
+    "name": "barium",
+    "CAS": 7440393
+  },
+  {
+    "name": "nitroso-n-ethylurea-n",
+    "CAS": 759739
+  },
+  {
+    "name": "nitrosopiperidine-n",
+    "CAS": 100754
+  },
+  {
+    "name": "nitrosopyrrolidine-n",
+    "CAS": 930552
+  },
+  {
+    "name": "nitrotoluene-m",
+    "CAS": 99081
+  },
+  {
+    "name": "nitrotoluene-o",
+    "CAS": 88722
+  },
+  {
+    "name": "nitrotoluene-p",
+    "CAS": 99990
+  },
+  {
+    "name": "nonachlor-cis",
+    "CAS": 5103731
+  },
+  {
+    "name": "nonachlor-trans",
+    "CAS": 39765805
+  },
+  {
+    "name": "octamethylpyrophosphoramide",
+    "CAS": 152169
+  },
+  {
+    "name": "octanone",
+    "CAS": 106683
+  },
+  {
+    "name": "bayleton",
+    "CAS": 43121433
+  },
+  {
+    "name": "oxamyl",
+    "CAS": 23135220
+  },
+  {
+    "name": "oxychlordane",
+    "CAS": 27304138
+  },
+  {
+    "name": "paraquat",
+    "CAS": 1910425
+  },
+  {
+    "name": "parathion",
+    "CAS": 56382
+  },
+  {
+    "name": "pebulate",
+    "CAS": 1114712
+  },
+  {
+    "name": "pendimethalin",
+    "CAS": 40487421
+  },
+  {
+    "name": "pentachlorobenzene",
+    "CAS": 608935
+  },
+  {
+    "name": "pentachloroethane",
+    "CAS": 76017
+  },
+  {
+    "name": "pentachloronitrobenzene",
+    "CAS": 82688
+  },
+  {
+    "name": "pentachlorophenol",
+    "CAS": 87865
+  },
+  {
+    "name": "benefin-benfluralin",
+    "CAS": 1861401
+  },
+  {
+    "name": "pentadiene-1-3-trans",
+    "CAS": 2004708
+  },
+  {
+    "name": "pentaerythritol-tetranitrate",
+    "CAS": 78115
+  },
+  {
+    "name": "pentane",
+    "CAS": 109660
+  },
+  {
+    "name": "pentanediol-1-5",
+    "CAS": 111295
+  },
+  {
+    "name": "pentanone-2",
+    "CAS": 107879
+  },
+  {
+    "name": "pentyne-1",
+    "CAS": 627190
+  },
+  {
+    "name": "perchlorate",
+    "CAS": "NA"
+  },
+  {
+    "name": "perylene",
+    "CAS": 198550
+  },
+  {
+    "name": "phenacetin",
+    "CAS": 62442
+  },
+  {
+    "name": "phenanthrene",
+    "CAS": 85018
+  },
+  {
+    "name": "benomyl",
+    "CAS": 17804352
+  },
+  {
+    "name": "phenanthridine",
+    "CAS": 229878
+  },
+  {
+    "name": "phenol",
+    "CAS": 108952
+  },
+  {
+    "name": "phenyl-mercuric-acetate",
+    "CAS": 62384
+  },
+  {
+    "name": "phenylene-diamine-m",
+    "CAS": 108452
+  },
+  {
+    "name": "phenylene-diamine-p",
+    "CAS": 106503
+  },
+  {
+    "name": "phorate",
+    "CAS": 298022
+  },
+  {
+    "name": "phosalone",
+    "CAS": 2310170
+  },
+  {
+    "name": "phosdrin-mevinphos",
+    "CAS": 7786347
+  },
+  {
+    "name": "phosphine",
+    "CAS": 7803512
+  },
+  {
+    "name": "phosphorus-white",
+    "CAS": 7723140
+  },
+  {
+    "name": "benz-a-anthracene",
+    "CAS": 56553
+  },
+  {
+    "name": "phthalic-anhydride",
+    "CAS": 85449
+  },
+  {
+    "name": "picloram",
+    "CAS": 1918021
+  },
+  {
+    "name": "picoline-2-2-methylpyridine",
+    "CAS": 109068
+  },
+  {
+    "name": "polybrominated-biphenyls-solid",
+    "CAS": 67774327
+  },
+  {
+    "name": "polychlorinated-biphenyls-liquid",
+    "CAS": 1336363
+  },
+  {
+    "name": "primene",
+    "CAS": 68955533
+  },
+  {
+    "name": "prometon-pramitol",
+    "CAS": 1610180
+  },
+  {
+    "name": "pronamide",
+    "CAS": 23950585
+  },
+  {
+    "name": "propanal-propionaldehyde",
+    "CAS": 123386
+  },
+  {
+    "name": "propanil",
+    "CAS": 709988
+  },
+  {
+    "name": "benzaldehyde",
+    "CAS": 100527
+  },
+  {
+    "name": "propanoic-acid",
+    "CAS": 79094
+  },
+  {
+    "name": "propanol-1",
+    "CAS": 71238
+  },
+  {
+    "name": "propargite",
+    "CAS": 2312358
+  },
+  {
+    "name": "propargyl-alcohol",
+    "CAS": 107197
+  },
+  {
+    "name": "propazine",
+    "CAS": 139402
+  },
+  {
+    "name": "propham",
+    "CAS": 122429
+  },
+  {
+    "name": "propionitrile-propane-nitrile",
+    "CAS": 107120
+  },
+  {
+    "name": "propyl-acetate-n",
+    "CAS": 109604
+  },
+  {
+    "name": "propylbenzene-n",
+    "CAS": 103651
+  },
+  {
+    "name": "propylene-glycol",
+    "CAS": 57556
+  },
+  {
+    "name": "benzene",
+    "CAS": 71432
+  },
+  {
+    "name": "propylene-glycol-monomethyl-ether",
+    "CAS": 107982
+  },
+  {
+    "name": "propylene-oxide",
+    "CAS": 75569
+  },
+  {
+    "name": "propylene-tetramer",
+    "CAS": 6842155
+  },
+  {
+    "name": "pyrene",
+    "CAS": 129000
+  },
+  {
+    "name": "pyridine",
+    "CAS": 110861
+  },
+  {
+    "name": "quinoline",
+    "CAS": 91225
+  },
+  {
+    "name": "ronnel",
+    "CAS": 299843
+  },
+  {
+    "name": "safrole",
+    "CAS": 94597
+  },
+  {
+    "name": "selenium",
+    "CAS": 7782492
+  },
+  {
+    "name": "selenourea",
+    "CAS": 630104
+  },
+  {
+    "name": "benzenethiol",
+    "CAS": 108985
+  },
+  {
+    "name": "silver",
+    "CAS": 7440224
+  },
+  {
+    "name": "silvex-2-4-5-tp",
+    "CAS": 93721
+  },
+  {
+    "name": "simazine",
+    "CAS": 122349
+  },
+  {
+    "name": "sodium-diethyldithiocarbamate",
+    "CAS": 148185
+  },
+  {
+    "name": "sodium-polyacrylate",
+    "CAS": 9003047
+  },
+  {
+    "name": "strontium",
+    "CAS": 7440246
+  },
+  {
+    "name": "strychnine",
+    "CAS": 57249
+  },
+  {
+    "name": "styrene",
+    "CAS": 100425
+  },
+  {
+    "name": "sulfolane",
+    "CAS": 126330
+  },
+  {
+    "name": "tebuconazole",
+    "CAS": 107534963
+  },
+  {
+    "name": "benzidine",
+    "CAS": 92875
+  },
+  {
+    "name": "tebuthiuron",
+    "CAS": 34014181
+  },
+  {
+    "name": "terbufos",
+    "CAS": 13071799
+  },
+  {
+    "name": "tert-amyl-methyl-ether-tame",
+    "CAS": 994058
+  },
+  {
+    "name": "tert-butyl-alcohol-2-methyl-2-propanol",
+    "CAS": 75650
+  },
+  {
+    "name": "tetrachlorobenzene-1-2-3-4",
+    "CAS": 634662
+  },
+  {
+    "name": "tetrachlorobenzene-1-2-3-5",
+    "CAS": 634902
+  },
+  {
+    "name": "tetrachlorobenzene-1-2-4-5",
+    "CAS": 95943
+  },
+  {
+    "name": "tetrachloroethane-1-1-1-2",
+    "CAS": 630206
+  },
+  {
+    "name": "tetrachloroethane-1-1-2-2",
+    "CAS": 79345
+  },
+  {
+    "name": "tetrachloroethylene",
+    "CAS": 127184
+  },
+  {
+    "name": "benzo-a-pyrene",
+    "CAS": 50328
+  },
+  {
+    "name": "acetone",
+    "CAS": 67641
+  },
+  {
+    "name": "tetrachlorophenol-2-3-4-5",
+    "CAS": 4901513
+  },
+  {
+    "name": "tetrachlorophenol-2-3-4-6",
+    "CAS": 58902
+  },
+  {
+    "name": "tetrachlorophenol-2-3-5-6",
+    "CAS": 935955
+  },
+  {
+    "name": "tetradifon",
+    "CAS": 116290
+  },
+  {
+    "name": "tetraethyl-dithiopyrophosphate",
+    "CAS": 3689245
+  },
+  {
+    "name": "tetraethyl-lead",
+    "CAS": 78002
+  },
+  {
+    "name": "tetrahydrofuran",
+    "CAS": 109999
+  },
+  {
+    "name": "tetrahydropyran",
+    "CAS": 142687
+  },
+  {
+    "name": "thallium-as-thallium-chloride",
+    "CAS": 7791120
+  },
+  {
+    "name": "thiofanox",
+    "CAS": 39196184
+  },
+  {
+    "name": "benzo-b-fluoranthene",
+    "CAS": 205992
+  },
+  {
+    "name": "thionazin",
+    "CAS": 297972
+  },
+  {
+    "name": "thiophanate-methyl",
+    "CAS": 23564058
+  },
+  {
+    "name": "thiram",
+    "CAS": 137268
+  },
+  {
+    "name": "tin",
+    "CAS": 7440315
+  },
+  {
+    "name": "titanium",
+    "CAS": 7440326
+  },
+  {
+    "name": "toluene",
+    "CAS": 108883
+  },
+  {
+    "name": "toluene-diisocyanate-2-4-2-6",
+    "CAS": 26471625
+  },
+  {
+    "name": "toluenediamine-2-4",
+    "CAS": 95807
+  },
+  {
+    "name": "toluenediamine-2-6",
+    "CAS": 823405
+  },
+  {
+    "name": "toluidine-o",
+    "CAS": 95534
+  },
+  {
+    "name": "benzo-e-pyrene",
+    "CAS": 192972
+  },
+  {
+    "name": "toluidine-p",
+    "CAS": 106490
+  },
+  {
+    "name": "toxaphene",
+    "CAS": 8001352
+  },
+  {
+    "name": "tph-aliph-c6-53-hexane",
+    "CAS": "NA"
+  },
+  {
+    "name": "benzo-g-h-i-perylene",
+    "CAS": 191242
+  },
+  {
+    "name": "triademenol",
+    "CAS": 55219653
+  },
+  {
+    "name": "triallate",
+    "CAS": 2303175
+  },
+  {
+    "name": "triaminotrinitrobenzene-tatb",
+    "CAS": 3058386
+  },
+  {
+    "name": "benzoic-acid",
+    "CAS": 65850
+  },
+  {
+    "name": "tributyltin-oxide",
+    "CAS": 56359
+  },
+  {
+    "name": "trichloro-1-2-2-trifluoroethane-1-1-2",
+    "CAS": 76131
+  },
+  {
+    "name": "trichlorobenzene-1-2-3",
+    "CAS": 87616
+  },
+  {
+    "name": "trichlorobenzene-1-2-4",
+    "CAS": 120821
+  },
+  {
+    "name": "trichlorobenzene-1-3-5",
+    "CAS": 108703
+  },
+  {
+    "name": "trichloroethane-1-1-1",
+    "CAS": 71556
+  },
+  {
+    "name": "trichloroethane-1-1-2",
+    "CAS": 79005
+  },
+  {
+    "name": "trichloroethylene",
+    "CAS": 79016
+  },
+  {
+    "name": "trichlorofluoromethane",
+    "CAS": 75694
+  },
+  {
+    "name": "trichloronate",
+    "CAS": 327980
+  },
+  {
+    "name": "benzo-k-fluoranthene",
+    "CAS": 207089
+  },
+  {
+    "name": "trichlorophenol-2-3-4",
+    "CAS": 15950660
+  },
+  {
+    "name": "trichlorophenol-2-3-5",
+    "CAS": 933788
+  },
+  {
+    "name": "trichlorophenol-2-3-6",
+    "CAS": 933755
+  },
+  {
+    "name": "trichlorophenol-2-4-5",
+    "CAS": 95954
+  },
+  {
+    "name": "trichlorophenol-2-4-6",
+    "CAS": 88062
+  },
+  {
+    "name": "trichlorophenol-3-4-5",
+    "CAS": 609198
+  },
+  {
+    "name": "trichlorophenoxyacetic-acid-2-4-5",
+    "CAS": 93765
+  },
+  {
+    "name": "trichloropropane-1-1-2",
+    "CAS": 598776
+  },
+  {
+    "name": "trichloropropane-1-2-3",
+    "CAS": 96184
+  },
+  {
+    "name": "triethanolamine",
+    "CAS": 102716
+  },
+  {
+    "name": "benzotrichloride",
+    "CAS": 98077
+  },
+  {
+    "name": "triethylamine",
+    "CAS": 121448
+  },
+  {
+    "name": "triethylene-glycol",
+    "CAS": 112276
+  },
+  {
+    "name": "triethylphosphorothioate-o-o-o",
+    "CAS": 126681
+  },
+  {
+    "name": "trifluralin",
+    "CAS": 1582098
+  },
+  {
+    "name": "trimethylamine",
+    "CAS": 75503
+  },
+  {
+    "name": "trimethylbenzene-1-2-3",
+    "CAS": 526738
+  },
+  {
+    "name": "trimethylbenzene-1-2-4",
+    "CAS": 95636
+  },
+  {
+    "name": "trimethylbenzene-1-3-5",
+    "CAS": 108678
+  },
+  {
+    "name": "trinitrobenzene-1-3-5",
+    "CAS": 99354
+  },
+  {
+    "name": "trinitrophenylmethylnitramine",
+    "CAS": 479458
+  },
+  {
+    "name": "benzyl-alcohol",
+    "CAS": 100516
+  },
+  {
+    "name": "trinitrotoluene-2-4-6",
+    "CAS": 118967
+  },
+  {
+    "name": "uranium-soluble-salts",
+    "CAS": 7440611
+  },
+  {
+    "name": "valeric-acid-pentanoic-acid",
+    "CAS": 109524
+  },
+  {
+    "name": "vanadium",
+    "CAS": 7440622
+  },
+  {
+    "name": "vernam",
+    "CAS": 1929777
+  },
+  {
+    "name": "vinyl-acetate",
+    "CAS": 108054
+  },
+  {
+    "name": "vinyl-chloride",
+    "CAS": 75014
+  },
+  {
+    "name": "vinylcyclohexane",
+    "CAS": 695125
+  },
+  {
+    "name": "warfarin",
+    "CAS": 81812
+  },
+  {
+    "name": "xylene-m",
+    "CAS": 108383
+  },
+  {
+    "name": "benzyl-chloride",
+    "CAS": 100447
+  },
+  {
+    "name": "xylene-o",
+    "CAS": 95476
+  },
+  {
+    "name": "xylene-p",
+    "CAS": 106423
+  },
+  {
+    "name": "xylenes-mixed-isomers",
+    "CAS": 1330207
+  },
+  {
+    "name": "zinc",
+    "CAS": 7440666
+  },
+  {
+    "name": "beryllium",
+    "CAS": 7440417
+  },
+  {
+    "name": "biphenyl-1-1",
+    "CAS": 92524
+  },
+  {
+    "name": "acetone-cyanohydrin",
+    "CAS": 75865
+  },
+  {
+    "name": "biquinoline-2-2",
+    "CAS": 119915
+  },
+  {
+    "name": "bis-2-chloro-ethyl-ether",
+    "CAS": 111444
+  },
+  {
+    "name": "bis-2-chloroisopropyl-ether",
+    "CAS": 108601
+  },
+  {
+    "name": "bis-2-chloromethyl-ether",
+    "CAS": 542881
+  },
+  {
+    "name": "bis-2-ethyl-hexyl-phthalate",
+    "CAS": 117817
+  },
+  {
+    "name": "bis-2-chloroethoxy-methane",
+    "CAS": 111911
+  },
+  {
+    "name": "bismuth",
+    "CAS": 7440699
+  },
+  {
+    "name": "bisphenol-a",
+    "CAS": 80057
+  },
+  {
+    "name": "boron",
+    "CAS": 7440428
+  },
+  {
+    "name": "bromo-2-chloroethane-1",
+    "CAS": 107040
+  },
+  {
+    "name": "acetonitrile",
+    "CAS": 75058
+  },
+  {
+    "name": "bromobenzene",
+    "CAS": 108861
+  },
+  {
+    "name": "bromodichloromethane",
+    "CAS": 75274
+  },
+  {
+    "name": "bromoform",
+    "CAS": 75252
+  },
+  {
+    "name": "bromomethane",
+    "CAS": 74839
+  },
+  {
+    "name": "bromophenyl-phenylether-4",
+    "CAS": 101553
+  },
+  {
+    "name": "butadiene-1-3",
+    "CAS": 106990
+  },
+  {
+    "name": "butanal-butyraldehyde",
+    "CAS": 123728
+  },
+  {
+    "name": "butanoic-acid-butyric-acid",
+    "CAS": 107926
+  },
+  {
+    "name": "butanol-n",
+    "CAS": 71363
+  },
+  {
+    "name": "butoxy-ethanol-2",
+    "CAS": 111762
+  },
+  {
+    "name": "acetophenone",
+    "CAS": 98862
+  },
+  {
+    "name": "butyl-acetate",
+    "CAS": 123864
+  },
+  {
+    "name": "butyl-acrylate",
+    "CAS": 141322
+  },
+  {
+    "name": "butyl-benzyl-phthalate",
+    "CAS": 85687
+  },
+  {
+    "name": "butyl-ether-n-dibutyl-ether",
+    "CAS": 142961
+  },
+  {
+    "name": "butylate",
+    "CAS": 2008415
+  },
+  {
+    "name": "butylbenzene-n",
+    "CAS": 104518
+  },
+  {
+    "name": "butylbenzene-sec",
+    "CAS": 135988
+  },
+  {
+    "name": "butylbenzene-tert",
+    "CAS": 98066
+  },
+  {
+    "name": "cacodylic-acid",
+    "CAS": 75605
+  },
+  {
+    "name": "cadmium",
+    "CAS": 7440439
+  },
+  {
+    "name": "acetylaminofluorene-2",
+    "CAS": 53963
+  },
+  {
+    "name": "caprolactam",
+    "CAS": 105602
+  },
+  {
+    "name": "captan",
+    "CAS": 133062
+  },
+  {
+    "name": "carbaryl",
+    "CAS": 63252
+  },
+  {
+    "name": "carbazole",
+    "CAS": 86748
+  },
+  {
+    "name": "carbofuran",
+    "CAS": 1563662
+  },
+  {
+    "name": "carbon-disulfide",
+    "CAS": 75150
+  },
+  {
+    "name": "carbon-tetrachloride",
+    "CAS": 56235
+  },
+  {
+    "name": "carbophenothion",
+    "CAS": 786196
+  },
+  {
+    "name": "carbosulfan",
+    "CAS": 55285148
+  },
+  {
+    "name": "carboxin",
+    "CAS": 5234684
+  },
+  {
+    "name": "acifluorfen-sodium",
+    "CAS": 62476599
+  }
+]
+}

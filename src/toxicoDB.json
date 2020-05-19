@@ -1,5 +1,6 @@
-var data= [
-  {
+{
+  "toxicoDB": [
+   {
    name:chloral,
    CAS:75876,
    type:O,
@@ -43,8 +44,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloral-hydrate-1-1-ethanediol-2-2-2-trichloro,
    CAS:302170,
    type:O,
@@ -88,8 +89,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloramben-amiben-3-amino-2-5-dichlorobenzoic-acid,
    CAS:133904,
    type:O,
@@ -133,8 +134,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlordane-technical,
    CAS:12789036,
    type:O,
@@ -178,8 +179,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlordane-cis-alpha-chlordane,
    CAS:5103719,
    type:O,
@@ -223,8 +224,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlordane-gamma,
    CAS:57749,
    type:O,
@@ -268,8 +269,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.1e-005	,
    Human health: Fresh water fishing only	:  2.13e-005	,
    Human health: Salt water fishing only	:  2.13e-005	,
-},
-{
+   },
+   {
    name:chlorfenvinphos,
    CAS:470906,
    type:O,
@@ -313,8 +314,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorine,
    CAS:7782505,
    type:I,
@@ -358,8 +359,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloro-1-3-butadiene-2,
    CAS:126998,
    type:O,
@@ -403,8 +404,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloro-2-propanol-1,
    CAS:127004,
    type:O,
@@ -448,8 +449,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acridine,
    CAS:260946,
    type:O,
@@ -493,8 +494,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloro-3-methylphenol-4,
    CAS:59507,
    type:O,
@@ -538,8 +539,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloroaniline-p,
    CAS:106478,
    type:O,
@@ -583,8 +584,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorobenzene,
    CAS:108907,
    type:O,
@@ -628,8 +629,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.776	,
    Human health: Fresh water fishing only	:  1.38	,
    Human health: Salt water fishing only	:  0.92	,
-},
-{
+   },
+   {
    name:chlorobenzilate,
    CAS:510156,
    type:O,
@@ -673,8 +674,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorobromomethane-bromochloromethane,
    CAS:74975,
    type:O,
@@ -718,8 +719,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorodifluoromethane,
    CAS:75456,
    type:O,
@@ -763,8 +764,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloroethane,
    CAS:75003,
    type:O,
@@ -808,8 +809,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloroethanol-2,
    CAS:107073,
    type:O,
@@ -853,8 +854,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloroethoxy-ethene-2-2-chloroethylvinylether,
    CAS:110758,
    type:O,
@@ -898,8 +899,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloroform,
    CAS:67663,
    type:O,
@@ -943,8 +944,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.1	,
    Human health: Fresh water fishing only	:  1.292	,
    Human health: Salt water fishing only	:  0.861	,
-},
-{
+   },
+   {
    name:acrolein,
    CAS:107028,
    type:O,
@@ -988,8 +989,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.32	,
    Human health: Fresh water fishing only	:  0.78	,
    Human health: Salt water fishing only	:  0.78	,
-},
-{
+   },
+   {
    name:chlorohexane-1,
    CAS:544105,
    type:O,
@@ -1033,8 +1034,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloromethane,
    CAS:74873,
    type:O,
@@ -1078,8 +1079,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloronaphthalene-1,
    CAS:90131,
    type:O,
@@ -1123,8 +1124,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloronaphthalene-2,
    CAS:91587,
    type:O,
@@ -1168,8 +1169,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.7	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloronitrobenzene-p-1-chloro-4-nitrobenzene,
    CAS:100005,
    type:O,
@@ -1213,8 +1214,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorophenol-2,
    CAS:95578,
    type:OA,
@@ -1258,8 +1259,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.12	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorophenol-3,
    CAS:108430,
    type:OA,
@@ -1303,8 +1304,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorophenol-4,
    CAS:106489,
    type:OA,
@@ -1348,8 +1349,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorophenyl-phenylether-4,
    CAS:7005723,
    type:O,
@@ -1393,8 +1394,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chloropropane-2,
    CAS:75296,
    type:O,
@@ -1438,8 +1439,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acrylamide,
    CAS:79061,
    type:O,
@@ -1483,8 +1484,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorothalonil,
    CAS:1897456,
    type:O,
@@ -1528,8 +1529,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorotoluene-o,
    CAS:95498,
    type:O,
@@ -1573,8 +1574,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorotoluene-p-4-chlorotoluene,
    CAS:106434,
    type:O,
@@ -1618,8 +1619,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chlorpyrifos,
    CAS:2921882,
    type:O,
@@ -1663,8 +1664,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chromium-iii-total-chromium,
    CAS:16065831,
    type:,
@@ -1708,8 +1709,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chromium-iii-total-chromium,
    CAS:7440473,
    type:,
@@ -1753,8 +1754,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:chromium-vi,
    CAS:18540299,
    type:,
@@ -1798,8 +1799,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.1	,
    Human health: Fresh water fishing only	:  3.32	,
    Human health: Salt water fishing only	:  2.216	,
-},
-{
+   },
+   {
    name:chrysene,
    CAS:218019,
    type:O,
@@ -1843,8 +1844,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.000417	,
    Human health: Fresh water fishing only	:  0.0081	,
    Human health: Salt water fishing only	:  0.0054	,
-},
-{
+   },
+   {
    name:cobalt,
    CAS:7440484,
    type:,
@@ -1888,8 +1889,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:copolymer-acrylamide,
    CAS:69418264,
    type:O,
@@ -1933,8 +1934,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acrylic-acid,
    CAS:79107,
    type:O,
@@ -1978,8 +1979,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:copper,
    CAS:7440508,
    type:,
@@ -2023,8 +2024,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.3	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:coronene,
    CAS:191071,
    type:O,
@@ -2068,8 +2069,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:coumaphos,
    CAS:56724,
    type:O,
@@ -2113,8 +2114,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cresol-m,
    CAS:108394,
    type:O,
@@ -2158,8 +2159,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cresol-o,
    CAS:95487,
    type:O,
@@ -2203,8 +2204,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cresol-p,
    CAS:106445,
    type:O,
@@ -2248,8 +2249,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:crotonaldehyde,
    CAS:123739,
    type:O,
@@ -2293,8 +2294,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cumene,
    CAS:98828,
    type:O,
@@ -2338,8 +2339,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyanazine,
    CAS:21725462,
    type:O,
@@ -2383,8 +2384,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyanide,
    CAS:57125,
    type:I,
@@ -2428,8 +2429,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.2	,
    Human health: Fresh water fishing only	:  220	,
    Human health: Salt water fishing only	:  220	,
-},
-{
+   },
+   {
    name:acrylonitrile,
    CAS:107131,
    type:O,
@@ -2473,8 +2474,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00128	,
    Human health: Fresh water fishing only	:  0.0109	,
    Human health: Salt water fishing only	:  0.0073	,
-},
-{
+   },
+   {
    name:cyanogen,
    CAS:460195,
    type:O,
@@ -2518,8 +2519,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cycloate,
    CAS:1134232,
    type:O,
@@ -2563,8 +2564,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyclohexane,
    CAS:110827,
    type:O,
@@ -2608,8 +2609,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyclohexanol,
    CAS:108930,
    type:O,
@@ -2653,8 +2654,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyclohexanone,
    CAS:108941,
    type:O,
@@ -2698,8 +2699,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyclotetramethylenetetranitramine-hmx,
    CAS:2691410,
    type:O,
@@ -2743,8 +2744,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cyclotrimethylenetrinitramine,
    CAS:121824,
    type:O,
@@ -2788,8 +2789,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cymene-isopropyltoluene,
    CAS:99876,
    type:O,
@@ -2833,8 +2834,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cymoxanil,
    CAS:57966957,
    type:OA,
@@ -2878,8 +2879,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dacthal-dcpa,
    CAS:1861321,
    type:O,
@@ -2923,8 +2924,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:adipic-acid-hexanedioic-acid,
    CAS:124049,
    type:O,
@@ -2968,8 +2969,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dalapon-sodium-salt-2-2-dichloropropanoic-acid,
    CAS:75990,
    type:O,
@@ -3013,8 +3014,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ddd,
    CAS:72548,
    type:O,
@@ -3058,8 +3059,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.03e-005	,
    Human health: Fresh water fishing only	:  1e-005	,
    Human health: Salt water fishing only	:  7e-006	,
-},
-{
+   },
+   {
    name:dde,
    CAS:72559,
    type:O,
@@ -3103,8 +3104,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  7.3e-006	,
    Human health: Fresh water fishing only	:  7e-006	,
    Human health: Salt water fishing only	:  5e-006	,
-},
-{
+   },
+   {
    name:ddt,
    CAS:50293,
    type:O,
@@ -3148,8 +3149,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  7.3e-006	,
    Human health: Fresh water fishing only	:  7e-006	,
    Human health: Salt water fishing only	:  5e-006	,
-},
-{
+   },
+   {
    name:demeton,
    CAS:8065483,
    type:O,
@@ -3193,8 +3194,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diacetone-alcohol-4-hydroxy-4-methyl-2-pentanone,
    CAS:123422,
    type:O,
@@ -3238,8 +3239,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diallate,
    CAS:2303164,
    type:O,
@@ -3283,8 +3284,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diazinon,
    CAS:333415,
    type:O,
@@ -3328,8 +3329,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibenz-a-h-acridine,
    CAS:226368,
    type:O,
@@ -3373,8 +3374,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibenz-a-h-anthracene,
    CAS:53703,
    type:O,
@@ -3418,8 +3419,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.8e-006	,
    Human health: Fresh water fishing only	:  0.00031	,
    Human health: Salt water fishing only	:  3.1e-005	,
-},
-{
+   },
+   {
    name:alachlor,
    CAS:15972608,
    type:O,
@@ -3463,8 +3464,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibenz-a-j-acridine,
    CAS:224420,
    type:O,
@@ -3508,8 +3509,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibenzofuran,
    CAS:132649,
    type:O,
@@ -3553,8 +3554,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibenzothiophene,
    CAS:132650,
    type:O,
@@ -3598,8 +3599,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibromo-3-chloropropane-1-2,
    CAS:96128,
    type:O,
@@ -3643,8 +3644,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dibromochloromethane,
    CAS:124481,
    type:O,
@@ -3688,8 +3689,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0092	,
    Human health: Fresh water fishing only	:  0.0716	,
    Human health: Salt water fishing only	:  0.0477	,
-},
-{
+   },
+   {
    name:dibromofluoromethane,
    CAS:1868537,
    type:O,
@@ -3733,8 +3734,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dicamba,
    CAS:1918009,
    type:O,
@@ -3778,8 +3779,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloro-2-butene-1-4,
    CAS:764410,
    type:O,
@@ -3823,8 +3824,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloro-2-butene-1-4-trans,
    CAS:110576,
    type:O,
@@ -3868,8 +3869,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorobenzene-1-2,
    CAS:95501,
    type:O,
@@ -3913,8 +3914,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.7	,
    Human health: Fresh water fishing only	:  17	,
    Human health: Salt water fishing only	:  17	,
-},
-{
+   },
+   {
    name:aldicarb,
    CAS:116063,
    type:O,
@@ -3958,8 +3959,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorobenzene-1-3,
    CAS:541731,
    type:O,
@@ -4003,8 +4004,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.4	,
    Human health: Fresh water fishing only	:  2.6	,
    Human health: Salt water fishing only	:  2.6	,
-},
-{
+   },
+   {
    name:dichlorobenzene-1-4,
    CAS:106467,
    type:O,
@@ -4048,8 +4049,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.075	,
    Human health: Fresh water fishing only	:  2.6	,
    Human health: Salt water fishing only	:  2.6	,
-},
-{
+   },
+   {
    name:dichlorobenzidine-3-3,
    CAS:91941,
    type:O,
@@ -4093,8 +4094,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0004	,
    Human health: Fresh water fishing only	:  0.00077	,
    Human health: Salt water fishing only	:  0.00077	,
-},
-{
+   },
+   {
    name:dichlorobutane-2-3,
    CAS:7581977,
    type:O,
@@ -4138,8 +4139,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorodifluoromethane,
    CAS:75718,
    type:O,
@@ -4183,8 +4184,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloroethane-1-1,
    CAS:75343,
    type:O,
@@ -4228,8 +4229,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloroethane-1-2,
    CAS:107062,
    type:O,
@@ -4273,8 +4274,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.005	,
    Human health: Fresh water fishing only	:  0.0739	,
    Human health: Salt water fishing only	:  0.0493	,
-},
-{
+   },
+   {
    name:dichloroethylene-1-1,
    CAS:75354,
    type:O,
@@ -4318,8 +4319,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00163	,
    Human health: Fresh water fishing only	:  0.00584	,
    Human health: Salt water fishing only	:  0.0039	,
-},
-{
+   },
+   {
    name:dichloroethylene-cis-1-2,
    CAS:156592,
    type:O,
@@ -4363,8 +4364,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloroethylene-trans-1-2,
    CAS:156605,
    type:O,
@@ -4408,8 +4409,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  140	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:aldicarb-sulfone,
    CAS:1646884,
    type:O,
@@ -4453,8 +4454,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenol-2-3,
    CAS:576249,
    type:OA,
@@ -4498,8 +4499,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenol-2-4,
    CAS:120832,
    type:OA,
@@ -4543,8 +4544,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.093	,
    Human health: Fresh water fishing only	:  0.79	,
    Human health: Salt water fishing only	:  0.79	,
-},
-{
+   },
+   {
    name:dichlorophenol-2-5,
    CAS:583788,
    type:OA,
@@ -4588,8 +4589,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenol-3-4,
    CAS:95772,
    type:OA,
@@ -4633,8 +4634,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenol-3-5,
    CAS:591355,
    type:OA,
@@ -4678,8 +4679,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenoxy-2-4-butyric-acid-4-2-4-db,
    CAS:94826,
    type:O,
@@ -4723,8 +4724,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorophenoxyacetic-acid-2-4,
    CAS:94757,
    type:O,
@@ -4768,8 +4769,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.07	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloroprop-2-2-4-dichlorophenoxy-propanoic-acid,
    CAS:120365,
    type:O,
@@ -4813,8 +4814,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropane-1-2,
    CAS:78875,
    type:O,
@@ -4858,8 +4859,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:aldrin,
    CAS:309002,
    type:O,
@@ -4903,8 +4904,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  4.08e-006	,
    Human health: Fresh water fishing only	:  4.26e-006	,
    Human health: Salt water fishing only	:  2.8e-006	,
-},
-{
+   },
+   {
    name:acenaphthene,
    CAS:83329,
    type:O,
@@ -4948,8 +4949,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropane-1-3,
    CAS:142289,
    type:O,
@@ -4993,8 +4994,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropane-2-2,
    CAS:594207,
    type:O,
@@ -5038,8 +5039,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropanol-2-3,
    CAS:616239,
    type:O,
@@ -5083,8 +5084,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropene-1-1,
    CAS:563586,
    type:O,
@@ -5128,8 +5129,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropene-1-3,
    CAS:542756,
    type:O,
@@ -5173,8 +5174,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0228	,
    Human health: Fresh water fishing only	:  0.161	,
    Human health: Salt water fishing only	:  0.107	,
-},
-{
+   },
+   {
    name:dichloropropene-1-3-cis,
    CAS:10061015,
    type:O,
@@ -5218,8 +5219,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichloropropene-1-3-trans,
    CAS:10061026,
    type:O,
@@ -5263,8 +5264,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dichlorvos,
    CAS:62737,
    type:O,
@@ -5308,8 +5309,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dicrotophos-bidrin,
    CAS:141662,
    type:O,
@@ -5353,8 +5354,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dicyclopentadiene,
    CAS:77736,
    type:O,
@@ -5398,8 +5399,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:allyl-alcohol,
    CAS:107186,
    type:O,
@@ -5443,8 +5444,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dieldrin,
    CAS:60571,
    type:O,
@@ -5488,8 +5489,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.71e-006	,
    Human health: Fresh water fishing only	:  2e-006	,
    Human health: Salt water fishing only	:  8e-007	,
-},
-{
+   },
+   {
    name:diethanolamine,
    CAS:111422,
    type:O,
@@ -5533,8 +5534,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diethyl-phthalate,
    CAS:84662,
    type:O,
@@ -5578,8 +5579,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  23	,
    Human health: Fresh water fishing only	:  120	,
    Human health: Salt water fishing only	:  120	,
-},
-{
+   },
+   {
    name:diethylene-glycol,
    CAS:111466,
    type:O,
@@ -5623,8 +5624,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diethylene-glycol-monobutyl-ether,
    CAS:112345,
    type:O,
@@ -5668,8 +5669,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diethylhexyl-adipate,
    CAS:103231,
    type:O,
@@ -5713,8 +5714,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diethylstilbestrol,
    CAS:56531,
    type:O,
@@ -5758,8 +5759,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diisobutylene-trimethyl-1-pentene-2-4-4,
    CAS:107391,
    type:O,
@@ -5803,8 +5804,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diisopropyl-ether-2-2-oxybis-propane,
    CAS:108203,
    type:O,
@@ -5848,8 +5849,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethenamid,
    CAS:87674688,
    type:O,
@@ -5893,8 +5894,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:allyl-chloride,
    CAS:107051,
    type:O,
@@ -5938,8 +5939,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethoate,
    CAS:60515,
    type:O,
@@ -5983,8 +5984,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethoxybenzidine-3-3,
    CAS:119904,
    type:O,
@@ -6028,8 +6029,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethyl-phenol-2-4,
    CAS:105679,
    type:O,
@@ -6073,8 +6074,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylaminoazobenzene-p,
    CAS:60117,
    type:OB,
@@ -6118,8 +6119,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylbenz-a-anthracene-7-12,
    CAS:57976,
    type:O,
@@ -6163,8 +6164,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylbenzidine-3-3,
    CAS:119937,
    type:O,
@@ -6208,8 +6209,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylnaphthalene-1-3,
    CAS:575417,
    type:O,
@@ -6253,8 +6254,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylphenethylamine-alpha-alpha,
    CAS:122098,
    type:O,
@@ -6298,8 +6299,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dimethylphthalate,
    CAS:131113,
    type:O,
@@ -6343,8 +6344,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  313	,
    Human health: Fresh water fishing only	:  2900	,
    Human health: Salt water fishing only	:  2900	,
-},
-{
+   },
+   {
    name:di-n-butyl-phthalate,
    CAS:84742,
    type:O,
@@ -6388,8 +6389,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.7	,
    Human health: Fresh water fishing only	:  12	,
    Human health: Salt water fishing only	:  12	,
-},
-{
+   },
+   {
    name:aluminum,
    CAS:7429905,
    type:,
@@ -6433,8 +6434,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dinitro-2-methylphenol-4-6,
    CAS:534521,
    type:O,
@@ -6478,8 +6479,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0134	,
    Human health: Fresh water fishing only	:  0.765	,
    Human health: Salt water fishing only	:  0.765	,
-},
-{
+   },
+   {
    name:dinitrobenzene-1-3,
    CAS:99650,
    type:O,
@@ -6523,8 +6524,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dinitrobenzene-1-4,
    CAS:100254,
    type:O,
@@ -6568,8 +6569,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dinitrophenol-2-4,
    CAS:51285,
    type:OA,
@@ -6613,8 +6614,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.07	,
    Human health: Fresh water fishing only	:  14	,
    Human health: Salt water fishing only	:  14	,
-},
-{
+   },
+   {
    name:dinitrophenol-2-5,
    CAS:329715,
    type:OA,
@@ -6658,8 +6659,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dinitrotoluene-2-4,
    CAS:121142,
    type:O,
@@ -6703,8 +6704,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0011	,
    Human health: Fresh water fishing only	:  0.091	,
    Human health: Salt water fishing only	:  0.091	,
-},
-{
+   },
+   {
    name:dinitrotoluene-2-6,
    CAS:606202,
    type:O,
@@ -6748,8 +6749,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:di-n-octyl-phthalate,
    CAS:117840,
    type:O,
@@ -6793,8 +6794,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dinoseb,
    CAS:88857,
    type:O,
@@ -6838,8 +6839,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dioxane-1-4,
    CAS:123911,
    type:O,
@@ -6883,8 +6884,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ametryn,
    CAS:834128,
    type:OB,
@@ -6928,8 +6929,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:dioxin-2-3-7-8-tcdd,
    CAS:1746016,
    type:O,
@@ -6973,8 +6974,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.34e-010	,
    Human health: Fresh water fishing only	:  1.4e-010	,
    Human health: Salt water fishing only	:  9.33e-011	,
-},
-{
+   },
+   {
    name:diphenyl-oxide,
    CAS:101848,
    type:O,
@@ -7018,8 +7019,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diphenylamine,
    CAS:122394,
    type:O,
@@ -7063,8 +7064,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diphenylhydrazine-1-2,
    CAS:122667,
    type:O,
@@ -7108,8 +7109,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0004	,
    Human health: Fresh water fishing only	:  0.0054	,
    Human health: Salt water fishing only	:  0.0054	,
-},
-{
+   },
+   {
    name:diquat,
    CAS:85007,
    type:O,
@@ -7153,8 +7154,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:disulfoton,
    CAS:298044,
    type:O,
@@ -7198,8 +7199,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:diuron,
    CAS:330541,
    type:O,
@@ -7243,8 +7244,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:endosulfan,
    CAS:115297,
    type:O,
@@ -7288,8 +7289,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:endosulfan-i,
    CAS:959988,
    type:O,
@@ -7333,8 +7334,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  0.002	,
-},
-{
+   },
+   {
    name:endosulfan-ii,
    CAS:33213659,
    type:O,
@@ -7378,8 +7379,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  0.002	,
-},
-{
+   },
+   {
    name:amino-2-6-dinitrotoluene-4,
    CAS:19406510,
    type:O,
@@ -7423,8 +7424,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:endosulfan-sulfate,
    CAS:1031078,
    type:O,
@@ -7468,8 +7469,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  0.002	,
-},
-{
+   },
+   {
    name:endothall,
    CAS:145733,
    type:O,
@@ -7513,8 +7514,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:endrin,
    CAS:72208,
    type:O,
@@ -7558,8 +7559,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00127	,
    Human health: Fresh water fishing only	:  0.00134	,
    Human health: Salt water fishing only	:  0.000893	,
-},
-{
+   },
+   {
    name:endrin-aldehyde,
    CAS:7421934,
    type:O,
@@ -7603,8 +7604,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:endrin-ketone,
    CAS:53494705,
    type:O,
@@ -7648,8 +7649,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:epichlorohydrin,
    CAS:106898,
    type:O,
@@ -7693,8 +7694,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:epn-o-ethyl-o-4-nitrophenyl-phenylphosphonothioate,
    CAS:2104645,
    type:O,
@@ -7738,8 +7739,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:esfenvalerate,
    CAS:66230044,
    type:O,
@@ -7783,8 +7784,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethalfluralin-sonolan,
    CAS:55283686,
    type:O,
@@ -7828,8 +7829,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethanol,
    CAS:64175,
    type:O,
@@ -7873,8 +7874,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:amino-4-6-dinitrotoluene-2,
    CAS:35572782,
    type:O,
@@ -7918,8 +7919,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethion,
    CAS:563122,
    type:O,
@@ -7963,8 +7964,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethoprop,
    CAS:13194484,
    type:O,
@@ -8008,8 +8009,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethoxy-ethanol-2,
    CAS:110805,
    type:O,
@@ -8053,8 +8054,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-acetate,
    CAS:141786,
    type:O,
@@ -8098,8 +8099,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-acrylate,
    CAS:140885,
    type:O,
@@ -8143,8 +8144,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-benzene,
    CAS:100414,
    type:O,
@@ -8188,8 +8189,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  3.1	,
    Human health: Fresh water fishing only	:  29	,
    Human health: Salt water fishing only	:  29	,
-},
-{
+   },
+   {
    name:ethyl-dipropylthiocarbamate-s,
    CAS:759944,
    type:O,
@@ -8233,8 +8234,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-ether,
    CAS:60297,
    type:O,
@@ -8278,8 +8279,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-methacrylate,
    CAS:97632,
    type:O,
@@ -8323,8 +8324,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-methanesulfonate,
    CAS:62500,
    type:O,
@@ -8368,8 +8369,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:aminobiphenyl-4-1-1-biphenyl-4-amine,
    CAS:92671,
    type:O,
@@ -8413,8 +8414,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-tert-butyl-ether-2-ethyl-2-ethoxypropane,
    CAS:637923,
    type:O,
@@ -8458,8 +8459,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-1-hexanol-2,
    CAS:104767,
    type:O,
@@ -8503,8 +8504,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-2-hexenal-2,
    CAS:645625,
    type:O,
@@ -8548,8 +8549,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-2-methyl-benzene-1,
    CAS:611143,
    type:O,
@@ -8593,8 +8594,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethyl-4-methyl-benzene-1,
    CAS:622968,
    type:O,
@@ -8638,8 +8639,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethylene-dibromide,
    CAS:106934,
    type:O,
@@ -8683,8 +8684,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.4e-005	,
    Human health: Fresh water fishing only	:  0.000335	,
    Human health: Salt water fishing only	:  0.000223	,
-},
-{
+   },
+   {
    name:ethylene-glycol,
    CAS:107211,
    type:O,
@@ -8728,8 +8729,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethylene-oxide,
    CAS:75218,
    type:O,
@@ -8773,8 +8774,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethylene-thiourea,
    CAS:96457,
    type:O,
@@ -8818,8 +8819,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethylenediamine,
    CAS:107153,
    type:O,
@@ -8863,8 +8864,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:aminopyridine-4,
    CAS:504245,
    type:O,
@@ -8908,8 +8909,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ethylhexyl-acrylate-2,
    CAS:103117,
    type:O,
@@ -8953,8 +8954,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:famphur,
    CAS:52857,
    type:O,
@@ -8998,8 +8999,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:fensulfothion,
    CAS:115902,
    type:O,
@@ -9043,8 +9044,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:fenthion,
    CAS:55389,
    type:O,
@@ -9088,8 +9089,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:fluoranthene,
    CAS:206440,
    type:O,
@@ -9133,8 +9134,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.3	,
    Human health: Fresh water fishing only	:  0.37	,
    Human health: Salt water fishing only	:  0.37	,
-},
-{
+   },
+   {
    name:fluorene,
    CAS:86737,
    type:O,
@@ -9178,8 +9179,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.3	,
    Human health: Fresh water fishing only	:  14	,
    Human health: Salt water fishing only	:  14	,
-},
-{
+   },
+   {
    name:fluorine-soluble-fluoride,
    CAS:7782414,
    type:I,
@@ -9223,8 +9224,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  4	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:fonofos,
    CAS:944229,
    type:O,
@@ -9268,8 +9269,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:formaldehyde,
    CAS:50000,
    type:O,
@@ -9313,8 +9314,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:formic-acid,
    CAS:64186,
    type:O,
@@ -9358,8 +9359,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ammonia,
    CAS:7664417,
    type:I,
@@ -9403,8 +9404,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:furan,
    CAS:110009,
    type:O,
@@ -9448,8 +9449,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:furfural,
    CAS:98011,
    type:O,
@@ -9493,8 +9494,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:glycidylaldehyde,
    CAS:765344,
    type:O,
@@ -9538,8 +9539,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:glyphosate,
    CAS:1071836,
    type:OA,
@@ -9583,8 +9584,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:heptachlor,
    CAS:76448,
    type:O,
@@ -9628,8 +9629,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.6e-006	,
    Human health: Fresh water fishing only	:  2.65e-006	,
    Human health: Salt water fishing only	:  1.77e-006	,
-},
-{
+   },
+   {
    name:heptachlor-epoxide,
    CAS:1024573,
    type:O,
@@ -9673,8 +9674,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.000159	,
    Human health: Fresh water fishing only	:  0.0011	,
    Human health: Salt water fishing only	:  0.000723	,
-},
-{
+   },
+   {
    name:heptane-n,
    CAS:142825,
    type:O,
@@ -9718,8 +9719,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:heptanoic-acid-n,
    CAS:111148,
    type:OA,
@@ -9763,8 +9764,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexachlorobenzene,
    CAS:118741,
    type:O,
@@ -9808,8 +9809,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.94e-005	,
    Human health: Fresh water fishing only	:  1.98e-005	,
    Human health: Salt water fishing only	:  1.32e-005	,
-},
-{
+   },
+   {
    name:hexachlorobutadiene,
    CAS:87683,
    type:O,
@@ -9853,8 +9854,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00299	,
    Human health: Fresh water fishing only	:  0.0036	,
    Human health: Salt water fishing only	:  0.0024	,
-},
-{
+   },
+   {
    name:aniline,
    CAS:62533,
    type:O,
@@ -9898,8 +9899,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acenaphthylene,
    CAS:208968,
    type:O,
@@ -9943,8 +9944,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexachlorocyclohexane-alpha,
    CAS:319846,
    type:O,
@@ -9988,8 +9989,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.000163	,
    Human health: Fresh water fishing only	:  0.000413	,
    Human health: Salt water fishing only	:  0.000275	,
-},
-{
+   },
+   {
    name:hexachlorocyclohexane-beta,
    CAS:319857,
    type:O,
@@ -10033,8 +10034,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00057	,
    Human health: Fresh water fishing only	:  0.00145	,
    Human health: Salt water fishing only	:  0.000964	,
-},
-{
+   },
+   {
    name:hexachlorocyclohexane-delta,
    CAS:319868,
    type:O,
@@ -10078,8 +10079,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexachlorocyclohexane-gamma,
    CAS:58899,
    type:O,
@@ -10123,8 +10124,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0002	,
    Human health: Fresh water fishing only	:  0.002	,
    Human health: Salt water fishing only	:  0.00134	,
-},
-{
+   },
+   {
    name:hexachlorocyclohexane-techn,
    CAS:608731,
    type:O,
@@ -10168,8 +10169,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexachlorocyclopentadiene,
    CAS:77474,
    type:O,
@@ -10213,8 +10214,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.24	,
    Human health: Fresh water fishing only	:  17	,
    Human health: Salt water fishing only	:  17	,
-},
-{
+   },
+   {
    name:hexachloroethane,
    CAS:67721,
    type:O,
@@ -10258,8 +10259,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0842	,
    Human health: Fresh water fishing only	:  0.278	,
    Human health: Salt water fishing only	:  0.185	,
-},
-{
+   },
+   {
    name:hexachlorophene,
    CAS:70304,
    type:O,
@@ -10303,8 +10304,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  5.31e-005	,
    Human health: Fresh water fishing only	:  5.32e-005	,
    Human health: Salt water fishing only	:  3.55e-005	,
-},
-{
+   },
+   {
    name:hexachloropropylene,
    CAS:1888717,
    type:O,
@@ -10348,8 +10349,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexane-n,
    CAS:110543,
    type:O,
@@ -10393,8 +10394,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:anthracene,
    CAS:120127,
    type:O,
@@ -10438,8 +10439,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  9.6	,
    Human health: Fresh water fishing only	:  110	,
    Human health: Salt water fishing only	:  110	,
-},
-{
+   },
+   {
    name:hexanediol-1-6,
    CAS:629118,
    type:O,
@@ -10483,8 +10484,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexanoic-acid,
    CAS:142621,
    type:O,
@@ -10528,8 +10529,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexanone-2,
    CAS:591786,
    type:O,
@@ -10573,8 +10574,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexazinone,
    CAS:51235042,
    type:O,
@@ -10618,8 +10619,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hexylene-glycol-2-methyl-2-4-pentanediol,
    CAS:107415,
    type:O,
@@ -10663,8 +10664,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:hydrazine,
    CAS:302012,
    type:O,
@@ -10708,8 +10709,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:indene,
    CAS:95136,
    type:O,
@@ -10753,8 +10754,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:indeno-1-2-3-cd-pyrene,
    CAS:193395,
    type:O,
@@ -10798,8 +10799,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  4.4e-005	,
    Human health: Fresh water fishing only	:  3.1e-005	,
    Human health: Salt water fishing only	:  3.1e-005	,
-},
-{
+   },
+   {
    name:isobutyl-alcohol,
    CAS:78831,
    type:O,
@@ -10843,8 +10844,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isobutylene-2-methyl-1-propene,
    CAS:115117,
    type:O,
@@ -10888,8 +10889,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:anthraquinone-9-10,
    CAS:84651,
    type:O,
@@ -10933,8 +10934,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isobutyric-acid,
    CAS:79312,
    type:OA,
@@ -10978,8 +10979,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isodrin,
    CAS:465736,
    type:O,
@@ -11023,8 +11024,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isophorone,
    CAS:78591,
    type:O,
@@ -11068,8 +11069,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.084	,
    Human health: Fresh water fishing only	:  0.6	,
    Human health: Salt water fishing only	:  0.6	,
-},
-{
+   },
+   {
    name:isopropyl-acetate,
    CAS:108214,
    type:O,
@@ -11113,8 +11114,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isopropyl-alcohol,
    CAS:67630,
    type:O,
@@ -11158,8 +11159,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:isosafrole,
    CAS:120581,
    type:O,
@@ -11203,8 +11204,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:kelthane-dicofol,
    CAS:115322,
    type:OA,
@@ -11248,8 +11249,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.000215	,
    Human health: Fresh water fishing only	:  0.000217	,
    Human health: Salt water fishing only	:  0.000144	,
-},
-{
+   },
+   {
    name:kepone,
    CAS:143500,
    type:O,
@@ -11293,8 +11294,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:lead-inorganic,
    CAS:7439921,
    type:,
@@ -11338,8 +11339,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00498	,
    Human health: Fresh water fishing only	:  0.025	,
    Human health: Salt water fishing only	:  0.0169	,
-},
-{
+   },
+   {
    name:lithium,
    CAS:7439932,
    type:,
@@ -11383,8 +11384,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:antimony,
    CAS:7440360,
    type:,
@@ -11428,8 +11429,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.014	,
    Human health: Fresh water fishing only	:  4.3	,
    Human health: Salt water fishing only	:  4.3	,
-},
-{
+   },
+   {
    name:malathion,
    CAS:121755,
    type:O,
@@ -11473,8 +11474,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:maleic-anhydride,
    CAS:108316,
    type:O,
@@ -11518,8 +11519,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:maleic-hydrazide,
    CAS:123331,
    type:O,
@@ -11563,8 +11564,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:malononitrile,
    CAS:109773,
    type:O,
@@ -11608,8 +11609,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:mancozeb,
    CAS:8018017,
    type:O,
@@ -11653,8 +11654,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:manganese,
    CAS:7439965,
    type:,
@@ -11698,8 +11699,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:mcpa-4-chloro-2-methylphenoxy-acetic-acid,
    CAS:94746,
    type:O,
@@ -11743,8 +11744,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:mcpp-2-4-chloro-2-methylphenoxy-propanoic-acid,
    CAS:7085190,
    type:O,
@@ -11788,8 +11789,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:mercury-tier-1-ph-4-9,
    CAS:7439976,
    type:,
@@ -11833,8 +11834,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.22e-005	,
    Human health: Fresh water fishing only	:  1.22e-005	,
    Human health: Salt water fishing only	:  2.5e-005	,
-},
-{
+   },
+   {
    name:mercury-tier-1-ph-6-8,
    CAS:7439976,
    type:,
@@ -11878,8 +11879,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.22e-005	,
    Human health: Fresh water fishing only	:  1.22e-005	,
    Human health: Salt water fishing only	:  2.5e-005	,
-},
-{
+   },
+   {
    name:aramite,
    CAS:140578,
    type:O,
@@ -11923,8 +11924,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:merphos,
    CAS:150505,
    type:O,
@@ -11968,8 +11969,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methacrylic-acid-2-methyl-2-propenoic-acid,
    CAS:79414,
    type:O,
@@ -12013,8 +12014,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methacrylonitrile,
    CAS:126987,
    type:O,
@@ -12058,8 +12059,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methanol,
    CAS:67561,
    type:O,
@@ -12103,8 +12104,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methapyrilene,
    CAS:91805,
    type:O,
@@ -12148,8 +12149,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methomyl,
    CAS:16752775,
    type:O,
@@ -12193,8 +12194,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methoxychlor,
    CAS:72435,
    type:O,
@@ -12238,8 +12239,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00221	,
    Human health: Fresh water fishing only	:  0.00222	,
    Human health: Salt water fishing only	:  0.00148	,
-},
-{
+   },
+   {
    name:methoxyethanol-2,
    CAS:109864,
    type:O,
@@ -12283,8 +12284,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-acetate-acetic-acid-methyl-ester,
    CAS:79209,
    type:O,
@@ -12328,8 +12329,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-acrylate,
    CAS:96333,
    type:O,
@@ -12373,8 +12374,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:arsenic,
    CAS:7440382,
    type:,
@@ -12418,8 +12419,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.05	,
    Human health: Fresh water fishing only	:  0.00014	,
    Human health: Salt water fishing only	:  0.00014	,
-},
-{
+   },
+   {
    name:methyl-chrysene-1,
    CAS:3351288,
    type:O,
@@ -12463,8 +12464,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-chrysene-2,
    CAS:3351324,
    type:O,
@@ -12508,8 +12509,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-chrysene-6,
    CAS:1705857,
    type:O,
@@ -12553,8 +12554,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-cyclohexane,
    CAS:108872,
    type:O,
@@ -12598,8 +12599,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-ethyl-ketone,
    CAS:78933,
    type:O,
@@ -12643,8 +12644,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  52.9	,
    Human health: Fresh water fishing only	:  9940	,
    Human health: Salt water fishing only	:  6630	,
-},
-{
+   },
+   {
    name:methyl-iodide-iodomethane,
    CAS:74884,
    type:O,
@@ -12688,8 +12689,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-isobutyl-ketone,
    CAS:108101,
    type:O,
@@ -12733,8 +12734,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-mercury,
    CAS:22967926,
    type:I,
@@ -12778,8 +12779,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-methacrylate,
    CAS:80626,
    type:O,
@@ -12823,8 +12824,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-methanesulfonate,
    CAS:66273,
    type:O,
@@ -12868,8 +12869,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:arsine,
    CAS:7784421,
    type:I,
@@ -12913,8 +12914,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-naphthalene-1,
    CAS:90120,
    type:O,
@@ -12958,8 +12959,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-parathion,
    CAS:298000,
    type:O,
@@ -13003,8 +13004,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-t-butyl-ether-mtbe,
    CAS:1634044,
    type:O,
@@ -13048,8 +13049,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-1-butene-2,
    CAS:563462,
    type:O,
@@ -13093,8 +13094,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-1-propanal-2-isobutyraldehyde,
    CAS:78842,
    type:O,
@@ -13138,8 +13139,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-2-butene-2,
    CAS:513359,
    type:O,
@@ -13183,8 +13184,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-2-pentenal-2,
    CAS:623369,
    type:O,
@@ -13228,8 +13229,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyl-5-nitroaniline-2-5-nitro-o-toluidine,
    CAS:99558,
    type:O,
@@ -13273,8 +13274,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylcholanthrene-3,
    CAS:56495,
    type:O,
@@ -13318,8 +13319,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylene-bromide,
    CAS:74953,
    type:O,
@@ -13363,8 +13364,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:asbestos,
    CAS:1332214,
    type:I,
@@ -13408,8 +13409,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  7000	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylene-chloride,
    CAS:75092,
    type:O,
@@ -13453,8 +13454,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.047	,
    Human health: Fresh water fishing only	:  16	,
    Human health: Salt water fishing only	:  16	,
-},
-{
+   },
+   {
    name:methylene-bis-2-chloroaniline-4-4,
    CAS:101144,
    type:O,
@@ -13498,8 +13499,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylmecury-hydroxide,
    CAS:1184572,
    type:O,
@@ -13543,8 +13544,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylnaphthalene-2,
    CAS:91576,
    type:O,
@@ -13588,8 +13589,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methylpyrrolidone-n,
    CAS:872504,
    type:O,
@@ -13633,8 +13634,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyltetrahydrofuran-2,
    CAS:96479,
    type:O,
@@ -13678,8 +13679,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:methyltetrahydropyran-2,
    CAS:10141727,
    type:O,
@@ -13723,8 +13724,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:metolachlor,
    CAS:51218452,
    type:O,
@@ -13768,8 +13769,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:mirex,
    CAS:2385855,
    type:O,
@@ -13813,8 +13814,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:molinate,
    CAS:2212671,
    type:O,
@@ -13858,8 +13859,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:atrazine,
    CAS:1912249,
    type:O,
@@ -13903,8 +13904,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:molybdenum,
    CAS:7439987,
    type:,
@@ -13948,8 +13949,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:morpholine,
    CAS:110918,
    type:O,
@@ -13993,8 +13994,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:naled,
    CAS:300765,
    type:O,
@@ -14038,8 +14039,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:naphthalene,
    CAS:91203,
    type:O,
@@ -14083,8 +14084,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:naphthoquinone-1-4,
    CAS:130154,
    type:O,
@@ -14128,8 +14129,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:naphthylamine-1,
    CAS:134327,
    type:O,
@@ -14173,8 +14174,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:naphthylamine-2,
    CAS:91598,
    type:O,
@@ -14218,8 +14219,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:napropamide,
    CAS:15299997,
    type:OB,
@@ -14263,8 +14264,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:neopentyl-glycol,
    CAS:126307,
    type:O,
@@ -14308,8 +14309,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nickel-and-compounds,
    CAS:7440020,
    type:,
@@ -14353,8 +14354,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.61	,
    Human health: Fresh water fishing only	:  4.6	,
    Human health: Salt water fishing only	:  4.6	,
-},
-{
+   },
+   {
    name:azinphos-methyl-guthion,
    CAS:86500,
    type:O,
@@ -14398,8 +14399,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrite,
    CAS:14797650,
    type:I,
@@ -14443,8 +14444,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitroaniline-2,
    CAS:88744,
    type:O,
@@ -14488,8 +14489,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitroaniline-3,
    CAS:99092,
    type:O,
@@ -14533,8 +14534,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitroaniline-4,
    CAS:100016,
    type:O,
@@ -14578,8 +14579,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrobenzene,
    CAS:98953,
    type:O,
@@ -14623,8 +14624,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0373	,
    Human health: Fresh water fishing only	:  0.233	,
    Human health: Salt water fishing only	:  0.156	,
-},
-{
+   },
+   {
    name:nitroglycerin,
    CAS:55630,
    type:O,
@@ -14668,8 +14669,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrophenol-2,
    CAS:88755,
    type:O,
@@ -14713,8 +14714,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrophenol-3,
    CAS:554847,
    type:O,
@@ -14758,8 +14759,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrophenol-4,
    CAS:100027,
    type:O,
@@ -14803,8 +14804,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:azobenzene,
    CAS:103333,
    type:O,
@@ -14848,8 +14849,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acetaldehyde,
    CAS:75070,
    type:O,
@@ -14893,8 +14894,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitropropane-2,
    CAS:79469,
    type:O,
@@ -14938,8 +14939,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitroquinoline-n-oxide-4,
    CAS:56575,
    type:O,
@@ -14983,8 +14984,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosodiethanolamine,
    CAS:1116547,
    type:O,
@@ -15028,8 +15029,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosodiethylamine-n,
    CAS:55185,
    type:O,
@@ -15073,8 +15074,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  3.82e-005	,
    Human health: Fresh water fishing only	:  0.00768	,
    Human health: Salt water fishing only	:  0.00512	,
-},
-{
+   },
+   {
    name:nitrosodimethylamine-n,
    CAS:62759,
    type:O,
@@ -15118,8 +15119,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  6.9e-006	,
    Human health: Fresh water fishing only	:  0.081	,
    Human health: Salt water fishing only	:  0.081	,
-},
-{
+   },
+   {
    name:nitrosodi-n-butylamine-n,
    CAS:924163,
    type:O,
@@ -15163,8 +15164,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00184	,
    Human health: Fresh water fishing only	:  0.0135	,
    Human health: Salt water fishing only	:  0.00898	,
-},
-{
+   },
+   {
    name:nitrosodi-n-propylamine-n,
    CAS:621647,
    type:O,
@@ -15208,8 +15209,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosodiphenylamine,
    CAS:86306,
    type:O,
@@ -15253,8 +15254,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.05	,
    Human health: Fresh water fishing only	:  0.16	,
    Human health: Salt water fishing only	:  0.16	,
-},
-{
+   },
+   {
    name:nitroso-methyl-ethyl-amine-n,
    CAS:10595956,
    type:O,
@@ -15298,8 +15299,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosomorpholine-n,
    CAS:59892,
    type:O,
@@ -15343,8 +15344,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:barium,
    CAS:7440393,
    type:,
@@ -15388,8 +15389,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitroso-n-ethylurea-n,
    CAS:759739,
    type:O,
@@ -15433,8 +15434,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosopiperidine-n,
    CAS:100754,
    type:O,
@@ -15478,8 +15479,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrosopyrrolidine-n,
    CAS:930552,
    type:O,
@@ -15523,8 +15524,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrotoluene-m,
    CAS:99081,
    type:O,
@@ -15568,8 +15569,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrotoluene-o,
    CAS:88722,
    type:O,
@@ -15613,8 +15614,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nitrotoluene-p,
    CAS:99990,
    type:O,
@@ -15658,8 +15659,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nonachlor-cis,
    CAS:5103731,
    type:O,
@@ -15703,8 +15704,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:nonachlor-trans,
    CAS:39765805,
    type:O,
@@ -15748,8 +15749,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:octamethylpyrophosphoramide,
    CAS:152169,
    type:O,
@@ -15793,8 +15794,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:octanone,
    CAS:106683,
    type:O,
@@ -15838,8 +15839,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bayleton,
    CAS:43121433,
    type:O,
@@ -15883,8 +15884,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:oxamyl,
    CAS:23135220,
    type:O,
@@ -15928,8 +15929,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:oxychlordane,
    CAS:27304138,
    type:O,
@@ -15973,8 +15974,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:paraquat,
    CAS:1910425,
    type:OB,
@@ -16018,8 +16019,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:parathion,
    CAS:56382,
    type:O,
@@ -16063,8 +16064,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pebulate,
    CAS:1114712,
    type:O,
@@ -16108,8 +16109,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pendimethalin,
    CAS:40487421,
    type:O,
@@ -16153,8 +16154,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentachlorobenzene,
    CAS:608935,
    type:O,
@@ -16198,8 +16199,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0061	,
    Human health: Fresh water fishing only	:  0.00668	,
    Human health: Salt water fishing only	:  0.00445	,
-},
-{
+   },
+   {
    name:pentachloroethane,
    CAS:76017,
    type:O,
@@ -16243,8 +16244,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentachloronitrobenzene,
    CAS:82688,
    type:O,
@@ -16288,8 +16289,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentachlorophenol,
    CAS:87865,
    type:OA,
@@ -16333,8 +16334,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.001	,
    Human health: Fresh water fishing only	:  0.135	,
    Human health: Salt water fishing only	:  0.0905	,
-},
-{
+   },
+   {
    name:benefin-benfluralin,
    CAS:1861401,
    type:O,
@@ -16378,8 +16379,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentadiene-1-3-trans,
    CAS:2004708,
    type:O,
@@ -16423,8 +16424,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentaerythritol-tetranitrate,
    CAS:78115,
    type:O,
@@ -16468,8 +16469,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentane,
    CAS:109660,
    type:O,
@@ -16513,8 +16514,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentanediol-1-5,
    CAS:111295,
    type:O,
@@ -16558,8 +16559,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentanone-2,
    CAS:107879,
    type:O,
@@ -16603,8 +16604,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pentyne-1,
    CAS:627190,
    type:O,
@@ -16648,8 +16649,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:perchlorate,
    CAS:NA,
    type:I,
@@ -16693,8 +16694,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:perylene,
    CAS:198550,
    type:O,
@@ -16738,8 +16739,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenacetin,
    CAS:62442,
    type:O,
@@ -16783,8 +16784,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenanthrene,
    CAS:85018,
    type:O,
@@ -16828,8 +16829,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benomyl,
    CAS:17804352,
    type:O,
@@ -16873,8 +16874,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenanthridine,
    CAS:229878,
    type:O,
@@ -16918,8 +16919,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenol,
    CAS:108952,
    type:O,
@@ -16963,8 +16964,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  21	,
    Human health: Fresh water fishing only	:  4600	,
    Human health: Salt water fishing only	:  4600	,
-},
-{
+   },
+   {
    name:phenyl-mercuric-acetate,
    CAS:62384,
    type:O,
@@ -17008,8 +17009,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenylene-diamine-m,
    CAS:108452,
    type:O,
@@ -17053,8 +17054,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phenylene-diamine-p,
    CAS:106503,
    type:O,
@@ -17098,8 +17099,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phorate,
    CAS:298022,
    type:O,
@@ -17143,8 +17144,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phosalone,
    CAS:2310170,
    type:O,
@@ -17188,8 +17189,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phosdrin-mevinphos,
    CAS:7786347,
    type:O,
@@ -17233,8 +17234,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phosphine,
    CAS:7803512,
    type:I,
@@ -17278,8 +17279,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:phosphorus-white,
    CAS:7723140,
    type:I,
@@ -17323,8 +17324,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benz-a-anthracene,
    CAS:56553,
    type:O,
@@ -17368,8 +17369,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  9.9e-005	,
    Human health: Fresh water fishing only	:  0.00081	,
    Human health: Salt water fishing only	:  0.00054	,
-},
-{
+   },
+   {
    name:phthalic-anhydride,
    CAS:85449,
    type:O,
@@ -17413,8 +17414,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:picloram,
    CAS:1918021,
    type:O,
@@ -17458,8 +17459,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:picoline-2-2-methylpyridine,
    CAS:109068,
    type:O,
@@ -17503,8 +17504,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:polybrominated-biphenyls-solid,
    CAS:67774327,
    type:O,
@@ -17548,8 +17549,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:polychlorinated-biphenyls-liquid,
    CAS:1336363,
    type:O,
@@ -17593,8 +17594,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.3e-006	,
    Human health: Fresh water fishing only	:  1.3e-006	,
    Human health: Salt water fishing only	:  8.85e-007	,
-},
-{
+   },
+   {
    name:primene,
    CAS:68955533,
    type:O,
@@ -17638,8 +17639,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:prometon-pramitol,
    CAS:1610180,
    type:O,
@@ -17683,8 +17684,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pronamide,
    CAS:23950585,
    type:O,
@@ -17728,8 +17729,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propanal-propionaldehyde,
    CAS:123386,
    type:O,
@@ -17773,8 +17774,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propanil,
    CAS:709988,
    type:OA,
@@ -17818,8 +17819,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzaldehyde,
    CAS:100527,
    type:O,
@@ -17863,8 +17864,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  	,
-},
-{
+   },
+   {
    name:propanoic-acid,
    CAS:79094,
    type:OA,
@@ -17908,8 +17909,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propanol-1,
    CAS:71238,
    type:O,
@@ -17953,8 +17954,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propargite,
    CAS:2312358,
    type:O,
@@ -17998,8 +17999,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propargyl-alcohol,
    CAS:107197,
    type:O,
@@ -18043,8 +18044,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propazine,
    CAS:139402,
    type:O,
@@ -18088,8 +18089,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propham,
    CAS:122429,
    type:O,
@@ -18133,8 +18134,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propionitrile-propane-nitrile,
    CAS:107120,
    type:O,
@@ -18178,8 +18179,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propyl-acetate-n,
    CAS:109604,
    type:O,
@@ -18223,8 +18224,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propylbenzene-n,
    CAS:103651,
    type:O,
@@ -18268,8 +18269,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propylene-glycol,
    CAS:57556,
    type:O,
@@ -18313,8 +18314,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzene,
    CAS:71432,
    type:O,
@@ -18358,8 +18359,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.005	,
    Human health: Fresh water fishing only	:  0.106	,
    Human health: Salt water fishing only	:  0.0708	,
-},
-{
+   },
+   {
    name:propylene-glycol-monomethyl-ether,
    CAS:107982,
    type:O,
@@ -18403,8 +18404,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propylene-oxide,
    CAS:75569,
    type:O,
@@ -18448,8 +18449,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:propylene-tetramer,
    CAS:6842155,
    type:O,
@@ -18493,8 +18494,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:pyrene,
    CAS:129000,
    type:O,
@@ -18538,8 +18539,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.96	,
    Human health: Fresh water fishing only	:  11	,
    Human health: Salt water fishing only	:  11	,
-},
-{
+   },
+   {
    name:pyridine,
    CAS:110861,
    type:O,
@@ -18583,8 +18584,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0881	,
    Human health: Fresh water fishing only	:  13.333	,
    Human health: Salt water fishing only	:  8.889	,
-},
-{
+   },
+   {
    name:quinoline,
    CAS:91225,
    type:O,
@@ -18628,8 +18629,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:ronnel,
    CAS:299843,
    type:O,
@@ -18673,8 +18674,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:safrole,
    CAS:94597,
    type:O,
@@ -18718,8 +18719,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:selenium,
    CAS:7782492,
    type:,
@@ -18763,8 +18764,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.05	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:selenourea,
    CAS:630104,
    type:O,
@@ -18808,8 +18809,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzenethiol,
    CAS:108985,
    type:O,
@@ -18853,8 +18854,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:silver,
    CAS:7440224,
    type:,
@@ -18898,8 +18899,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:silvex-2-4-5-tp,
    CAS:93721,
    type:O,
@@ -18943,8 +18944,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.05	,
    Human health: Fresh water fishing only	:  0.0503	,
    Human health: Salt water fishing only	:  0.0336	,
-},
-{
+   },
+   {
    name:simazine,
    CAS:122349,
    type:O,
@@ -18988,8 +18989,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:sodium-diethyldithiocarbamate,
    CAS:148185,
    type:O,
@@ -19033,8 +19034,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:sodium-polyacrylate,
    CAS:9003047,
    type:O,
@@ -19078,8 +19079,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:strontium,
    CAS:7440246,
    type:,
@@ -19123,8 +19124,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:strychnine,
    CAS:57249,
    type:O,
@@ -19168,8 +19169,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:styrene,
    CAS:100425,
    type:O,
@@ -19213,8 +19214,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:sulfolane,
    CAS:126330,
    type:O,
@@ -19258,8 +19259,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tebuconazole,
    CAS:107534963,
    type:O,
@@ -19303,8 +19304,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzidine,
    CAS:92875,
    type:O,
@@ -19348,8 +19349,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.06e-006	,
    Human health: Fresh water fishing only	:  3.47e-006	,
    Human health: Salt water fishing only	:  2.3e-006	,
-},
-{
+   },
+   {
    name:tebuthiuron,
    CAS:34014181,
    type:O,
@@ -19393,8 +19394,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:terbufos,
    CAS:13071799,
    type:O,
@@ -19438,8 +19439,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tert-amyl-methyl-ether-tame,
    CAS:994058,
    type:O,
@@ -19483,8 +19484,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tert-butyl-alcohol-2-methyl-2-propanol,
    CAS:75650,
    type:O,
@@ -19528,8 +19529,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorobenzene-1-2-3-4,
    CAS:634662,
    type:O,
@@ -19573,8 +19574,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorobenzene-1-2-3-5,
    CAS:634902,
    type:O,
@@ -19618,8 +19619,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorobenzene-1-2-4-5,
    CAS:95943,
    type:O,
@@ -19663,8 +19664,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.000241	,
    Human health: Fresh water fishing only	:  0.000243	,
    Human health: Salt water fishing only	:  0.000162	,
-},
-{
+   },
+   {
    name:tetrachloroethane-1-1-1-2,
    CAS:630206,
    type:O,
@@ -19708,8 +19709,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachloroethane-1-1-2-2,
    CAS:79345,
    type:O,
@@ -19753,8 +19754,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.0017	,
    Human health: Fresh water fishing only	:  0.11	,
    Human health: Salt water fishing only	:  0.11	,
-},
-{
+   },
+   {
    name:tetrachloroethylene,
    CAS:127184,
    type:O,
@@ -19798,8 +19799,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.005	,
    Human health: Fresh water fishing only	:  0.323	,
    Human health: Salt water fishing only	:  0.215	,
-},
-{
+   },
+   {
    name:benzo-a-pyrene,
    CAS:50328,
    type:O,
@@ -19843,8 +19844,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  9.9e-005	,
    Human health: Fresh water fishing only	:  0.00081	,
    Human health: Salt water fishing only	:  0.00054	,
-},
-{
+   },
+   {
    name:acetone,
    CAS:67641,
    type:O,
@@ -19888,8 +19889,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorophenol-2-3-4-5,
    CAS:4901513,
    type:OA,
@@ -19933,8 +19934,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorophenol-2-3-4-6,
    CAS:58902,
    type:OA,
@@ -19978,8 +19979,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrachlorophenol-2-3-5-6,
    CAS:935955,
    type:O,
@@ -20023,8 +20024,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetradifon,
    CAS:116290,
    type:O,
@@ -20068,8 +20069,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetraethyl-dithiopyrophosphate,
    CAS:3689245,
    type:O,
@@ -20113,8 +20114,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetraethyl-lead,
    CAS:78002,
    type:O,
@@ -20158,8 +20159,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrahydrofuran,
    CAS:109999,
    type:O,
@@ -20203,8 +20204,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tetrahydropyran,
    CAS:142687,
    type:O,
@@ -20248,8 +20249,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:thallium-as-thallium-chloride,
    CAS:7791120,
    type:,
@@ -20293,8 +20294,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:thiofanox,
    CAS:39196184,
    type:O,
@@ -20338,8 +20339,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzo-b-fluoranthene,
    CAS:205992,
    type:O,
@@ -20383,8 +20384,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.8e-006	,
    Human health: Fresh water fishing only	:  3.1e-005	,
    Human health: Salt water fishing only	:  3.1e-005	,
-},
-{
+   },
+   {
    name:thionazin,
    CAS:297972,
    type:O,
@@ -20428,8 +20429,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:thiophanate-methyl,
    CAS:23564058,
    type:O,
@@ -20473,8 +20474,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:thiram,
    CAS:137268,
    type:O,
@@ -20518,8 +20519,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tin,
    CAS:7440315,
    type:,
@@ -20563,8 +20564,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:titanium,
    CAS:7440326,
    type:,
@@ -20608,8 +20609,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toluene,
    CAS:108883,
    type:O,
@@ -20653,8 +20654,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  6.8	,
    Human health: Fresh water fishing only	:  200	,
    Human health: Salt water fishing only	:  200	,
-},
-{
+   },
+   {
    name:toluene-diisocyanate-2-4-2-6,
    CAS:26471625,
    type:O,
@@ -20698,8 +20699,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toluenediamine-2-4,
    CAS:95807,
    type:O,
@@ -20743,8 +20744,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toluenediamine-2-6,
    CAS:823405,
    type:O,
@@ -20788,8 +20789,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toluidine-o,
    CAS:95534,
    type:OB,
@@ -20833,8 +20834,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzo-e-pyrene,
    CAS:192972,
    type:O,
@@ -20878,8 +20879,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toluidine-p,
    CAS:106490,
    type:O,
@@ -20923,8 +20924,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:toxaphene,
    CAS:8001352,
    type:O,
@@ -20968,8 +20969,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  5e-006	,
    Human health: Fresh water fishing only	:  1.4e-005	,
    Human health: Salt water fishing only	:  9e-006	,
-},
-{
+   },
+   {
    name:tph-aliph-c6-53-hexane,
    CAS:NA,
    type:OT,
@@ -21013,8 +21014,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzo-g-h-i-perylene,
    CAS:191242,
    type:O,
@@ -21058,8 +21059,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triademenol,
    CAS:55219653,
    type:O,
@@ -21103,8 +21104,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triallate,
    CAS:2303175,
    type:O,
@@ -21148,8 +21149,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triaminotrinitrobenzene-tatb,
    CAS:3058386,
    type:O,
@@ -21193,8 +21194,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzoic-acid,
    CAS:65850,
    type:OA,
@@ -21238,8 +21239,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:tributyltin-oxide,
    CAS:56359,
    type:O,
@@ -21283,8 +21284,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichloro-1-2-2-trifluoroethane-1-1-2,
    CAS:76131,
    type:O,
@@ -21328,8 +21329,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorobenzene-1-2-3,
    CAS:87616,
    type:O,
@@ -21373,8 +21374,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorobenzene-1-2-4,
    CAS:120821,
    type:O,
@@ -21418,8 +21419,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.26	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  0.94	,
-},
-{
+   },
+   {
    name:trichlorobenzene-1-3-5,
    CAS:108703,
    type:O,
@@ -21463,8 +21464,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichloroethane-1-1-1,
    CAS:71556,
    type:O,
@@ -21508,8 +21509,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.2	,
    Human health: Fresh water fishing only	:  12.586	,
    Human health: Salt water fishing only	:  8.391	,
-},
-{
+   },
+   {
    name:trichloroethane-1-1-2,
    CAS:79005,
    type:O,
@@ -21553,8 +21554,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.006	,
    Human health: Fresh water fishing only	:  0.42	,
    Human health: Salt water fishing only	:  0.42	,
-},
-{
+   },
+   {
    name:trichloroethylene,
    CAS:79016,
    type:O,
@@ -21598,8 +21599,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.005	,
    Human health: Fresh water fishing only	:  0.612	,
    Human health: Salt water fishing only	:  0.408	,
-},
-{
+   },
+   {
    name:trichlorofluoromethane,
    CAS:75694,
    type:O,
@@ -21643,8 +21644,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichloronate,
    CAS:327980,
    type:O,
@@ -21688,8 +21689,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzo-k-fluoranthene,
    CAS:207089,
    type:O,
@@ -21733,8 +21734,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  2.8e-006	,
    Human health: Fresh water fishing only	:  3.1e-005	,
    Human health: Salt water fishing only	:  3.1e-005	,
-},
-{
+   },
+   {
    name:trichlorophenol-2-3-4,
    CAS:15950660,
    type:OA,
@@ -21778,8 +21779,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorophenol-2-3-5,
    CAS:933788,
    type:OA,
@@ -21823,8 +21824,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorophenol-2-3-6,
    CAS:933755,
    type:OA,
@@ -21868,8 +21869,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorophenol-2-4-5,
    CAS:95954,
    type:OA,
@@ -21913,8 +21914,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.953	,
    Human health: Fresh water fishing only	:  1.069	,
    Human health: Salt water fishing only	:  0.712	,
-},
-{
+   },
+   {
    name:trichlorophenol-2-4-6,
    CAS:88062,
    type:OA,
@@ -21958,8 +21959,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.021	,
    Human health: Fresh water fishing only	:  0.065	,
    Human health: Salt water fishing only	:  0.065	,
-},
-{
+   },
+   {
    name:trichlorophenol-3-4-5,
    CAS:609198,
    type:OA,
@@ -22003,8 +22004,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichlorophenoxyacetic-acid-2-4-5,
    CAS:93765,
    type:O,
@@ -22048,8 +22049,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichloropropane-1-1-2,
    CAS:598776,
    type:O,
@@ -22093,8 +22094,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trichloropropane-1-2-3,
    CAS:96184,
    type:O,
@@ -22138,8 +22139,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triethanolamine,
    CAS:102716,
    type:O,
@@ -22183,8 +22184,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzotrichloride,
    CAS:98077,
    type:O,
@@ -22228,8 +22229,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triethylamine,
    CAS:121448,
    type:O,
@@ -22273,8 +22274,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triethylene-glycol,
    CAS:112276,
    type:O,
@@ -22318,8 +22319,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:triethylphosphorothioate-o-o-o,
    CAS:126681,
    type:O,
@@ -22363,8 +22364,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trifluralin,
    CAS:1582098,
    type:O,
@@ -22408,8 +22409,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trimethylamine,
    CAS:75503,
    type:OB,
@@ -22453,8 +22454,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trimethylbenzene-1-2-3,
    CAS:526738,
    type:O,
@@ -22498,8 +22499,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trimethylbenzene-1-2-4,
    CAS:95636,
    type:O,
@@ -22543,8 +22544,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trimethylbenzene-1-3-5,
    CAS:108678,
    type:O,
@@ -22588,8 +22589,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trinitrobenzene-1-3-5,
    CAS:99354,
    type:O,
@@ -22633,8 +22634,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trinitrophenylmethylnitramine,
    CAS:479458,
    type:O,
@@ -22678,8 +22679,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzyl-alcohol,
    CAS:100516,
    type:O,
@@ -22723,8 +22724,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:trinitrotoluene-2-4-6,
    CAS:118967,
    type:O,
@@ -22768,8 +22769,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:uranium-soluble-salts,
    CAS:7440611,
    type:,
@@ -22813,8 +22814,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:valeric-acid-pentanoic-acid,
    CAS:109524,
    type:O,
@@ -22858,8 +22859,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:vanadium,
    CAS:7440622,
    type:,
@@ -22903,8 +22904,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:vernam,
    CAS:1929777,
    type:O,
@@ -22948,8 +22949,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:vinyl-acetate,
    CAS:108054,
    type:O,
@@ -22993,8 +22994,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:vinyl-chloride,
    CAS:75014,
    type:O,
@@ -23038,8 +23039,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.002	,
    Human health: Fresh water fishing only	:  0.415	,
    Human health: Salt water fishing only	:  0.277	,
-},
-{
+   },
+   {
    name:vinylcyclohexane,
    CAS:695125,
    type:O,
@@ -23083,8 +23084,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:warfarin,
    CAS:81812,
    type:O,
@@ -23128,8 +23129,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:xylene-m,
    CAS:108383,
    type:O,
@@ -23173,8 +23174,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:benzyl-chloride,
    CAS:100447,
    type:O,
@@ -23218,8 +23219,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:xylene-o,
    CAS:95476,
    type:O,
@@ -23263,8 +23264,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:xylene-p,
    CAS:106423,
    type:O,
@@ -23308,8 +23309,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:xylenes-mixed-isomers,
    CAS:1330207,
    type:O,
@@ -23353,8 +23354,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:zinc,
    CAS:7440666,
    type:,
@@ -23398,8 +23399,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  9.1	,
    Human health: Fresh water fishing only	:  69	,
    Human health: Salt water fishing only	:  69	,
-},
-{
+   },
+   {
    name:beryllium,
    CAS:7440417,
    type:,
@@ -23443,8 +23444,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:biphenyl-1-1,
    CAS:92524,
    type:O,
@@ -23488,8 +23489,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acetone-cyanohydrin,
    CAS:75865,
    type:O,
@@ -23533,8 +23534,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:biquinoline-2-2,
    CAS:119915,
    type:O,
@@ -23578,8 +23579,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bis-2-chloro-ethyl-ether,
    CAS:111444,
    type:O,
@@ -23623,8 +23624,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00031	,
    Human health: Fresh water fishing only	:  0.014	,
    Human health: Salt water fishing only	:  0.014	,
-},
-{
+   },
+   {
    name:bis-2-chloroisopropyl-ether,
    CAS:108601,
    type:O,
@@ -23668,8 +23669,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  1.4	,
    Human health: Fresh water fishing only	:  170	,
    Human health: Salt water fishing only	:  170	,
-},
-{
+   },
+   {
    name:bis-2-chloromethyl-ether,
    CAS:542881,
    type:O,
@@ -23713,8 +23714,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  4.62e-006	,
    Human health: Fresh water fishing only	:  1.93e-005	,
    Human health: Salt water fishing only	:  1.29e-005	,
-},
-{
+   },
+   {
    name:bis-2-ethyl-hexyl-phthalate,
    CAS:117817,
    type:O,
@@ -23758,8 +23759,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.018	,
    Human health: Fresh water fishing only	:  0.059	,
    Human health: Salt water fishing only	:  0.059	,
-},
-{
+   },
+   {
    name:bis-2-chloroethoxy-methane,
    CAS:111911,
    type:O,
@@ -23803,8 +23804,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bismuth,
    CAS:7440699,
    type:,
@@ -23848,8 +23849,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bisphenol-a,
    CAS:80057,
    type:O,
@@ -23893,8 +23894,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:boron,
    CAS:7440428,
    type:I,
@@ -23938,8 +23939,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bromo-2-chloroethane-1,
    CAS:107040,
    type:O,
@@ -23983,8 +23984,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acetonitrile,
    CAS:75058,
    type:O,
@@ -24028,8 +24029,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bromobenzene,
    CAS:108861,
    type:O,
@@ -24073,8 +24074,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:bromodichloromethane,
    CAS:75274,
    type:O,
@@ -24118,8 +24119,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0	,
    Human health: Fresh water fishing only	:  0	,
    Human health: Salt water fishing only	:  0	,
-},
-{
+   },
+   {
    name:bromoform,
    CAS:75252,
    type:O,
@@ -24163,8 +24164,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0	,
    Human health: Fresh water fishing only	:  0	,
    Human health: Salt water fishing only	:  0	,
-},
-{
+   },
+   {
    name:bromomethane,
    CAS:74839,
    type:O,
@@ -24208,8 +24209,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.048	,
    Human health: Fresh water fishing only	:  4	,
    Human health: Salt water fishing only	:  4	,
-},
-{
+   },
+   {
    name:bromophenyl-phenylether-4,
    CAS:101553,
    type:O,
@@ -24253,8 +24254,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butadiene-1-3,
    CAS:106990,
    type:O,
@@ -24298,8 +24299,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butanal-butyraldehyde,
    CAS:123728,
    type:O,
@@ -24343,8 +24344,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butanoic-acid-butyric-acid,
    CAS:107926,
    type:O,
@@ -24388,8 +24389,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butanol-n,
    CAS:71363,
    type:O,
@@ -24433,8 +24434,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butoxy-ethanol-2,
    CAS:111762,
    type:O,
@@ -24478,8 +24479,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acetophenone,
    CAS:98862,
    type:O,
@@ -24523,8 +24524,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butyl-acetate,
    CAS:123864,
    type:O,
@@ -24568,8 +24569,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butyl-acrylate,
    CAS:141322,
    type:O,
@@ -24613,8 +24614,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butyl-benzyl-phthalate,
    CAS:85687,
    type:O,
@@ -24658,8 +24659,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butyl-ether-n-dibutyl-ether,
    CAS:142961,
    type:O,
@@ -24703,8 +24704,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butylate,
    CAS:2008415,
    type:O,
@@ -24748,8 +24749,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butylbenzene-n,
    CAS:104518,
    type:O,
@@ -24793,8 +24794,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butylbenzene-sec,
    CAS:135988,
    type:O,
@@ -24838,8 +24839,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:butylbenzene-tert,
    CAS:98066,
    type:O,
@@ -24883,8 +24884,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cacodylic-acid,
    CAS:75605,
    type:O,
@@ -24928,8 +24929,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:cadmium,
    CAS:7440439,
    type:,
@@ -24973,8 +24974,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.005	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acetylaminofluorene-2,
    CAS:53963,
    type:O,
@@ -25018,8 +25019,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:caprolactam,
    CAS:105602,
    type:O,
@@ -25063,8 +25064,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:captan,
    CAS:133062,
    type:O,
@@ -25108,8 +25109,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbaryl,
    CAS:63252,
    type:O,
@@ -25153,8 +25154,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbazole,
    CAS:86748,
    type:O,
@@ -25198,8 +25199,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbofuran,
    CAS:1563662,
    type:O,
@@ -25243,8 +25244,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbon-disulfide,
    CAS:75150,
    type:O,
@@ -25288,8 +25289,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbon-tetrachloride,
    CAS:56235,
    type:O,
@@ -25333,8 +25334,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  0.00376	,
    Human health: Fresh water fishing only	:  0.0084	,
    Human health: Salt water fishing only	:  0.0056	,
-},
-{
+   },
+   {
    name:carbophenothion,
    CAS:786196,
    type:O,
@@ -25378,8 +25379,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carbosulfan,
    CAS:55285148,
    type:O,
@@ -25423,8 +25424,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:carboxin,
    CAS:5234684,
    type:O,
@@ -25468,8 +25469,8 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
-{
+   },
+   {
    name:acifluorfen-sodium,
    CAS:62476599,
    type:O,
@@ -25513,6 +25514,7 @@ var data= [
    Human health: Drinking / freshwater fish	:  -	,
    Human health: Fresh water fishing only	:  -	,
    Human health: Salt water fishing only	:  -	,
-},
+   },
 
- ]
+] 
+}
