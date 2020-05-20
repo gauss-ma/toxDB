@@ -28,7 +28,7 @@ csv_cols="name CAS type m_mol S p_vap H Koc Kow D_air D_w BA NA LoD_w LoD_s NA l
 
 #PARSEAR HTMLS
 	#inicio DB:
-	printf '{\n  "toxicoDB": [\n' > toxicoDB.json;  
+	printf '{\n  data= [\n' > toxicoDB.json;  
 	printf "%s;" ${csv_cols[@]} > toxicoDB.csv;  
 
 for file in $(ls htmls)
@@ -48,7 +48,7 @@ do
 	sed -i '/^&nbsp/d; s/\&\#.\{2,3\}\;//g' temporal
 
 	#.json
-	awk -v name=$name -v CAS=$CAS -v tipo=$tipo -F ";" 'BEGIN{printf"   {\n   name:"name",\n   CAS:"CAS",\n   type:" tipo",\n   "}{printf("   "$1": "$2",\n")}END{printf "   },\n"}' temporal >> toxicoDB.json
+	awk -v name="$name" -v CAS="$CAS" -v tipo="$tipo" -F ";" 'BEGIN{printf"   {\n   name:\x27"name"\x27,\n   CAS:\x27"CAS"\x27,\n   type:\x27" tipo"\x27,\n   "}{printf("   "$1": \x27"$2"\x27,\n")}END{printf "   },\n"}' temporal >> toxicoDB.json
 	#.csv
 	awk -v name=$name -v CAS=$CAS -v tipo=$tipo -F ";" 'BEGIN{printf"\n"name"; "CAS"; "tipo"; "}{printf($2"; ")}END{}' temporal >> toxicoDB.csv
 done;
@@ -70,4 +70,5 @@ do
 	sed -i "s/$a/$b/g" "toxicoDB.js"
 
 done;
-sed -i '/^.*NA[[:space:]]*:/d ;s/:[^-]*-.*$/:Nan,/;s/:[[:space:]]*,/:Nan,/;s/[M ]isc./Nan/' toxicoDB.js
+#sed -i '/^.*NA[[:space:]]*:/d ;s/:[[:space:]]*-.*$/:NaN,/;s/:[[:space:]]*,/:NaN,/;s/[M ]isc./NaN/' toxicoDB.js
+sed -i "/^.*NA[[:space:]]*:/d; s/: ' -[[:space:]]',/:NaN,/;s/: 'NA'/NaN/; s/:[[:space:]]*,/:NaN,/;s/[M ]isc./NaN/" toxicoDB.js
