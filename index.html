@@ -10,12 +10,8 @@
         <!-- CSS      -->
         <link href="css/style.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
- 
        <!-- SCRIPTS -->
-
         <script type="text/javascript" src="toxicoDB.js">//JQUERY</script>
-
-
 </head> 
 
 <body>
@@ -54,18 +50,10 @@
         	        <th>Tipo</th>
         	    </tr>
         	</thead>
-        	<!-- tfoot>
-        	    <tr>
-        	        <th>Contaminante</th>
-        	        <th>CAS</th>
-        	        <th>Tipo</th>
-        	    </tr>
-        	</tfoot -->
+        	
    		</table>
-		<!-- button class="dt-button buttons-copy buttons-html5" tabindex="0" aria-controls="example" type="button"><span>Copy</span></button>
-		<button class="dt-button buttons-excel buttons-html5" tabindex="0" aria-controls="example" type="button"><span>Excel</span></button>
-		<button class="dt-button buttons-pdf buttons-html5" tabindex="0" aria-controls="example" type="button"><span>PDF</span></button> 
-		<button class="dt-button buttons-print" tabindex="0" aria-controls="example" type="button"><span>Print</span></button --> 
+
+
 
 	<center>
 	<button id="button" type="button" class="boton">Ver propiedades</button> 
@@ -82,8 +70,6 @@
 </main>
 
 </body>
-
-
 
 
 
@@ -135,8 +121,15 @@ $(document).ready(function() {
     } );
  
     $('#button').click( function () {
-        //alert( MiTabla.rows('.selected').data().length +' row(s) selected' );
-    
+        	//alert( MiTabla.rows('.selected').data().length +' row(s) selected' );
+
+		//Scrolear hasta dump cuando clickeas:
+ 		var scrollAnchor = $(this).attr('data-scroll'),            
+ 		scrollPoint = $('#dump').offset().top + 100;
+ 		$('body,html').animate({ scrollTop: scrollPoint }, 800);
+
+
+		//Llenar el dump de cosas
    $("#dump").empty();
 
     for (i=0;i< MiTabla.rows(".selected").data().length;i++){
@@ -151,40 +144,40 @@ $(document).ready(function() {
 		        
 		        coc_articulo+='<h3> Físico-químicas:</h3>';
 		        coc_articulo+='<ul>';
-		        coc_articulo+='<li> Peso Molecular (g/mol): '                      +coc.m_mol   +'</li>';
-		        coc_articulo+='<li> Solubilidad (@ 20-25 ºC) (mg/L): '             +coc.S       +'</li>';
-		        coc_articulo+='<li> Presión de vapor (@ 20-25 ºC) (mmHG): '        +coc.p_vap   +'</li>';
-		        coc_articulo+='<li> Constante de Henry (@ 20 ºC): '                +coc.H       +'</li>';
-		        coc_articulo+='<li> Coef. de sorpción (log L/kg) Koc: '            +coc.Koc     +'</li>';
-		        coc_articulo+='<li> Coef. de partición Octanol-Agua (log L/kg): '  +coc.Kow     +'</li>';
-		        coc_articulo+='<li> Coef. de difusión en aire (cm<sup>2</sup>/s): '+coc.D_air   +'</li>';
-		        coc_articulo+='<li> Coef. de difusión en agua (cm<sup>2</sup>/s): '+coc.D_w     +'</li>';
+		        coc_articulo+='<li> Peso Molecular (g/mol): <b>'                      +coc.m_mol   +'</b></li>';
+		        coc_articulo+='<li> Solubilidad (@ 20-25 ºC) (mg/L): <b>'             +coc.S       +'</b></li>';
+		        coc_articulo+='<li> Presión de vapor (@ 20-25 ºC) (mmHG): <b>'        +coc.p_vap   +'</b></li>';
+		        coc_articulo+='<li> Constante de Henry (@ 20 ºC): <b>'                +coc.H       +'</b></li>';
+		        coc_articulo+='<li> Coef. de sorpción (log L/kg) Koc: <b>'            +coc.Koc     +'</b></li>';
+		        coc_articulo+='<li> Coef. de partición Octanol-Agua (log L/kg): <b>'  +coc.Kow     +'</b></li>';
+		        coc_articulo+='<li> Coef. de difusión en aire (cm<sup>2</sup>/s): <b>'+coc.D_air   +'</b></li>';
+		        coc_articulo+='<li> Coef. de difusión en agua (cm<sup>2</sup>/s): <b>'+coc.D_w     +'</b></li>';
 		        coc_articulo+='</ul>';
 			
 			coc_articulo+='<h4> Parámetros analíticos </h4>'
 		        coc_articulo+='<ul>';
-			coc_articulo+='<li> Límite de detección en agua (mg/L): '          +coc.LoD_w   +'</li>';       	     
- 			coc_articulo+='<li> Límite de detección en suelos (mg/kg): '       +coc.LoD_s   +'</li>';
+			coc_articulo+='<li> Límite de detección en agua (mg/L): <b> '          +coc.LoD_w   +'</b></li>';       	     
+ 			coc_articulo+='<li> Límite de detección en suelos (mg/kg): <b> '       +coc.LoD_s   +'</b></li>';
 		        coc_articulo+='</ul>';
         	  coc_articulo+='</div>';
 
         	  coc_articulo+='<div>';
 		        coc_articulo+='<h3> Toxicología:</h3>';
 		        coc_articulo+='<ul>';
-		        coc_articulo+='<li> Factor de biodisponibilidad: '+coc.BA+'</li>';
+		        coc_articulo+='<li> Factor de biodisponibilidad: <b> '+coc.BA+'</b></li>';
 		        
-		        coc_articulo+='<li> Carncinogénico: '+coc.is_carc+'</li>';
-		        coc_articulo+='<li> Slope Factor (oral)(1/[mg.kg.día]): '        +coc.SF_o      +'</li>';
-		        coc_articulo+='<li> Factos de riesgo por inhalación(1/[ug/m3]): '+coc.UR_inhal  +'</li>';
-		        coc_articulo+='<li> Dosis de referencia Oral (mg/kg/día): '      +coc.Ref_oral  +'</li>';
-		        coc_articulo+='<li> Dosis de referencia po Inhalación (mg/m3): ' +coc.Ref_inh   +'</li>';
+		        coc_articulo+='<li> Carncinogénico: <b> '+coc.is_carc+'</b></li>';
+		        coc_articulo+='<li> Slope Factor (oral)(1/[mg.kg.día]): <b> '        +coc.SF_o      +'</b></li>';
+		        coc_articulo+='<li> Factos de riesgo por inhalación(1/[ug/m3]): <b> '+coc.UR_inhal  +'</b></li>';
+		        coc_articulo+='<li> Dosis de referencia Oral (mg/kg/día): <b> '      +coc.Ref_oral  +'</b></li>';
+		        coc_articulo+='<li> Dosis de referencia po Inhalación (mg/m3): <b> ' +coc.Ref_inh   +'</b></li>';
 
-			coc_articulo+='<li>Dermal adsorption fraction: '	     +coc.ads_derm      +'</li>';
-			coc_articulo+='<li>Gastrointestinal adsorption fraction: '   +coc.ads_gast      +'</li>';
-			coc_articulo+='<li>Dermal permeability coefficient (cm/hr): '+coc.derm_per      +'</li>';
-			coc_articulo+='<li>Lag time for dermal exposure (hr): '      +coc.derm_lag      +'</li>';
-			coc_articulo+='<li>Critical dermal exposure time (hr): '     +coc.derm_exp      +'</li>';
-			coc_articulo+='<li>Relative contribution of perm. coeff.:'   +coc.derm_contr+'</li>';
+			coc_articulo+='<li>Dermal adsorption fraction:  <b>'	     +coc.ads_derm      +'</b></li>';
+			coc_articulo+='<li>Gastrointestinal adsorption fraction:  <b>'   +coc.ads_gast      +'</b></li>';
+			coc_articulo+='<li>Dermal permeability coefficient (cm/hr):  <b>'+coc.derm_per      +'</b></li>';
+			coc_articulo+='<li>Lag time for dermal exposure (hr):  <b>'      +coc.derm_lag      +'</b></li>';
+			coc_articulo+='<li>Critical dermal exposure time (hr):  <b>'     +coc.derm_exp      +'</b></li>';
+			coc_articulo+='<li>Relative contribution of perm. coeff.: <b>'   +coc.derm_contr    +'</b></li>';
 		  
 		        coc_articulo+='</ul>';
 
@@ -196,7 +189,6 @@ $(document).ready(function() {
 //**``theta_ag  ``** | Above ground veg.                             |
 //**``theta_bg  ``** | Below ground veg.                             |
 //**``EPA_w     ``** | EPA weight of evidence                        |
-
 
 //**``MCL_1     ``** | Primary CL                                    |
 //**``MCL_2     ``** | Secondary CL                                  |
@@ -215,6 +207,7 @@ $(document).ready(function() {
     };
 } );
 
+
     $("#COCsTable").append('<caption style="caption-side: bottom;">Tabla de Contaminantes.</caption>');
     
 
@@ -228,11 +221,6 @@ $(document).ready(function() {
            
 
 } );
-
-
-
-
-
 
 
 
@@ -276,6 +264,12 @@ article >div> ul{
 	list-style-type: circle;
 	padding-left:35px;
 }
+article >div>ul>li>b{
+	color:#505050;
+	font-style:italic;
+
+}
+
 h1 {
     font-size: 4em;
     line-height: 1em;
@@ -292,7 +286,7 @@ hr {
 
 .boton:hover {
  color:#f18ea9;
- border:3px solid #f18ea9;
+ border:5px solid #f18ea9;
 }
 
 
