@@ -10,14 +10,16 @@
         <!-- CSS      -->
         <link href="css/style.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
-       <!-- SCRIPTS -->
+        <link href="css/font-style.css" rel="stylesheet">
+      
+ <!-- SCRIPTS -->
         <script type="text/javascript" src="toxicoDB.js">//JQUERY</script>
 </head> 
 
 <body>
 <header class="Layout_header Header_root8 Header_delay">
    <div class="Header_nombre_compania">
-           <div ><span class="Logo_logo black"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></div>
+           <div><a href="https://www.gauss-ma.com.ar"><span class="Logo_logo white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
    </div>
         <div class="Header_burguer">
                 <div class="burguer_root">
@@ -39,24 +41,29 @@
                         <div class="BloqueCentrado_root" style="box-sizing:border-box; /*padding-bottom:100px;*/  padding-top:100px;">
 
 
-	<h1><i class="fa fa-database" style="color:white;" aria-hidden="true"></i> &nbsp;Tóxico.db 	</h1>
+	<h1><i class="fa fa-database" style="color:white;" aria-hidden="true"></i> &nbsp;Tox.db 	</h1>
     
 
-		<table id="COCsTable" class="display" style="width:50%">
+		<table id="COCsTable" class="hover cell-border compact" style="width:50%">
         	<thead>
         	    <tr>
         	        <th>Contaminante</th>
         	        <th>CAS</th>
-        	        <th>Tipo</th>
         	    </tr>
         	</thead>
-        	
+        	 
+		<tbody>
+		</tbody>
+		 
+		 <tfoot>
+		 </tfoot>
    		</table>
 
 
 
 	<center>
-	<button id="button" type="button" class="boton">Ver propiedades</button> 
+	<button id="showChem" type="button" class="boton">Ver propiedades</button> 
+	<button id="cleanAll" type="button" class="boton">Borrar Selección</button> 
 	</center>
 
 	<div id="dump">
@@ -75,52 +82,37 @@
 
 <script>
 $(document).ready(function() {
-    var printCounter = 0;
-
    MiTabla=$('#COCsTable').DataTable( {
     data:data,
-    "columns": [
+    columns: [
     { "data": "name" },
     { "data": "CAS" },
-    { "data": "type" },
-    ],
-    select:true,
+    ],   
+    dom: 'Bfrtip',
     buttons: [
-        'selectRows',
-        'selectColumns',
-        'selectCells',
-        'copy',
-	//'copyHtml5', 'excel', 'pdf', 'csvHtml5',
-        //{
-        //    extend: 'excel',
-        //    messageTop: 'The information in this table is copyright to Sirius Cybernetics Corp.'
-        //},
-        //{
-        //    extend: 'pdf',
-        //    messageBottom: null
-        //},
-        //{
-        //    extend: 'print',
-        //    messageTop: function () {
-        //        printCounter++;
-        //                                                                                         
-        //        if ( printCounter === 1 ) {
-        //            return 'This is the first time you have printed this document.';
-        //        }
-        //        else {
-        //            return 'You have printed this document '+printCounter+' times';
-        //        }
-        //    },
-        //    messageBottom: null
-        //}
-    ]
-    } );
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+    //select:true,
+    });
 
+
+    //Cuando clickeo en una fila, se selecciona:
     MiTabla.on( 'click', 'tr', function () {
         $(this).toggleClass('selected');
     } );
- 
-    $('#button').click( function () {
+
+
+	//Boton de borrar selección.
+    $('#cleanAll').click( function () {
+	$('.selected').each(function() { $(this).removeClass('selected'); });
+	$("#dump").empty();
+    });
+
+	//Boton de mostrar propiedades
+    $('#showChem').click( function () {
         	//alert( MiTabla.rows('.selected').data().length +' row(s) selected' );
 
 		//Scrolear hasta dump cuando clickeas:
@@ -130,15 +122,16 @@ $(document).ready(function() {
 
 
 		//Llenar el dump de cosas
-   $("#dump").empty();
+   		$("#dump").empty();
 
     for (i=0;i< MiTabla.rows(".selected").data().length;i++){
         coc=MiTabla.rows(".selected").data()[i];
         console.log(coc.name);
-     
+	     
+
         	coc_articulo='<article>';
         	  coc_articulo+='<div>';
-        	        coc_articulo+='<h1>'+coc.name+'</h1>';
+        	        coc_articulo+='<h1>'+capitalize(coc.name)+'</h1>';
         	        coc_articulo+='<small class="white"> (CAS:'         +coc.CAS   +')</small>'
 			coc_articulo+='<p class="white"> Tipo: '            +coc.type  +'</p>';
 		        
@@ -222,7 +215,10 @@ $(document).ready(function() {
 
 } );
 
-
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
 
 
 
@@ -264,10 +260,15 @@ article >div> ul{
 	list-style-type: circle;
 	padding-left:35px;
 }
+
+
+article >div>ul>li{
+	font-style:italic;
+}
 article >div>ul>li>b{
 	color:#505050;
-	font-style:italic;
-
+	font-weight:normal;
+	font-style:normal;
 }
 
 h1 {
@@ -276,8 +277,10 @@ h1 {
     margin-bottom:5px;
 }
 
+tr>td{
+ border-bottom:.05px solid #f18ea9 !important;
 
-
+}
 hr {
 	width:80%;
   border-top: 0.05px solid white;
@@ -289,6 +292,9 @@ hr {
  border:5px solid #f18ea9;
 }
 
+.selected > .sorting_1 {
+	background-color:#f18ea9 !important;
+}
 
 
 

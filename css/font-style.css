@@ -1,0 +1,55 @@
+@font-face {
+ font-family:RobotoRegular;
+ src:url(../fonts/Roboto-Regular.a57b2d.eot);
+ src:url(../fonts/Roboto-Regular.a57b2d.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/Roboto-Regular.516136.woff) format("woff"),
+ url(../fonts/Roboto-Regular.f4219d.ttf) format("truetype");
+ font-weight:400;
+ font-style:normal
+}
+@font-face {
+ font-family:RobotoBold;
+ src:url(../fonts/Roboto-Bold.350b70.eot);
+ src:url(../fonts/Roboto-Bold.350b70.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/Roboto-Bold.157ee5.woff) format("woff"),
+ url(../fonts/Roboto-Bold.59ea98.ttf) format("truetype");
+ font-weight:700;
+ font-style:normal
+}
+@font-face {
+ font-family:AvenirNextCyrMedium;
+ src:url(../fonts/AvenirNextCyr-Medium.576011.eot);
+ src:url(../fonts/AvenirNextCyr-Medium.576011.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/AvenirNextCyr-Medium.241293.woff) format("woff"),
+ url(../fonts/AvenirNextCyr-Medium.862c7c.ttf) format("truetype");
+ font-weight:500;
+ font-style:normal
+}
+@font-face {
+ font-family:AvenirNextDemiBold;
+ src:url(../fonts/AvenirNextCyr-Demi.96adc4.eot);
+ src:url(../fonts/AvenirNextCyr-Demi.96adc4.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/AvenirNextCyr-Demi.fe6d74.woff) format("woff"),
+ url(../fonts/AvenirNextCyr-Demi.104be5.ttf) format("truetype");
+ font-weight:700;
+ font-style:normal
+}
+@font-face {
+ font-family:AvenirNextCyrRegular;
+ src:url(../fonts/AvenirNextCyr-Regular.4171ed.eot);
+ src:url(../fonts/AvenirNextCyr-Regular.4171ed.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/AvenirNextCyr-Regular.a81229.woff) format("woff"),
+ url(../fonts/AvenirNextCyr-Regular.97b615.ttf) format("truetype");
+ font-weight:400;
+ font-style:normal
+}
+@font-face {
+ font-family:AvenirNextBold;
+ src:url(../fonts/AvenirNextCyr-Bold.cd1b4c.eot);
+ src:url(../fonts/AvenirNextCyr-Bold.cd1b4c.eot?#iefix) format("embedded-opentype"),
+ url(../fonts/AvenirNextCyr-Bold.2dcf23.woff) format("woff"),
+ url(../fonts/AvenirNextCyr-Bold.cb5f2e.ttf) format("truetype");
+ font-weight:700;
+ font-style:normal
+}
+
