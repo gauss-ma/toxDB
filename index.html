@@ -38,11 +38,11 @@
 <main id="content" class="Layout_content">
 <div class="Content_root">
 <div name="" class="PartDetector_root">
-           <section style="background-color: var(--g-bg-col-1°); opacity:0.8;" class="TextoCentradoGrande_root">
+           <section> <!--class="TextoCentradoGrande_root"-->
                         <div class="BloqueCentrado_root" style="box-sizing:border-box; /*padding-bottom:100px;*/  padding-top:100px;">
 
 
-	<h1><i class="--g-text-col-1°"  aria-hidden="true">{≡}</i> <!-- i class="fa fa-database" style="color:white;" aria-hidden="true"></i--> &nbsp;Tox.db 	</h1>
+	<h1><i class="--g-text-col-1"  aria-hidden="true">{≡}</i> <!-- i class="fa fa-database" style="color:white;" aria-hidden="true"></i--> &nbsp;Tox.db 	</h1>
     
 
 		<table id="COCsTable" class="hover cell-border compact" style="width:50%">
@@ -235,21 +235,29 @@ const capitalize = (s) => {
 /* Variables globales: Paleta y fuente */
 
 /* 
-
 g <- global 
 -- implica asignación de variable
 */
 
 :root{
-
-        --g-col-1°: #000000;
-        --g-col-2°:#f18ea9;
-        --g-text-col-1°: #000000;
-        --g-text-col-2°:#ffffff;
-        --g-text-col-3°:#f18ea9;
-        --g-bg-col-1°:#ec3939;
-        --g-bg-col-2°: #1dcbce;
+        --g-col-1:#f7f7f7;
+        --g-col-2: #404040;
+        --g-text-col-1:#000000;
+        --g-text-col-2:#ffffff;
+        --g-text-col-3:#f18ea9;
+	--g-bg-col-1: #5bbebf;
+        --g-bg-col-2: #f18ea9;
+        /*--g-bg-col-3°: #1dcbce;
+	--g-bg-col-4º:#ec3939;*/
 }
+body{
+ color:var(--g-col-1);
+}
+
+section{
+ background-color: var(--g-bg-col-1);;
+ opacity:0.8;
+} 
 
 
 
@@ -258,8 +266,7 @@ font-family: "AvenirNextCyrMedium", serif
 }
 
 [id^='COCsTable']{
-
-        color:var(--g-col-1°)!important;
+        color:var(--g-col-2)!important;
 
 }
 
@@ -302,7 +309,7 @@ article >div>ul>li{
 	font-style:italic;
 }
 article >div>ul>li>b{
-        color: var(--g-text-col-2°);
+        color: var(--g-text-col-2);
 	font-weight:normal;
 	font-style:normal;
 }
