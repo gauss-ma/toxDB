@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+        <meta charset="UTF-8">
+        <title>tox.db</title>
+        
+        <!-- JS LIBS: -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+        <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+        <!-- CSS      -->
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+        <link href="css/font-style.css" rel="stylesheet">
+      
+ <!-- SCRIPTS -->
+        <script type="text/javascript" src="toxicoDB.js">//JQUERY</script>
+</head> 
+
+<body>
+<header class="Layout_header Header_root8 Header_delay">
+   <div class="Header_nombre_compania">
+           <div><a href="https://www.gauss-ma.com.ar"><span class="Logo_logo white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
+   </div>
+        <div class="Header_burguer">
+                <div class="burguer_root">
+                        <div id="botonMenu" class="burger_inactivo black" style="padding-right:3vw;">
+			<a href="https://github.com/gauss-ma/toxicoDB"><i class="fa fa-github" style="color:white;font-size:45pt;" aria-hidden="true"></i></a>
+                        </div>
+                </div>
+        </div>
+        <div></div>
+
+
+
+</header>
+
+<main id="content" class="Layout_content">
+<div class="Content_root">
+<div name="" class="PartDetector_root">
+           <section class="TextoCentradoGrande_root" style="background-color: var(--g-bg-col-1°); opacity:0.8;">
+                        <div class="BloqueCentrado_root" style="box-sizing:border-box; /*padding-bottom:100px;*/  padding-top:100px;">
+
+
+	<h1><i class="--g-text-col-1°"  aria-hidden="true">{≡}</i> &nbsp;Tox.db 	</h1>
+    
+
+		<table id="COCsTable" class="hover cell-border compact " style="width:50%">
+        	<thead>
+        	    <tr>
+        	        <th>Contaminante</th>
+        	        <th>CAS</th>
+        	    </tr>
+        	</thead>
+        	 
+		<tbody>
+		</tbody>
+		 
+		 <tfoot>
+		 </tfoot>
+   		</table>
+
+
+
+	<center>
+	<button id="showChem" type="button" class="boton">Ver propiedades</button> 
+	<button id="cleanAll" type="button" class="boton">Borrar Selección</button> 
+	</center>
+
+	<div id="dump">
+
+	</div>
+
+	</div>
+	</section>
+	</div>
+</div>
+</main>
+
+</body>
+
+
+
+<script>
+$(document).ready(function() {
+   MiTabla=$('#COCsTable').DataTable( {
+    data:data,
+    columns: [
+    { "data": "name" },
+    { "data": "CAS" },
+    ],   
+    dom: 'Bfrtip',
+    buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+    //select:true,
+    });
+
+
+    //Cuando clickeo en una fila, se selecciona:
+    MiTabla.on( 'click', 'tr', function () {
+        $(this).toggleClass('selected');
+    } );
+
+
+	//Boton de borrar selección.
+    $('#cleanAll').click( function () {
+	$('.selected').each(function() { $(this).removeClass('selected'); });
+	$("#dump").empty();
+    });
+
+	//Boton de mostrar propiedades
+    $('#showChem').click( function () {
+        	//alert( MiTabla.rows('.selected').data().length +' row(s) selected' );
+
+		//Scrolear hasta dump cuando clickeas:
+ 		var scrollAnchor = $(this).attr('data-scroll'),            
+ 		scrollPoint = $('#dump').offset().top + 100;
+ 		$('body,html').animate({ scrollTop: scrollPoint }, 800);
+
+
+		//Llenar el dump de cosas
+   		$("#dump").empty();
+
+    for (i=0;i< MiTabla.rows(".selected").data().length;i++){
+        coc=MiTabla.rows(".selected").data()[i];
+        console.log(coc.name);
+	     
+
+        	coc_articulo='<article>';
+        	  coc_articulo+='<div>';
+        	        coc_articulo+='<h1>'+capitalize(coc.name)+'</h1>';
+        	        coc_articulo+='<small class="white"> (CAS:'         +coc.CAS   +')</small>'
+			coc_articulo+='<p class="white"> Tipo: '            +coc.type  +'</p>';
+		        
+		        coc_articulo+='<h3> Físico-químicas:</h3>';
+		        coc_articulo+='<ul>';
+		        coc_articulo+='<li> Peso Molecular (g/mol): <b>'                      +coc.m_mol   +'</b></li>';
+		        coc_articulo+='<li> Solubilidad (@ 20-25 ºC) (mg/L): <b>'             +coc.S       +'</b></li>';
+		        coc_articulo+='<li> Presión de vapor (@ 20-25 ºC) (mmHG): <b>'        +coc.p_vap   +'</b></li>';
+		        coc_articulo+='<li> Constante de Henry (@ 20 ºC): <b>'                +coc.H       +'</b></li>';
+		        coc_articulo+='<li> Coef. de sorpción (log L/kg) Koc: <b>'            +coc.Koc     +'</b></li>';
+		        coc_articulo+='<li> Coef. de partición Octanol-Agua (log L/kg): <b>'  +coc.Kow     +'</b></li>';
+		        coc_articulo+='<li> Coef. de difusión en aire (cm<sup>2</sup>/s): <b>'+coc.D_air   +'</b></li>';
+		        coc_articulo+='<li> Coef. de difusión en agua (cm<sup>2</sup>/s): <b>'+coc.D_w     +'</b></li>';
+		        coc_articulo+='</ul>';
+			
+			coc_articulo+='<h4> Parámetros analíticos </h4>'
+		        coc_articulo+='<ul>';
+			coc_articulo+='<li> Límite de detección en agua (mg/L): <b> '          +coc.LoD_w   +'</b></li>';       	     
+ 			coc_articulo+='<li> Límite de detección en suelos (mg/kg): <b> '       +coc.LoD_s   +'</b></li>';
+		        coc_articulo+='</ul>';
+        	  coc_articulo+='</div>';
+
+        	  coc_articulo+='<div>';
+		        coc_articulo+='<h3> Toxicología:</h3>';
+		        coc_articulo+='<ul>';
+		        coc_articulo+='<li> Factor de biodisponibilidad: <b> '+coc.BA+'</b></li>';
+		        
+		        coc_articulo+='<li> Carncinogénico: <b> '+coc.is_carc+'</b></li>';
+		        coc_articulo+='<li> Slope Factor (oral)(1/[mg.kg.día]): <b> '        +coc.SF_o      +'</b></li>';
+		        coc_articulo+='<li> Factos de riesgo por inhalación(1/[ug/m3]): <b> '+coc.UR_inhal  +'</b></li>';
+		        coc_articulo+='<li> Dosis de referencia Oral (mg/kg/día): <b> '      +coc.Ref_oral  +'</b></li>';
+		        coc_articulo+='<li> Dosis de referencia po Inhalación (mg/m3): <b> ' +coc.Ref_inh   +'</b></li>';
+
+			coc_articulo+='<li>Dermal adsorption fraction:  <b>'	     +coc.ads_derm      +'</b></li>';
+			coc_articulo+='<li>Gastrointestinal adsorption fraction:  <b>'   +coc.ads_gast      +'</b></li>';
+			coc_articulo+='<li>Dermal permeability coefficient (cm/hr):  <b>'+coc.derm_per      +'</b></li>';
+			coc_articulo+='<li>Lag time for dermal exposure (hr):  <b>'      +coc.derm_lag      +'</b></li>';
+			coc_articulo+='<li>Critical dermal exposure time (hr):  <b>'     +coc.derm_exp      +'</b></li>';
+			coc_articulo+='<li>Relative contribution of perm. coeff.: <b>'   +coc.derm_contr    +'</b></li>';
+		  
+		        coc_articulo+='</ul>';
+
+
+
+
+//**``lambda_s  ``** | Saturated zone                                |
+//**``lambda_u  ``** | Unsaturated zone                              |
+//**``theta_ag  ``** | Above ground veg.                             |
+//**``theta_bg  ``** | Below ground veg.                             |
+//**``EPA_w     ``** | EPA weight of evidence                        |
+
+//**``MCL_1     ``** | Primary CL                                    |
+//**``MCL_2     ``** | Secondary CL                                  |
+//**``PEL_TWA   ``** | Occupational Air PEL/TWA (mg/m3)              |
+//**``AqLP_w    ``** | Aquatic life protection: Fresh water biota    |
+//**``AqLP_bio  ``** | Aquatic life protection: arine biota          |
+//**``HH_w_drink``** | Human health: Drinking / freshwater fish      |
+//**``HH_fish   ``** | Human health: Fresh water fishing only        |
+//**``HH_fish_salt``** | Human health: Salt water fishing only 
+
+
+        	  coc_articulo+='</div>';
+        coc_articulo+='</article>';
+        coc_articulo+='<br><hr><br>';
+		$("#dump").append(coc_articulo);
+    };
+} );
+
+
+    $("#COCsTable").append('<caption style="caption-side: bottom;">Tabla de Contaminantes.</caption>');
+    
+
+	
+    
+    
+    
+    
+
+    
+           
+
+} );
+
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+
+
+</script>
+
+
+
+
+
+<style>
+
+/* Variables globales: Paleta y fuente */
+
+/* 
+
+g <- global 
+-- implica asignación de variable
+*/
+
+:root{
+
+	--g-col-1°: #000000;
+	--g-col-2°:#f18ea9;
+	--g-text-col-1°: #000000;
+	--g-text-col-2°:#ffffff;
+	--g-text-col-3°:#f18ea9;
+	--g-bg-col-1°:#ec3939;
+	--g-bg-col-2°: #1dcbce;
+}
+
+
+
+i{
+font-family: "AvenirNextCyrMedium", serif
+} 
+
+[id^='COCsTable']{
+
+	color:var(--g-col-1°)!important; 
+
+} 
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+
+article {
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
+
+}
+
+article > div{
+	min-width:49hw; 
+	padding-top:20px;
+	width:48.9%;
+	
+}
+
+article > div:nth-of-type(1) {
+	margin-right:10px;
+}
+
+article > div:nth-of-type(2) {
+	margin-left:10px;
+}
+
+article >div> ul{
+	list-style-type: circle;
+	padding-left:35px;
+}
+
+
+article >div>ul>li{
+	font-style:italic;
+}
+article >div>ul>li>b{
+	color: var(--g-text-col-2°);
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom:5px;
+}
+
+tr>td{
+ border-bottom:.05px solid #000000 !important;
+
+}
+hr {
+	width:80%;
+  border-top: 0.05px solid white;
+	color:white;
+}
+
+.boton:hover {
+ color:#f18ea9;
+ border:5px solid #f18ea9;
+}
+
+.selected  {
+	background-color:var(--g-col-2°) !important;
+}
+
+
+
+</style>
+</html>
