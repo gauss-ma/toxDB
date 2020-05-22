@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
+	
         <meta charset="UTF-8">
-        <title>tóxico.db</title>
+        <title>tox.db</title>
         
         <!-- JS LIBS: -->
         <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
@@ -37,14 +39,14 @@
 <main id="content" class="Layout_content">
 <div class="Content_root">
 <div name="" class="PartDetector_root">
-           <section class="TextoCentradoGrande_root" style="background-color:#5bbebf; color:#f7f7f7;opacity:0.8;">
+           <section class="TextoCentradoGrande_root" style="background-color: var(--g-bg-col-1°); opacity:0.8;">
                         <div class="BloqueCentrado_root" style="box-sizing:border-box; /*padding-bottom:100px;*/  padding-top:100px;">
 
 
-	<h1><i class="fa fa-database" style="color:white;" aria-hidden="true"></i> &nbsp;Tox.db 	</h1>
+	<h1><i class="--g-text-col-1°"  aria-hidden="true">{≡}</i> &nbsp;Tox.db 	</h1>
     
 
-		<table id="COCsTable" class="hover cell-border compact" style="width:50%">
+		<table id="COCsTable" class="hover cell-border compact " style="width:50%">
         	<thead>
         	    <tr>
         	        <th>Contaminante</th>
@@ -229,6 +231,38 @@ const capitalize = (s) => {
 
 
 <style>
+
+/* Variables globales: Paleta y fuente */
+
+/* 
+
+g <- global 
+-- implica asignación de variable
+*/
+
+:root{
+
+	--g-col-1°: #000000;
+	--g-col-2°:#f18ea9;
+	--g-text-col-1°: #000000;
+	--g-text-col-2°:#ffffff;
+	--g-text-col-3°:#f18ea9;
+	--g-bg-col-1°:#ec3939;
+	--g-bg-col-2°: #1dcbce;
+}
+
+
+
+i{
+font-family: "AvenirNextCyrMedium", serif
+} 
+
+[id^='COCsTable']{
+
+	color:var(--g-col-1°)!important; 
+
+} 
+
 sup {
   vertical-align: super;
   font-size: smaller;
@@ -246,6 +280,7 @@ article > div{
 	min-width:49hw; 
 	padding-top:20px;
 	width:48.9%;
+	
 }
 
 article > div:nth-of-type(1) {
@@ -266,7 +301,7 @@ article >div>ul>li{
 	font-style:italic;
 }
 article >div>ul>li>b{
-	color:#505050;
+	color: var(--g-text-col-2°);
 	font-weight:normal;
 	font-style:normal;
 }
@@ -278,7 +313,7 @@ h1 {
 }
 
 tr>td{
- border-bottom:.05px solid #f18ea9 !important;
+ border-bottom:.05px solid #000000 !important;
 
 }
 hr {
@@ -292,8 +327,8 @@ hr {
  border:5px solid #f18ea9;
 }
 
-.selected > .sorting_1 {
-	background-color:#f18ea9 !important;
+.selected  {
+	background-color:var(--g-col-2°) !important;
 }
 
 
