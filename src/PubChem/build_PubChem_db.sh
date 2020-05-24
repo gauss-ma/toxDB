@@ -1,49 +1,45 @@
 #!/bin/bash
 
-#CAS to CID:
-#CAS=$(awk -F ";" '{print $3}' milista2.csv)
-#for cas in ${CAS[@]}
-#do
-#	echo -en "\e[34m $cas : \e[0m"
-#	cid=$(curl -s "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/xref/rn/$cas/cids/JSON" | jq -r '.IdentifierList.CID[0]')
-#	echo $cid | tee -a cid.lst
-#done
+cids=($(cat ../Regulados/cid.lst))
 
-cids=($(cat cid.lst | sort | uniq))
-
-mkdir -p img
+mkdir -p img2D
 mkdir -p img3D
+
 outDB=PC_ChemSafety_db.js
-printf "{\n GHS_DB=[\n" > $outDB
+#printf "     GHS_DB=[\n" > $outDB
 
 for cid in ${cids[@]}
 do
 	echo -e "\e[33m $cid \e[0m";
 
 	#Get 2D y 3D Molecule Fingerprint Image:
-	#	wget -O "img/${cid}.png""https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=s"  
+		wget -O "img2D/${cid}.png" "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=s" 
 	#	wget -O "img3D/${cid}.png" "https://pubchem.ncbi.nlm.nih.gov/image/img3d.cgi?&cid=${cid}&t=s"
-
-
+		#Cambio fondo blanco por transparente
+		convert img2D/${cid}.png -transparent "#F5F5F5" img2D/${cid}.png
+	#	convert img3D/${cid}.png -transparent white img3D/${cid}.png
 	#Get Chemical-Safety data:
-		curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Chemical+Safety">temporal
-		nombre=$(jq '.Record.RecordTitle' temporal)
-		CID_ID=$(jq '.Record.RecordNumber' temporal)
-		GHSs=$(cat temporal | sed -n '/\"Extra/p' | sed 's/^.*\"Extra\":\(.*\)/\1/g')
- 		URLs=$(cat temporal | sed -n '/\"URL.*\.svg/p' | sed 's/.*images\/ghs\/\(.*\)\"\,/\"\1\"/g')
-		printf "   {\n   nombre: ${nombre},\n   CID: ${CID_ID},\n">> "${outDB}";
-        	printf "   GHS:["  >> "${outDB}"; printf "%s," ${GHSs[@]} >> "${outDB}"; printf "],\n">> "${outDB}";
-        	printf "   img:["  >> "${outDB}"; printf "%s," ${URLs[@]} >> "${outDB}"; printf "]\n},\n">> "${outDB}";
+	#	curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Chemical+Safety">temporal
+	#	if [ $? -eq 0 ] 
+	#	then
+	#		nombre=$(jq '.Record.RecordTitle' temporal)                                                            	
+        #		CID_ID=$(jq '.Record.RecordNumber' temporal)
+        #		GHSs=$(cat temporal | sed -n '/\"Extra/p' | sed 's/^.*\"Extra\":\(.*\)/\1/g')
+        #		URLs=$(cat temporal | sed -n '/\"URL.*\.svg/p' | sed 's/.*images\/ghs\/\(.*\)\"\,/\"\1\"/g')
+        #		printf "   {\n   nombre: ${nombre},\n   CID: ${CID_ID},\n">> "${outDB}";
+        #		printf "   GHS:["  >> "${outDB}"; printf "%s," ${GHSs[@]} >> "${outDB}"; printf "],\n">> "${outDB}";
+        #		printf "   img:["  >> "${outDB}"; printf "%s," ${URLs[@]} >> "${outDB}"; printf "]\n},\n">> "${outDB}";
+	#	else
+	#		continue;
+	#	fi
 done;
-
-        	printf "]\n},\n">> "${outDB}";
+#printf "]\n">> "${outDB}";
 
 
 #Descargar datos de la base de datos: PubChem
 # Propiedades:
+
 #props="MolecularFormula,MolecularWeight,IUPACName,XLogP,CanonicalSMILES,Charge"
-#MolecularFormula  #MolecularWeight  #CanonicalSMILES  #IsomericSMILES  #InChI    #InChIKey   #IUPACName   #XLogP    #ExactMass   #MonoisotopicMass  #TPSA    #Complexity   #Charge    #HBondDonorCount  #HBondAcceptorCount  #RotatableBondCount  #HeavyAtomCount   #IsotopeAtomCount  #AtomStereoCount  #DefinedAtomStereoCount  #UndefinedAtomStereoCount #BondStereoCount  #DefinedBondStereoCount  #UndefinedBondStereoCount #CovalentUnitCount  #Volume3D   #XStericQuadrupole3D  #YStericQuadrupole3D  #ZStericQuadrupole3D  #FeatureCount3D   #FeatureAcceptorCount3D  #FeatureDonorCount3D  #FeatureAnionCount3D  #FeatureCationCount3D  #FeatureRingCount3D  #FeatureHydrophobeCount3D #ConformerModelRMSD3D  #EffectiveRotorCount3D 	#ConformerCount3D #Fingerprint2D			
-#cids_str=$(printf "%s," ${cids[@]})
-#cids_str="10900,10943,11,11243,1140,13,139073,13930,14488,14917,15531,2086,2087,222,2256,2314,23925,23930,23931,23954,23967,23969,23973,23978,23994,24524,2566,25670,27582,28486,29131,3017,3024,3030,3061,30773,312,3120,313,31373,3224,335,39985,4004,402,4130,4169,5216,533,5352426,5355457,5392,5543,5984,6331,6413,6573,6579,67634,6837,7040,7237,727,7771,7847,7904,7944,7964,8078,8115,8370,8449,8461,8758,887,9131,9153,9154,9158,9161,934,996"
-#curl https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/$cids_str/property/$props/JSON > pubchem_db.json
+#cids_str="8758,7847,2086,2087,14488,222,23969,2256,5355457,2314,139073,727,727,10967,8343,6331,15531,23973,2566,30773,23994,7964,23978,23976,29131,3017,3030,39985,4685,11,10900,10900,8449,11243,7771,8461,3120,6837,996,9154,24524,4790,3496,13930,8370,23925,4004,4130,4169,30479,934,15938,36231,23448,17097,36188,38018,23954,3061,533,5216,67634,5392,31373,1140,6413,5543,27582,7237,9161,6579,23967,727,10943,6573,8461,3224,3224,727,13,7239,3224,14917,9153,9158,5352426,7904,8078,313,312,335,7040,1118,402"
+#curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON" > PC_Summary_db.js
 

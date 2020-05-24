@@ -1,22 +1,24 @@
 #!/bin/bash
 
-#CAS=($(cat cas.lst))
-#echo ${CAS[@]}
-#mkdir -p src_data
-#
-#
-#for cas in ${CAS[@]}
-#do
-#	echo -e "\e[31m $cas \e[0m"
-#	curl https://chem.nlm.nih.gov/api/data/rn/sw/${cas}/?data=details > temporal
-#	cp temporal src_data/${cas}.json
-#done;
+CAS=($(awk -F ";" '{print $1}' ../Regulados/lista.lst))
+mkdir -p src_data
+
+#Descargo archivos
+for cas in ${CAS[@]}
+do
+	echo -e "\e[31m $cas \e[0m"
+	curl https://chem.nlm.nih.gov/api/data/rn/sw/${cas}/?data=details > temporal
+	cp temporal src_data/${cas}.json
+done;
 
 
+
+#Armo DB:
+find src_data/ -size  0 -print -delete
 CAS=$(ls -d src_data/*)
-outDB=chemIDplus_bd.js
+outDB=chemIDplus_db.js
 
-printf '{\n  data= [\n' > "${outDB}";
+printf '   TOX_DB= [\n' > "${outDB}";
 for casfile in ${CAS}
 do
 	cp $casfile temporal
@@ -32,7 +34,7 @@ do
 	jq '.results[0].toxicityList' temporal >> "${outDB}";
 	printf "\n},\n">> "${outDB}";
 done;
-
+	printf "]\n">> "${outDB}";
 
 #TODO:
 # - Armar dicciionario/traducir palabras en inglés comunes
