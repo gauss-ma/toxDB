@@ -19,6 +19,7 @@
         <script type="text/javascript" src="src/PubChem/PC_ChemSafety_db.js"></script>
         <script type="text/javascript" src="src/ChemIDPlus/chemIDplus_db.js"></script>
         <script type="text/javascript" src="src/Regulados/GENERAL_DB.js"></script>
+        <script type="text/javascript" src="src/Tox.db.js"></script>
 </head> 
 
 <body>
@@ -111,7 +112,7 @@ $(document).ready(function() {
 		coc=MiTabla.rows(".selected").data()[i];
 		console.log(coc.Nombre);
 		
-			Header=`<h3>`+coc.Nombre +`</h3><small>(CAS:`+coc.CAS+`, CID: `+coc.CID+`)</small>`
+			Header=`<h2>`+coc.Nombre +`</h2><small>(CAS:`+coc.CAS+`, CID: `+coc.CID+`)</small>`
 			$("#dump").append(Header);
 			
 		//PubChem Summary:
@@ -141,7 +142,7 @@ $(document).ready(function() {
 			ghs=GHS_DB.find(x => x.CID === coc.CID);
 			ChemSafety=`<div class='PubChem_ChemSafety'> <table><tr><th> Seguridad Química</th><td>`;
 				for (j=0;j< ghs.GHS.length;j++){
-					ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+ghs.img[j]+`' />`;	
+					ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+ghs.GHS[j]+`.svg' />`;	
 					ChemSafety+=`<figcaption>`+ghs.GHS[j]+`</figcaption></figure>`;	
 				}                                                                   	
 			ChemSafety+='</td></tr></table></div>';                                          	

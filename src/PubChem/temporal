@@ -1,6 +1,55 @@
 {
-  "Fault": {
-    "Code": "PUGVIEW.BadRequest",
-    "Message": "Invalid record number"
+  "Record": {
+    "RecordType": "CID",
+    "RecordNumber": 127,
+    "RecordTitle": "4-Hydroxyphenylacetic acid",
+    "Section": [
+      {
+        "TOCHeading": "Chemical Safety",
+        "Description": "Launch the Laboratory Chemical Safety Summary datasheet, and link to the safety and hazard section",
+        "DisplayControls": {
+          "HideThisSection": true,
+          "MoveToTop": true
+        },
+        "Information": [
+          {
+            "ReferenceNumber": 53,
+            "Name": "Chemical Safety",
+            "Value": {
+              "StringWithMarkup": [
+                {
+                  "String": "          ",
+                  "Markup": [
+                    {
+                      "Start": 0,
+                      "Length": 1,
+                      "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS05.svg",
+                      "Type": "Icon",
+                      "Extra": "Corrosive"
+                    },
+                    {
+                      "Start": 1,
+                      "Length": 1,
+                      "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg",
+                      "Type": "Icon",
+                      "Extra": "Irritant"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "ReferenceNumber": 53,
+        "SourceName": "PubChem",
+        "SourceID": "PubChem",
+        "Description": "Data deposited in or computed by PubChem",
+        "URL": "https://pubchem.ncbi.nlm.nih.gov"
+      }
+    ]
   }
 }
