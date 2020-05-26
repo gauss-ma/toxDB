@@ -1,7 +1,23 @@
 <html>
 <head>
+        <meta charset="UTF-8">
+        <title>Tox.db</title>
+        
         <!-- JS LIBS: -->
         <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+        <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+        <!-- CSS      -->
+        <link href="css/toxdb_desktop.css" rel="stylesheet">
+        <link href="css/toxdb_mobile.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+        <link href="css/font-style.css" rel="stylesheet">
+        <!-- SCRIPTS -->
+
+        <!-- DB -->
+        <script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
+        <script type="text/javascript" src="src/Tox.db.js"></script>
+
 </head>
 
 
@@ -29,15 +45,7 @@
 
  <div class="grid-container">
 <ol class="grid-items">
-  <li class="grid-item"><a>   1   </a></li>
-  <li class="grid-item"><a>   2   </a></li>
-  <li class="grid-item"><a>   3   </a></li>
-  <li class="grid-item"><a>   4   </a></li>
-  <li class="grid-item"><a>   5   </a></li>
-  <li class="grid-item"><a>   6   </a></li>
-  <li class="grid-item"><a>   7   </a></li>
-  <li class="grid-item"><a>   8   </a></li>
-  <li class="grid-item"><a>   9   </a></li>
+
 </ol> 
 </div>
 
@@ -89,6 +97,29 @@ overflow: hidden;
 position: relative;
 transition: .18s ease all;
 }
+
+
+.card-header{
+cursor: pointer;
+outline: none;
+position: relative;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.card-titulo {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+}
+.card-subtitulo {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	min-height: 44px;
+}
 </style>
 
 <script>
@@ -100,32 +131,57 @@ $(document).ready(function(){
     });
   });
 });
-</script>
-
-
-<script>
-//
-//$('.searchbox-input').on('keyup',function () {
-//  console.log(filter);
-//    //$('.card').show();
-//	var filter = $(this).val(); // get the value of the input, which we filter on
-//  	console.log(filter);
-//    	$('.container').find(".card-title:not(:contains(" + filter + "))").parent().css('display','none');
-//});
-
-</script>
 
 
 
-<script>
-//$(document).ready(function(){
-//  $("#myInput").on("keyup", function() {
-//    var value = $(this).val().toLowerCase();
-//    $("#myList li").filter(function() {
-//      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-//    });
-//  });
-//});
+
+
+
+
+
+			var item_content=" ";
+                        for (i=0;i< TOXDB.length;i++){
+				try{
+                        	item_content+=`
+				<li class='grid-item'><a>
+					<div class='card-header'>
+					  	<h1 class='card-titulo'>`+TOXDB[i].name+`</h1>
+					  	<h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`, CID: `+TOXDB[i].CID+`</h2>
+					</div>
+				 </a></li>`;
+                        	}catch(error){console.error(error);}
+                        }
+
+                        $(".grid-items").append(item_content);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
 
