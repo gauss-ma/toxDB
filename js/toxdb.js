@@ -1,41 +1,12 @@
 $(document).ready(function(){
-	const $menu=$('#barraMenu');
+	const $menu=$('#Sidebar');
 	const $btn_menu=$('#botonMenu');
 	const $logo=$(".LogoGauss");
 
 
-        cerrarMenu();
-
-        //ABRIR / CERRAR MENU:
-        function abrirMenu(){
-                console.log("Abriendo Menu..");
-
-                $menu.removeClass("inactivo");
-                $menu.addClass("activo");
-                //$btn_menu.addClass('activo');
-                //$btn_menu.removeClass('inactivo');
-                $menu.show();
-                //$("body").addClass("touch-off no-scroll");
-                //setBlack();
-        };
-
-        function cerrarMenu(){
-                console.log("Cerrando Menu..");
-
-                $menu.removeClass("activo");
-                $menu.addClass("inactivo");
-                //$btn_menu.addClass('inactivo');
-                //$btn_menu.removeClass('activo');
-                $menu.hide();
-                //$("body").removeClass("touch-off no-scroll");
-                //setWhite();
-        };
-
-        $btn_menu.on('click',function () {
-                if ( $menu.attr('class') == "activo") {cerrarMenu()}
-                else if ( $menu.attr('class') == "inactivo") {abrirMenu()}
-                else {console.log("tamo todos locos")};
-        });
+        
+        
+        
 
 
 	//Buscador/Filtro:
@@ -68,7 +39,17 @@ $(document).ready(function(){
 	$(".grid-cards").append(item_content);
 })
 
+function vista(view){
 
+	if (view=='lista'){
+		$(".grid-cards").removeClass("grid_view");
+		$(".grid-cards").addClass("list_view");
+	}
+	else{
+		$(".grid-cards").removeClass("list_view");
+		$(".grid-cards").addClass("grid_view");
+	};
+}
 
 //IR A UN COMPUESTO EN PARTICULAR:
 function verCompuesto(index){

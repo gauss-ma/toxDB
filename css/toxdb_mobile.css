@@ -1,23 +1,211 @@
-#barraMenu {
-width:300px;
-height:100%;
-position:fixed;
-top:0;
-right:0;
-transform: translateX(300px);
-transition: .2s linear all;
-z-index:1000;
-background-color:red;
+html {
+ margin:0;
+ padding:0;
+ border:0;
+ font:inherit;
+ vertical-align:baseline
+}
+body {
+ border:0;
+ font:inherit;
+ vertical-align:baseline
+}
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+ margin:0;
+ padding:0;
+ border:0;
+ font:inherit;
+ vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+ display:block
+}
+body {
+ line-height:1
+}
+ol,ul {
+ list-style:none
+}
+blockquote,q {
+ quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after {
+ content:'';
+ content:none
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0
+}
+html {
+ position:relative
+}
+body {
+ position:relative;
+ margin:0;
+ padding:0;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1em;
+
+/* identical to box height, or 257% */
+color: #797979;
+
+
 }
 
-.inactivo{
-display:none;
+
+[tabindex='-1']:focus {
+ outline:none
+}
+.inset {
+ padding:10px
+}
+a.md-no-style,button.md-no-style {
+ font-weight:normal;
+ background-color:inherit;
+ text-align:left;
+ border:none;
+ padding:0;
+ margin:0
+}
+select,button,input {
+ vertical-align:baseline
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	border-bottom: 1px solid rgba(0,0,0,.14);
+	transition: box-shadow 200ms ease-in-out;
+	background-color:#f7f7f7;
+	color: rgba(0,0,0,.6);
+	fill: rgba(0,0,0,.6);
+	box-shadow: 1px 1px transparent;
+	/*position: fixed; */
+	position: absolute;
+	z-index:100;
+	height: 30px;
+	width:100%;
+}
+main{
+    min-height: -moz-calc(100% - 48px);
+    min-height: calc(100% - 48px);
+    bottom: 48px;
+    padding: 64px 60px 48px;
+    background: ;
+    fill: #fff;
+    transition: padding 100ms cubic-bezier(0.4,0,0.2,1),margin 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.toolbar{
+vertical-align:middle;
+display:flex;
+width:90%;
+
+}
+.search_toolbar{
+width: 416px;
+height: 46px;
+border: 1px solid #DADCE0;
+box-sizing: border-box;
+border-radius: 48px;
+}
+.search_icon{
+	width:20px;
+	margin-left:15px;
+	border-right:0.05px solid #dadce0;
+}
+.search_input{
+width:90%;
+height: 44px;
+border-style:none;
+background-color:transparent;
+}
+.vista{
+vertical-align:middle;
+padding-top:15px;
+margin-left:30px;
+display:flex;
+}
+.button{
+
+border-radius: 4px;
+display: flex;
+fill:
+#5f6368;
+flex-direction: row;
+font-weight: 400;
+letter-spacing: .01em;
+line-height: 1;
+margin: 0;
+min-width: 0;
+opacity: .6;
+overflow: visible;
+padding: 4px;
+text-transform: initial;
+width: auto;
+}
+.button:hover{
+	background:rgba(164, 28, 28, 0.2);
 }
 
 
 
-ol, li {list-style: none;}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global */
+#Logo{
+	margin:15px;
+	padding:10px;
+}
+.LogoGauss{
+	display:inline-block;
+	height:30px;
+	width:30px;
+ 	background-image: url("../img/icon-gauss.png");
+ 	background-repeat: no-repeat;
+  	background-size: 30px 30px;
+}
+
+#botonMenu{
+    overflow: visible;
+}
+
+#Sidebar{
+	width:40%;
+	height:100%;
+	position:fixed;
+	top:0;
+	right:0;
+	transform: translateX(300px);
+	transition: .2s linear all;
+	z-index:1000;
+	background-color:red;
+	display:none;
+}
+
+.activo{
+display: block;
+}
+
+
+/* TARJETAS */
 .grid-container{
    display:flex;
    flex-warp:warp;
@@ -28,12 +216,17 @@ ol, li {list-style: none;}
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        -moz-flex-wrap: wrap;
-        flex-wrap: wrap;
 }
 
+.list_view {
+  flex-direction: column;
+}
 
+.grid_view {
+  flex-direction: row;
+  flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
 
 
 .grid-card{
@@ -43,7 +236,6 @@ ol, li {list-style: none;}
 
 .grid-container > ol > li {
 }
-
 
 .grid-card > a{
 width:250px;
