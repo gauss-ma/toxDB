@@ -8,7 +8,8 @@
         <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
         <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
         <!-- CSS      -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/toxdb_desktop.css" rel="stylesheet">
+        <link href="css/toxdb_mobile.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
         <link href="css/font-style.css" rel="stylesheet">
  	<!-- SCRIPTS -->
@@ -16,9 +17,6 @@
  	<!-- DB -->
         <script type="text/javascript" src="src/GSI/gsi.js"></script>
         <script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
-        <script type="text/javascript" src="src/PubChem/PC_ChemSafety_db.js"></script>
-        <script type="text/javascript" src="src/ChemIDPlus/chemIDplus_db.js"></script>
-        <script type="text/javascript" src="src/Regulados/GENERAL_DB.js"></script>
         <script type="text/javascript" src="src/Tox.db.js"></script>
 </head> 
 
@@ -45,7 +43,7 @@
 	
 		<h1><i aria-hidden="true">{≡}</i> <!-- i class="fa fa-database" style="color:white;" aria-hidden="true"></i--> &nbsp;Tox.db 	</h1>
 	    
-		<table id="COCsTable" class="hover cell-border compact" style="width:50%">
+		<table id="TablaPrincipal" class="hover " style="width:50%">
 	        	<thead>
 	            		<tr>
 					<th>CAS</th>
@@ -74,11 +72,11 @@
 
 <script>
 $(document).ready(function() {
-   MiTabla=$('#COCsTable').DataTable( {
-    data:data,
+   MiTabla=$('#TablaPrincipal').DataTable( {
+    data:TOXDB,
     columns: [
         {data:"CAS"},
-        {data:"Nombre"},
+        {data:"name"},
     ],   
     dom: 'Bfrtip',
     buttons: [
@@ -110,9 +108,9 @@ $(document).ready(function() {
 	//Llenar el dump de cosas
 	for (i=0;i< MiTabla.rows(".selected").data().length;i++){
 		coc=MiTabla.rows(".selected").data()[i];
-		console.log(coc.Nombre);
+		console.log(coc.name);
 		
-			Header=`<h2>`+coc.Nombre +`</h2><small>(CAS:`+coc.CAS+`, CID: `+coc.CID+`)</small>`
+			Header=`<h2>`+coc.name +`</h2><small>(CAS:`+coc.CAS+`, CID: `+coc.CID+`)</small>`
 			$("#dump").append(Header);
 			
 		//PubChem Summary:
@@ -139,33 +137,42 @@ $(document).ready(function() {
 
 		//SEGURIDAD QUIMICA:
 			try{
-			ghs=GHS_DB.find(x => x.CID === coc.CID);
+			//ghs=GHS_DB.find(x => x.CID === coc.CID);
 			ChemSafety=`<div class='PubChem_ChemSafety'> <table><tr><th> Seguridad Química</th><td>`;
-				for (j=0;j< ghs.GHS.length;j++){
-					ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+ghs.GHS[j]+`.svg' />`;	
-					ChemSafety+=`<figcaption>`+ghs.GHS[j]+`</figcaption></figure>`;	
+				for (j=0;j< coc.GHS.length;j++){
+					ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+coc.GHS[j]+`.svg' />`;	
+					ChemSafety+=`<figcaption>`+coc.GHS[j]+`</figcaption></figure>`;	
 				}                                                                   	
 			ChemSafety+='</td></tr></table></div>';                                          	
-
+		
+		
 			$("#dump").append(ChemSafety);
 			}catch(error){console.error(error);}
+		//NFPA
+			NFPA=`<div class='PubChem_ChemSafety'> <table><tr><th> NFPA 704</th><td>
+				<figure><img src='src/PubChem/imgNFPA/`+coc.NFPA+`.svg' />	
+				<figcaption>`+coc.NFPA+`</figcaption></figure>;	
+				</td></tr></table></div>`;                                          	
+
+			$("#dump").append(NFPA);
+
 
 		//TOXICO Y FISQUIM.
 			try{
-			tox=TOX_DB.find(x => x.CAS === coc.CAS);
+			//tox=TOX_DB.find(x => x.CAS === coc.CAS);
 				Toxico=`<div class='PubChem_Toxico'> `
 				Toxico+=`</table>     
         			<h4>Propiedades Físico-Químicas:</h4>
         			<table>`;                                                                                  			
-        			for (j=0;j< tox.fisicoquimica.length;j++){
-        				Toxico+='<tr><th>'+tox.fisicoquimica[j].p +'</th>';
-					Toxico+='<td>'+tox.fisicoquimica[j].d +'<i> '+tox.fisicoquimica[j].u+'</i><td></tr>';                                           			
+        			for (j=0;j< coc.PhysProps.length;j++){
+        				Toxico+='<tr><th>'+coc.PhysProps[j].p +'</th>';
+					Toxico+='<td>'+coc.PhysProps[j].d +'<i> '+coc.PhysProps[j].u+'</i><td></tr>';                                           			
         			}
 				Toxico+=`</table><h4>Toxicología:</h4>
 				<table>`;
-				for (j=0;j< tox.toxicidad.length;j++){
-					Toxico+='<tr><th>'+tox.toxicidad[j].t +'</th>';
-					Toxico+='    <td>'+tox.toxicidad[j].d.r +'<i> '+tox.toxicidad[j].d.nu+'</i><td></tr>';
+				for (j=0;j< coc.ToxProps.length;j++){
+					Toxico+='<tr><th>'+coc.ToxProps[j].t +'</th>';
+					Toxico+='    <td>'+coc.ToxProps[j].d.r +'<i> '+coc.ToxProps[j].d.nu+'</i><td></tr>';
 				}                                                                   	
 			Toxico+=`</table>
 				</div>`;
@@ -183,7 +190,7 @@ $(document).ready(function() {
 	};
 };
 
-    $("#COCsTable").append('<caption style="caption-side: bottom;">Tabla de Contaminantes Regulados en Argentina.</caption>');
+    $("#TablaPrincipal").append('<caption style="caption-side: bottom;">Tabla de Contaminantes Regulados en Argentina.</caption>');
            
 
 } );
@@ -235,7 +242,7 @@ i{
 font-family: "AvenirNextCyrMedium", serif
 }
 
-[id^='COCsTable']{
+[id^='TablaPrincipal']{
         color:var(--g-col-2)!important;
 
 }
@@ -291,7 +298,7 @@ h1 {
     margin-bottom:5px;
 }
 
-#COCsTable >tr>td{
+#TablaPrincipal >tr>td{
  border-bottom:.05px solid #f18ea9 !important;
 
 }
