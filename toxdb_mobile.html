@@ -1,0 +1,132 @@
+<html>
+<head>
+        <!-- JS LIBS: -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+</head>
+
+
+
+
+<body>
+
+
+<header class="Layout_header Header_root8 Header_delay">
+   <div class="Header_nombre_compania">
+           <div><a href="https://www.gauss-ma.com.ar"><span class="Logo_logo white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
+   </div>
+        <div class="Header_burguer">
+                <div class="burguer_root">
+                        <div id="botonMenu" class="burger_inactivo black" style="padding-right:3vw;">
+                        <a href="https://github.com/gauss-ma/toxicoDB"><i class="fa fa-github" style="color:white;font-size:45pt;" aria-hidden="true"></i></a>
+                        </div>
+                </div>
+        </div>
+</header>
+
+<main>
+
+<input id="myInput" type="text" placeholder="Search..">
+
+ <div class="grid-container">
+<ol class="grid-items">
+  <li class="grid-item"><a>   1   </a></li>
+  <li class="grid-item"><a>   2   </a></li>
+  <li class="grid-item"><a>   3   </a></li>
+  <li class="grid-item"><a>   4   </a></li>
+  <li class="grid-item"><a>   5   </a></li>
+  <li class="grid-item"><a>   6   </a></li>
+  <li class="grid-item"><a>   7   </a></li>
+  <li class="grid-item"><a>   8   </a></li>
+  <li class="grid-item"><a>   9   </a></li>
+</ol> 
+</div>
+
+</main>
+</body>
+<style>
+ol, li {list-style: none;}
+
+.grid-container{ 
+   display:flex;
+   flex-warp:warp;
+}
+.grid-items{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.grid-item{
+   
+   
+   margin-right:24px;
+   padding-bottom:24px;
+}
+
+.grid-container > ol > li {
+}
+
+
+.grid-item > a{
+width:250px;
+height:250px;
+min-height: 100%;min-width: 290px;
+background:#fff;
+border-radius: 8px;
+border: 1px solid #dadce0;
+box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;
+box-sizing: border-box;
+display: flex;
+flex: 1;
+max-width: 100%;
+min-height: 100%;
+overflow: hidden;
+position: relative;
+transition: .18s ease all;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".grid-items li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+
+<script>
+//
+//$('.searchbox-input').on('keyup',function () {
+//  console.log(filter);
+//    //$('.card').show();
+//	var filter = $(this).val(); // get the value of the input, which we filter on
+//  	console.log(filter);
+//    	$('.container').find(".card-title:not(:contains(" + filter + "))").parent().css('display','none');
+//});
+
+</script>
+
+
+
+<script>
+//$(document).ready(function(){
+//  $("#myInput").on("keyup", function() {
+//    var value = $(this).val().toLowerCase();
+//    $("#myList li").filter(function() {
+//      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//    });
+//  });
+//});
+</script>
+
+
+</html>
