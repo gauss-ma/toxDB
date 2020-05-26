@@ -4,11 +4,6 @@ $(document).ready(function(){
 	const $logo=$(".LogoGauss");
 
 
-        
-        
-        
-
-
 	//Buscador/Filtro:
   	$(".search_input").on("keyup", function() {
   	  var value = $(this).val().toLowerCase();
@@ -39,8 +34,9 @@ $(document).ready(function(){
 	$(".grid-cards").append(item_content);
 })
 
-function vista(view){
 
+//Vista de tarjetitas en grilla o lista:
+function vista(view){
 	if (view=='lista'){
 		$(".grid-cards").removeClass("grid_view");
 		$(".grid-cards").addClass("list_view");
