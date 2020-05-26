@@ -1,7 +1,15 @@
 $(document).ready(function(){
-	const $menu=$('#Sidebar');
 	const $btn_menu=$('#botonMenu');
 	const $logo=$(".LogoGauss");
+	const $menu=$('.sidebar');
+	
+	    $('.botonMenu').click(function() {
+			console.log("yo pase por acá");
+	            //$('.sidebar').slideToggle("fast");
+	    $(".sidebar").animate({width:'toggle'},400);
+		});
+
+	
 
 
 	//Buscador/Filtro:

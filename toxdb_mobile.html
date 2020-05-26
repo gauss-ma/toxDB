@@ -10,7 +10,7 @@
         <!-- CSS      -->
         <link href="css/toxdb_desktop.css" rel="stylesheet">
         <link href="css/toxdb_mobile.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+        <!--script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script -->
         <link href="css/font-style.css" rel="stylesheet">
         <!-- SCRIPTS -->
         <script type="text/javascript" src="js/toxdb.js">//JQUERY</script>
@@ -28,24 +28,37 @@
 
 <header>
         <div id="Logo">
-	  <a href="https://www.gauss-ma.com.ar"><span class="LogoGauss"></span><span> &nbsp;gauss </span>
-	  </a>
+	  <a href="https://www.gauss-ma.com.ar"><img src="img/icon-gauss.png"></img>&nbsp;gauss</a>
 	</div>
    	     
-     <div id="botonMenu"> <span><i aria-hidden="true">{≡}</i></span> </div>
+     <div class="botonMenu"> <span><i aria-hidden="true">{≡}</i></span> </div>
 
 </header>
 
 <main>
 	<!-- Menu Lateral -->
+	<div class="sidebar" style="display:none;">
+		<nav>
+			<ul>
+				<li>1	</li>
+				<li>2	</li>
+				<li>3	</li>
+			</ul>
+		</nav>
+	</div>
+
+
+
+
+	<!-- Buscador + Toolbar -->
 	<div class="toolbar">
 		<div class="search_toolbar">
        			<i class="fa fa-search search_icon" aria-hidden="true"></i>
 			<input class="search_input" type="text" name="" placeholder="Buscar...">
 		</div>
 		<div class="vista">
-			Vista:  <span class="button" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
-			 	<span class="button" onclick="vista('lista')"><i class="fas fa-list" ></i><span>Lista</span></span>
+			Vista:  <span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
+			 	<span class="vista_boton" onclick="vista('lista')"><i class="fas fa-list" ></i><span>Lista</span></span>
 		</div>
 	</div>
 	<div class="grid-container">
