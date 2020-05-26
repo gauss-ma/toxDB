@@ -13,7 +13,7 @@
         <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
         <link href="css/font-style.css" rel="stylesheet">
         <!-- SCRIPTS -->
-
+        <script type="text/javascript" src="js/toxdb.js">//JQUERY</script>
         <!-- DB -->
         <script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
         <script type="text/javascript" src="src/Tox.db.js"></script>
@@ -26,163 +26,48 @@
 <body>
 
 
-<header class="Layout_header Header_root8 Header_delay">
-   <div class="Header_nombre_compania">
-           <div><a href="https://www.gauss-ma.com.ar"><span class="Logo_logo white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
-   </div>
-        <div class="Header_burguer">
-                <div class="burguer_root">
-                        <div id="botonMenu" class="burger_inactivo black" style="padding-right:3vw;">
-                        <a href="https://github.com/gauss-ma/toxicoDB"><i class="fa fa-github" style="color:white;font-size:45pt;" aria-hidden="true"></i></a>
-                        </div>
-                </div>
+<header>
+   <div class="">
+           <div><a href="https://www.gauss-ma.com.ar"><span class="LogoGauss white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
+        <div id="botonMenu">
+		<i aria-hidden="true">{≡}</i>
         </div>
+
+   </div>
+
+	<nav id="barraMenu">
+		<ul class="">
+		<li ><a class="" href="#">Ver lista</a></li>
+		<li ><a class="" href="#">Referencias</a></li>
+		<li ><a class="" href="#">Contribudores</a></li>
+		</ul>
+	</nav>
+
+
+
+
 </header>
 
 <main>
+       	<input class="search_input" type="text" name="" placeholder="Buscar...">
 
-<input id="myInput" type="text" placeholder="Search..">
+	<div class="grid-container">
+		<ol class="grid-cards">
+			<!-- 
+			
+			ACA VAN LAS TARJETITAS
 
- <div class="grid-container">
-<ol class="grid-items">
+			 -->
+		</ol> 
+	</div>
 
-</ol> 
-</div>
+	<div class="dump">
+			<!--
+			ACA VA EL HOJA DEL ESPECIMEN SELECCIONADO
+			-->
+	</div>
 
 </main>
 </body>
-<style>
-ol, li {list-style: none;}
-
-.grid-container{ 
-   display:flex;
-   flex-warp:warp;
-}
-.grid-items{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: row;
-	-moz-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
-.grid-item{
-   
-   
-   margin-right:24px;
-   padding-bottom:24px;
-}
-
-.grid-container > ol > li {
-}
-
-
-.grid-item > a{
-width:250px;
-height:250px;
-min-height: 100%;min-width: 290px;
-background:#fff;
-border-radius: 8px;
-border: 1px solid #dadce0;
-box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;
-box-sizing: border-box;
-display: flex;
-flex: 1;
-max-width: 100%;
-min-height: 100%;
-overflow: hidden;
-position: relative;
-transition: .18s ease all;
-}
-
-
-.card-header{
-cursor: pointer;
-outline: none;
-position: relative;
-padding-left: 16px;
-padding-right: 16px;
-}
-
-.card-titulo {
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 20px;
-	margin-top: 12px;
-	margin-bottom: 4px;
-}
-.card-subtitulo {
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 20px;
-	min-height: 44px;
-}
-</style>
-
-<script>
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $(".grid-items li").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-
-
-
-
-
-
-
-
-			var item_content=" ";
-                        for (i=0;i< TOXDB.length;i++){
-				try{
-                        	item_content+=`
-				<li class='grid-item'><a>
-					<div class='card-header'>
-					  	<h1 class='card-titulo'>`+TOXDB[i].name+`</h1>
-					  	<h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`, CID: `+TOXDB[i].CID+`</h2>
-					</div>
-				 </a></li>`;
-                        	}catch(error){console.error(error);}
-                        }
-
-                        $(".grid-items").append(item_content);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
 
 </html>

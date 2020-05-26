@@ -1,0 +1,99 @@
+#barraMenu {
+width:300px;
+height:100%;
+position:fixed;
+top:0;
+right:0;
+transform: translateX(300px);
+transition: .2s linear all;
+z-index:1000;
+background-color:red;
+}
+
+.inactivo{
+display:none;
+}
+
+
+
+ol, li {list-style: none;}
+
+.grid-container{
+   display:flex;
+   flex-warp:warp;
+}
+.grid-cards{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        -moz-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+
+
+.grid-card{
+   margin-right:24px;
+   padding-bottom:24px;
+}
+
+.grid-container > ol > li {
+}
+
+
+.grid-card > a{
+width:250px;
+height:250px;
+min-height: 100%;min-width: 290px;
+background:#fff;
+border-radius: 8px;
+border: 1px solid #dadce0;
+box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;
+box-sizing: border-box;
+display: flex;
+flex: 1;
+max-width: 100%;
+min-height: 100%;
+overflow: hidden;
+position: relative;
+transition: .18s ease all;
+}
+.grid-card> a:hover{
+        box-shadow: 0px 1px 4px rgba(0,0,0,.1),0px 2px 3px rgba(0,0,0,.12),0px 1px 3px rgba(0,0,0,.14);
+        transform: translateY(-1px);
+}
+
+.grid-card >a> section {
+        width:100%;
+        display:block;
+}
+
+.card-header{
+cursor: pointer;
+outline: none;
+position: relative;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.card-titulo {
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        margin-top: 12px;
+        margin-bottom: 4px;
+}
+.card-subtitulo {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        min-height: 44px;
+  border-bottom: 0.05px solid #f4f4f4;
+}
+
+
+
