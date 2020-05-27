@@ -4,11 +4,6 @@ $(document).ready(function(){
 	const $menu=$('.sidebar');
 	
 
-	
-	
-	
-        
-
 
 	    $('.botonMenu').click(function() {
 			console.log("yo pase por acá");
@@ -61,6 +56,18 @@ $(document).ready(function(){
 	$(".counter-total").append(TOXDB.length)
 	$(".counter-show").append(TOXDB.length)
         
+
+
+	toolbar_y=$(".toolbar").position().top;
+        
+                                                                                        
+        $(window).on("scroll", function() {
+            var position = $(window).scrollTop()
+            console.log(position);
+                 if (position > toolbar_y  ) { $(".fixed-button.scroll-up").show();$(".specimen_page_nav").show(); }
+            else if (position < toolbar_y  ){ $(".fixed-button.scroll-up").hide();$(".specimen_page_nav").hide()}
+            else{setBlack();}
+        });
 })
 
 function scrollUp(){
@@ -93,6 +100,7 @@ function verCompuesto(index){
         console.log(tox.CID);
 
         //
+        $(".toolbar").hide();
         $(".grid-container").hide();
 	$(".specimen_page_nav_header").append("<h3>"+tox.name+"</h3>")
 	$(".specimen-header_titulo").append(tox.name)
@@ -165,3 +173,20 @@ function verCompuesto(index){
 //$(".specimen-page").append(item_content);
 
 };
+
+
+
+//COSAS QUE PASAN CUANDO SCROLEAS
+
+	
+	
+	
+
+        
+        
+        
+        
+        
+        
+        
+

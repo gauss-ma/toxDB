@@ -82,6 +82,28 @@ button:hover{
 color:7f7f7f;;
 }
 
+body{
+ font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+ font-size:1em;
+ letter-spacing:0;
+ line-height:1.5;
+ overflow-x:hidden;
+ overflow-y:auto;
+ position:relative;
+ height:auto;
+ -webkit-overflow-scrolling:touch;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+ -moz-font-smoothing:grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:AvenirNextBold,Roboto,Ubuntu;
+}
 
 
 
@@ -341,8 +363,7 @@ background-color:transparent;
 	flex-direction: row;
 	width: 100%;
 	justify-content: space-between;
-	color:
-	#797979;
+	color:#797979;
 }
 
 .vista{
@@ -600,7 +621,7 @@ line-height: 20px;
 	position:fixed;
 	top:0;right:0;left:0;
 	width:100%;
-	background-color:yellow;
+	background-color:#fff;
 transition: 300ms cubic-bezier(0.4,0,0.2,1) padding-right;
 padding-left: 60px;
 padding-right: 60px;
@@ -608,8 +629,6 @@ height: 64px;
 max-width: 100%;
 left: 0;
 position: fixed;
-border-bottom: 1px solid
-#dadce0;
 top: 0;
 transform: translate3d(0px,0px,0px);
 z-index: 30;
@@ -627,11 +646,12 @@ z-index: 30;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
-	background-color: blue;
+	border-bottom: 0.1px solid #7f7f7f;
+	background-color: white;
 }	
 .specimen_page_nav_header{
 	width:100%;
-	background-color:orange;
+	background-color:#fff;
 	height:64px;
 	position: relative;
 	display: -webkit-box;
