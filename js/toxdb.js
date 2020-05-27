@@ -3,13 +3,18 @@ $(document).ready(function(){
 	const $logo=$(".LogoGauss");
 	const $menu=$('.sidebar');
 	
+
+	
+	
+	
+        
+
+
 	    $('.botonMenu').click(function() {
 			console.log("yo pase por acá");
 	            //$('.sidebar').slideToggle("fast");
 	    $(".sidebar").animate({width:'toggle'},400);
 		});
-
-	
 
 
 	//Buscador/Filtro:
@@ -18,7 +23,14 @@ $(document).ready(function(){
   	  $(".grid-cards li").filter(function() {
   	    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
   	  });
-  	});
+
+	
+		//mostrar compuestos
+		n=TOXDB.length-$(".grid-card").filter(":hidden").length;
+		
+		$(".counter-total").empty();	$(".counter-total").append(TOXDB.length)
+		$(".counter-show").empty(); 	$(".counter-show").append(n)
+	});
 
 
 	//ARMADO DE CARTAS DE COMPUESTOS:
@@ -40,7 +52,18 @@ $(document).ready(function(){
 	        }catch(error){console.error(error);}
 	};
 	$(".grid-cards").append(item_content);
+
+	//Contador de tarjetitas en grilla
+	$(".counter-total").append(TOXDB.length)
+	$(".counter-show").append(TOXDB.length)
+        
 })
+
+
+
+
+
+
 
 
 //Vista de tarjetitas en grilla o lista:
@@ -65,6 +88,8 @@ function verCompuesto(index){
         //
         $(".grid-container").hide();
 
+	$(".specimen-header_titulo").append(tox.name)
+	$(".specimen-header_subtitulo").append("CAS: "+tox.CAS)
         //try{
         //item_content+=`
         //<li class='grid-item'><a onclick="verCompuesto('`+TOXDB[i].CAS+`')">

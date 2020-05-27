@@ -10,7 +10,7 @@
         <!-- CSS      -->
         <link href="css/toxdb_desktop.css" rel="stylesheet">
         <link href="css/toxdb_mobile.css" rel="stylesheet">
-        <!--script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script -->
+        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
         <link href="css/font-style.css" rel="stylesheet">
         <!-- SCRIPTS -->
         <script type="text/javascript" src="js/toxdb.js">//JQUERY</script>
@@ -56,6 +56,10 @@
        			<i class="fa fa-search search_icon" aria-hidden="true"></i>
 			<input class="search_input" type="text" name="" placeholder="Buscar...">
 		</div>
+		
+		<div class="counter" style="display:flex;margin-right:50%;">
+			<b class="counter-show">  </b> &nbsp;de &nbsp; <span class="counter-total"> </span> &nbsp;compuestos.
+		</div>
 		<div class="vista">
 			Vista:  <span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
 			 	<span class="vista_boton" onclick="vista('lista')"><i class="fas fa-list" ></i><span>Lista</span></span>
@@ -73,9 +77,12 @@
 
 
 	<div class="specimen_page">
+
 		<div class="specimen_header">
-			<h3> Holaaa </h3>
+			<h3 class="specimen-header_titulo"></h3>
+			<h4 class="specimen-header_subtitulo"> </h4>
 		</div>
+
 		<nav class="barra_secciones">
 			<ul>
 			<li><button>Resumen</button>	</li>
@@ -86,7 +93,25 @@
 			</ul>
 		</nav>
 	<div class="dump">
-		
+
+	<div class="articulo" style="width:90%;padding-bottom:30px;border-bottom: 0.2px solid #e4e4e4;">
+	<h1> About Roboto</h1>
+	<div class="about-half">
+	<p>
+		Roboto has a dual nature. 
+		It has a mechanical skeleton and the forms are largely geometric. 
+		At the same time, the font features friendly and open curves. 
+		While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. 
+		This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+		</p>
+		<p>
+		This is the regular family, which can be used alongside the <a href="https://fonts.google.com/specimen/Roboto+Condensed">Roboto Condensed</a> family and the <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a> family.
+		</p>
+		<p>
+		To contribute, see <a href="https://github.com/google/roboto/">github.com/google/roboto</a>
+		</p>
+	</div>
+	</div>
 			<!--
 			ACA VA EL HOJA DEL ESPECIMEN SELECCIONADO
 			-->
