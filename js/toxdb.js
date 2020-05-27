@@ -92,24 +92,62 @@ function vista(view){
 	};
 }
 
+//Restart
+
+function restart(){
+	$(".specimen_page").empty();
+	$(".grid-container").show();
+	$(".toolbar").show();
+	
+}
+
+
+
 //IR A UN COMPUESTO EN PARTICULAR:
 function verCompuesto(index){
         tox=TOXDB[index];
         console.log(tox.CAS);
         console.log(tox.name);
         console.log(tox.CID);
-
-        //
+	
+	$("body").scrollTop(0);
         $(".toolbar").hide();
         $(".grid-container").hide();
-	$(".specimen_page_nav_header").append("<h3>"+tox.name+"</h3>")
-	$(".specimen-header_titulo").append(tox.name)
-	$(".specimen-header_subtitulo").append("CAS: "+tox.CAS)
+
+		//Header
+               header=`<div class="specimen_header">
+                         <h3 class="specimen-header_titulo">`+tox.name+`</h3>
+                         <h4 class="specimen-header_subtitulo">CAS: `+tox.CAS+`</h4>
+                       </div>`
+		
+		$(".specimen_page").append(header);
+                //PubChem Summary:
+                        try{
+                        summary=SUMMARY_DB.find(x => x.CID === tox.CID);
+                        Summary= `
+                        <section class='specimen_data'><h1> Resumen </h1>
+                                <table class='resumen'>
+                                <tbody>
+                                <tr><th> Nombre IUPAC:          </th><td><i>`+ summary.IUPACName        +`</i></td></tr>
+                                <tr><th> Fórmula Molecular:     </th><td><a href="#">`+ summary.MolecularFormula        +`</a></td></tr>
+                                <tr><th> SMILE canónico:        </th><td><a href="#">`+ summary.CanonicalSMILES +`</a></td></tr>
+                                <tr><th> Estructura:            </th><td><img src='src/PubChem/img2D/`+tox.CID+`.png'></img>
+                                                                         <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
+                                <tr><th> Peso Molecular:        </th><td>`+ summary.MolecularWeight             +`</td></tr>
+                                <tr><th> XLogP:                 </th><td>`+ summary.XLogP               +`</td></tr>
+                                <tr><th> CID:                   </th><td>`+ tox.CID                     +`</td></tr>
+                                <tr><th> CAS:                   </th><td>`+ tox.CAS                     +`</td></tr>
+                                </tbody>
+                                </table> 
+                            </section>`;
+                        $(".specimen_page").append(Summary);
+                        }catch(error){console.error(error);}
+
+
+
                      //TOXICO Y FISQUIM.
                         try{
-                                FisQui=`<section class='specimen_data'> `
-                                FisQui+=`    
-                                <h1>Propiedades Físico-Químicas:</h1>
+                                FisQui=`<section class='specimen_data'><h1>Propiedades Físico-Químicas</h1>
                                 <table>`;                                                                                                       
                                 for (j=0;j< tox.PhysProps.length;j++){
                                         FisQui+='<tr><th>'+tox.PhysProps[j].p +'</th>';
@@ -120,7 +158,7 @@ function verCompuesto(index){
                         }catch(error){console.error(error);}
 
                         try{
-                                Toxico=`<section class='specimen_data'><h1>Toxicología:</h1>
+                                Toxico=`<section class='specimen_data'><h1>Toxicología</h1>
                                 <table>`;
                                 for (j=0;j< tox.ToxProps.length;j++){
                                         Toxico+='<tr><th>'+tox.ToxProps[j].t +'</th>';
@@ -134,7 +172,7 @@ function verCompuesto(index){
  
                //SEGURIDAD QUIMICA:
                         try{
-                        ChemSafety=`<section class='specimen_data'> 
+                        ChemSafety=`<section class='specimen_data'> <h1>Seguridad Química</h1>
 					<table><tr><th> Seguridad Química</th><td>`;
                                 for (j=0;j< tox.GHS.length;j++){
                                         ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+tox.GHS[j]+`.svg' />`;      
@@ -146,12 +184,27 @@ function verCompuesto(index){
                         $(".specimen_page").append(ChemSafety);
                         }catch(error){console.error(error);}
                 //NFPA
-                        NFPA=`<section class='specimen_data'> <table><tr><th> NFPA 704</th><td>
+                        NFPA=`<section class='specimen_data'> <h1>NFPA 704</h1><table><tr><th> NFPA 704</th><td>
                                 <figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg' />      
                                 <figcaption>`+tox.NFPA+`</figcaption></figure>; 
                                 </td></tr></table></section>`;                                              
 
                         $(".specimen_page").append(NFPA);
+
+
+	
+		//navbar
+		navbar=`<nav class="specimen_page_nav">
+		        <div class="specimen_page_nav_header"><h3>`+tox.name+`</h3></div>
+		        <ul>`
+			secciones=$(".specimen_page h1")
+		        for (j=0;j< secciones.length;j++){
+		        	navbar+='<li><button>'+secciones[j].innerHTML+'</button> </li>'
+			}
+		        navbar+=`</ul>
+			</nav>`
+		                                                                               
+		$(".specimen_page").append(navbar);
 
 
 

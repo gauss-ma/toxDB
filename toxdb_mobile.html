@@ -29,16 +29,43 @@
 <body>
 
 
+
+
 <header>
         <div id="Logo">
 	  <a href="https://www.gauss-ma.com.ar"><img src="img/icon-gauss.png"></img>&nbsp;gauss</a>
 	</div>
+
+
+	<div class="LogoToxDB" onclick="restart();">
+		<span> <i aria-hidden="true">{≡}</i><h3>Tox.db</h3> </span> 
+	</div>
+
    	     
      <div class="botonMenu"> <span><i aria-hidden="true">{≡}</i></span> </div>
 
+
+
+
+
 </header>
 
+
+
+
+
+
+
+
+
 <main>
+
+
+
+
+
+
+
 	<!-- Menu Lateral -->
 	<div class="sidebar" style="display:none;">
 		<nav>
@@ -49,6 +76,11 @@
 			</ul>
 		</nav>
 	</div>
+
+
+
+
+
 
 
 
@@ -69,11 +101,11 @@
 
 				<button style="border:none; background-color:#fff;border-left:0.1px solid #474747;">
 				<span class="mat-button-wrapper">	
-				<span> Ordenar por:
+				<span> Mostrar:
 				    	<select name="">
-  					    <option value="1">Nombre</option>
-  					    <option value="2">CAS</option>
-  					    <option value="3">CID</option>
+  					    <option value="1">11</option>
+  					    <option value="2">23</option>
+  					    <option value="3">59</option>
   					</select>
 				</span>
 			</div>
@@ -81,7 +113,12 @@
 		</div>
 	</div>
 
-	<div class="grid-container">
+
+
+
+
+	<!-- TARJETAS  -->
+	<grid class="grid-container">
 		<ol class="grid-cards grid_view">
 			<!-- 
 			
@@ -89,55 +126,90 @@
 
 			 -->
 		</ol> 
-	</div>
+	</grid>
 
 
+
+
+
+
+
+
+
+
+
+	<!-- PAGINA DE COMPUESTO -->
 	<div class="specimen_page">
-
-		<div class="specimen_header">
-			<h3 class="specimen-header_titulo"></h3>
-			<h4 class="specimen-header_subtitulo"> </h4>
-		</div>
-
-		<nav class="specimen_page_nav">
-			<div class="specimen_page_nav_header">
-			</div>
-			<ul>
-			<li><button>Resumen</button>	</li>
-			<li><button>Físico Química</button>	</li>
-			<li><button>Toxicología</button>	</li>
-			<li><button>Seguridad</button>	</li>
-			<li><button>Regulatorio</button>	</li>
-			</ul>
-		</nav>
-
-	<div class="dump">
-
-	<div class="articulo" style="width:90%;padding-bottom:30px;border-bottom: 0.2px solid #e4e4e4;">
-	<h1> About Roboto</h1>
-	<div class="about-half">
-	<p>
-		Roboto has a dual nature. 
-		It has a mechanical skeleton and the forms are largely geometric. 
-		At the same time, the font features friendly and open curves. 
-		While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. 
-		This makes for a more natural reading rhythm more commonly found in humanist and serif types.
-		</p>
-		<p>
-		This is the regular family, which can be used alongside the <a href="https://fonts.google.com/specimen/Roboto+Condensed">Roboto Condensed</a> family and the <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a> family.
-		</p>
-		<p>
-		To contribute, see <a href="https://github.com/google/roboto/">github.com/google/roboto</a>
-		</p>
-	</div>
-	</div>
 			<!--
 			ACA VA EL HOJA DEL ESPECIMEN SELECCIONADO
 			-->
 	</div>
-	</div>
 
+
+
+
+
+ 
 </main>
+
+
+
+
+
+
+
+
+
+
+<footer class="site-footer" style="display:flex-inline; padding:60px;">
+    <div class="container">
+      <div class="row">
+
+<div class="articulo" style="width:90%;padding-bottom:30px">
+<h6 style=""> Sobre ToxDB</h6>
+<div class="about-half">
+
+	<p><a href="#">ToxDB</a> has a dual nature. </p>
+	<p>Acá se podría poner un texto sobre el proyecto, alcances, contriubudores, y esas cosas. 
+	Al mismo tiempo, the font features friendly and open curves. 
+	While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. 
+	This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+	</p>
+	<p>
+	ToxDB es un proyecto de software <a href="#">libre</a> y <a href="#">gratuito</a> .
+	</p>
+	<p>
+	Para contribuir, ver <a href="https://github.com/gauss-ma/toxDB/">github.com/gauss-ma/toxDB</a>
+	</p>
+	</div>
+	</div>    
+
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+            <a href="#">Gauss-ma</a>.
+          </p>
+        </div>
+	
+        <div>
+          <ul class="social-icons">
+            <li><a class="github" href="#"><i class="fa fa-github"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
 </body>
+
 
 </html>
