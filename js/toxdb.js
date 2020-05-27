@@ -37,13 +37,17 @@ $(document).ready(function(){
 	var item_content=" ";
 	for (i=0;i< TOXDB.length;i++){
 	        try{
+		j=SUMMARY_DB.findIndex(x => x.CID === TOXDB[i].CID);
 	        item_content+=`
 	        <li class='grid-card'><a onclick="verCompuesto('`+i+`')">
 	                <section>
 	                <div class='card-header'>
 	                        <h1 class='card-titulo'>`+TOXDB[i].name+`</h1>
 	                        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
-	                </div>
+	                        <img src="src/PubChem/img2D/`+TOXDB[i].CID+`.png"></img>
+	                        <h2  class='card-footer'> `+SUMMARY_DB[j].MolecularFormula+`</h2>
+	                        <span class='card-subtitulo'> `+SUMMARY_DB[j].CanonicalSMILES+`</span>
+	                </div
 	                <div class='card-content'>
 	
 	                </div>
@@ -59,8 +63,11 @@ $(document).ready(function(){
         
 })
 
-
-
+function scrollUp(){
+	$('body,html').animate({
+	                scrollTop: 0
+	                }, 500);
+}
 
 
 

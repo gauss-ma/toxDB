@@ -2735,21 +2735,4 @@ TOXDB=[
 ],
    "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
  },
- {
-   "name" : "CROMO",
-   "CAS" : "740-47-3",
-   "CID" : null,
-   "PhysProps": null,
-   "ToxProps": null,
-   "GHS" : [],
- },
- {
-   "name" : "",
-   "CAS" : "",
-   "CID" : null,
-   "PhysProps": null,
-   "ToxProps": null,
-   "GHS" : [],
- },
-
 ]

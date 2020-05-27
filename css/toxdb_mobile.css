@@ -56,7 +56,9 @@ color: #797979;
 
 
 }
-
+a{
+text-decoration:none;
+}
 
 [tabindex='-1']:focus {
  outline:none
@@ -76,6 +78,9 @@ select,button,input {
  vertical-align:baseline
 }
 
+button:hover{
+color:7f7f7f;;
+}
 
 
 
@@ -173,6 +178,34 @@ select,button,input {
 
 /* Global */
 
+/*botones fijos:*/
+.fixed-button {
+  right: 0px;
+  align-items: center;
+  background-clip: padding-box;
+  background: #fff;
+  border-radius: 50%;
+  bottom: 40px;
+  box-shadow: 0 2px 5px 0
+  rgba(0,0,0,.26);
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  line-height: 56px;
+  margin-right: 10px;
+  min-width: 0;
+  overflow: visible;
+  position: fixed;
+  transform: translateX(-100%);
+  transition-property: background-color,box-shadow,transform;
+  transition: box-shadow .3s cubic-bezier(0.55, 0, 0.55, 0.2);
+  vertical-align: middle;
+  width: 56px;
+  z-index: 80;
+}
+
+
+
 /* HEADER */
 header{
 	/*position: fixed; */
@@ -194,7 +227,7 @@ header{
 	background:pink;
 	position:absolute;
 	top:5px;
-	left:25px;
+	left:60px;
 	padding:10px;
 }
 #Logo >a> img{
@@ -207,7 +240,7 @@ header{
  background:pink;
  position:absolute;   
  top:15px;
- right:25px;
+ right:60px;
 }
 
 
@@ -237,15 +270,15 @@ main{
 .sidebar > nav{ display:block;}
 .sidebar > nav > ul { margin-top:80px;}
 .sidebar > nav > ul > li{
-color: rgba(0,0,0,.6);
-fill:
-rgba(0,0,0,.6);
-display: flex;
-height: 48px;
-outline: none;
-text-decoration: none !important;
-font-weight: 500;
-align-items: center;
+	color: rgba(0,0,0,.6);
+	fill:
+	rgba(0,0,0,.6);
+	display: flex;
+	height: 48px;
+	outline: none;
+	text-decoration: none !important;
+	font-weight: 500;
+	align-items: center;
 }
 
 .sidebar > nav > ul > li:hover{
@@ -265,6 +298,17 @@ width:90%;
 padding-top:10px;
 margin-bottom:30px;
 }
+
+.toolbar .top-fixed{
+left: 0;
+margin: 0 auto;
+position: fixed;
+right: 0;
+top: 0;
+width: 100%;
+z-index: 30;
+}
+
 .search_toolbar{
 width: 100%;
 height: 46px;
@@ -285,8 +329,23 @@ border-style:none;
 background-color:transparent;
 }
 
+
+.toolbar_vista_counter{
+	line-height: 36px;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	color:
+	#797979;
+}
+
 .vista{
-width: 100%;
 vertical-align:middle;
 padding-top:15px;
 margin-left:30px;
@@ -296,8 +355,7 @@ display:flex;
 .vista_boton{
 border-radius: 4px;
 display: flex;
-fill:
-#5f6368;
+fill:#5f6368;
 flex-direction: row;
 font-weight: 400;
 letter-spacing: .01em;
@@ -314,7 +372,10 @@ width: auto;
 	background:rgba(164, 28, 28, 0.2);
 }
 
-
+.toolbar_botones{
+display: flex;
+align-items: center;
+}
 
 
 
@@ -348,6 +409,9 @@ width: auto;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+  flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+
 }
 
 .list_view {
@@ -355,12 +419,10 @@ width: auto;
 }
 
 
-
-
 .grid_view {
   flex-direction: row;
-  flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
+
+
 }
 
 
@@ -401,7 +463,7 @@ width: auto;
 }
 
 .list_view > .grid-card > a{
-	width:700px;			/*width y height hayq eu ver como ir adaptandolos*/
+	width:500px;			/*width y height hayq eu ver como ir adaptandolos*/
 	height:50%;
 	margin-bottom:0;
 	padding-bottom:0px;

@@ -20,6 +20,9 @@
 
 </head>
 
+<button class="fixed-button scroll-up" onclick="scrollUp()" type="button">
+  <i class="fa fa-arrow-up" aria-hidden="true"></i>
+</button>
 
 
 
@@ -57,12 +60,24 @@
 			<input class="search_input" type="text" name="" placeholder="Buscar...">
 		</div>
 		
-		<div class="counter" style="display:flex;margin-right:50%;">
-			<b class="counter-show">  </b> &nbsp;de &nbsp; <span class="counter-total"> </span> &nbsp;compuestos.
-		</div>
-		<div class="vista">
-			Vista:  <span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
+		<div class="toolbar_vista_counter ">
+			<p> <span  class="counter-show"> </span>  de &nbsp; <span class="counter-total"> </span> &nbsp;compuestos.</p>
+			<div class="toolbar_botones">
+			Vista: 
+				<span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
 			 	<span class="vista_boton" onclick="vista('lista')"><i class="fas fa-list" ></i><span>Lista</span></span>
+
+				<button style="border:none; background-color:#fff;border-left:0.1px solid #474747;">
+				<span class="mat-button-wrapper">	
+				<span> Ordenar por:
+				    	<select name="">
+  					    <option value="1">Nombre</option>
+  					    <option value="2">CAS</option>
+  					    <option value="3">CID</option>
+  					</select>
+				</span>
+			</div>
+
 		</div>
 	</div>
 	<div class="grid-container">
