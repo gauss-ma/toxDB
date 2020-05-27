@@ -595,10 +595,27 @@ line-height: 20px;
 
 
 
-.specimen_page_secciones {
+.specimen_page_nav {
 	display:blocK;
+	position:fixed;
+	top:0;right:0;left:0;
+	width:100%;
+	background-color:yellow;
+transition: 300ms cubic-bezier(0.4,0,0.2,1) padding-right;
+padding-left: 60px;
+padding-right: 60px;
+height: 64px;
+max-width: 100%;
+left: 0;
+position: fixed;
+border-bottom: 1px solid
+#dadce0;
+top: 0;
+transform: translate3d(0px,0px,0px);
+z-index: 30;
+
 }
-.specimen_page_secciones > ul {
+.specimen_page_nav > ul {
 	outline: none;
 	list-style: none;
 	margin: 0;
@@ -610,36 +627,54 @@ line-height: 20px;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
+	background-color: blue;
+}	
+.specimen_page_nav_header{
+	width:100%;
+	background-color:orange;
+	height:64px;
+	position: relative;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
-.specimen_page_secciones >ul>li>button{
-display: inline-block;
-position: relative;
-cursor: pointer;
-min-height: 36px;
-min-width: 88px;
-line-height: 36px;
-vertical-align: middle;
-align-items: center;
-text-align: center;
--moz-border-radius: 2px;
-border-radius: 2px;
-box-sizing: border-box;
--moz-user-select: none;
--moz-user-select: none;
-outline: none;
-border: 0;
-padding: 0 6px;
-margin: 6px 8px;
-background: transparent;
-color: currentColor;
-white-space: nowrap;
-text-transform: uppercase;
-font-weight: 500;
-font-size: 14px;
-font-style: inherit;
-font-variant: inherit;
-font-family: inherit;
-text-decoration: none;
-overflow: hidden;
-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+.specimen_page_nav_header h3{
+    font-size: 27px;
+    white-space: nowrap;
+    font-size: 48px;
+    line-height: 64px;
+}
+.specimen_page_nav >ul>li>button{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	min-height: 36px;
+	min-width: 88px;
+	line-height: 36px;
+	vertical-align: middle;
+	align-items: center;
+	text-align: center;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-moz-user-select: none;
+	outline: none;
+	border: 0;
+	padding: 0 6px;
+	margin: 6px 8px;
+	background: transparent;
+	color: currentColor;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	font-style: inherit;
+	font-variant: inherit;
+	font-family: inherit;
+	text-decoration: none;
+	overflow: hidden;
+	transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
 }

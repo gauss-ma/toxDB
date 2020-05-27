@@ -94,7 +94,7 @@ function verCompuesto(index){
 
         //
         $(".grid-container").hide();
-
+	$(".specimen_page_nav_header").append("<h3>"+tox.name+"</h3>")
 	$(".specimen-header_titulo").append(tox.name)
 	$(".specimen-header_subtitulo").append("CAS: "+tox.CAS)
                      //TOXICO Y FISQUIM.
