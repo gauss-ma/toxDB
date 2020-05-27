@@ -148,12 +148,12 @@ function verCompuesto(index){
                      //TOXICO Y FISQUIM.
                         try{
                                 FisQui=`<section class='specimen_data'><h1>Propiedades Físico-Químicas</h1>
-                                <table>`;                                                                                                       
+                                <ul>`;                                                                                                       
                                 for (j=0;j< tox.PhysProps.length;j++){
-                                        FisQui+='<tr><th>'+tox.PhysProps[j].p +'</th>';
-                                        FisQui+='<td>'+tox.PhysProps[j].d +'<i> '+tox.PhysProps[j].u+'</i><td></tr>';                                                                   
+                                        FisQui+='<li><b>'+tox.PhysProps[j].p +'</b> <i>('+tox.PhysProps[j].u+'):</i>';
+                                        FisQui+='<span>'+tox.PhysProps[j].d +'</span></li>';                                                                   
                                 }
-				FisQui+=`</table></section>`
+				FisQui+=`</ul></section>`
 			$(".specimen_page").append(FisQui);
                         }catch(error){console.error(error);}
 
@@ -161,8 +161,11 @@ function verCompuesto(index){
                                 Toxico=`<section class='specimen_data'><h1>Toxicología</h1>
                                 <table>`;
                                 for (j=0;j< tox.ToxProps.length;j++){
-                                        Toxico+='<tr><th>'+tox.ToxProps[j].t +'</th>';
-                                        Toxico+='    <td>'+tox.ToxProps[j].d.r +'<i> '+tox.ToxProps[j].d.nu+'</i><td></tr>';
+                                        Toxico+='<tr><th><b>'+tox.ToxProps[j].t +'</b></th>';	//parametro
+                                        Toxico+='<th>('+tox.ToxProps[j].o +')</th>';  		//organismo 
+                                        Toxico+='<th>'+tox.ToxProps[j].r +'</th>';	  	//vía
+                                        Toxico+='    <td>'+tox.ToxProps[j].d.r +'<i>('+tox.ToxProps[j].d.u+')</i><td>';
+                                        Toxico+='<td><i>'+tox.ToxProps[j].j.t +'</i></td></tr>';
                                 }                                                                       
                         Toxico+=`</table>
                                 </section>`;
