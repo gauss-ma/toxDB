@@ -97,7 +97,57 @@ function verCompuesto(index){
 
 	$(".specimen-header_titulo").append(tox.name)
 	$(".specimen-header_subtitulo").append("CAS: "+tox.CAS)
-        //try{
+                     //TOXICO Y FISQUIM.
+                        try{
+                                FisQui=`<section class='specimen_data'> `
+                                FisQui+=`    
+                                <h1>Propiedades Físico-Químicas:</h1>
+                                <table>`;                                                                                                       
+                                for (j=0;j< tox.PhysProps.length;j++){
+                                        FisQui+='<tr><th>'+tox.PhysProps[j].p +'</th>';
+                                        FisQui+='<td>'+tox.PhysProps[j].d +'<i> '+tox.PhysProps[j].u+'</i><td></tr>';                                                                   
+                                }
+				FisQui+=`</table></section>`
+			$(".specimen_page").append(FisQui);
+                        }catch(error){console.error(error);}
+
+                        try{
+                                Toxico=`<section class='specimen_data'><h1>Toxicología:</h1>
+                                <table>`;
+                                for (j=0;j< tox.ToxProps.length;j++){
+                                        Toxico+='<tr><th>'+tox.ToxProps[j].t +'</th>';
+                                        Toxico+='    <td>'+tox.ToxProps[j].d.r +'<i> '+tox.ToxProps[j].d.nu+'</i><td></tr>';
+                                }                                                                       
+                        Toxico+=`</table>
+                                </section>`;
+                                                                                                                  
+                        $(".specimen_page").append(Toxico);
+                        }catch(error){console.error(error);}
+ 
+               //SEGURIDAD QUIMICA:
+                        try{
+                        ChemSafety=`<section class='specimen_data'> 
+					<table><tr><th> Seguridad Química</th><td>`;
+                                for (j=0;j< tox.GHS.length;j++){
+                                        ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+tox.GHS[j]+`.svg' />`;      
+                                        ChemSafety+=`<figcaption>`+tox.GHS[j]+`</figcaption></figure>`; 
+                                }                                                                       
+                        ChemSafety+='</td></tr></table></section>';                                                 
+                
+                
+                        $(".specimen_page").append(ChemSafety);
+                        }catch(error){console.error(error);}
+                //NFPA
+                        NFPA=`<section class='specimen_data'> <table><tr><th> NFPA 704</th><td>
+                                <figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg' />      
+                                <figcaption>`+tox.NFPA+`</figcaption></figure>; 
+                                </td></tr></table></section>`;                                              
+
+                        $(".specimen_page").append(NFPA);
+
+
+
+	//try{
         //item_content+=`
         //<li class='grid-item'><a onclick="verCompuesto('`+TOXDB[i].CAS+`')">
         //      <section>

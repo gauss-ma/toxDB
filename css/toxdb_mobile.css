@@ -577,40 +577,28 @@ line-height: 20px;
     max-width: 800px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.barra_secciones {
-	display:blocK;
+.specimen_data {
+	width:90%;
+	max-width:1200px;
+	padding-bottom:20px;
+	margin-bottom:5px;
+	border-bottom:0.1px solid red;
 }
 
-.barra_secciones > ul {
+
+
+
+
+
+
+
+
+
+
+.specimen_page_secciones {
+	display:blocK;
+}
+.specimen_page_secciones > ul {
 	outline: none;
 	list-style: none;
 	margin: 0;
@@ -623,35 +611,7 @@ line-height: 20px;
 	display: flex;
 	flex-direction: row;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.barra_secciones >ul>li>button{
+.specimen_page_secciones >ul>li>button{
 display: inline-block;
 position: relative;
 cursor: pointer;
