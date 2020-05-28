@@ -68,10 +68,32 @@ $(document).ready(function(){
         $(window).on("scroll", function() {
             var position = $(window).scrollTop()
             console.log(position);
-                 if (position > toolbar_y  ) { $(".fixed-button.scroll-up").show();$(".specimen_page_nav").show(); }
-            else if (position < toolbar_y  ){ $(".fixed-button.scroll-up").hide();$(".specimen_page_nav").hide()}
+                 if (position > toolbar_y  ) { $(".fixed-button.scroll-up").show();$(".specimen_page_nav").show(); $(".search_toolbar").addClass("top-fixed");}
+            else if (position < toolbar_y  ){ $(".fixed-button.scroll-up").hide();$(".specimen_page_nav").hide();$(".search_toolbar").removeClass("top-fixed");}
             else{setBlack();}
-        });
+       
+
+		secciones.each(function(i) {
+			sec_pos=$(this).position().top
+			id=$(this)[0].id
+			console.log(id);
+                    if ( sec_pos < position ) {
+			$("li[name="+id+"]").addClass("activo");
+			}
+		    else{
+			$("li[name="+id+"]").removeClass("activo");
+			}
+                });
+
+
+
+
+		
+
+
+
+
+	 });
 })
 
 function scrollUp(position){
@@ -88,10 +110,16 @@ function vista(view){
 	if (view=='lista'){
 		$(".grid-cards").removeClass("grid_view");
 		$(".grid-cards").addClass("list_view");
+		$(".card-content").slideUp();
+		$(".card-footer").slideUp();
 	}
 	else{
 		$(".grid-cards").removeClass("list_view");
 		$(".grid-cards").addClass("grid_view");
+		$(".card-content").slideDown(300);
+		$(".card-footer").slideDown(500);
+		
+		
 	};
 }
 
@@ -128,7 +156,7 @@ function verCompuesto(index){
                         try{
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
-                        <section class='specimen_data'><h1> Resumen </h1>
+                        <section class='specimen_data' id='resumen'><h1> Resumen </h1>
                                <div class='resumen'>
 				<table>
                                 <tbody>
@@ -152,7 +180,7 @@ function verCompuesto(index){
 
                      //TOXICO Y FISQUIM.
                         try{
-                                FisQui=`<section class='specimen_data'><h1>Físico-Química</h1>
+                                FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
                                 <ul>`;                                                                                                       
                                 for (j=0;j< tox.PhysProps.length;j++){
                                         FisQui+='<li><b>'+tox.PhysProps[j].p +'</b> <i>('+tox.PhysProps[j].u+'):</i>';
@@ -163,7 +191,7 @@ function verCompuesto(index){
                         }catch(error){console.error(error);}
 
                         try{
-                                Toxico=`<section class='specimen_data'><h1>Toxicología</h1>
+                                Toxico=`<section class='specimen_data' id='toxicologia'><h1>Toxicología</h1>
                                 <table>`;
                                 for (j=0;j< tox.ToxProps.length;j++){
                                         Toxico+='<tr><th><b>'+tox.ToxProps[j].t +'</b></th>';	//parametro
@@ -180,7 +208,7 @@ function verCompuesto(index){
  
                //SEGURIDAD QUIMICA:
                         try{
-                        ChemSafety=`<section class='specimen_data'> <h1>Seguridad Química</h1>
+                        ChemSafety=`<section class='specimen_data' id='seguridad'> <h1>Seguridad Química</h1>
 					<table><tr><th> Seguridad Química</th><td>`;
                                 for (j=0;j< tox.GHS.length;j++){
                                         ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+tox.GHS[j]+`.svg' />`;      
@@ -192,7 +220,7 @@ function verCompuesto(index){
                         $(".specimen_page").append(ChemSafety);
                         }catch(error){console.error(error);}
                 //NFPA
-                        NFPA=`<section class='specimen_data'> <h1>NFPA 704</h1><table><tr><th> NFPA 704</th><td>
+                        NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1><table><tr><th> NFPA 704</th><td>
                                 <figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg' />      
                                 <figcaption>`+tox.NFPA+`</figcaption></figure>; 
                                 </td></tr></table></section>`;                                              
@@ -205,9 +233,10 @@ function verCompuesto(index){
 		navbar=`<nav class="specimen_page_nav">
 		        <div class="specimen_page_nav_header"><h3>`+tox.name+`</h3></div>
 		        <ul>`
-			secciones=$(".specimen_page h1")
+			secciones=$(".specimen_data")
+			//secciones_h1=$(".specimen_page h1")
 		        for (j=0;j< secciones.length;j++){
-		        	navbar+='<li onclick="scrollUp('+secciones.position().top+')"><button>'+secciones[j].innerHTML+'</button> </li>'
+		        	navbar+='<li onclick="scrollUp('+secciones.children("h1").position().top+')" name="'+secciones[j].id+'"><button>'+secciones.children("h1")[j].innerHTML+'</button> </li>'
 			}
 		        navbar+=`</ul>
 			</nav>`
@@ -249,5 +278,27 @@ function verCompuesto(index){
         
         
         
-        
+ //Ripple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
