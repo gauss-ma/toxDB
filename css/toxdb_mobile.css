@@ -267,7 +267,7 @@ z-index: 30;
 .search_toolbar{
 width: 100%;
 height: 46px;
-border: 1px solid #DADCE0;
+border: 1px solid #e0e0e0;
 box-sizing: border-box;
 border-radius: 48px;
 }
@@ -434,28 +434,40 @@ align-items: center;
 
 /*  interior de cada tarjeta */
 .card-header{
-cursor: pointer;
-outline: none;
-position: relative;
-padding-left: 16px;
-padding-right: 16px;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 .card-titulo {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 800;
         line-height: 20px;
         margin-top: 12px;
         margin-bottom: 4px;
 }
 .card-subtitulo {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        min-height: 44px;
+        font-size: 12px;
+        font-weight:20;
+        line-height: 16px;
+        min-height: 14px;
   border-bottom: 0.05px solid #f4f4f4;
 }
+.card-content{
 
+	height:50%;
+
+
+
+}
+.card-footer{
+  float: right;
+	text-align:right;
+	position:relative;
+
+}
 
 
 
@@ -547,6 +559,7 @@ line-height: 20px;
    border-spacing: 0;
    text-align: left;
    padding: 50px;
+  max-width:400px;
 }
 
 

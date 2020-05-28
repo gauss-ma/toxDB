@@ -39,9 +39,13 @@ $(document).ready(function(){
 	                <div class='card-header'>
 	                        <h1 class='card-titulo'>`+TOXDB[i].name+`</h1>
 	                        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
-	                        <img src="src/PubChem/img2D/`+TOXDB[i].CID+`.png"></img>
-	                        <h2  class='card-footer'> `+SUMMARY_DB[j].MolecularFormula+`</h2>
-	                        <span class='card-subtitulo'> `+SUMMARY_DB[j].CanonicalSMILES+`</span>
+	                        <div class='card-content'>
+					<img src="src/PubChem/img2D/`+TOXDB[i].CID+`.png"></img>
+				</div>
+	                        <div  class='card-footer'> 
+					<h2>`+SUMMARY_DB[j].MolecularFormula+`</h2>
+	                        	<span> `+SUMMARY_DB[j].CanonicalSMILES+`</span>
+				</div>
 	                </div
 	                <div class='card-content'>
 	
@@ -70,12 +74,11 @@ $(document).ready(function(){
         });
 })
 
-function scrollUp(){
+function scrollUp(position){
 	$('body,html').animate({
-	                scrollTop: 0
+	                scrollTop: position
 	                }, 500);
 }
-
 
 
 
@@ -126,7 +129,8 @@ function verCompuesto(index){
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
                         <section class='specimen_data'><h1> Resumen </h1>
-                                <table class='resumen'>
+                               <div class='resumen'>
+				<table>
                                 <tbody>
                                 <tr><th> Nombre IUPAC:          </th><td><i>`+ summary.IUPACName        +`</i></td></tr>
                                 <tr><th> Fórmula Molecular:     </th><td><a href="#">`+ summary.MolecularFormula        +`</a></td></tr>
@@ -139,7 +143,8 @@ function verCompuesto(index){
                                 <tr><th> CAS:                   </th><td>`+ tox.CAS                     +`</td></tr>
                                 </tbody>
                                 </table> 
-                            </section>`;
+                        	</div>    
+			</section>`;
                         $(".specimen_page").append(Summary);
                         }catch(error){console.error(error);}
 
@@ -147,7 +152,7 @@ function verCompuesto(index){
 
                      //TOXICO Y FISQUIM.
                         try{
-                                FisQui=`<section class='specimen_data'><h1>Propiedades Físico-Químicas</h1>
+                                FisQui=`<section class='specimen_data'><h1>Físico-Química</h1>
                                 <ul>`;                                                                                                       
                                 for (j=0;j< tox.PhysProps.length;j++){
                                         FisQui+='<li><b>'+tox.PhysProps[j].p +'</b> <i>('+tox.PhysProps[j].u+'):</i>';
@@ -202,7 +207,7 @@ function verCompuesto(index){
 		        <ul>`
 			secciones=$(".specimen_page h1")
 		        for (j=0;j< secciones.length;j++){
-		        	navbar+='<li><button>'+secciones[j].innerHTML+'</button> </li>'
+		        	navbar+='<li onclick="scrollUp('+secciones.position().top+')"><button>'+secciones[j].innerHTML+'</button> </li>'
 			}
 		        navbar+=`</ul>
 			</nav>`
