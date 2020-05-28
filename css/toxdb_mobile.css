@@ -240,9 +240,7 @@ box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 	background-color:violet;
 }
 
-.activo{
-display: block;
-}
+.activo{display: block; }
 
 
 
@@ -508,10 +506,14 @@ width: auto;
 }
 .card-content{
 	height:60%;
+	vertical-align: middle;
+        /*align-items: center;
+        text-align: center;*/
 
 }
 .card-footer{
   float: right;
+	margin-right:10px;
 	text-align:right;
 	position:relative;
 
@@ -593,6 +595,7 @@ line-height: 20px;
 	padding-bottom:20px;
 	margin-bottom:5px;
 	border-bottom:0.1px solid #e0e0e0;
+	display:block;
 }
 
 
@@ -711,51 +714,57 @@ line-height: 20px;
 
 
 
-
-.specimen_data>ul>li{
-align-items: center;
-display: -webkit-box;
-display: -moz-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
-justify-content: space-between;
-margin-left: 0;
-overflow: hidden;
-padding-bottom: 16px;
-padding-top: 16px;
-position: relative;
-}
-
-.specimen_data>ul>li>span{
-	margin-bottom: 8px;
-margin-right: 8px;
-color:
-rgba(0,0,0,.6);
-display: block;
-font-size: 14px;
-left: 0;
-line-height: 14px;
-position: -webkit-sticky;
-position: sticky;
+.specimen_data > table >tbody> tr>td{
+	font-size: 18px;
+	line-height: 22px;
+	height:45px;
+	vertical-align: baseline;
 }
 
 
+.specimen_data_main{
+	width:300px;
+	margin:20px;
+}
 
-
-
-.referencia{
+.specimen_data_main >  td:nth-child(2) {
+	font-size:20px;
+}
+.specimen_data_main > td:first-child(){
+	padding-right:40px;
+	width:30%;	
+	max-width:400px;
+}
+.specimen_data_referencia{
+	text-align:right;
 	float:right;
 	font-style:italic;
 	color:currentColor
+	
 }
-.referencia:hover{
+.specimen_data_referencia:hover{
 	color:blue;
 }
 
-.referencia >span{ display:none;display:sticky;position:relative;top:20px;float:right;}
+.specimen_data_referencia >span{ 
+	display:none;
+	position:absolute;
+	max-width:60%;
+	position:sticky;
+	position: -webkit-sticky;
+}
 
-.referencia .active >span{display:block;}
+.specimen_data_referencia.active > span{display:block;}
+
+
+
+
+
+
+
+
+
+
 
 
 
