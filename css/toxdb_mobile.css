@@ -175,6 +175,7 @@ header{
 .LogoToxDB{
 	display:flex;
 	position:absolute;
+	top:15px;      
 	left:60px;        
 	padding:5px;
 	height:40px;
@@ -362,7 +363,8 @@ flex-direction: row;
 font-weight: 400;
 letter-spacing: .01em;
 line-height: 1;
-margin: 0;
+margin-right: 3px;
+margin-left: 2px;
 min-width: 0;
 opacity: .6;
 overflow: visible;
@@ -440,20 +442,21 @@ width: auto;
 
 
 .grid-card > a{
-	min-width: 290px;
+	min-width: 300px;
 	background:#fff;
-	border-radius: 8px;
-	border: 1px solid #dadce0;
-	box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;
+	/*
+	
+	box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;*/
 	box-sizing: border-box;
 	display: flex;
 	flex: 1;
-	max-width: 100%;
 	min-height: 100%;
 	overflow: hidden;
 	position: relative;
 	transition: .18s ease all;
 	box-sizing: inherit;
+
+
 }
 
 
@@ -466,6 +469,19 @@ width: auto;
         width:100%;
         display:block;
 }
+.grid_view > li>a{
+	width: -moz-calc(33.3333333333% - 16px + 0px);
+	width: calc(33.3333333333% - 16px + 0px);
+	margin-right: 24px;
+}
+
+.grid_view > .grid-card > a{
+	height:250px;
+	border-radius: 8px;
+	border: 1px solid #dadada;
+}
+
+
 
 .list_view > li>a{
 	width: -moz-calc(100% - 0px + 0px);
@@ -475,7 +491,7 @@ width: auto;
 }
 
 .list_view > .grid-card > a{
-	minheight:50%;
+	min-height:50%;
 	margin-bottom:0;
 	padding-bottom:0px;
 	border-radius: 0px;
@@ -491,16 +507,18 @@ width: auto;
 	justify-content:space-between;
 }
 
-.grid_view > li>a{
-	width: -moz-calc(33.3333333333% - 16px + 0px);
-	width: calc(33.3333333333% - 16px + 0px);
-	margin-right: 24px;
-}
 
-.grid_view > .grid-card > a{
-	height:250px;
-	border-radius: 8px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*  interior de cada tarjeta */
@@ -538,7 +556,7 @@ width: auto;
 	margin-right:10px;
 	text-align:right;
 	position:relative;
-
+	font-size:20px;
 }
 
 
@@ -664,6 +682,7 @@ line-height: 20px;
    top: 0;
    border-bottom: 0.1px solid #000;
    transform: translate3d(0px,0px,0px);
+	display:none;
 }
 .specimen_page_nav > ul {
 	outline: none;
@@ -926,16 +945,17 @@ line-height: 20px;
 /* Pantalla angosta */
 @media (max-width:767px){
 
-	main,.top_fixed-search_toolbar,.specimen_page_nav{
-		padding:20px;
+	main{
 		padding-top:50px;
-		margin-left:0px;
 	}
-	#Logo{left:20px;}
-	.botonMenu{right:20px;}
-	.top-fixed {
-		padding-top:0px; 
-		padding-left:20px; 
-	}	
+	main,
+	.specimen_page_nav,
+	.search_toolbar,
+	.top_fixed-search_toolbar{
+		margin-left:0px;
+		padding-left:20px;
+	}
+	#Logo{right:25px;}
+	.logoToxDB{left:20px;}
 
 }

@@ -65,7 +65,7 @@ $(document).ready(function(){
 				</div>
 	                        <div  class='card-footer'> 
 					<h2>`+SUMMARY_DB[j].MolecularFormula+`</h2>
-	                        	<span> `+SUMMARY_DB[j].CanonicalSMILES+`</span>
+	                        	<!--span> `+SUMMARY_DB[j].CanonicalSMILES+`</span -->
 				</div>
 	                </section>
 	         </a></li>`;
