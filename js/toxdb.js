@@ -222,10 +222,12 @@ function verCompuesto(index){
                 //NFPA
                         NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1>
                                 <table><tr><td>
-				<figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
+				<figure>
+					<img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
                                 	<figcaption>`+tox.NFPA+`</figcaption>
 				</figure> 
-                                </td></tr></table></section>`;                                              
+                                </td></tr></table>
+			      </section>`;                                              
 
                         $(".specimen_page").append(NFPA);
 

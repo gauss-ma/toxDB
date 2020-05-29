@@ -102,11 +102,18 @@ h6 {
 
 figure {
   float: right;
-  width: 30%;
+  align-items: center;
   text-align: center;
   font-size: smaller;
   text-indent: 0;
-  margin: 0.25em;
+  margin: 5px;padding:5px;
+    display: inline-block;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
 }
 
 
