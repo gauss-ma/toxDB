@@ -762,56 +762,73 @@ line-height: 20px;
 	flex-warp:warp;
 }
 .specimen_data > table >tbody> tr>td{
-	font-size: 18px;
-	line-height: 22px;
-	height:45px;
 	vertical-align: baseline;
 }
 
 
-.specimen_data_main{
-	width:300px;
+.specimen_data_name {
+	height:45px;
 	margin:20px;
+	padding-right:5px;
+	width:300px;	
+	max-width:400px;
+	font-size:18px;
+	line-height:20px;
+}
+.specimen_data_value  {
+	font-size:22px;
+	line-height:24px;
+	width:100px;
+}
+.specimen_data_referencia {
+	padding-left:30px;
+	margin-left:10px;
+	width:20%;	
+	font-style:italic;
+	color:currentColor;
+	text-align:right;
+	font-size:22px;
 }
 
-.specimen_data_main >  td:nth-child(2) {
-	font-size:20px;
-}
-.specimen_data_main > td:first-child(){
-	padding-right:40px;
-	width:30%;	
-	max-width:400px;
-}
-.specimen_data_referencia{
-	text-align:right;
-	float:right;
-	font-style:italic;
-	color:currentColor
-	
-}
 .specimen_data_referencia:hover{
 	color:blue;
 }
 
-.specimen_data_referencia >span{ 
-	display:none;
-	position:absolute;
-	max-width:60%;
-	position:sticky;
-	position: -webkit-sticky;
+.specimen_data_referencia > span::before {
+	content:"+";
+}
+.specimen_data_referencia.active {color:red;}
+.specimen_data_referencia.active > span::before {
+	content:"-";
 }
 
-.specimen_data_referencia.active > span{display:block;}
+.cita {
+	padding-right:2px;
+	padding-bottom:3px;
+	
+	
+	display:none;
+}
+.cita>td {
+	padding:5px;
+	margin:5px;
+	margin-top:0;
+	padding-top:0;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	width:100%;
+	max-width:500px;
+	float:right;
+	text-align:right;
+	height:auto;
+	font-style:italic;
+	
+display:none;
+}
 
 
-
-
-
-
-
-
-
-
+.cita.active     { display:blocK }
+.cita.active > td{ display:blocK }
 
 
 
@@ -819,11 +836,6 @@ line-height: 20px;
     width: 100%;
     max-width: 800px;
 }
-
-
-
-
-
 
 
 

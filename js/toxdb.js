@@ -1,13 +1,14 @@
 $(document).ready(function(){
+
 	const $btn_menu=$('#botonMenu');
 	const $logo=$(".LogoGauss");
 	const $menu=$('.sidebar');
 	
 	//MENU DESPLEGABLE:
-	$('.botonMenu').click(function() {
-	            //$('.sidebar').slideToggle("fast");
-	    	$(".sidebar").animate({width:'toggle'},400);
-	});
+	//$('.botonMenu').click(function() {
+	//            //$('.sidebar').slideToggle("fast");
+	//    	$(".sidebar").animate({width:'toggle'},400);
+	//});
 	//BUSCADOR / FILTRO
   	$(".search_input").on("keyup", function() {
 		$("body").scrollTop(0);
@@ -23,6 +24,7 @@ $(document).ready(function(){
 		$(".counter-show").empty();  $(".counter-show").append(n)
 		$(".counter-total").empty(); $(".counter-total").append(TOXDB.length)
 	});
+
 
 	//FUNCIONES DE SCROLL:
 	toolbar_y=$(".search_toolbar").position().top;
@@ -77,7 +79,11 @@ $(document).ready(function(){
 	$(".counter-total").append($(".grid-card").length)
 	$(".counter-show").append($(".grid-card").length)
 
-})
+
+	
+	
+
+});
 
 
 function scrollUp(position){$('body').animate({ scrollTop: position }, 500);}
@@ -105,8 +111,9 @@ function vista(view){
 
 //Mostrar Referencia:
 function mostrarReferencia(Ref){
-	    if ( Ref.hasClass("active")) { Ref.removeClass("active");}
-            else {Ref.addClass("active");}
+ 	cita=Ref.closest('tr').next('tr');
+	if ( cita.hasClass("active")) { Ref.removeClass("active");cita.removeClass("active");}
+	else {Ref.addClass("active");cita.addClass("active");}
 
 };
 
@@ -174,9 +181,9 @@ function verCompuesto(index){
                                 FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
                                 <table>`;                                                                                                       
                                 for (j=0;j< tox.PhysProps.length;j++){
-                                        FisQui+='<tr><td class="specimen_data_main"><h3>'+tox.PhysProps[j].p +':</h3><i>('+tox.PhysProps[j].u+')</i></td>';
-                                        FisQui+=`<td>`+tox.PhysProps[j].d +`</td>`
-					FisQui+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"> + Referencia <span>ChemIDPlus.</td><tr>`;                                                                   
+                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.PhysProps[j].p +':</h3><i>('+tox.PhysProps[j].u+')</i></td>';
+                                        FisQui+=`<td class="specimen_data_value">`+tox.PhysProps[j].d +`</td>`
+					FisQui+=`<td class="specimen_data_referencia"  onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i></td></tr><tr class="cita"><td> ChemIDPlus.</td></tr>`; 
                                 }
 				FisQui+=`</table></section>`
 			$(".specimen_page").append(FisQui);
@@ -186,12 +193,12 @@ function verCompuesto(index){
                                 Toxico=`<section class='specimen_data' id='toxicologia'><h1>Toxicología</h1>
                                 <table><tbody>`;
                                 for (j=0;j< tox.ToxProps.length;j++){
-                                        Toxico+='<tr><td class="specimen_data_main"><h3>'+tox.ToxProps[j].t +'</h3><i>('+tox.ToxProps[j].d.u+')</i><br> en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
-                                        Toxico+='<td>'+tox.ToxProps[j].d.r +'<td>';
+                                        Toxico+='<tr><td class="specimen_data_name"><h3>'+tox.ToxProps[j].t +'</h3><i>('+tox.ToxProps[j].d.u+')</i><br> en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
+                                        Toxico+='<td class="specimen_data_value">'+tox.ToxProps[j].d.r +'<td>';
                                         //Toxico+='<th>('+tox.ToxProps[j].o +')</th>';  		//organismo 
-                                        //Toxico+='<th>'+tox.ToxProps[j].r +'</th>';	  	//vía
+                                        //Toxico+='<th>'+tox.ToxProps[j].r +'</th>';		  	//vía
                                         //Toxico+='<td><i>'+tox.ToxProps[j].j.t +'</i></td></tr>';
-					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"> + Referencia <span>`+tox.ToxProps[j].j.t+`</td><tr>`;                                                                   
+					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i><td></tr><tr class="cita"><td>`+tox.ToxProps[j].j.t+`</td></tr>`;                                                                   
                                 }                                                                       
                         Toxico+=`</table>
                                 </section>`;
@@ -214,8 +221,10 @@ function verCompuesto(index){
                         }catch(error){console.error(error);}
                 //NFPA
                         NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1>
-                                <table><tr><td><figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
-                                <figcaption>`+tox.NFPA+`</figcaption></figure>; 
+                                <table><tr><td>
+				<figure><img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
+                                	<figcaption>`+tox.NFPA+`</figcaption>
+				</figure> 
                                 </td></tr></table></section>`;                                              
 
                         $(".specimen_page").append(NFPA);
