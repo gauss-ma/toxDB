@@ -159,14 +159,13 @@ header{
 	color: rgba(0,0,0,.6);
 	fill: rgba(0,0,0,.6);
 	box-shadow: 1px 1px transparent;
- z-index:1000;
+ 	z-index:1000;
 }
 
 #Logo {	
 	position:absolute;
-	top:5px;
-	left:60px;
-	padding:10px;
+	right:60px;
+	padding:5px;
 }
 #Logo >a> img{
 	height:33px;
@@ -174,15 +173,16 @@ header{
 }
 
 .LogoToxDB{
-	display:inline;
+	display:flex;
 	position:absolute;
-	top:5px;
-	left:45%;        
-	padding:10px;
-	width:60px;
-	height:10px;
+	left:60px;        
+	padding:5px;
+	height:40px;
 	text-align:center;
+	font-size:24px;
 }
+
+
 .botonMenu{
  padding:10px;
  position:absolute;   
@@ -191,6 +191,7 @@ header{
  background:pink;
  font-weight:500;
  font-size:30px;
+	display:none;
 }
 
 
@@ -245,73 +246,81 @@ box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 
 
 
-.toolbar{
-    align-items: center;
-    vertical-align:middle;
-    width:90%;
-    padding-top:34px;
-    margin-bottom:30px;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* SEARCH TOOLBAR */
 
 .search_toolbar{
-width: 100%;
-height: 46px;
-border: 1px solid #e0e0e0;
-box-sizing: border-box;
-border-radius: 48px;
+    align-items: center;
+    vertical-align:middle;
+    margin-top:20px;
+    margin-bottom:30px;
+	width: 100%;
+	max-width:1200px;
+	height: 53px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-radius: 48px;
+	display:flex;
+}
+.search_icon{
+  width:30px;
+  padding-left:15px;
+  /*border-right:0.05px solid #dadce0;*/
 }
 
-.botones_toolbar{
-display: flex;
-align-items: center;
-height: 46px;
-}
+.search_input{
+width:100%;
+max-width:600px;
+height: 50px;
+border-style:none;
+background-color:transparent;
+border: 0;
+background: none;
+outline: none;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+font-size: 15px;
+color:#000;
+font-weight: 400;
+flex:auto;}
 
-.top-fixed{
+.top_fixed-search_toolbar{
    	display:flex;
-	left: 0;
 	margin: 0 auto;
 	padding-left:60px;
-	padding-top:0px;
 	position: fixed!important;
+	top:0;
+	left:0;
 	background-color:#fff;
-	right: 0;
-	top: 0;
-	width: 100%;
 	z-index: 30;
 	-moz-box-shadow: 0 4px 4px rgba(0,0,0,.06);
 	box-shadow: 0 4px 4px rgba(0,0,0,.06);
-
-	justify-content: space-between;
-}
-
-.top-fixed > .search_toolbar{
+	width: 100%;
+	max-width:1500px;
+	height:44px;
 	border-radius: 0px;
-	max-width:500px;
-border: 1px solid #fff;
-}
-
-.top-fixed > .toolbar_vista_counter > p{ display:none;}
-
-
-
-
-.search_icon{
-  width:20px;
-  margin-left:15px;
-  border-right:0.05px solid #dadce0;
-}
-.search_input{
-width:90%;
-max-width:600px;
-height: 44px;
-border-style:none;
-background-color:transparent;
+	border: 1px solid #f7f7f7;
+	align-items: center;
 }
 
 
-.toolbar_vista_counter{
+
+/* toolbar opciones de vista */
+
+.vista_toolbar{
 	line-height: 36px;
 	margin-bottom: 10px;
 	display: -webkit-box;
@@ -321,9 +330,22 @@ background-color:transparent;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	max-width:1100px;
 	justify-content: space-between;
 	color:#797979;
 }
+
+
+.botones_toolbar{
+	display: flex;
+	align-items: center;
+	height: 46px;
+}
+
+
+
+
+
 
 .vista{
 vertical-align:middle;
@@ -540,8 +562,8 @@ width: auto;
 /*  PAGINA ESPECIMENT */
 .specimen_page {
     position: relative;
-    margin-top: 0px;
-    margin-left:40px;
+    margin-top: 30px;
+    /*margin-left:40px;*/
 	max-width: 1200px;
 }
 
@@ -576,12 +598,11 @@ width: auto;
 
 .specimen_page h1 {
     padding-top: 32px;
-    margin-top: 0;
+    margin-top: 12px;
+    margin-bottom: 4px;
     font-size: 34px;
     line-height: 40px;
     font-weight: 400;
-    margin-top: 12px;
-    margin-bottom: 4px;
 }
 
 .specimen_page p{
@@ -592,6 +613,7 @@ line-height: 20px;
 .specimen_data {
 	width:90%;
 	max-width:1200px;
+	padding-left:20px;
 	padding-bottom:20px;
 	margin-bottom:5px;
 	border-bottom:0.1px solid #e0e0e0;
@@ -633,7 +655,7 @@ line-height: 20px;
 	width:100%;
 	background-color:#fff;
    transition: 300ms cubic-bezier(0.4,0,0.2,1) padding-right;
-   padding-left: 100px;
+   padding-left: 60px;
    padding-right: 60px;
    height: 64px;
    max-width: 100%;
@@ -714,6 +736,12 @@ line-height: 20px;
 
 
 
+
+/* CONTENIDO */
+.specimen_data > table >tbody> tr{
+	display:block;	
+	flex-warp:warp;
+}
 .specimen_data > table >tbody> tr>td{
 	font-size: 18px;
 	line-height: 22px;
@@ -898,11 +926,13 @@ line-height: 20px;
 /* Pantalla angosta */
 @media (max-width:767px){
 
-	main,.specimen_page, .specimen_page_nav{
+	main,.top_fixed-search_toolbar,.specimen_page_nav{
 		padding:20px;
-		padding-top:40px;
+		padding-top:50px;
 		margin-left:0px;
 	}
+	#Logo{left:20px;}
+	.botonMenu{right:20px;}
 	.top-fixed {
 		padding-top:0px; 
 		padding-left:20px; 

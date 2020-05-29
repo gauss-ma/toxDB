@@ -25,7 +25,7 @@ $(document).ready(function(){
 	});
 
 	//FUNCIONES DE SCROLL:
-	toolbar_y=$(".toolbar").position().top;
+	toolbar_y=$(".search_toolbar").position().top;
                                                                                         
         $(window).on("scroll", function() {
             var position = $(window).scrollTop();
@@ -33,8 +33,8 @@ $(document).ready(function(){
             console.log(position);
 
 
-                 if (position > toolbar_y  ) { $(".fixed-button.scroll-up").show();$(".specimen_page_nav").show(); $(".toolbar").addClass("top-fixed");}
-            else if (position < toolbar_y  ){ $(".fixed-button.scroll-up").hide();$(".specimen_page_nav").hide();$(".toolbar").removeClass("top-fixed");}
+                 if (position > toolbar_y  ) { $(".fixed-button.scroll-up").show();$(".specimen_page_nav").show(); $(".search_toolbar").addClass("top_fixed-search_toolbar");}
+            else if (position < toolbar_y  ){ $(".fixed-button.scroll-up").hide();$(".specimen_page_nav").hide();$(".search_toolbar").removeClass("top_fixed-search_toolbar");}
             else{setBlack();}
        
 		//scroll a secciones de specimen_page
@@ -117,7 +117,8 @@ function mostrarReferencia(Ref){
 function restart(){
 	$(".specimen_page").empty();
 	$(".grid-container").show();
-	$(".toolbar").show();
+	$(".search_toolbar").show();
+	$(".vista_toolbar").show();
 	
 }
 
@@ -131,7 +132,8 @@ function verCompuesto(index){
         console.log(tox.CID);
 	
 	$("body").scrollTop(0);
-        $(".toolbar").hide();
+        $(".search_toolbar").hide();
+        $(".vista_toolbar").hide();
         $(".grid-container").hide();
 
 		//Header
