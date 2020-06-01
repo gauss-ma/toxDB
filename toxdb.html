@@ -1,130 +1,139 @@
 <html>
+
 <head>
-        <meta charset="UTF-8">
-        <title>Tox.db</title>
-        <meta name="description" content="Base de datos toxicológica de compuestos de interés ambiental.">
-        <!-- JS LIBS: -->
-        <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
-        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
-        <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
-        <!-- CSS      -->
-        <link href="css/toxdb.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
-        <link href="css/font-style.css" rel="stylesheet">
-        <!-- SCRIPTS -->
-        <script type="text/javascript" src="js/toxdb.js">//JQUERY</script>
-        <!-- DB -->
-        <script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
-        <script type="text/javascript" src="src/Tox.db.js"></script>
+	<meta charset="UTF-8">
+	<title>Tox.db</title>
+	<meta name="description" content="Base de datos toxicológica de compuestos de interés ambiental.">
+	<!-- JS LIBS: -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+	<link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css" />
+	<script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+	<!-- CSS      -->
+	<link href="css/toxdb.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+	<!-- Entendiendo que vamos a trabajar con ggl fonts, eventualmente no hace falta que los carguemos desde archivo -->
+	<!-- <link href="css/font-style.css" rel="stylesheet">  -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+
+
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="js/toxdb.js">//JQUERY</script>
+	<!-- DB -->
+	<script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
+	<script type="text/javascript" src="src/Tox.db.js"></script>
 
 </head>
 
-<button class="fixed-button scroll-up" onclick="scrollUp(0)" type="button">
-  <i class="fa fa-arrow-up" aria-hidden="true"></i>
-</button>
+
 
 
 
 <body>
+	<button class="fixed-button scroll-up" onclick="scrollUp(0)" type="button">
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+	</button>
 
 
 
+	<header>
 
-<header>
-        <div id="Logo">
-	  <a href="https://www.gauss-ma.com.ar"><img src="img/icon-gauss.png"></img>&nbsp;<h1>gauss</h1></a>
-	</div>
-
-
-	<div class="LogoToxDB" onclick="restart();">
-		<span> <i aria-hidden="true">{≡}</i>Tox.db </span> 
-	</div>
-
-   	     
-     <div class="botonMenu"> <span><i aria-hidden="true">{≡}</i></span> </div>
-
-
-
-
-
-</header>
-
-
-
-
-
-
-
-
-
-<main>
-
-
-
-
-
-
-
-	<!-- Menu Lateral -->
-	<div class="sidebar" style="display:none;">
-		<nav>
-			<ul>
-				<li>1	</li>
-				<li>2	</li>
-				<li>3	</li>
-			</ul>
-		</nav>
-	</div>
-
-
-
-
-
-
-
-
-
-	<!-- Buscador + Toolbar -->
-	<div class="search_toolbar">
-		<i class="fa fa-search search_icon" aria-hidden="true"></i>
-		<input class="search_input" type="text" name="" placeholder="Buscar...">
-	</div>
-
-
-
-	<!-- TARJETAS  -->
-
-	<!-- toolbar de visualización -->
-	<div class="vista_toolbar ">
-		<p> <span  class="counter-show"> </span>  de <span class="counter-total"> </span> compuestos.</p>
-		<div class="botones_toolbar">
-		Vista: 
-			<span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span> Grilla</span></span>  
-		 	<span class="vista_boton" onclick="vista('lista')"><i class="fas fa-list" ></i><span>Lista</span></span>
-	                                                                                                                                        
-			<button style="border:none; background-color:#fff;border-left:0.1px solid #474747;">
-			<span class="mat-button-wrapper">	
-			<span> Mostrar:
-			    	<select name="">
-				    <option value="1">11</option>
-				    <option value="2">23</option>
-				    <option value="3">59</option>
-				</select>
-			</span>
+		<div class="LogoToxDB" onclick="restart();">
+			<span> <i aria-hidden="true">{≡}</i>Tox.db </span>
 		</div>
-	                                                                                                                                        
-	</div>
+
+		<div class="botonMenu"> <span><i aria-hidden="true">{≡}</i></span> </div>
 
 
-	<grid class="grid-container">
-		<ol class="grid-cards grid_view">
-			<!-- 
+		<div id="Logo">
+			<a href="https://www.gauss-ma.com.ar">
+				<img src="img/gauss-icon-monochrome-075pt.svg"></img>
+				<img src="img/gauss-logo-font-mont-modif.svg"></img>
+			</a>
+		</div>
+
+
+	</header>
+
+
+
+
+
+
+
+
+
+	<main>
+
+
+
+
+
+
+
+		<!-- Menu Lateral -->
+		<div class="sidebar" style="display:none;">
+			<nav>
+				<ul>
+					<li>1 </li>
+					<li>2 </li>
+					<li>3 </li>
+				</ul>
+			</nav>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!-- Buscador + Toolbar -->
+		<div class="search_toolbar">
+			<i class="fa fa-search search_icon" aria-hidden="true"></i>
+			<input class="search_input" type="text" name="" placeholder="Buscar...">
+		</div>
+
+
+
+		<!-- TARJETAS  -->
+
+		<!-- toolbar de visualización -->
+		<div class="vista_toolbar ">
+			<p> <span class="counter-show"> </span> de <span class="counter-total"> </span> compuestos.</p>
+			<div class="botones_toolbar">
+				Vista:
+				<span class="vista_boton" onclick="vista('grilla')"><i class="fas fa-grip-horizontal"></i><span>
+						Grilla</span></span>
+				<span class="vista_boton" onclick="vista('lista')"><i class="fas fa-list"></i><span>Lista</span></span>
+
+				<button style="border:none; background-color:#fff;border-left:0.1px solid #474747;">
+					<span class="mat-button-wrapper">
+						<span> Mostrar:
+							<select name="">
+								<option value="1">11</option>
+								<option value="2">23</option>
+								<option value="3">59</option>
+							</select>
+						</span>
+			</div>
+
+		</div>
+
+
+		<grid class="grid-container">
+			<ol class="grid-cards grid_view">
+				<!-- 
 			
 			ACA VAN LAS TARJETITAS
 
 			 -->
-		</ol> 
-	</grid>
+			</ol>
+		</grid>
 
 
 
@@ -136,62 +145,66 @@
 
 
 
-	<!-- PAGINA DE COMPUESTO -->
-	<div class="specimen_page">
+		<!-- PAGINA DE COMPUESTO -->
+		<div class="specimen_page">
 			<!--
 			ACA VA EL HOJA DEL ESPECIMEN SELECCIONADO
 			-->
-	</div>
-
-
-
-
-
- 
-</main>
+		</div>
 
 
 
 
 
 
+	</main>
 
 
 
 
-<footer class="site-footer" style="display:flex-inline; padding:60px;">
-    <div class="container">
-      <div class="row">
 
-<div class="articulo" style="width:90%;padding-bottom:30px">
-<h6 style=""> Sobre ToxDB</h6>
-<div class="about-half">
 
-	<p><a href="#">ToxDB</a> tiene una naturaleza dual. </p>
-	<p>Acá se podría poner un texto sobre el proyecto, alcances, contriubudores, y esas cosas. 
-	Al mismo tiempo, the font features friendly and open curves. 
-	Tiro una idea alocada, pero me gusta esto de describir el producto como si fuese una obra de arte, con su propia personalidad, historia, y no tan fríamente.
-	This makes for a more natural reading rhythm more commonly found in humanist and serif types.
-	</p>
-	<p>
-	</p>
-	<p>
-	</p>
-	</div>
-	</div>    
 
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div>
-	<p>ToxDB es un proyecto de software <a href="#">libre</a> y <a href="#">gratuito</a> desarrollado por <a>gauss-ma</a>.</p>
-	<p>Para contribuir, ver <a href="https://github.com/gauss-ma/toxDB/">github.com/gauss-ma/toxDB</a></p>
-        </div>
-	<a class="github" href="#"><i class="fa fa-4x fa-github"></i></a>
-      </div>
-    </div>
-  </footer>
+
+
+
+	<footer class="site-footer" style="display:flex-inline; padding:60px;">
+		<div class="container">
+			<div class="row">
+
+				<div class="articulo" style="width:90%;padding-bottom:30px">
+					<h6 style=""> Sobre ToxDB</h6>
+					<div class="about-half">
+
+						<p><a href="#">ToxDB</a> tiene una naturaleza dual. </p>
+						<p>Acá se podría poner un texto sobre el proyecto, alcances, contriubudores, y esas cosas.
+							Al mismo tiempo, the font features friendly and open curves.
+							Tiro una idea alocada, pero me gusta esto de describir el producto como si fuese una obra de
+							arte, con su propia personalidad, historia, y no tan fríamente.
+							This makes for a more natural reading rhythm more commonly found in humanist and serif
+							types.
+						</p>
+						<p>
+						</p>
+						<p>
+						</p>
+					</div>
+				</div>
+
+				<hr>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div>
+						<p>ToxDB es un proyecto de software <a href="#">libre</a> y <a href="#">gratuito</a>
+							desarrollado por <a>gauss-ma</a>.</p>
+						<p>Para contribuir, ver <a
+								href="https://github.com/gauss-ma/toxDB/">github.com/gauss-ma/toxDB</a></p>
+					</div>
+					<a class="github" href="#"><i class="fa fa-4x fa-github"></i></a>
+				</div>
+			</div>
+	</footer>
 
 
 
