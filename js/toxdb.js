@@ -59,7 +59,7 @@ $(document).ready(function(){
 	        <li class='grid-card'><a onclick="verCompuesto('`+i+`')">
 	                <section>
 	                	<div class='card-header'>
-	                	        <h1 class='card-titulo'>`+TOXDB[i].name+`</h1>
+	                	        <h1 class='card-titulo'>`+TOXDB[i].nombre+`</h1>
 	                	        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
 				</div>
 	                        <div class='card-content'>
@@ -135,7 +135,7 @@ function restart(){
 function verCompuesto(index){
         tox=TOXDB[index];
         console.log(tox.CAS);
-        console.log(tox.name);
+        console.log(tox.nombre);
         console.log(tox.CID);
 	
 	$("body").scrollTop(0);
@@ -145,7 +145,7 @@ function verCompuesto(index){
 
 		//Header
                header=`<div class="specimen_header">
-                         <h3 class="specimen-header_titulo">`+tox.name+`</h3>
+                         <h3 class="specimen-header_titulo">`+tox.nombre+`</h3>
                          <h4 class="specimen-header_subtitulo">CAS: `+tox.CAS+`</h4>
                        </div>`
 		
@@ -155,6 +155,7 @@ function verCompuesto(index){
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
                         <section class='specimen_data' id='resumen'><h1> Resumen </h1>
+				<div> `+tox.descripcion+`</div>
                                <div class='resumen'>
 				<table>
                                 <tbody>
@@ -165,6 +166,7 @@ function verCompuesto(index){
                                                                          <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
                                 <tr><td> Peso Molecular:        </td><td>`+ summary.MolecularWeight             +`</td></tr>
                                 <tr><td> XLogP:                 </td><td>`+ summary.XLogP               +`</td></tr>
+                                <tr><td> Carga Neta             </td><td>`+ summary.Charge               +`</td></tr>
                                 <tr><td> CID:                   </td><td>`+ tox.CID                     +`</td></tr>
                                 <tr><td> CAS:                   </td><td>`+ tox.CAS                     +`</td></tr>
                                 </tbody>
@@ -235,7 +237,7 @@ function verCompuesto(index){
 	
 		//navbar
 		navbar=`<nav class="specimen_page_nav">
-		        <div class="specimen_page_nav_header"><h3>`+tox.name+`</h3></div>
+		        <div class="specimen_page_nav_header"><h3>`+tox.nombre+`</h3></div>
 		        <ul>`
 			secciones=$(".specimen_data")
 			//secciones_h1=$(".specimen_page h1")

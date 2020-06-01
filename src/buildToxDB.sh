@@ -17,6 +17,7 @@ do
 	if [ $? -eq 0 ]
         then
         	cid=$(echo $tmp_json | jq -r '.IdentifierList.CID[0]')
+		echo $cid >> cid.lst
 		echo -e "\e[32m $cid \e[0m"
         else
         	echo -e "\e[31m CID no encontrado.\e[0m"; echo "${cas};${nombre}">> Rechazados_CID.lst
@@ -38,37 +39,46 @@ do
 
 	#=>PubChem:
         #Imagen de estructura 2D y 3D:
-	#	img2D_file="PubChem/img2D/${cid}.png";img3D_file="PubChem/img3D/${cid}.png"
-	#	imgNotAvail_file="PubChem/img3D/NotAvailable.png";imgNoDispon_file="PubChem/img3D/NoDisponible.png"
-        #        wget --quiet -O "${img2D_file}" "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=s"
-        #        wget --quiet -O "${img3D_file}" "https://pubchem.ncbi.nlm.nih.gov/image/img3d.cgi?&cid=${cid}&t=s"
-        #        #Cambio fondo blanco por transparente y pos-procesamiento:
-        #        convert ${img2D_file} -transparent "#F5F5F5" ${img2D_file}
+		img2D_file="PubChem/img2D/${cid}.png";img3D_file="PubChem/img3D/${cid}.png"
+		imgNotAvail_file="PubChem/img3D/NotAvailable.png";imgNoDispon_file="PubChem/img3D/NoDisponible.png"
+                wget --quiet -O "${img2D_file}" "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=s"
+                wget --quiet -O "${img3D_file}" "https://pubchem.ncbi.nlm.nih.gov/image/img3d.cgi?&cid=${cid}&t=s"
+                #Cambio fondo blanco por transparente y pos-procesamiento:
+                convert ${img2D_file} -transparent "#F5F5F5" ${img2D_file}
 		compare -metric AE ${imgNotAvail_file} ${img3D_file} null
 		if [ $? -eq 0 ]
 		then
 			cp ${imgNoDispon_file} ${img3D_file}
-	#	else
-	#		convert ${img3D_file} -transparent white ${img3D_file}
+		else
+			convert ${img3D_file} -transparent white ${img3D_file}
 		fi;
         
+
+	#Sinonimos:
+	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Synonyms")
+		sinonimos=$(echo $tmp_json | jq "[.. | ."String"? | strings][0:9]")
+	#Descripcion:
+	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Hazards+Summary")
+		descripcion=$(./trans --brief en:es <<< $(echo $tmp_json | jq '..|."String" ? | strings' | sed -e ':a;N;$!ba;s/\"//g;s/\n/<br>/'))
 	#Seguridad Química:
                 tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Chemical+Safety")
 		GHSs="$(echo $tmp_json | jq '.. | ."Extra"? |strings' | awk -F '\n' 'BEGIN{printf "["};{printf("%s,", $1)};END{printf "],\n"}')"
 	#NFPA 704 diamond
 		tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=NFPA+Hazard+Classification")
-		NFPA="$(echo $tmp_json | jq '.. | ."Extra"? |strings')"
+		NFPA="$(echo $tmp_json | jq '[.. | ."Extra"? |strings][0]')"
 
 	#Print en ToxDB:
-		printf " {\n"						>> $ToxDB_out
-			printf "   \"name\" : \"${nombre}\",\n" 	>> $ToxDB_out
-			printf "   \"CAS\" : \"${cas}\",\n" 		>> $ToxDB_out
-			printf "   \"CID\" : ${cid},\n" 		>> $ToxDB_out
-			printf "   \"PhysProps\": ${fisicoquimica},\n"  >> $ToxDB_out
-			printf "   \"ToxProps\": ${toxicologia},\n" 	>> $ToxDB_out
-			printf "   \"GHS\" : ${GHSs}\n"			>> $ToxDB_out 
-			printf "   \"NFPA\" : ${NFPA},\n"		>> $ToxDB_out 
-		printf " },\n" 						>> $ToxDB_out
+		printf " {\n"						    >> $ToxDB_out
+			printf "   \"nombre\" : \"${nombre}\",\n" 	    >> $ToxDB_out
+			printf "   \"CAS\" : \"${cas}\",\n" 		    >> $ToxDB_out
+			printf "   \"CID\" : ${cid},\n" 		    >> $ToxDB_out
+			printf "   \"FisProps\": ${fisicoquimica},\n"       >> $ToxDB_out
+			printf "   \"ToxProps\": ${toxicologia},\n" 	    >> $ToxDB_out
+			printf "   \"GHS\" : ${GHSs}\n"			    >> $ToxDB_out 
+			printf "   \"NFPA\" : ${NFPA},\n"		    >> $ToxDB_out 
+			printf "   \"descripcion\" : \"${descripcion}\",\n" >> $ToxDB_out 
+			printf "   \"sinonimos\" : ${sinonimos},\n"         >> $ToxDB_out 
+		printf " },\n" 						    >> $ToxDB_out
 done;
 	#=>PubChem: Summary
 		#props="MolecularFormula,MolecularWeight,IUPACName,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
