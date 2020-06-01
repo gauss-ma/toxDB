@@ -471,6 +471,7 @@ width: auto;
    padding:10px;
 	margin-top:0px;
    width:90%;
+   max-width:1500px;
    display:flex;
    flex-wrap: wrap;
   justify-content: center;
@@ -493,6 +494,7 @@ width: auto;
 
 .list_view {
   flex-direction: column;
+ width:100%;
 }
 
 .grid_view {
@@ -505,7 +507,7 @@ width: auto;
    margin-top:-2px;
 justify-content: center;
 align-items: center;
-
+ width:100%;
 }
 .grid_view >.grid-card{
    padding-bottom:24px;
@@ -527,8 +529,8 @@ align-items: center;
 	min-height: 100%;
 	overflow: hidden;
 	position: relative;
-	transition: .18s ease all;
 	box-sizing: inherit;
+	transition: .18s ease all;
 }
 
 
@@ -542,10 +544,13 @@ align-items: center;
         display:block;
 }
 
-.grid_view > li>a{
-	width: -moz-calc(33.3333333333% - 0px + 0px);
-	width: calc(33.3333333333% - 0px + 0px);
-	margin-right: 24px;
+.grid_view > li{
+	width: -moz-calc(33.% - 20px);
+	width: calc(33.% - 20px);
+	margin-right: 20px;
+}
+.grid_view > li > a{
+	width:100%;
 	min-width: 300px;
 }
 
@@ -1029,12 +1034,11 @@ display:none;
 	}
 
 
-
-
-
-
-
-
+	.grid_view > li>a{
+		width: -moz-calc(48% - 12px);
+		width: calc(48% - 12px);
+		margin-right: 12px;
+	}
 
 }
 
@@ -1054,5 +1058,21 @@ display:none;
 	}
 	#Logo{left:25px;}
 	.logoToxDB{right:20px;}
+
+
+
+	.grid_view > li,
+	.grid_view > li>a{
+		width: -moz-calc(98% - 5px);
+		width: calc(98% - 5px);
+		margin-right: 5px;
+	}
+
+
+
+
+
+
+
 
 }
