@@ -664,7 +664,7 @@ align-items: center;
 .specimen-header {
     position: absolute;
     transform: translate3d(0px,-108px,0px);
-    background: var(--blanco);
+    background-color: var(--blanco);
     flex-direction: column;
     display: -webkit-box;
     display: -moz-box;
@@ -681,6 +681,7 @@ align-items: center;
 	/*white-space: nowrap;*/
 	font-size: 48px;
 	line-height: 64px;
+	background-color:orange;
 }
 
 .specimen-header_subtitulo {
@@ -793,6 +794,7 @@ line-height: 20px;
     text-overflow: ellipsis;
     font-size: 48px;
     line-height: 64px;
+	background-color:orange;
 }
 .specimen_page_nav >ul>li>button{
 	display: inline-block;
