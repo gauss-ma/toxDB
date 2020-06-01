@@ -645,8 +645,15 @@ align-items: center;
 .specimen_page {
     position: relative;
     margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
     /*margin-left:40px;*/
 	max-width: 1200px;
+}
+
+.specimen_page > section{
+	margin-left:20px;
+
 }
 
 .specimen-header {
@@ -737,7 +744,7 @@ line-height: 20px;
 	width:100%;
 	background-color:#fff;
    transition: 300ms cubic-bezier(0.4,0,0.2,1) padding-right;
-   padding-left: 60px;
+   padding-left: calc(60px + 20px);
    padding-right: 60px;
    height: 64px;
    max-width: 100%;
@@ -745,7 +752,6 @@ line-height: 20px;
    position: fixed;
    top: 0;
    border-bottom: 0.1px solid #000;
-   transform: translate3d(0px,0px,0px);
 	display:none;
 }
 .specimen_page_nav > ul {
@@ -1012,7 +1018,28 @@ display:none;
 }
 
 /* Pantalla angosta */
-@media (max-width:767px){
+@media (max-width:900px){
+
+	.specimen_page,
+	.specimen_page > section{
+		margin-left:0px;
+	}
+	.specimen_page_nav{
+   		padding-left: calc(60px + 0px);
+	}
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:700px){
 
 	main{
 		padding-top:50px;
