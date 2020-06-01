@@ -22796,7 +22796,7 @@ TOXDB=[
  {
    "nombre" : "PLOMO (TOTAL)",
    "CAS" : "7439-92-1",
-   "CID" : 3061,
+   "CID" : 5352425,
    "FisProps": null,
    "ToxProps": [
   {
@@ -22892,7 +22892,7 @@ TOXDB=[
     }
   }
 ],
-   "GHS" : [],
+   "GHS" : ["Health Hazard"],
    "NFPA" : null,
    "descripcion" : "",
    "sinonimos" : [

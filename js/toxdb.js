@@ -155,7 +155,7 @@ function verCompuesto(index){
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
                         <section class='specimen_data' id='resumen'><h1> Resumen </h1>
-				<div> `+tox.descripcion+`</div>
+				<div class="about-half"> `+tox.descripcion+`</div>
                                <div class='resumen'>
 				<table>
                                 <tbody>
