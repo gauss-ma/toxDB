@@ -2074,7 +2074,7 @@ TOXDB=[
 ],
    "GHS" : ["Flammable","Acute Toxic","Health Hazard","Environmental Hazard",],
    "NFPA" : null,
-   "descripcion" : "La arsina es un gas incoloro, inflamable y altamente tóxico. Tiene un olor a ajo o a pescado que se puede detectar a concentraciones de 0,5 ppm o más. Debido a que la arsina no irrita y no produce síntomas inmediatos, las personas expuestas a riesgos los niveles pueden desconocer su presencia. La arsina es soluble en agua. Generalmente se envía en cilindros como un gas comprimido licuado. La exposición ocurre con frecuencia cuando se genera gas arsina mientras los metales o los minerales en bruto que contienen impurezas de arsénico se tratan con ácido y esto es común fuente de exposición. Los sinónimos incluyen hidruro de arsénico, trihidruro de arsénico, hidrógeno arseniuretado, hidruro arsenioso y arseniuro de hidrógeno.",
+   "descripcion" : "La arsina es un gas incoloro, inflamable y altamente tóxico. Tiene un olor a ajo o a pescado que se puede detectar a concentraciones de 0,5 ppm o más. Debido a que la arsina no irrita y no produce síntomas inmediatos, las personas expuestas a riesgos los niveles pueden desconocer su presencia. La arsina es soluble en agua. Generalmente se envía en cilindros como un gas comprimido licuado. La exposición ocurre con frecuencia cuando se genera gas arsina mientras los metales o los minerales en bruto que contienen impurezas de arsénico se tratan con ácido y esto es común fuente de exposición. Los sinónimos incluyen hidruro de arsénico, trihidruro de arsénico, hidrógeno arseniuretado, hidruro arsenioso y arseniuro de hidrógeno .",
    "sinonimos" : [
   "arsenic trihydride",
   "arsine",
@@ -2513,7 +2513,7 @@ TOXDB=[
       "u": "mg/kg"
     },
     "j": {
-      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam ",
+      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam",
       "v": "-",
       "p": "23",
       "y": "1999"
@@ -11041,7 +11041,7 @@ TOXDB=[
 ],
    "GHS" : ["Health Hazard","Environmental Hazard",],
    "NFPA" : "1-1-0",
-   "descripcion" : "El hexaclorobenceno se usó ampliamente como pesticida para proteger las semillas de cebolla y sorgo, trigo y otros granos contra hongos hasta 1965. También se usó para fabricar fuegos artificiales, municiones y caucho sintético. Actualmente, no hay usos comerciales de hexaclorobenceno en los Estados Unidos. El hexaclorobenceno es un sólido cristalino blanco que no es muy soluble en agua. No ocurre naturalmente en el medio ambiente. Se forma como un subproducto al producir otros productos químicos, en las corrientes de desechos de cloralkali y plantas que preservan la madera, y al quemar desechos municipales. <br> El hexaclorobenceno se forma como un subproducto durante la fabricación de otros productos químicos. Fue ampliamente utilizado como pesticida hasta 1965. La exposición oral crónica (a largo plazo) al hexaclorobenceno en humanos produce una enfermedad hepática con lesiones cutáneas asociadas. Los estudios epidemiológicos de personas expuestas por vía oral al hexaclorobenceno no han mostrado una mayor incidencia de cáncer. Sin embargo, con base en estudios en animales que han reportado cáncer de hígado, tiroides y riñón por exposición oral al hexaclorobenceno, la EPA ha clasificado el hexaclorobenceno como un probable carcinógeno humano (Grupo B2). Muy pocos datos de inhalación están disponibles. Los principales peligros encontrados en el uso y manejo del hexaclorobenceno provienen de sus propiedades toxicológicas. Tóxico por todas las vías (es decir, inhalación, ingestión y contacto dérmico), la exposición a esta sustancia cristalina blanca puede ocurrir por su uso como fungicida y como intermediario o aditivo en la producción de caucho, cloruro de polivinilo, composiciones pirotécnicas, colorantes. y pentaclorofenol. Los efectos de la exposición pueden incluir irritación dérmica, excitación del SNC, convulsiones, neumonitis y depresión respiratoria. Además, debe tenerse en cuenta que el Grupo de evaluación de carcinógenos de la EPA ha colocado el hexaclorobenceno en una lista de sustancias que considera posiblemente cancerígenas para los humanos. Del mismo modo, la Agencia Internacional para la Investigación del Cáncer (IARC) considera que la sustancia es posiblemente cancerígena para los humanos. En actividades o situaciones en las que pueda ocurrir una exposición excesiva, use un aparato de respiración autónomo y ropa protectora. En caso de contacto, enjuague inmediatamente la piel u ojos afectados con agua corriente durante al menos 15 minutos y quítese la ropa y los zapatos contaminados en el sitio. Si bien el hexaclorobenceno no se enciende fácilmente, puede arder con la producción de gases irritantes y venenosos. Los incendios que involucran hexaclorobenceno pueden extinguirse con productos químicos secos, CO2, halón, agua pulverizada, niebla o espuma estándar. El hexaclorobenceno puede enviarse por vía aérea, ferroviaria, por carretera y por agua en contenedores con la etiqueta, 'Mantener alejado de los alimentos'. Los pequeños derrames de hexaclorobenceno pueden recogerse con arena u otro material no combustible y colocarse en contenedores para su posterior eliminación. Los derrames grandes se deben diquear mucho antes del derrame. El hexaclorobenceno es un candidato potencial para la incineración de hornos rotativos. Antes de implementar la eliminación en tierra de hexaclorobenceno residual, consulte con las agencias reguladoras ambientales para obtener orientación.",
+   "descripcion" : "El hexaclorobenceno se usó ampliamente como pesticida para proteger las semillas de cebolla y sorgo, trigo y otros granos contra hongos hasta 1965. También se usó para fabricar fuegos artificiales, municiones y caucho sintético. Actualmente, no hay usos comerciales de hexaclorobenceno en los Estados Unidos. El hexaclorobenceno es un sólido cristalino blanco que no es muy soluble en agua. No ocurre naturalmente en el medio ambiente. Se forma como un subproducto al producir otros productos químicos, en las corrientes de desechos de cloralkali y plantas que preservan la madera, y al quemar desechos municipales. <br> El hexaclorobenceno se forma como un subproducto durante la fabricación de otros productos químicos. Fue ampliamente utilizado como pesticida hasta 1965. La exposición oral crónica (a largo plazo) al hexaclorobenceno en humanos produce una enfermedad hepática con lesiones cutáneas asociadas. Los estudios epidemiológicos de personas expuestas por vía oral al hexaclorobenceno no han mostrado una mayor incidencia de cáncer. Sin embargo, con base en estudios en animales que han reportado cáncer de hígado, tiroides y riñón por exposición oral al hexaclorobenceno, la EPA ha clasificado el hexaclorobenceno como un probable carcinógeno humano (Grupo B2). Muy pocos datos de inhalación están disponibles. Los principales peligros encontrados en el uso y manejo del hexaclorobenceno provienen de sus propiedades toxicológicas. Tóxico por todas las vías (es decir, inhalación, ingestión y contacto dérmico), la exposición a esta sustancia cristalina blanca puede ocurrir por su uso como fungicida y como intermediario o aditivo en la producción de caucho, cloruro de polivinilo, composiciones pirotécnicas, colorantes. y pentaclorofenol. Los efectos de la exposición pueden incluir irritación dérmica, excitación del SNC, convulsiones, neumonitis y depresión respiratoria. Además, debe tenerse en cuenta que el Grupo de evaluación de carcinógenos de la EPA ha colocado el hexaclorobenceno en una lista de sustancias que considera posiblemente cancerígenas para los humanos. Del mismo modo, la Agencia Internacional para la Investigación del Cáncer (IARC) considera que la sustancia es posiblemente cancerígena para los humanos. En actividades o situaciones en las que pueda ocurrir una exposición excesiva, use un aparato de respiración autónomo y ropa protectora. En caso de contacto, enjuague inmediatamente la piel u ojos afectados con agua corriente durante al menos 15 minutos y quítese la ropa y los zapatos contaminados en el sitio. Si bien el hexaclorobenceno no se enciende fácilmente, puede arder con la producción de gases irritantes y venenosos. Los incendios que involucran hexaclorobenceno pueden extinguirse con productos químicos secos, CO2, halón, agua pulverizada, niebla o espuma estándar. El hexaclorobenceno puede enviarse por vía aérea, ferroviaria, por carretera y por agua en contenedores con la etiqueta, \"Mantener alejado de los alimentos\". Los pequeños derrames de hexaclorobenceno pueden recogerse con arena u otro material no combustible y colocarse en contenedores para su posterior eliminación. Los derrames grandes se deben diquear mucho antes del derrame. El hexaclorobenceno es un candidato potencial para la incineración de hornos rotativos. Antes de implementar la eliminación en tierra de hexaclorobenceno residual, consulte con las agencias reguladoras ambientales para obtener orientación.",
    "sinonimos" : [
   "HCB",
   "Hexachlorobenzene",
@@ -15933,7 +15933,7 @@ TOXDB=[
 ],
    "GHS" : ["Health Hazard","Environmental Hazard",],
    "NFPA" : null,
-   "descripcion" : "Los principales peligros encontrados en el uso y manejo de la simazina provienen de sus propiedades toxicológicas. Tóxico por todas las vías (es decir, inhalación, ingestión, contacto dérmico), la exposición a este polvo incoloro al blanco puede ocurrir por su fabricación, formulación y uso. como herbicida. Los efectos de la exposición pueden incluir irritación dérmica y ocular, falta de aliento, espasmos musculares, ataxia y anorexia. En actividades y situaciones en las que puede ocurrir una exposición excesiva, use un aparato de respiración autónomo y ropa de protección personal. debe ocurrir, enjuague inmediatamente la piel u ojos afectados con agua corriente durante al menos 15 minutos. Quítese la ropa y los zapatos contaminados en el sitio. Si bien la simazina no se enciende fácilmente, puede arder con la producción de gases irritantes y venenosos. Para incendios que involucran simazina , extinguir con polvo químico seco, CO2, halón, agua pulverizada, niebla o espuma estándar. La simazina puede enviarse a nivel nacional por aire, ferrocarril, carretera y agua, en contenedores ing la etiqueta \"Veneno\". La simazina debe almacenarse en su envase original, en áreas oscuras y bien ventiladas, lejos del calor, chispas y otras fuentes de ignición. Los pequeños derrames secos de simazina se pueden colocar en un recipiente limpio, seco y cubierto para su eliminación posterior (las soluciones líquidas se absorben primero en arena u otro absorbente no combustible). Los derrames de líquidos grandes se deben diquear muy adelante para evitar que la simazina ingrese a las fuentes de agua y alcantarillas. Antes de implementar la disposición de simazina en la tierra, consulte con las agencias reguladoras para obtener orientación .",
+   "descripcion" : "Los principales peligros encontrados en el uso y manejo de la simazina provienen de sus propiedades toxicológicas. Tóxico por todas las vías (es decir, inhalación, ingestión, contacto dérmico), la exposición a este polvo incoloro al blanco puede ocurrir por su fabricación, formulación y uso. como herbicida. Los efectos de la exposición pueden incluir irritación dérmica y ocular, falta de aliento, espasmos musculares, ataxia y anorexia. En actividades y situaciones en las que puede ocurrir una exposición excesiva, use un aparato de respiración autónomo y ropa de protección personal. debe ocurrir, enjuague inmediatamente la piel u ojos afectados con agua corriente durante al menos 15 minutos. Quítese la ropa y los zapatos contaminados en el sitio. Si bien la simazina no se enciende fácilmente, puede arder con la producción de gases irritantes y venenosos. Para incendios que involucran simazina , extinguir con polvo químico seco, CO2, halón, agua pulverizada, niebla o espuma estándar. La simazina puede enviarse a nivel nacional por aire, ferrocarril, carretera y agua, en contenedores ing la etiqueta \"Veneno\" . La simazina debe almacenarse en su envase original, en áreas oscuras y bien ventiladas, lejos del calor, chispas y otras fuentes de ignición. Los pequeños derrames secos de simazina se pueden colocar en un recipiente limpio, seco y cubierto para su eliminación posterior (las soluciones líquidas se absorben primero en arena u otro absorbente no combustible). Los derrames de líquidos grandes se deben diquear muy adelante para evitar que la simazina ingrese a las fuentes de agua y alcantarillas. Antes de implementar la disposición de simazina en la tierra, consulte con las agencias reguladoras para obtener orientación .",
    "sinonimos" : [
   "Herbazin 50",
   "Herbazin-50",
@@ -19859,7 +19859,7 @@ TOXDB=[
       }
     ],
     "j": {
-      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam ",
+      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam",
       "v": "-",
       "p": "234",
       "y": "1999"
@@ -20135,7 +20135,7 @@ TOXDB=[
    "ToxProps": null,
    "GHS" : ["Health Hazard","Environmental Hazard",],
    "NFPA" : null,
-   "descripcion" : "Los principales riesgos encontrados en el uso y manejo del benzo (k) fluoranteno provienen de sus propiedades toxicológicas. La exposición a esta sustancia cristalina de color amarillo pálido puede ocurrir por su presencia ubicua en productos de combustión incompleta de actividades tales como operar motores de gasolina o usar estufas de carbón o aceite. El principal efecto toxicológico de preocupación es la posible carcinogenicidad en humanos. Se debe usar ventilación mecánica para controlar la exposición. Sin embargo, en actividades y situaciones donde puede ocurrir una sobreexposición, use un respirador y un traje protector (preferiblemente uno pieza, desechable, ajustada a los tobillos y muñecas), incluidos guantes, cobertura para el cabello y cubrezapatos. Debe prohibirse fumar, comer y beber en áreas de trabajo con benzo (k) fluoranteno. El transporte de esta sustancia debe estar en un lugar herméticamente cerrado. recipiente que se coloca en un segundo recipiente irrompible y a prueba de fugas. Antes de implementar la eliminación en tierra del benzo (k) fluoranteno, consulte con envi agencias reguladoras ambientales para orientación.",
+   "descripcion" : "Los principales riesgos encontrados en el uso y manejo del benzo (k) fluoranteno provienen de sus propiedades toxicológicas. La exposición a esta sustancia cristalina de color amarillo pálido puede ocurrir por su presencia ubicua en productos de combustión incompleta de actividades tales como operar motores de gasolina o usar estufas de carbón o aceite. El principal efecto toxicológico de preocupación es la posible carcinogenicidad en humanos. Se debe usar ventilación mecánica para controlar la exposición. Sin embargo, en actividades y situaciones donde puede ocurrir una sobreexposición, use un respirador y un traje protector (preferiblemente uno pieza, desechable, ajustada a los tobillos y muñecas), incluidos guantes, cobertura para el cabello y cubrezapatos. Debe prohibirse fumar, comer y beber en áreas de trabajo con benzo (k) fluoranteno. El transporte de esta sustancia debe estar en un lugar herméticamente cerrado. recipiente que se coloca en un segundo recipiente irrompible y a prueba de fugas. Antes de implementar la eliminación en tierra del benzo (k) fluoranteno, consulte con envi agencias reguladoras ambientales para orientación .",
    "sinonimos" : [
   "benzo(k)fluoranthene",
   "Benzo[k]fluoranthene",
@@ -22145,6 +22145,2148 @@ TOXDB=[
    "GHS" : [],
    "NFPA" : null,
    "descripcion" : "",
+ },
+ {
+   "nombre" : "DICLOROETANO (1,2-)",
+   "CAS" : "107-06-2",
+   "CID" : 11,
+   "FisProps": [
+  {
+    "p": "Melting Point",
+    "d": -35.5,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "Boiling Point",
+    "d": 83.5,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "log P (octanol-water)",
+    "d": 1.48,
+    "s": "EXP"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 8600,
+    "u": "mg/L",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 78.9,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 0.00118,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 2.48e-13,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EXP"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "cat",
+    "t": "LC",
+    "r": "inhalation",
+    "d": {
+      "m": ">",
+      "r": 3000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "dog",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 5700,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "ATAXIA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "GENERAL ANESTHETIC"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "LACRIMATION: EYE"
+      }
+    ],
+    "j": {
+      "t": "FAO Nutrition Meetings Report Series",
+      "v": "48A",
+      "p": "91",
+      "y": "1970"
+    }
+  },
+  {
+    "o": "dog",
+    "t": "LDLo",
+    "r": "intravenous",
+    "d": {
+      "r": 175,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Quarterly Journal of Pharmacy & Pharmacology",
+      "v": "7",
+      "p": "205",
+      "y": "1934"
+    }
+  },
+  {
+    "o": "guinea pig",
+    "t": "LCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 1500,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "KIDNEY, URETER, AND BLADDER",
+        "t": "'CHANGES IN TUBULES (INCLUDING ACUTE RENAL FAILURE, ACUTE TUBULAR NECROSIS)'"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "LACRIMATION: EYE"
+      }
+    ],
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "guinea pig",
+    "t": "LDLo",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 600,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "American Industrial Hygiene Association Journal",
+      "v": "35",
+      "p": "21",
+      "y": "1974",
+      "i": "4812549"
+    }
+  },
+  {
+    "o": "human",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 286,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "ULCERATION OR BLEEDING FROM STOMACH"
+      },
+      {
+        "s": "LIVER",
+        "t": "FATTY LIVER DEGERATION"
+      }
+    ],
+    "j": {
+      "t": "Casopis Lekaru Ceskych. Journal of Czech Physicians",
+      "v": "86",
+      "p": "203",
+      "y": "1947"
+    }
+  },
+  {
+    "o": "human",
+    "t": "TDLo",
+    "r": "oral",
+    "d": {
+      "r": 428,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "COUGH"
+      }
+    ],
+    "j": {
+      "t": "Sovetskaia Meditsina",
+      "v": "22(10)",
+      "p": "132",
+      "y": "1958"
+    }
+  },
+  {
+    "o": "mammal (species unspecified)",
+    "t": "LC",
+    "r": "inhalation",
+    "d": {
+      "m": ">",
+      "r": 3000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "man",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 714,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "CARDIAC",
+        "t": "CHANGE IN RATE"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "CYANOSIS"
+      }
+    ],
+    "j": {
+      "t": "Klinische Wochenscrift",
+      "v": "48",
+      "p": "822",
+      "y": "1970"
+    }
+  },
+  {
+    "o": "man",
+    "t": "TCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 4000,
+      "u": "ppm/1H",
+      "nu": "ppm"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "COMA"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      },
+      {
+        "s": "PERIPHERAL NERVE AND SENSATION",
+        "t": "FLACCID PARALYSIS WITHOUT ANESTHESIA (USUALLY NEUROMUSCULAR BLOCKAGE)"
+      }
+    ],
+    "j": {
+      "t": "Pesticide Chemicals Official Compendium, Association of the American Pesticide Control Officials, Inc., 1966",
+      "v": "-",
+      "p": "500",
+      "y": "1966"
+    }
+  },
+  {
+    "o": "man",
+    "t": "TDLo",
+    "r": "oral",
+    "d": {
+      "r": 892,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "'HYPERMOTILITY, DIARRHEA'"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      },
+      {
+        "s": "LIVER",
+        "t": "'JAUNDICE, OTHER OR UNCLASSIFIED'"
+      }
+    ],
+    "j": {
+      "t": "Wiadomosci Lekarskie.  Medical News",
+      "v": "28",
+      "p": "983",
+      "y": "1975",
+      "i": "1136465"
+    }
+  },
+  {
+    "o": "monkey",
+    "t": "LC50",
+    "r": "inhalation",
+    "d": {
+      "r": 3000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "j": {
+      "t": "'Prehled Prumyslove Toxikologie; Organicke Latky,' Marhold, J., Prague, Czechoslovakia, Avicenum, 1986",
+      "v": "-",
+      "p": "93",
+      "y": "1986"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 5,
+      "u": "gm/m3/2H",
+      "n": 5000,
+      "nu": "mg/m3"
+    },
+    "j": {
+      "t": "Naunyn-Schmiedeberg's Archiv fuer Experimentelle Pathologie und Pharmakologie",
+      "v": "141",
+      "p": "19",
+      "y": "1929"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 470,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Arzneimittel-Forschung. Drug Research",
+      "v": "11",
+      "p": "902",
+      "y": "1961"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 413,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "LIVER",
+        "t": "OTHER CHANGES"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "OTHER CHANGES"
+      }
+    ],
+    "j": {
+      "t": "EHP, Environmental Health Perspectives",
+      "v": "43",
+      "p": "41",
+      "y": "1982",
+      "i": "7060547"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LDLo",
+    "r": "subcutaneous",
+    "d": {
+      "r": 380,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "pig",
+    "t": "LCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 3000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "DYSPNEA"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "LACRIMATION: EYE"
+      }
+    ],
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 3000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "DYSPNEA"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "OTHER CHANGES"
+      }
+    ],
+    "j": {
+      "t": "Journal of Pharmacology and Experimental Therapeutics",
+      "v": "84",
+      "p": "53",
+      "y": "1945"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 860,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Guide to the Chemicals Used in Crop Protection",
+      "v": "6",
+      "p": "264",
+      "y": "1973"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 2800,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "ATAXIA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "GENERAL ANESTHETIC"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "LACRIMATION: EYE"
+      }
+    ],
+    "j": {
+      "t": "FAO Nutrition Meetings Report Series",
+      "v": "48A",
+      "p": "91",
+      "y": "1970"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LDLo",
+    "r": "subcutaneous",
+    "d": {
+      "r": 1200,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Quarterly Journal of Pharmacy & Pharmacology",
+      "v": "7",
+      "p": "205",
+      "y": "1934"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LC50",
+    "r": "inhalation",
+    "d": {
+      "r": 1000,
+      "u": "ppm/7H",
+      "nu": "ppm"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "COMA"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "CYANOSIS"
+      }
+    ],
+    "j": {
+      "t": "AMA Archives of Industrial Hygiene and Occupational Medicine",
+      "v": "4",
+      "p": "482",
+      "y": "1951"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 807,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Gigiena Truda i Professional'nye Zabolevaniya.  Labor Hygiene and Occupational Diseases",
+      "v": "26(4)",
+      "p": "26",
+      "y": "1982"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 670,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Farm Chemicals Handbook",
+      "v": "-",
+      "p": "C130",
+      "y": "1991"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "subcutaneous",
+    "d": {
+      "r": 1,
+      "u": "gm/kg",
+      "n": 1000,
+      "nu": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "ATAXIA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "GENERAL ANESTHETIC"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "LACRIMATION: EYE"
+      }
+    ],
+    "j": {
+      "t": "FAO Nutrition Meetings Report Series",
+      "v": "48A",
+      "p": "91",
+      "y": "1970"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LDLo",
+    "r": "intratracheal",
+    "d": {
+      "r": 120,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "National Technical Information Service",
+      "v": "OTS0520615"
+    }
+  }
+],
+   "GHS" : ["Flammable","Irritant","Health Hazard",],
+   "NFPA" : "2-3-0",
+   "descripcion" : "El 1,2-dicloroetano, también llamado dicloruro de etileno, es un químico fabricado que no se encuentra naturalmente en el medio ambiente. Es un líquido claro y tiene un olor agradable y un sabor dulce. El uso más común del 1,2-dicloroetano es en la producción de cloruro de vinilo, que se utiliza para fabricar una variedad de productos de plástico y vinilo, incluidos tubos de cloruro de polivinilo (PVC), tapicería de muebles y automóviles, revestimientos de paredes, artículos para el hogar y piezas de automóviles. . También se usa como solvente y se agrega a la gasolina con plomo para eliminar el plomo. <br> La exposición a bajos niveles de dicloruro de etileno puede ocurrir al respirar aire ambiental o en el lugar de trabajo. La inhalación de vapor concentrado de dicloruro de etileno puede inducir efectos en el sistema nervioso humano, el hígado y los riñones, así como dificultad respiratoria, arritmia cardíaca, náuseas y vómitos. La exposición por inhalación crónica (a largo plazo) al dicloruro de etileno produjo efectos en el hígado y los riñones en los animales. No hay información disponible sobre los efectos reproductivos o de desarrollo del dicloruro de etileno en humanos. Se ha observado disminución de la fertilidad y aumento de la mortalidad embrionaria en estudios de inhalación de ratas. Los estudios epidemiológicos no son concluyentes con respecto a los efectos cancerígenos del dicloruro de etileno, debido a la exposición concomitante a otras sustancias químicas. Después del tratamiento por sonda (colocando experimentalmente el químico en el estómago), se indujeron varios tipos de tumores en ratas y ratones. La EPA ha clasificado el dicloruro de etileno como un grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "1,2-dichloroethane",
+  "ethylene dichloride",
+  "ethylene dichloride, 14C-labeled",
+  "ethylene dichloride, 14C2-labeled",
+  "ethylene dichloride, 36Cl-labeled",
+  "ethylene dichloride, 38Cl-labeled",
+  "ethylene dichloride, ion (1+)",
+  "1,2-dichloroethane",
+  "Ethylene dichloride"
+],
+ },
+ {
+   "nombre" : "PLOMO (TOTAL)",
+   "CAS" : "7439-92-1",
+   "CID" : 3061,
+   "FisProps": null,
+   "ToxProps": [
+  {
+    "o": "human",
+    "t": "TCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 10,
+      "u": "ug/m3",
+      "n": 0.01,
+      "nu": "mg/m3"
+    },
+    "e": [
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "GASTRITIS"
+      },
+      {
+        "s": "LIVER",
+        "t": "OTHER CHANGES"
+      }
+    ],
+    "j": {
+      "t": "Vrachebnoe Delo.  Medical Practice",
+      "v": "(5)",
+      "p": "107",
+      "y": "1981",
+      "i": "7257246"
+    }
+  },
+  {
+    "o": "pigeon",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 160,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "'Abdernalden's Handbuch der Biologischen Arbeitsmethoden.'  ",
+      "v": "4",
+      "p": "1289",
+      "y": "1935"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LDLo",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 1,
+      "u": "gm/kg",
+      "n": 1000,
+      "nu": "mg/kg"
+    },
+    "j": {
+      "t": "Environmental Quality and Safety, Supplement",
+      "v": "1",
+      "p": "1",
+      "y": "1975",
+      "i": "1057514"
+    }
+  },
+  {
+    "o": "women",
+    "t": "TDLo",
+    "r": "oral",
+    "d": {
+      "r": 450,
+      "u": "mg/kg/6Y",
+      "nu": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "'HALLUCINATIONS, DISTORTED PERCEPTIONS'"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "MUSCLE WEAKNESS"
+      },
+      {
+        "s": "PERIPHERAL NERVE AND SENSATION",
+        "t": "FLACCID PARALYSIS WITHOUT ANESTHESIA (USUALLY NEUROMUSCULAR BLOCKAGE)"
+      }
+    ],
+    "j": {
+      "t": "JAMA, Journal of the American Medical Association",
+      "v": "237",
+      "p": "2627",
+      "y": "1977",
+      "i": "266087"
+    }
+  }
+],
+   "GHS" : [],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "Acedoxin",
+  "Acetyldigitoxin",
+  "Acetyldigitoxins",
+  "Adicin",
+  "alpha Acetyldigitoxin",
+  "alpha-Acetyldigitoxin",
+  "Desglucolanatosides A",
+  "Digitoxin Monoacetate",
+  "Monoacetate, Digitoxin"
+],
+ },
+ {
+   "nombre" : "SELENIO (TOTAL )",
+   "CAS" : "7782-49-2",
+   "CID" : 533,
+   "FisProps": null,
+   "ToxProps": [
+  {
+    "o": "rabbit",
+    "t": "LDLo",
+    "r": "intravenous",
+    "d": {
+      "r": 2500,
+      "u": "ug/kg",
+      "n": 2.5,
+      "nu": "mg/kg"
+    },
+    "j": {
+      "t": "Journal of Obstetrics and Gynaecology of the British Empire",
+      "v": "35",
+      "p": "693",
+      "y": "1928"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 33,
+      "u": "mg/m3/8H",
+      "nu": "mg/m3"
+    },
+    "e": [
+      {
+        "s": "BLOOD",
+        "t": "HEMORRHAGE"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "ACUTE PULMONARY EDEMA"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "CHANGES IN LUNG WEIGHT"
+      }
+    ],
+    "j": {
+      "t": "AMA Archives of Industrial Hygiene and Occupational Medicine",
+      "v": "4",
+      "p": "458",
+      "y": "1951"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "intravenous",
+    "d": {
+      "r": 6,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "AMA Archives of Industrial Hygiene and Occupational Medicine",
+      "v": "4",
+      "p": "458",
+      "y": "1951"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 6700,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "DYSPNEA"
+      }
+    ],
+    "j": {
+      "t": "Toxicology and Applied Pharmacology",
+      "v": "20",
+      "p": "89",
+      "y": "1971",
+      "i": "5110829"
+    }
+  }
+],
+   "GHS" : ["Flammable","Compressed Gas","Acute Toxic","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "hydrogen selenide",
+  "hydrogen selenide, 75Se-labeled",
+  "selane",
+  "7783-07-5",
+  "Dihydrogen Selenide",
+  "Hydrogen selenide",
+  "V91P54KPAM",
+  "H2Se",
+  "dihydridoselenium"
+],
+ },
+ {
+   "nombre" : "ENDOSULFAN-ALFA",
+   "CAS" : "959-98-8",
+   "CID" : 3224,
+   "FisProps": [
+  {
+    "p": "log P (octanol-water)",
+    "d": 3.83,
+    "s": "EXP"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 0.51,
+    "u": "mg/L",
+    "t": "20",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 3e-06,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 7.09e-06,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 8.17e-12,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EST"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "mammal (species unspecified)",
+    "t": "LD50",
+    "r": "unreported",
+    "d": {
+      "r": 76,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Defense des Vegetaux",
+      "v": "44(262)",
+      "p": "37",
+      "y": "1990"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 76,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "National Technical Information Service",
+      "v": "PB85-143766"
+    }
+  }
+],
+   "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El endosulfán es un pesticida. Es un sólido de color crema a marrón que puede aparecer en forma de cristales o escamas. Tiene un olor a trementina, pero no se quema. No ocurre naturalmente en el ambiente. El endosulfán es se usa para controlar insectos en cultivos alimenticios y no alimenticios y también como conservante de la madera .",
+   "sinonimos" : [
+  "alpha Endosulfan",
+  "alpha-Endosulfan",
+  "beta Endosulfan",
+  "beta-Endosulfan",
+  "Endosulfan",
+  "Thiodan",
+  "Thiodon",
+  "Thiotox",
+  "endosulfan"
+],
+ },
+ {
+   "nombre" : "ENDOSULFAN-BETA",
+   "CAS" : "33213-65-9",
+   "CID" : 3224,
+   "FisProps": [
+  {
+    "p": "log P (octanol-water)",
+    "d": 3.83,
+    "s": "EST"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 0.45,
+    "u": "mg/L",
+    "t": "20",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 6e-07,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 3.91e-07,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 8.17e-12,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EST"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "mammal (species unspecified)",
+    "t": "LD50",
+    "r": "unreported",
+    "d": {
+      "r": 240,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Defense des Vegetaux",
+      "v": "44(262)",
+      "p": "37",
+      "y": "1990"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 240,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "National Technical Information Service",
+      "v": "PB85-143766"
+    }
+  }
+],
+   "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El endosulfán es un pesticida. Es un sólido de color crema a marrón que puede aparecer en forma de cristales o escamas. Tiene un olor a trementina, pero no se quema. No ocurre naturalmente en el ambiente. El endosulfán es se usa para controlar insectos en cultivos alimenticios y no alimenticios y también como conservante de la madera .",
+   "sinonimos" : [
+  "alpha Endosulfan",
+  "alpha-Endosulfan",
+  "beta Endosulfan",
+  "beta-Endosulfan",
+  "Endosulfan",
+  "Thiodan",
+  "Thiodon",
+  "Thiotox",
+  "endosulfan"
+],
+ },
+ {
+   "nombre" : "HEXACLOROCICLOHEXANO (ISOMEROS)",
+   "CAS" : "608-73-1",
+   "CID" : 727,
+   "FisProps": [
+  {
+    "p": "Melting Point",
+    "d": 112.5,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "log P (octanol-water)",
+    "d": 4.26,
+    "s": "EST"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 8,
+    "u": "mg/L",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 0.000783,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EST"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 0.000256,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EST"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 5.73e-13,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EST"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "bird - wild",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 56,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Toxicology and Applied Pharmacology",
+      "v": "21",
+      "p": "315",
+      "y": "1972",
+      "i": "5027965"
+    }
+  },
+  {
+    "o": "chicken",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 597,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "ATAXIA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "PERIPHERAL NERVE AND SENSATION",
+        "t": "FLACCID PARALYSIS WITHOUT ANESTHESIA (USUALLY NEUROMUSCULAR BLOCKAGE)"
+      }
+    ],
+    "j": {
+      "t": "Poultry Science",
+      "v": "60",
+      "p": "2599",
+      "y": "1981",
+      "i": "6178100"
+    }
+  },
+  {
+    "o": "guinea pig",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 1400,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Medizinische Monatsschrift",
+      "v": "4",
+      "p": "25",
+      "y": "1950"
+    }
+  },
+  {
+    "o": "man",
+    "t": "TCLo",
+    "r": "inhalation",
+    "d": {
+      "r": 400,
+      "u": "ug/kg/3D",
+      "n": 0.4,
+      "nu": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "HEADACHE"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      }
+    ],
+    "j": {
+      "t": "Gigiena i Sanitariya.  For English translation, see HYSAAV",
+      "v": "49(10)",
+      "p": "26",
+      "y": "1984"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 59,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Pesticide Manual",
+      "v": "9",
+      "p": "452",
+      "y": "1991"
+    }
+  },
+  {
+    "o": "quail",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 120,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Pesticide Manual",
+      "v": "9",
+      "p": "452",
+      "y": "1991"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "subcutaneous",
+    "d": {
+      "r": 75,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "U.S. Public Health Service Publication",
+      "v": "414",
+      "p": "273",
+      "y": "1955"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LC50",
+    "r": "inhalation",
+    "d": {
+      "r": 690,
+      "u": "mg/m3/4H",
+      "nu": "mg/m3"
+    },
+    "j": {
+      "t": "Gigiena i Sanitariya.  For English translation, see HYSAAV",
+      "v": "56(2)",
+      "p": "80",
+      "y": "1991"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 100,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Archiv fuer Toxikologie",
+      "v": "22",
+      "p": "115",
+      "y": "1966"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 900,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "'Wirksubstanzen der Pflanzenschutz und Schadlingsbekampfungsmittel,' Perkow, W., Berlin, Verlag Paul Parey, 1971-1976",
+      "v": "-",
+      "p": "-",
+      "y": "1971/1976"
+    }
+  }
+],
+   "GHS" : ["Acute Toxic","Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El hexaclorociclohexano (HCH) es un químico fabricado que existe en ocho formas químicas llamadas isómeros. Una de estas formas, el gamma-HCH (o γ-HCH, comúnmente llamado lindano) se produce y se usa como insecticida en frutas, verduras y cultivos forestales. Es un sólido blanco que puede evaporarse en el aire como un vapor incoloro con un olor ligeramente a humedad. También está disponible como receta (loción, crema o champú) para tratar piojos y sarna del cuerpo y la cabeza. El lindano no se ha producido en los Estados Unidos desde 1976, pero se importa para el uso de insecticidas. El HCH de grado técnico se usó como insecticida en los Estados Unidos y típicamente contenía 10-15 0e gamma-HCH, así como las formas alfa (α), beta (β), delta (δ) y epsilon (ε) de HCH . Prácticamente todas las propiedades insecticidas residían en gamma-HCH. El HCH de grado técnico no se ha producido ni utilizado en los Estados Unidos en más de 20 años. <br> El lindano se usa como insecticida en cultivos de frutas y verduras. La exposición al lindano puede ocurrir al comer alimentos contaminados o al respirar aire contaminado durante la formulación o el uso. El lindano es bastante tóxico para los humanos. Los efectos agudos (a corto plazo) del lindano a través de la exposición por inhalación en humanos consisten en irritación de la nariz y la garganta y efectos en la sangre. La exposición crónica (a largo plazo) al lindano por inhalación en humanos se ha asociado con efectos en el hígado, la sangre y los sistemas nervioso, cardiovascular e inmune. Los estudios en animales indican que el lindano causa efectos reproductivos, mientras que no se han observado efectos en el desarrollo. Los estudios orales en animales han demostrado que el lindano es un carcinógeno del hígado. La EPA ha clasificado al lindano como un Grupo B2 / C, posible carcinógeno humano.",
+   "sinonimos" : [
+  "lindane",
+  "beta-HCH",
+  "gamma-HCH",
+  "1,2,3,4,5,6-Hexachlorocyclohexane",
+  "Hexachlorane",
+  "alpha-HCH",
+  "gamma-BHC",
+  "Benzene hexachloride",
+  "Kwell"
+],
+ },
+ {
+   "nombre" : "TRICLOROBENCENO (1,2,4-)",
+   "CAS" : "120-82-1",
+   "CID" : 13,
+   "FisProps": [
+  {
+    "p": "Melting Point",
+    "d": 17,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "Boiling Point",
+    "d": 213.5,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "log P (octanol-water)",
+    "d": 4.02,
+    "s": "EXP"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 49,
+    "u": "mg/L",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 0.46,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 0.00142,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 5.5e-13,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EXP"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 1223,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Mutagenesis",
+      "v": "2",
+      "p": "111",
+      "y": "1987",
+      "i": "3331700"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 300,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "ALTERED SLEEP TIME (INCLUDING CHANGE IN RIGHTING REFLEX)"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "ATAXIA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      }
+    ],
+    "j": {
+      "t": "Nara Igaku Zasshi.  Journal of the Nara Medical Association",
+      "v": "29",
+      "p": "569",
+      "y": "1978"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 756,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      }
+    ],
+    "j": {
+      "t": "Annals of Occupational Hygiene",
+      "v": "12",
+      "p": "209",
+      "y": "1969",
+      "i": "5361142"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 6139,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      }
+    ],
+    "j": {
+      "t": "Annals of Occupational Hygiene",
+      "v": "12",
+      "p": "209",
+      "y": "1969",
+      "i": "5361142"
+    }
+  }
+],
+   "GHS" : ["Irritant","Environmental Hazard",],
+   "NFPA" : "2-1-0",
+   "descripcion" : "La exposición ocupacional al 1,2,4-triclorobenceno puede ocurrir por inhalación durante su fabricación y uso. No hay información disponible sobre los efectos agudos (a corto plazo), crónicos (a largo plazo), reproductivos, de desarrollo y cancerígenos de 1 2,4-triclorobenceno en humanos. Se ha informado irritación local de los pulmones y disnea en animales después de la exposición aguda por inhalación. Se ha observado que la exposición oral crónica produce un aumento de los pesos suprarrenales y la vacuolización de la zona fasciculada en la corteza de las ratas. También se han informado efectos hepáticos después de la exposición oral crónica en ratas. La EPA ha clasificado el 1,2,4-triclorobenceno como un Grupo D, no clasificable en cuanto a la carcinogenicidad humana .",
+   "sinonimos" : [
+  "1,2,4-trichlorobenzene",
+  "1,2,4-trichlorobenzene",
+  "120-82-1",
+  "Benzene, 1,2,4-trichloro-",
+  "unsym-Trichlorobenzene",
+  "Hostetex L-pec",
+  "Trojchlorobenzen",
+  "1,2,4-Trichlorbenzol",
+  "1,2,4-Trichlorobenzol"
+],
+ },
+ {
+   "nombre" : "DICLOROBENCENO",
+   "CAS" : "25321-22-6",
+   "CID" : 7239,
+   "FisProps": [
+  {
+    "p": "log P (octanol-water)",
+    "d": 3.28,
+    "s": "EST"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 80,
+    "u": "mg/L",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 1.47,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 0.00355,
+    "u": "atm-m3/mole",
+    "t": "25",
+    "s": "EST"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 4e-13,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EST"
+  }
+],
+   "ToxProps": null,
+   "GHS" : ["Irritant","Environmental Hazard",],
+   "NFPA" : "2-2-0",
+   "descripcion" : "Hay tres isómeros de diclorobenceno: 1,2-diclorobenceno, 1,3-diclorobenceno y 1,4-diclorobenceno. Los diclorobencenos no se producen naturalmente. El 1,2-diclorobenceno es un líquido incoloro a amarillo pálido que se usa para hacer herbicidas. 1 , 3- El diclorobenceno es un líquido incoloro que se usa para fabricar herbicidas, insecticidas, medicamentos y colorantes. El 1,4-diclorobenceno, el más importante de los tres químicos, es un sólido incoloro a blanco con un olor fuerte y picante. aire, cambia lentamente de sólido a vapor. La mayoría de las personas pueden oler el 1,4-diclorobenceno en el aire a niveles muy bajos .",
+   "sinonimos" : [
+  "1,2-dichlorobenzene",
+  "2-dichlorobenzene",
+  "o-dichlorobenzene",
+  "1,2-DICHLOROBENZENE",
+  "o-Dichlorobenzene",
+  "95-50-1",
+  "ortho-Dichlorobenzene",
+  "o-Dichlorbenzol",
+  "2-Dichlorobenzene"
+],
+ },
+ {
+   "nombre" : "ENDOSULFAN",
+   "CAS" : "115-29-7",
+   "CID" : 3224,
+   "FisProps": [
+  {
+    "p": "Melting Point",
+    "d": 106,
+    "u": "deg C",
+    "s": "EXP"
+  },
+  {
+    "p": "log P (octanol-water)",
+    "d": 3.83,
+    "s": "EXP"
+  },
+  {
+    "p": "Water Solubility",
+    "d": 0.325,
+    "u": "mg/L",
+    "t": "22",
+    "s": "EXP"
+  },
+  {
+    "p": "Vapor Pressure",
+    "d": 1.73e-07,
+    "u": "mm Hg",
+    "t": "25",
+    "s": "EXP"
+  },
+  {
+    "p": "Henry's Law Constant",
+    "d": 6.5e-05,
+    "u": "atm-m3/mole",
+    "t": "20",
+    "s": "EXP"
+  },
+  {
+    "p": "Atmospheric OH Rate Constant",
+    "d": 1e-11,
+    "u": "cm3/molecule-sec",
+    "t": "25",
+    "s": "EXP"
+  }
+],
+   "ToxProps": [
+  {
+    "o": "bird - wild",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 35,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Toxicology and Applied Pharmacology",
+      "v": "21",
+      "p": "315",
+      "y": "1972",
+      "i": "5027965"
+    }
+  },
+  {
+    "o": "cat",
+    "t": "LC50",
+    "r": "inhalation",
+    "d": {
+      "r": 90,
+      "u": "mg/m3/4H",
+      "nu": "mg/m3"
+    },
+    "j": {
+      "t": "'Toxicometric Parameters of Industrial Toxic Chemicals Under Single Exposure,' Izmerov, N.F., et al., Moscow, Centre of International Projects, GKNT, 1982",
+      "v": "-",
+      "p": "72",
+      "y": "1982"
+    }
+  },
+  {
+    "o": "cat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 2,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "'Wirksubstanzen der Pflanzenschutz und Schadlingsbekampfungsmittel,' Perkow, W., Berlin, Verlag Paul Parey, 1971-1976",
+      "v": "-",
+      "p": "-",
+      "y": "1971/1976"
+    }
+  },
+  {
+    "o": "dog",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 76700,
+      "u": "ug/kg",
+      "n": 76.7,
+      "nu": "mg/kg"
+    },
+    "j": {
+      "t": "Pesticide Manual",
+      "v": "9",
+      "p": "332",
+      "y": "1991"
+    }
+  },
+  {
+    "o": "domestic animals - goat/sheep",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 26,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "EXCITEMENT"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "MUSCLE CONTRACTION OR SPASTICITY)"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      }
+    ],
+    "j": {
+      "t": "Veterinariya.  Veterinary Science",
+      "v": "59(12)",
+      "p": "64",
+      "y": "1983"
+    }
+  },
+  {
+    "o": "duck",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 33,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Down to Earth",
+      "v": "35",
+      "p": "25",
+      "y": "1979"
+    }
+  },
+  {
+    "o": "hamster",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 80,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Archives of Toxicology",
+      "v": "58",
+      "p": "152",
+      "y": "1986",
+      "i": "3964078"
+    }
+  },
+  {
+    "o": "hamster",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 118,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "European Journal of Toxicology and Environmental Hygiene",
+      "v": "7",
+      "p": "159",
+      "y": "1974",
+      "i": "4140096"
+    }
+  },
+  {
+    "o": "mammal (species unspecified)",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 147,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "MUSCLE CONTRACTION OR SPASTICITY)"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      }
+    ],
+    "j": {
+      "t": "Veterinariya.  Veterinary Science",
+      "v": "59(12)",
+      "p": "64",
+      "y": "1983"
+    }
+  },
+  {
+    "o": "man",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 418,
+      "u": "uL/kg",
+      "n": 0.418,
+      "nu": "mL/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "CARDIAC",
+        "t": "PULSE RATE  "
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "OTHER CHANGES: OLFACTION"
+      }
+    ],
+    "j": {
+      "t": "American Journal of Emergency Medicine",
+      "v": "6",
+      "p": "510",
+      "y": "1988"
+    }
+  },
+  {
+    "o": "man",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 429,
+      "u": "uL/kg",
+      "n": 0.429,
+      "nu": "mL/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "KIDNEY, URETER, AND BLADDER",
+        "t": "URINE VOLUME DECREASED"
+      },
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "MIOSIS (PUPILLARY CONSTRICTION): EYE"
+      }
+    ],
+    "j": {
+      "t": "Gekkan Yakuji.  Pharmaceuticals Monthly",
+      "v": "34",
+      "p": "1232",
+      "y": "1992"
+    }
+  },
+  {
+    "o": "man",
+    "t": "LDLo",
+    "r": "oral",
+    "d": {
+      "r": 260,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "BRAIN AND COVERINGS",
+        "t": "CHANGES IN SURFACE EEG"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "'FIBROSIS, FOCAL (PNEUMOCONIOSIS)'"
+      }
+    ],
+    "j": {
+      "t": "Journal of Toxicology, Clinical Toxicology",
+      "v": "36",
+      "p": "345",
+      "y": "1998",
+      "i": "9711201"
+    }
+  },
+  {
+    "o": "man",
+    "t": "TDLo",
+    "r": "oral",
+    "d": {
+      "r": 86,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "COMA"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "CYANOSIS"
+      }
+    ],
+    "j": {
+      "t": "Journal of Toxicology, Clinical Toxicology",
+      "v": "26",
+      "p": "265",
+      "y": "1988",
+      "i": "3418779"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 7,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CONVULSIONS OR EFFECT ON SEIZURE THRESHOLD"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "RESPIRATORY DEPRESSION"
+      },
+      {
+        "s": "LUNGS, THORAX, OR RESPIRATION",
+        "t": "RESPIRATORY STIMULATION"
+      }
+    ],
+    "j": {
+      "t": "Bulletin of Environmental Contamination and Toxicology",
+      "v": "15",
+      "p": "708",
+      "y": "1976",
+      "i": "938763"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 7360,
+      "u": "ug/kg",
+      "n": 7.36,
+      "nu": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "TREMOR"
+      }
+    ],
+    "j": {
+      "t": "Toxicology Letters",
+      "v": "7",
+      "p": "221",
+      "y": "1981",
+      "i": "7222097"
+    }
+  },
+  {
+    "o": "mouse",
+    "t": "LD50",
+    "r": "unreported",
+    "d": {
+      "r": 32,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Tsitologiya i Genetika.  Cytology and Genetics.  For English translation, see CYGEDX",
+      "v": "16(1)",
+      "p": "45",
+      "y": "1982"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 28,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "EXCITEMENT"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "MUSCLE CONTRACTION OR SPASTICITY)"
+      },
+      {
+        "s": "BEHAVIORAL",
+        "t": "SOMNOLENCE (GENERAL DEPRESSED ACTIVITY)"
+      }
+    ],
+    "j": {
+      "t": "Veterinariya.  Veterinary Science",
+      "v": "59(12)",
+      "p": "64",
+      "y": "1983"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 90,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "SENSE ORGANS AND SPECIAL SENSES",
+        "t": "OTHER: EYE"
+      },
+      {
+        "s": "SKIN AND APPENDAGES (SKIN)",
+        "t": "'DERMATITIS, IRRITATIVE: AFTER SYSTEMIC EXPOSURE'"
+      }
+    ],
+    "j": {
+      "t": "Journal of Occupational Medicine",
+      "v": "9",
+      "p": "35",
+      "y": "1967",
+      "i": "5226634"
+    }
+  },
+  {
+    "o": "rabbit",
+    "t": "LD50",
+    "r": "subcutaneous",
+    "d": {
+      "r": 360,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CHANGES IN MOTOR ACTIVITY (SPECIFIC ASSAY)"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "CONTRACTION (ISOLATED TISSUE)"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      }
+    ],
+    "j": {
+      "t": "Residue Reviews",
+      "v": "22",
+      "p": "1",
+      "y": "1968",
+      "i": "4868139"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LC50",
+    "r": "inhalation",
+    "d": {
+      "r": 80,
+      "u": "mg/m3/4H",
+      "nu": "mg/m3"
+    },
+    "j": {
+      "t": "Journal of Occupational Medicine",
+      "v": "9",
+      "p": "35",
+      "y": "1967",
+      "i": "5226634"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "intraperitoneal",
+    "d": {
+      "r": 8,
+      "u": "mg/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "CHANGES IN MOTOR ACTIVITY (SPECIFIC ASSAY)"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "CONTRACTION (ISOLATED TISSUE)"
+      },
+      {
+        "s": "GASTROINTESTINAL",
+        "t": "NAUSEA OR VOMITING"
+      }
+    ],
+    "j": {
+      "t": "Residue Reviews",
+      "v": "22",
+      "p": "1",
+      "y": "1968",
+      "i": "4868139"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "oral",
+    "d": {
+      "r": 18,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "Agricultural Research Service, USDA Information Memorandum",
+      "v": "20",
+      "p": "9",
+      "y": "1966"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "skin",
+    "d": {
+      "r": 34,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "'Toxicometric Parameters of Industrial Toxic Chemicals Under Single Exposure,' Izmerov, N.F., et al., Moscow, Centre of International Projects, GKNT, 1982",
+      "v": "-",
+      "p": "72",
+      "y": "1982"
+    }
+  },
+  {
+    "o": "rat",
+    "t": "LD50",
+    "r": "unreported",
+    "d": {
+      "r": 40,
+      "u": "mg/kg"
+    },
+    "j": {
+      "t": "'Chemistry of Pesticides,' Melnikov, N.N., New York, Springer-Verlag New York, Inc., 1971",
+      "v": "-",
+      "p": "267",
+      "y": "1971"
+    }
+  },
+  {
+    "o": "women",
+    "t": "TDLo",
+    "r": "intravenous",
+    "d": {
+      "r": 6,
+      "u": "uL/kg",
+      "n": 0.006,
+      "nu": "mL/kg"
+    },
+    "e": [
+      {
+        "s": "BEHAVIORAL",
+        "t": "MUSCLE WEAKNESS"
+      },
+      {
+        "s": "KIDNEY, URETER, AND BLADDER",
+        "t": "'CHANGES IN TUBULES (INCLUDING ACUTE RENAL FAILURE, ACUTE TUBULAR NECROSIS)'"
+      },
+      {
+        "s": "LIVER",
+        "t": "LIVER FUNCTION TESTS IMPAIRED"
+      }
+    ],
+    "j": {
+      "t": "Journal of Toxicology, Clinical Toxicology",
+      "v": "34",
+      "p": "447",
+      "y": "1996",
+      "i": "8699561"
+    }
+  }
+],
+   "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El endosulfán es un pesticida. Es un sólido de color crema a marrón que puede aparecer en forma de cristales o escamas. Tiene un olor a trementina, pero no se quema. No ocurre naturalmente en el ambiente. El endosulfán es se usa para controlar insectos en cultivos alimenticios y no alimenticios y también como conservante de la madera .",
+   "sinonimos" : [
+  "alpha Endosulfan",
+  "alpha-Endosulfan",
+  "beta Endosulfan",
+  "beta-Endosulfan",
+  "Endosulfan",
+  "Thiodan",
+  "Thiodon",
+  "Thiotox",
+  "endosulfan"
+],
+ },
+ {
+   "nombre" : "",
+   "CAS" : "",
+   "CID" : null,
+   "FisProps": null,
+   "ToxProps": null,
+   "GHS" : [],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [],
  },
 
 ]

@@ -1,6 +1,6 @@
 #!/bin/bash
 ToxDB_out="Tox.db"
-ToxDB_in="lista.lst" #"Rechazados_ChemIDPlus.lst" #"lista.lst"
+ToxDB_in="Rechazados_CID.lst" #"lista.lst" #"Rechazados_ChemIDPlus.lst" #"lista.lst"
 
 IFS=$'\n' CASs=($(awk -F ";" '{print $1}' ${ToxDB_in}))
 IFS=$'\n' nombres=($(awk -F ";" '{print $2}' ${ToxDB_in}))
@@ -76,13 +76,14 @@ do
 			printf "   \"ToxProps\": ${toxicologia},\n" 	    >> $ToxDB_out
 			printf "   \"GHS\" : ${GHSs}\n"			    >> $ToxDB_out 
 			printf "   \"NFPA\" : ${NFPA},\n"		    >> $ToxDB_out 
-			printf "   \"descripcion\" : \"${descripcion}\",\n" >> $ToxDB_out 
+			printf "   \"descripcion\" : ${descripcion},\n" >> $ToxDB_out 
 			printf "   \"sinonimos\" : ${sinonimos},\n"         >> $ToxDB_out 
 		printf " },\n" 						    >> $ToxDB_out
 done;
 	#=>PubChem: Summary
 		#props="MolecularFormula,MolecularWeight,IUPACName,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
-		#curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON"
+		#cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g')
+		#curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON" > summary_db.json
 
 	#Merge jsons:
 		#jq -s '.[0] * .[1]' file1 file2

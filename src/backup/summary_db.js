@@ -1,4 +1,5 @@
-    SUMMARY_DB= [
+
+    SUMMARY_DB=[
       {
         "CID": 8758,
         "MolecularFormula": "C6H9NO6",
@@ -66,44 +67,6 @@
         "IUPACName": "arsane",
         "Charge": 0,
         "Fingerprint2D": "AAADcQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 2256,
-        "MolecularFormula": "C8H14ClN5",
-        "MolecularWeight": 215.68,
-        "CanonicalSMILES": "CCNC1=NC(=NC(=N1)Cl)NC(C)C",
-        "IUPACName": "6-chloro-4-N-ethyl-2-N-propan-2-yl-1,3,5-triazine-2,4-diamine",
-        "XLogP": 2.6,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccBzgAAEAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAABgAAAHAIQAAAACCjBAAQDEAbIEAAgAAAAJAAAAAkAAIABAIAIAACACAAACAAAAAAIEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 5355457,
-        "MolecularFormula": "Ba",
-        "MolecularWeight": 137.33,
-        "CanonicalSMILES": "[Ba]",
-        "IUPACName": "barium",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 2314,
-        "MolecularFormula": "C11H13NO4",
-        "MolecularWeight": 223.22,
-        "CanonicalSMILES": "CC1(OC2=C(O1)C(=CC=C2)OC(=O)NC)C",
-        "IUPACName": "(2,2-dimethyl-1,3-benzodioxol-4-yl) N-methylcarbamate",
-        "XLogP": 1.7,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccByOAAAAAAAAAAAAAAAAAAAASAAAAAwAAAAAAAAAEgBAAAAHgAQAAAACASAkAQyDoLABACIACBCGAACCAAgIAAIiIAOiIkdJyKEMRqqOiKlwhUOqAeAYAwAAAAACAAAQAAAAAAQAACAAAAAAAAAAA=="
-      },
-      {
-        "CID": 139073,
-        "MolecularFormula": "BeH2",
-        "MolecularWeight": 11.028,
-        "CanonicalSMILES": "[H-].[H-].[Be+2]",
-        "IUPACName": "beryllium;hydride",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
       },
       {
         "CID": 727,
@@ -233,15 +196,6 @@
         "Fingerprint2D": "AAADcYBgAAAEAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIiAAAAogIICKBExCAIAAggAAIiAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
       },
       {
-        "CID": 23978,
-        "MolecularFormula": "Cu",
-        "MolecularWeight": 63.55,
-        "CanonicalSMILES": "[Cu]",
-        "IUPACName": "copper",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
         "CID": 23976,
         "MolecularFormula": "Cr",
         "MolecularWeight": 51.996,
@@ -249,45 +203,6 @@
         "IUPACName": "chromium",
         "Charge": 0,
         "Fingerprint2D": "AAADcQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 29131,
-        "MolecularFormula": "Cr+6",
-        "MolecularWeight": 51.996,
-        "CanonicalSMILES": "[Cr+6]",
-        "IUPACName": "chromium(6+)",
-        "Charge": 6,
-        "Fingerprint2D": "AAADcQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 3017,
-        "MolecularFormula": "C12H21N2O3PS",
-        "MolecularWeight": 304.35,
-        "CanonicalSMILES": "CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C",
-        "IUPACName": "diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidene-lambda5-phosphane",
-        "XLogP": 3.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADceBzMAJAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAABgAAAHgAAACAADQihlwIzlJYIERCgASZiZACAgCkhIqABGCA2bBiALgBAycIEFAhOABrAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 3024,
-        "MolecularFormula": "CH2Br2",
-        "MolecularWeight": 173.83,
-        "CanonicalSMILES": "C(Br)Br",
-        "IUPACName": "dibromomethane",
-        "XLogP": 1.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 3030,
-        "MolecularFormula": "C8H6Cl2O3",
-        "MolecularWeight": 221.03,
-        "CanonicalSMILES": "COC1=C(C=CC(=C1C(=O)O)Cl)Cl",
-        "IUPACName": "3,6-dichloro-2-methoxybenzoic acid",
-        "XLogP": 2.2,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBwMAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGgIACAAADAaAmCIyDoAABgCIAiDSCAACCAAkJUAIiAEEC8gMJzeFNhqAcWAl4BEIvQeIyCCOAAAQIQAJCAAAACBCABIQAAAAAAAAAA=="
       },
       {
         "CID": 39985,
@@ -308,6 +223,16 @@
         "XLogP": 3.4,
         "Charge": 0,
         "Fingerprint2D": "AAADcYBgAAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIiAAAAogIICKBExCAIAAggAAIiAcAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAA=="
+      },
+      {
+        "CID": 11,
+        "MolecularFormula": "C2H4Cl2",
+        "MolecularWeight": 98.96,
+        "CanonicalSMILES": "C(CCl)Cl",
+        "IUPACName": "1,2-dichloroethane",
+        "XLogP": 1.5,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAIAAAAAAAOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
       },
       {
         "CID": 10900,
@@ -605,43 +530,23 @@
         "Fingerprint2D": "AAADcYBwAAAHAAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAAAABQAAAGAIAAAAADAKAGCAwAIAAAACAAiBCAAACAAAgBQAIikAAAogIICKBExCAIAAggAAIiAcAgMAOhAAAIACBAAQIAABAAQIACAAAAAAAAA=="
       },
       {
-        "CID": 38018,
-        "MolecularFormula": "C12H4Cl6",
-        "MolecularWeight": 360.9,
-        "CanonicalSMILES": "C1=CC(=C(C(=C1C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,2,3-trichloro-4-(2,3,4-trichlorophenyl)benzene",
-        "XLogP": 7.3,
+        "CID": 3061,
+        "MolecularFormula": "C41H64O13",
+        "MolecularWeight": 764.9,
+        "CanonicalSMILES": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O",
+        "IUPACName": "3-[3-[5-[5-(4,5-dihydroxy-6-methyloxan-2-yl)oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-14-hydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one",
+        "XLogP": 2.3,
         "Charge": 0,
-        "Fingerprint2D": "AAADcYBwAAAHAAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAAAABQAAAGAIAAAAADAKAGCAwAIAAAACAAiBCAAACAAAgBQAIikAAAogIICKBEhCAIAAggAAIiAcAgMAOhAAAIACBAAQIAABAAQIACAAAAAAAAA=="
+        "Fingerprint2D": "AAADcfB8PAAAAAAAAAAAAAAAAAAAAYIAAAA0aNECAAAAAGDAAAAAGgAACAAAD1SwgAMCCAAABgCIAiDSCAAAAAAgAAAACAAAAEgRFAIAIQAiUAAFgAAPIQPA4PwPgAAAAAAAAADAAAYAADAAAYAADAAAAA=="
       },
       {
-        "CID": 11855,
-        "MolecularFormula": "C6HCl5",
-        "MolecularWeight": 250.3,
-        "CanonicalSMILES": "C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,2,3,4,5-pentachlorobenzene",
-        "XLogP": 5.2,
+        "CID": 533,
+        "MolecularFormula": "H2Se",
+        "MolecularWeight": 80.99,
+        "CanonicalSMILES": "[SeH2]",
+        "IUPACName": "selane",
         "Charge": 0,
-        "Fingerprint2D": "AAADcQBgAAAHAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAAikAAAogIICKBEhCAIAAggAAIiAcAAAAAAAAQAACAAAQAACAAAQAACAAAAAAAAA=="
-      },
-      {
-        "CID": 23954,
-        "MolecularFormula": "Ag",
-        "MolecularWeight": 107.868,
-        "CanonicalSMILES": "[Ag]",
-        "IUPACName": "silver",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 5216,
-        "MolecularFormula": "C7H12ClN5",
-        "MolecularWeight": 201.66,
-        "CanonicalSMILES": "CCNC1=NC(=NC(=N1)Cl)NCC",
-        "IUPACName": "6-chloro-2-N,4-N-diethyl-1,3,5-triazine-2,4-diamine",
-        "XLogP": 2.2,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccBjgAAEAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAABgAAAHAIQAAAAAADBAAQDEAbIEAAgAAAAJAAAAAkAAIABAIAIAACACAAACAAAAAAIEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        "Fingerprint2D": "AAADcQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
       },
       {
         "CID": 67634,
@@ -672,26 +577,6 @@
         "XLogP": 4.5,
         "Charge": 0,
         "Fingerprint2D": "AAADceBwMAJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgQAACAADACgwAKCAAAAARgAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 31373,
-        "MolecularFormula": "C2Cl4",
-        "MolecularWeight": 165.8,
-        "CanonicalSMILES": "C(=C(Cl)Cl)(Cl)Cl",
-        "IUPACName": "1,1,2,2-tetrachloroethene",
-        "XLogP": 3.4,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQBAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAIAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 1140,
-        "MolecularFormula": "C7H8",
-        "MolecularWeight": 92.14,
-        "CanonicalSMILES": "CC1=CC=CC=C1",
-        "IUPACName": "toluene",
-        "XLogP": 2.7,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccBgAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAAAAAAADACAGAAyAIAAAACAAiBCAAACAAAgAAAIiAAAAIgIICKAERCAIAAggAAIiAcAgAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
       },
       {
         "CID": 6413,
@@ -822,6 +707,66 @@
         "Fingerprint2D": "AAADcYBjOAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAHAAEAAAADAiBGAAywIAQQACBAiRCQwCCAAAgAgAoiAAAZIoIICKA0dGAIABggAAIyAcQgAAOCAAAAAQCAAAQAAAACAQAAAAAAAAAAA=="
       },
       {
+        "CID": 3224,
+        "MolecularFormula": "C9H6Cl6O3S",
+        "MolecularWeight": 406.9,
+        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
+        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
+        "XLogP": 3.8,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
+      },
+      {
+        "CID": 3224,
+        "MolecularFormula": "C9H6Cl6O3S",
+        "MolecularWeight": 406.9,
+        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
+        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
+        "XLogP": 3.8,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
+      },
+      {
+        "CID": 727,
+        "MolecularFormula": "C6H6Cl6",
+        "MolecularWeight": 290.8,
+        "CanonicalSMILES": "C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl",
+        "IUPACName": "1,2,3,4,5,6-hexachlorocyclohexane",
+        "XLogP": 3.8,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBgAAAHAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAGAIAAAAACAOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAIBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAQAACAAAAAAAAA=="
+      },
+      {
+        "CID": 13,
+        "MolecularFormula": "C6H3Cl3",
+        "MolecularWeight": 181.4,
+        "CanonicalSMILES": "C1=CC(=C(C=C1Cl)Cl)Cl",
+        "IUPACName": "1,2,4-trichlorobenzene",
+        "XLogP": 4,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcQBgAAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIikAAAogIICKBExCAIAAggAAIiAcAAAAAAAAQAACAAAQAACAAAQAACAAAAAAAAA=="
+      },
+      {
+        "CID": 7239,
+        "MolecularFormula": "C6H4Cl2",
+        "MolecularWeight": 147,
+        "CanonicalSMILES": "C1=CC=C(C(=C1)Cl)Cl",
+        "IUPACName": "1,2-dichlorobenzene",
+        "XLogP": 3.4,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBgAAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIikAAAogIICKBExCAIAAggAAIiAcAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAA=="
+      },
+      {
+        "CID": 3224,
+        "MolecularFormula": "C9H6Cl6O3S",
+        "MolecularWeight": 406.9,
+        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
+        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
+        "XLogP": 3.8,
+        "Charge": 0,
+        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
+      },
+      {
         "CID": 14917,
         "MolecularFormula": "FH",
         "MolecularWeight": 20.0064,
@@ -859,35 +804,6 @@
         "XLogP": 6.4,
         "Charge": 0,
         "Fingerprint2D": "AAADccB4AAAAAAAAAAAAAAAAAAAAAYAAAAAwYMGAAAAAAGDBVAAAGAAAAAAADACAGAAwAMAAAACAAiBCAAACAAAgAAAIiAAAAIgIICKAERCAIAAggAAIiAcAgMAOwAACAAAQAACAAAQAACAAAQAACAAAAA=="
-      },
-      {
-        "CID": 5352426,
-        "MolecularFormula": "Sn",
-        "MolecularWeight": 118.71,
-        "CanonicalSMILES": "[Sn]",
-        "IUPACName": "tin",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 9131,
-        "MolecularFormula": "C22H12",
-        "MolecularWeight": 276.3,
-        "CanonicalSMILES": "C1=CC=C2C(=C1)C3=C4C2=CC5=CC=CC6=C5C4=C(C=C6)C=C3",
-        "IUPACName": "hexacyclo[16.3.1.02,7.08,21.011,20.014,19]docosa-1(22),2,4,6,8(21),9,11(20),12,14(19),15,17-undecaene",
-        "XLogP": 7,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccB4AAAAAAAAAAAAAAAAAAAAAYAAAAAwYMGDAAAAAGDBVAAAGAAAAAAADACAGAAwAMAAAACAAiBCAAACAAAgAAAIiAAAAIgIICKAERCAIAAggAAIiAcAgMAOwAACAAAQAACAAAQAACAAAQAACAAAAA=="
-      },
-      {
-        "CID": 31423,
-        "MolecularFormula": "C16H10",
-        "MolecularWeight": 202.25,
-        "CanonicalSMILES": "C1=CC2=C3C(=C1)C=CC4=CC=CC(=C43)C=C2",
-        "IUPACName": "pyrene",
-        "XLogP": 4.9,
-        "Charge": 0,
-        "Fingerprint2D": "AAADccB4AAAAAAAAAAAAAAAAAAAAAAAAAAAwYMGAAAAAAADBVAAAGAAAAAAADACAGAAwAMAAAACAAiBCAAACAAAgAAAIiAAAAIgIICKAERCAIAAggAAIiAcAgMAOwAACAAAQAACAAAQAACAAAAAAAAAAAA=="
       },
       {
         "CID": 7904,
@@ -968,94 +884,5 @@
         "XLogP": 0.5,
         "Charge": 0,
         "Fingerprint2D": "AAADcQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 11,
-        "MolecularFormula": "C2H4Cl2",
-        "MolecularWeight": 98.96,
-        "CanonicalSMILES": "C(CCl)Cl",
-        "IUPACName": "1,2-dichloroethane",
-        "XLogP": 1.5,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAIAAAAAAAOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 3061,
-        "MolecularFormula": "C41H64O13",
-        "MolecularWeight": 764.9,
-        "CanonicalSMILES": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O",
-        "IUPACName": "3-[3-[5-[5-(4,5-dihydroxy-6-methyloxan-2-yl)oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-14-hydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one",
-        "XLogP": 2.3,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcfB8PAAAAAAAAAAAAAAAAAAAAYIAAAA0aNECAAAAAGDAAAAAGgAACAAAD1SwgAMCCAAABgCIAiDSCAAAAAAgAAAACAAAAEgRFAIAIQAiUAAFgAAPIQPA4PwPgAAAAAAAAADAAAYAADAAAYAADAAAAA=="
-      },
-      {
-        "CID": 533,
-        "MolecularFormula": "H2Se",
-        "MolecularWeight": 80.99,
-        "CanonicalSMILES": "[SeH2]",
-        "IUPACName": "selane",
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      },
-      {
-        "CID": 3224,
-        "MolecularFormula": "C9H6Cl6O3S",
-        "MolecularWeight": 406.9,
-        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
-        "XLogP": 3.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
-      },
-      {
-        "CID": 3224,
-        "MolecularFormula": "C9H6Cl6O3S",
-        "MolecularWeight": 406.9,
-        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
-        "XLogP": 3.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
-      },
-      {
-        "CID": 727,
-        "MolecularFormula": "C6H6Cl6",
-        "MolecularWeight": 290.8,
-        "CanonicalSMILES": "C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,2,3,4,5,6-hexachlorocyclohexane",
-        "XLogP": 3.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBgAAAHAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAGAIAAAAACAOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAIBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAQAACAAAAAAAAA=="
-      },
-      {
-        "CID": 13,
-        "MolecularFormula": "C6H3Cl3",
-        "MolecularWeight": 181.4,
-        "CanonicalSMILES": "C1=CC(=C(C=C1Cl)Cl)Cl",
-        "IUPACName": "1,2,4-trichlorobenzene",
-        "XLogP": 4,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcQBgAAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIikAAAogIICKBExCAIAAggAAIiAcAAAAAAAAQAACAAAQAACAAAQAACAAAAAAAAA=="
-      },
-      {
-        "CID": 7239,
-        "MolecularFormula": "C6H4Cl2",
-        "MolecularWeight": 147,
-        "CanonicalSMILES": "C1=CC=C(C(=C1)Cl)Cl",
-        "IUPACName": "1,2-dichlorobenzene",
-        "XLogP": 3.4,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBgAAAGAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGAIAAAAACAKAECAwAIAAAACAACBCAAACAAAgBQAIikAAAogIICKBExCAIAAggAAIiAcAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAA=="
-      },
-      {
-        "CID": 3224,
-        "MolecularFormula": "C9H6Cl6O3S",
-        "MolecularWeight": 406.9,
-        "CanonicalSMILES": "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl",
-        "IUPACName": "1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide",
-        "XLogP": 3.8,
-        "Charge": 0,
-        "Fingerprint2D": "AAADcYBwMABHAAAAAAAAAAAAAAAAAYIAAAAgAAAABIAAAACQAAAAGgIAAAAADQKggIIAAAAAAACAAABAACAAAAAgAAAACEAAAggAAAIBAAAAAAAEgAAIAAPAwDAOgAAAAAAAAAAAAAAAAAAAARAASIACAA=="
       }
     ]
