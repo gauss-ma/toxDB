@@ -219,7 +219,7 @@ header{
 	transition: box-shadow 200ms ease-in-out;
 	/* color: rgba(0,0,0,.6);
 	fill: rgba(0,0,0,.6); */
-	background-color:#fff;
+	background-color:var(--blanco);
 	box-shadow: 1px 1px transparent;
  	z-index:1000;
 }
@@ -227,7 +227,7 @@ header{
 #Logo {	
 	
 	position:absolute;
-	left:60px;
+	right:60px;
 	padding:5px;
 	width:40px;
 }
@@ -241,7 +241,7 @@ header{
 	display:flex;
 	position:absolute;
 	top:15px;      
-	right:60px;        
+	left:60px;        
 	padding:5px;
 	height:40px;
 	text-align:center;
@@ -265,20 +265,22 @@ header{
 
 /*  MAIN    */
 
-html{background-color:red;}
-body{background-color:purple;}
+html{background-color:var(--blanco);}
+body{background-color:var(--blanco);}
 main{
     min-height: -moz-calc(100% - 48px);
     min-height: calc(100% - 48px);
-	/*    padding-top:64px;
-    padding-left: 60px;
-	padding-bottom: 48px;
+    padding:64px 60px 48px;
 	/* no se como cambiarlo */
-    margin-left:60px;
-    margin-right:60px;
-    padding-top:60px;
-    background:pink; 
+   /* margin-left:60px;
+    margin-right:60px;*/
+	margin:0 auto;
+max-width: 1440px;
+    padding-top:48px;
+    background: var(--blanco); 
     transition: padding 100ms cubic-bezier(0.4,0,0.2,1),margin 300ms cubic-bezier(0.4,0,0.2,1);
+	display:grid;
+	align-items: center;
 }
 
 .sidebar{
@@ -287,7 +289,7 @@ main{
    right:0;
    width:400px;
    height:100%;
-   background-color:#fff;
+   background-color: var(--blanco);
    z-index:300;
 -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
@@ -335,14 +337,13 @@ box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
     vertical-align:middle;
     margin-top:20px;
     margin-bottom:30px;
-	width: 90%;
-	max-width:1200px;
 	height: 53px;
 	border: 1px solid var(--gris-medio);
 	box-sizing: border-box;
 	border-radius: 48px;
 	display:flex;
 	background-color:var(--blanco);
+	width: 100%;
 }
 .search_icon{
   width:30px;
@@ -363,7 +364,6 @@ overflow: hidden;
 text-overflow: ellipsis;
 font-size: 15px;
 color: var(--negro);
-	background-color:green;
 font-weight: 400;
 flex:auto;
 }
@@ -372,7 +372,7 @@ flex:auto;
    	display:flex;
 	margin: 0 auto;
 	padding-left:60px;
-	padding-right: calc(10% + 60px);
+	padding-right: calc(0% + 60px);
 	position: fixed!important;
 	top:0;
 	left:0;
@@ -402,7 +402,7 @@ flex:auto;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
-	width: 90%;
+	width: 100%;
 	justify-content: space-between;
 	color:var(--negro);
 }
@@ -468,14 +468,14 @@ width: auto;
 
 /*      TARJETAS         */
 .grid-container{
-   padding:10px;
-	margin-top:0px;
-   width:90%;
+	padding-top:10px;
+   width:100%;
    max-width:1500px;
-   display:flex;
+   /*display:flex;
    flex-wrap: wrap;
-  justify-content: center;
-	align-items: center;
+   	justify-content: center;
+	align-items: center;*/
+	display:block;
    background-color: var(--blanco);
 }
 
@@ -487,14 +487,11 @@ width: auto;
         display: flex;
   flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-      
-      
-
 }
 
 .list_view {
   flex-direction: column;
- width:100%;
+  width:100%;
 }
 
 .grid_view {
@@ -502,19 +499,18 @@ width: auto;
 }
 
 
+
 .list_view > .grid-card{
    padding-bottom:-2px;
    margin-top:-2px;
 justify-content: center;
 align-items: center;
- width:100%;
-}
-.grid_view >.grid-card{
-   padding-bottom:24px;
-   padding-right:24px;
+   width:100%;
 }
 
-.grid-container > ol > li {
+.grid_view >.grid-card{
+   padding-bottom:24px;
+	height:300px;
 }
 
 
@@ -531,6 +527,8 @@ align-items: center;
 	position: relative;
 	box-sizing: inherit;
 	transition: .18s ease all;
+	height:100%;
+	width:100%;
 }
 
 
@@ -545,17 +543,18 @@ align-items: center;
 }
 
 .grid_view > li{
-	width: -moz-calc(33.% - 20px);
-	width: calc(33.% - 20px);
-	margin-right: 20px;
+	width: -moz-calc(33.333% - 20px);
+	width: calc(33.333% - 20px);
+   margin-left:10px;
+   margin-right:10px;
 }
 .grid_view > li > a{
 	width:100%;
-	min-width: 300px;
+	min-width: 290px;
+	min-height:100%;
 }
 
 .grid_view > .grid-card > a{
-	height:250px;
 	border-radius: 8px;
 	border: 1px solid var(--gris-claro);
 }
@@ -596,22 +595,21 @@ align-items: center;
 	position: relative;
 	padding-left: 16px;
 	padding-right: 16px;
-	}
-
-
+      }
 .card-titulo {
         font-size: 18px;
         font-weight: 800;
         line-height: 20px;
         margin-top: 12px;
         margin-bottom: 4px;
+	
 }
 .card-subtitulo {
         font-size: 12px;
         /* font-weight:20; */
         line-height: 16px;
         min-height: 14px;
-  border-bottom: 0.05px solid #f4f4f4;
+  border-bottom: 0.05px solid var(--blanco);
 }
 .card-content{
 	height:60%;
@@ -681,7 +679,7 @@ align-items: center;
 	/*white-space: nowrap;*/
 	font-size: 48px;
 	line-height: 64px;
-	background-color:orange;
+	background-color: var(--blanco);
 }
 
 .specimen-header_subtitulo {
@@ -706,7 +704,7 @@ line-height: 20px;
 }
 
 .specimen_data {
-	width:90%;
+	width:100%;
 	max-width:1200px;
 	padding-left:20px;
 	padding-bottom:20px;
@@ -748,7 +746,7 @@ line-height: 20px;
 	position:fixed;
 	top:0;right:0;left:0;
 	width:100%;
-	background-color:#fff;
+	background-color: var(--blanco);
    transition: 300ms cubic-bezier(0.4,0,0.2,1) padding-right;
    padding-left: calc(60px + 20px);
    padding-right: 60px;
@@ -757,7 +755,7 @@ line-height: 20px;
    left: 0;
    position: fixed;
    top: 0;
-   border-bottom: 0.1px solid #000;
+   border-bottom: 0.1px solid var(--gris-medio);
 	display:none;
 }
 .specimen_page_nav > ul {
@@ -772,13 +770,13 @@ line-height: 20px;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
-	/* border-bottom: 0.01px solid #000; */
-	background-color: white;
+	border-bottom: 0.01px solid var(--gris-claro); 
+	background-color: var(--blanco);
    margin-top:1px;
 }	
 .specimen_page_nav_header{
 	width:100%;
-	background-color:#fff;
+	background-color:var(--blanco);
 	height:64px;
 	position: relative;
 	display: -webkit-box;
@@ -794,7 +792,7 @@ line-height: 20px;
     text-overflow: ellipsis;
     font-size: 48px;
     line-height: 64px;
-	background-color:orange;
+	background-color:var(--blanco);
 }
 .specimen_page_nav >ul>li>button{
 	display: inline-block;
@@ -1025,7 +1023,7 @@ display:none;
 }
 
 /* Pantalla angosta */
-@media (max-width:900px){
+@media (max-width:1100px){
 
 	.specimen_page,
 	.specimen_page > section{
@@ -1035,11 +1033,13 @@ display:none;
    		padding-left: calc(60px + 0px);
 	}
 
-
-	.grid_view > li>a{
-		width: -moz-calc(48% - 12px);
-		width: calc(48% - 12px);
-		margin-right: 12px;
+	.grid_view > li{
+		width: -moz-calc(50% - 20px);
+		width: calc(50% - 20px);
+		margin-left: 10px;
+		margin-right: 10px;
+	   height:300px;
+		max-width:350px;
 	}
 
 }
@@ -1058,16 +1058,18 @@ display:none;
 		margin-left:0px;
 		padding-left:20px;
 	}
-	#Logo{left:25px;}
-	.logoToxDB{right:20px;}
+	#Logo{right:25px;}
+	.logoToxDB{left:20px;}
 
 
 
-	.grid_view > li,
-	.grid_view > li>a{
-		width: -moz-calc(98% - 5px);
-		width: calc(98% - 5px);
+	.grid_view > li{
+		width: -moz-calc(99% - 10px);
+		width: calc(99% - 10px);
+		margin-left: 5px;
 		margin-right: 5px;
+	   height:250px;
+		max-width:450px;
 	}
 
 
