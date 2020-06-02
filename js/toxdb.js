@@ -63,7 +63,7 @@ $(document).ready(function(){
 	                	        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
 				</div>
 	                        <div class='card-content'>
-					<img src="src/PubChem/img2D/`+TOXDB[i].CID+`.png"></img>
+					<img src="src/PubChem/img2DHD/`+TOXDB[i].CID+`.png"></img>
 				</div>
 	                        <div  class='card-footer'> 
 					<h2>`+SUMMARY_DB[j].MolecularFormula+`</h2>

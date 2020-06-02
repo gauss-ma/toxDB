@@ -500,17 +500,19 @@ width: auto;
 
 
 
-.list_view > .grid-card{
+.list_view > .grid-card {
    padding-bottom:-2px;
    margin-top:-2px;
-justify-content: center;
-align-items: center;
+/*justify-content: center;
+align-items: center;*/
+	margin:0 auto;
    width:100%;
+	max-width:800px;
 }
 
 .grid_view >.grid-card{
    padding-bottom:24px;
-	height:300px;
+	max-height:350px;
 }
 
 
@@ -540,6 +542,10 @@ align-items: center;
 .grid-card >a> section {
         width:100%;
         display:block;
+	display:flex;
+	flex-direction:column;
+justify-content: center;
+align-items: center;
 }
 
 .grid_view > li{
@@ -560,22 +566,14 @@ align-items: center;
 }
 
 
-
-.list_view > li,
-.list_view > li>a{
-	/*width: -moz-calc(100% - 0px + 0px);
-	width: calc(100% - 0px + 0px);*/
-	margin-right: 0px;
-	width:100%;
-	max-width:1200px;
-	border: 1px solid var(--gris-claro);
-}
-
 .list_view > .grid-card > a{
-	min-height:50%;
-	margin-bottom:1px;
 	padding-bottom:0px;
 	border-radius: 8px;
+	margin-right: 0px;
+	margin-bottom:1px;
+	border: 1px solid var(--gris-claro);
+	width:100%;
+
 }
 
 .list_view>li >a>section>.card-header *{
@@ -584,7 +582,7 @@ align-items: center;
 	margin:2px;
 }
 .list_view>li >a>section>.card-header{
- display:flex;
+     display:flex;
 	justify-content:space-between;
 }
 
@@ -612,18 +610,24 @@ align-items: center;
   border-bottom: 0.05px solid var(--blanco);
 }
 .card-content{
-	height:60%;
 	vertical-align: middle;
-        /*align-items: center;
-        text-align: center;*/
+        align-items: center;
+        text-align: center;
 
+}
+.card-content > img{
+	width:80%;
+	max-width:250px;
+	margin-top:-50px;
+	z-index:-1;
 }
 .card-footer{
   float: right;
-	margin-right:10px;
+	margin-right:15px;
 	text-align:right;
 	position:relative;
 	font-size:20px;
+	width:100%;
 }
 
 
@@ -698,9 +702,10 @@ align-items: center;
     font-weight: 400;
 }
 
+.specimen_page,
 .specimen_page p{
-font-size: 14px;
-line-height: 20px;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 .specimen_data {
@@ -1056,7 +1061,6 @@ display:none;
 	.top_fixed-search_toolbar{
 		margin-right:0px;
 		margin-left:0px;
-		padding-left:20px;
 	}
 	#Logo{right:25px;}
 	.logoToxDB{left:20px;}
