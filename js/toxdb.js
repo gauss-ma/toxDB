@@ -129,7 +129,7 @@ function restart(){
 	
 }
 
-
+RefCELL='<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i><td>'
 
 //ARMAR ARTICULO DE UN COMPUESTO EN PARTICULAR:
 function verCompuesto(index){
@@ -182,9 +182,9 @@ function verCompuesto(index){
                         try{
                                 FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
                                 <table>`;                                                                                                       
-                                for (j=0;j< tox.PhysProps.length;j++){
-                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.PhysProps[j].p +':</h3><i>('+tox.PhysProps[j].u+')</i></td>';
-                                        FisQui+=`<td class="specimen_data_value">`+tox.PhysProps[j].d +`</td>`
+                                for (j=0;j< tox.FisProps.length;j++){
+                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.FisProps[j].p +':</h3><i>('+tox.FisProps[j].u+')</i></td>';
+                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d +`</td>`
 					FisQui+=`<td class="specimen_data_referencia"  onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i></td></tr><tr class="cita"><td> ChemIDPlus.</td></tr>`; 
                                 }
 				FisQui+=`</table></section>`
@@ -232,6 +232,51 @@ function verCompuesto(index){
 			      </section>`;                                              
 
                         $(".specimen_page").append(NFPA);
+			//Volatilidad, Difusividad
+			 try{
+			 epa=EPA_DB.find(x => x.CAS === tox.CAS);
+			 Summary= `
+			 <section class='specimen_data' id='Volatilidad'>
+				<h1> Volatilidad </h1>
+			 	<table><tbody>
+			        <tr><td><h3>Constante de Henry (H):</h3><i>(-)</i></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			        <tr><td><h3>Constante de Henry (HLC)</h3><i>(atm-m3/mol)</i></td><td>`+ epa.HLC+`</td>`+RefCELL+`</tr>
+			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			        <tr><td><h3>Presión de Vapor</h3><i>(mmHg)</i></td><td>`+ epa.VP+`</td>`+RefCELL+`</tr>
+			        <tr class="cita"><td>`+epa.VP_ref+`</td></tr>                                                                   
+			         </tbody></table> 
+			 </section>`;
+
+			Summary+= `
+			<section class='specimen_data' id='Difusividad'>
+			       <h1> Difusividad</h1>
+				<table><tbody>
+			       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Dw+`</td>`+RefCELL+`</tr>
+			       <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
+			       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Da+`</td>`+RefCELL+`</tr>
+			       <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			        </tbody></table> 
+			</section>`;
+
+
+			//Summary+= `
+			//<section class='specimen_data' id='Coefs_Particion'>
+			//       <h1> Partición</h1>
+			//	<table><tbody>
+			//       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Dw+`</td>`+RefCELL+`</tr>
+			//       <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
+			//       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Da+`</td>`+RefCELL+`</tr>
+			//       <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			//        </tbody></table> 
+			//</section>`;
+
+
+
+                        $(".specimen_page").append(Summary);
+			 }catch(error){console.error(error);}
+			
+
 
 
 	
