@@ -254,19 +254,6 @@ function verCompuesto(index){
 
 };
 
-
-
-
-	
-	
-	
-
-        
-        
-        
-        
-        
-        
  //Ripple
 
 
