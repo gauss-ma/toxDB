@@ -9,8 +9,8 @@
 	<!-- <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css" /> -->
 	<script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
 	<!-- CSS      -->
-	<link href="css/toxdb.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+	<link href="css/toxdb.css" rel="stylesheet">
 	<!-- Entendiendo que vamos a trabajar con ggl fonts, eventualmente no hace falta que los carguemos desde archivo -->
 	<!-- <link href="css/font-style.css" rel="stylesheet">  -->
 	<link
@@ -89,7 +89,7 @@
 		<!-- <form id="myForm"> 	 -->
 			<i class="fa fa-search search_icon" aria-hidden="true"></i>
 			<input class="search_input" type="text" name="" placeholder="Buscar...">
-			<i class="fas fa-times search_close search_icon"></i>
+			<i class="fas fa-times search_close search_icon" onclick="$('.search_input').val(' ');$('li.grid-card').show()"></i>
 		<!-- </form> -->
 		</div>
 
