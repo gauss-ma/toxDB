@@ -9,7 +9,24 @@ $(document).ready(function(){
 	//            //$('.sidebar').slideToggle("fast");
 	//    	$(".sidebar").animate({width:'toggle'},400);
 	//});
+
 	//BUSCADOR / FILTRO
+
+	$(".search_close").on("click", function(){
+
+		console.log("clickeaste la cruz");
+		// $(".search_input").empty();
+		$(".search_input").value=""; 
+		// document.getElementById("myForm").reset();		
+		
+		//bug, no solo no se limpia el input sino que ya no te deja buscar,
+		//interactua feo con "filtrar"  
+		
+
+
+			
+	
+})
   	$(".search_input").on("keyup", function() {
 		$("body").scrollTop(0);
 		
