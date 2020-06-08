@@ -164,8 +164,8 @@ function verCompuesto(index){
                                 <tbody>
                                 <tr><td> Nombre IUPAC:          </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
                                 <tr><td> Fórmula Molecular:     </td><td>`+ summary.MolecularFormula+`</td></tr>
-                                <tr><td> SMILE canónico:        </td><td>`+ summary.CanonicalSMILES +`</td></tr>
-                                <tr><td> Estructura:            </td><td><img src='src/PubChem/img2D/`+tox.CID+`.png'></img>
+                                <tr><td> SMILE canónico:        </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
+                                <tr><td> Estructura:            </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
                                                                          <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
                                 <tr><td> Peso Molecular:        </td><td>`+ summary.MolecularWeight             +`</td></tr>
                                 <tr><td> XLogP:                 </td><td>`+ summary.XLogP               +`</td></tr>

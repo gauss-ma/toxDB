@@ -11,32 +11,32 @@ Grupo              | variable              | Descripción:                      
 **`` CAS      ``** | ``                 ``   | Chemical Abstracts Service Registry Number    |
 **`` CID      ``** | ``                 ``   | Compound ID Number (PubChem)                  |
 **`` Summary  ``** | `` IUPACName        ``  | Nombre IUPAC          	                   |
-                   | `` MolecularFormula ``  | Formula molecular                 	           |
-                   | `` CanonicalSMILES  ``  | Simplified Molecular Input Line Entry System  |
-                   | `` MolecularWeight  ``  | Peso Molecular                     	   |
-                   | `` XLogP            ``  | Coeficiente de partición Octanol Agua         |
-                   | `` Charge           ``  | Carga Neta                                    |
-                   | `` Fingerprint2D    ``  | Estructura 2D codificada en 64-bits.	   |
+``                 ``  | `` MolecularFormula ``  | Formula molecular                 	           |
+``                 ``| `` CanonicalSMILES  ``  | Simplified Molecular Input Line Entry System  |
+``                 ``| `` MolecularWeight  ``  | Peso Molecular                     	   |
+``                 `` | `` XLogP            ``  | Coeficiente de partición Octanol Agua         |
+``                 ``| `` Charge           ``  | Carga Neta                                    |
+``                 ``| `` Fingerprint2D    ``  | Estructura 2D codificada en 64-bits.	   |
 **`` PhysProps``** | ``                 ``   | Diffusion coefficient in water (cm2/s)        |
-                   | ``                 ``   | Relative bioavailability factor (-)           |
-                   | ``                 ``   | Water (mg/L)			           |
-                   | ``                 ``   | Soil (mg/kg)			           |
-                   | ``                 ``   | Saturated zone			           |
-                   | ``                 ``   | Unsaturated zone			           |
-                   | ``                 ``   | Above ground veg.			           |
-                   | ``                 ``   | Below ground veg.			           |
-                   | ``                 ``   | EPA weight of evidence		           |
+``                 `` | ``                 ``   | Relative bioavailability factor (-)           |
+``                 ``  | ``                 ``   | Water (mg/L)			           |
+``                 `` | ``                 ``   | Soil (mg/kg)			           |
+``                 ``| ``                 ``   | Saturated zone			           |
+``                 ``  | ``                 ``   | Unsaturated zone			           |
+``                 ``   | ``                 ``   | Above ground veg.			           |
+``                 ``  | ``                 ``   | Below ground veg.			           |
+``                 `` | ``                 ``   | EPA weight of evidence		           |
 **`` ToxiProps``** | ``                 ``   | Carcinogen				           |
-                   | ``                 ``   | Oral slope factor (1/[mg/kg/day])	           |
-                   | ``                 ``   | Inhalation unit risk factor (1/[ug/m3])       |
-                   | ``                 ``   | Oral reference dose (mg/kg/day)	           |
-                   | ``                 ``   | Inhalation reference conc. (mg/m3)	           |
-                   | ``                 ``   | Dermal adsorption fraction (-)	           |
-                   | ``                 ``   | Gastrointestinal adsorption fraction (-)      |
-                   | ``                 ``   | Dermal permeability coefficient (cm/hr)       |
-                   | ``                 ``   | Lag time for dermal exposure (hr)	           |
-                   | ``                 ``   | Critical dermal exposure time (hr)	           |
-                   | ``                 ``   | Relative contribution of perm. coeff. (-)     |
+``                 ``| ``                 ``   | Oral slope factor (1/[mg/kg/day])	           |
+``                 `` | ``                 ``   | Inhalation unit risk factor (1/[ug/m3])       |
+``                 ``  | ``                 ``   | Oral reference dose (mg/kg/day)	           |
+``                 ``| ``                 ``   | Inhalation reference conc. (mg/m3)	           |
+``                 `` | ``                 ``   | Dermal adsorption fraction (-)	           |
+``                 `` | ``                 ``   | Gastrointestinal adsorption fraction (-)      |
+``                 `` | ``                 ``   | Dermal permeability coefficient (cm/hr)       |
+``                 ``| ``                 ``   | Lag time for dermal exposure (hr)	           |
+``                 ``| ``                 ``   | Critical dermal exposure time (hr)	           |
+``                 ``  | ``                 ``   | Relative contribution of perm. coeff. (-)     |
 **``MCL_1     ``** | ``                 ``   | Primary CL				           |
 **``MCL_2     ``** | ``                 ``   | Secondary CL				   |
 **``PEL_TWA   ``** | ``                 ``   | Occupational Air PEL/TWA (mg/m3)	           |
