@@ -143,13 +143,9 @@ select,button,input {
 }
 
 button:hover{
-background-color:var(--gris-claro);
-cursor: pointer
-
-
-
-
-
+/*background-color:var(--gris-claro);*/
+	cursor: pointer;
+	opacity:1;
 }
 
 h1,
@@ -204,13 +200,21 @@ figure figcaption {
   /* overflow: visible; */
   position: fixed;
   transform: translateX(-100%);
-  transition-property: background-color,box-shadow,transform;
-  transition: box-shadow .3s cubic-bezier(0.55, 0, 0.55, 0.2);
   vertical-align: middle;
   width: 56px;
   z-index: 80;
+    transition-property: background-color,box-shadow,transform;
+    transition: box-shadow .3s cubic-bezier(0.55, 0, 0.55, 0.2);
+    background-color: rgba(255, 255, 255, .9);
+	color:var(--celeste-claro);
+    opacity:0.8;
 }
 
+.fixed-button:hover{
+    background-color:#fff;
+	color:var(--celeste-claro);
+	opacity:1;
+}
 
 
 /* HEADER */
@@ -284,7 +288,7 @@ main{
     margin-right:60px;*/
 	margin:0 auto;
 max-width: 1440px;
-    padding-top:48px;
+    padding-top:50px;
     background: var(--blanco); 
     transition: padding 100ms cubic-bezier(0.4,0,0.2,1),margin 300ms cubic-bezier(0.4,0,0.2,1);
 	display:grid;
@@ -379,7 +383,8 @@ outline: none;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
-font-size: 15px;
+	font-size: 18px;
+	line-height:22px;
 color: var(--negro);
 font-weight: 400;
 flex:auto;
@@ -494,7 +499,6 @@ width: auto;
    	justify-content: center;
 	align-items: center;*/
 	display:block;
-   background-color: var(--blanco);
 }
 
 .grid-cards{
@@ -535,8 +539,8 @@ align-items: center;*/
 
 
 .grid-card > a{
-	background:var(--blanco);
 	/*
+	background:var(--blanco);
 	box-shadow: 0px 0px 0px #fff,0px 0px 0px #fff,0px 0px 0px #fff;
 	*/
 	box-sizing: border-box;
@@ -549,13 +553,18 @@ align-items: center;*/
 	transition: .18s ease all;
 	height:100%;
 	width:100%;
+	background-color: rgba(255, 255, 255, .1);
+        border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
 }
 
 
 .grid-card> a:hover{
         box-shadow: 0px 1px 4px rgba(0,0,0,.1),0px 2px 3px rgba(0,0,0,.12),0px 1px 3px rgba(0,0,0,.14);
 		transform: translateY(-1px);
-		cursor: pointer
+		cursor: pointer;
+		opacity:1;
 }
 
 .grid-card >a> section {
@@ -580,8 +589,6 @@ align-items: center;
 }
 
 .grid_view > .grid-card > a{
-	border-radius: 8px;
-	border: 1px solid var(--gris-claro);
 }
 
 
@@ -621,8 +628,7 @@ align-items: center;
         line-height: 20px;
         margin-top: 12px;
 		margin-bottom: 4px;
-		cursor: text
-	
+		cursor: text;
 }
 .card-subtitulo {
         font-size: 12px;
@@ -744,14 +750,22 @@ align-items: center;
 .resumen {
    border-color:var(--gris-claro);
    margin: 10px 10px;
-   border-radius: 2px;
+   /*border-radius: 2px;
    border-width: 4px;
    border-style: solid;
    border-collapse: collapse;
-   border-spacing: 0;
+   border-spacing: 0;*/
    text-align: left;
    padding: 30px;
   max-width:600px;
+    background: rgba(255, 255, 255, .9);
+        border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
+    -webkit-transform-origin: 50% 300%;
+	opacity:0.8;
+
+
 }
 .resumen > table >tbody> tr > td:first-child {
 	margin-right:50px;
