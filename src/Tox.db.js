@@ -7,7 +7,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "v": "242 dec",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -38,14 +38,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.3e-10,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.9e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -120,13 +120,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -87.7,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 52.6,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -151,14 +151,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000122,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.99e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -664,7 +664,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 99,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -689,14 +689,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.44e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 9.2e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -1059,7 +1059,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 104,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -1084,14 +1084,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.4e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 6.46e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -2095,7 +2095,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 173,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -2125,14 +2125,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.36e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.73e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -2326,7 +2326,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 130,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -2351,14 +2351,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 3.9e-08,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.39e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -2567,13 +2567,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 159.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 288,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -2591,14 +2591,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.22e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.4e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -2676,7 +2676,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 314.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -2694,14 +2694,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.4e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.73e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -2777,13 +2777,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -51.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 178.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -2808,14 +2808,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.7e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.16e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -2997,13 +2997,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -41.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 106,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -3028,14 +3028,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00436,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.1e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -3223,13 +3223,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -97,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 187,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -3254,14 +3254,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 7.42e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.6e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -3385,13 +3385,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -55,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 384,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -3416,14 +3416,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.7e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.2e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -3969,7 +3969,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 190,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -3994,14 +3994,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.32e-10,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.1e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -4444,7 +4444,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 151,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -4469,14 +4469,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 3.09e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.6e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -4921,7 +4921,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 168,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -4951,14 +4951,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.57e-12,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 9.31e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -5334,13 +5334,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -45.2,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 131.7,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -5365,14 +5365,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00311,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.7e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -5808,7 +5808,7 @@ TOXDB=[
     "p": "Melting Point",
     "d": 25,
     "v": "< 25",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -5833,14 +5833,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.13e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "23",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 9.67e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -6273,13 +6273,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 9.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 131.6,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -6304,14 +6304,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00065,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.5e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -6651,7 +6651,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 115,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -6681,14 +6681,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.18e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.99e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -6850,7 +6850,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 40,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -6875,14 +6875,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.97e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.9e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -7006,13 +7006,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 52.7,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 174,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -7037,14 +7037,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00241,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.2e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -7353,13 +7353,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -57,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 55,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -7384,14 +7384,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00408,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.09e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -7483,13 +7483,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -49.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 48.7,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -7507,14 +7507,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00938,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "24",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.34e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -7769,13 +7769,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 45,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 210,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -7805,14 +7805,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 5.51e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.06e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -8047,14 +8047,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00491,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.97e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -8116,13 +8116,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 24.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 210.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -8153,14 +8153,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 9.51e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.15e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -8287,13 +8287,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 71,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 300,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -8318,14 +8318,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 5.4e-08,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.16e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -8414,7 +8414,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 158,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -8439,14 +8439,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 5.04e-10,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.09e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -8566,13 +8566,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -31,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 145,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -8597,14 +8597,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00275,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.8e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -8907,13 +8907,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -94.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 136.1,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -8938,14 +8938,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00788,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.1e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -9129,13 +9129,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 40.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 181.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -9166,14 +9166,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 3.33e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.63e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -9748,13 +9748,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 107.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 384,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -9779,14 +9779,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 8.86e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -9962,7 +9962,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -15,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -9987,14 +9987,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.37e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.5e-10,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -10291,7 +10291,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 189.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -10321,14 +10321,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.08e-19,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.9e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -10607,7 +10607,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 160,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -10632,14 +10632,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.1e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.17e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -10777,13 +10777,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 231.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 325,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -10808,14 +10808,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.0017,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.7e-14,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -11161,7 +11161,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 2.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -11186,14 +11186,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.89e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.74e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -12287,7 +12287,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 35.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -12317,14 +12317,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.9e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -12765,7 +12765,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -62.1,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -12790,14 +12790,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 9e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "20",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.02e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -12997,7 +12997,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 126,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -13027,14 +13027,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.17e-10,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.56e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -13487,7 +13487,7 @@ TOXDB=[
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.12e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -14624,14 +14624,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000415,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.13e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -14701,14 +14701,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000271,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.19e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -14751,7 +14751,7 @@ TOXDB=[
   {
     "p": "Boiling Point",
     "v": "290-325",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -14776,14 +14776,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000228,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.48e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -14886,14 +14886,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000695,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.48e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -14957,14 +14957,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000343,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.13e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -15127,7 +15127,7 @@ TOXDB=[
   {
     "p": "Boiling Point",
     "v": "340-375",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -15152,14 +15152,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00044,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.29e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -15221,7 +15221,7 @@ TOXDB=[
   {
     "p": "Boiling Point",
     "v": "365-390",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -15246,14 +15246,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000283,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.35e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -15380,7 +15380,7 @@ TOXDB=[
   {
     "p": "Boiling Point",
     "v": "385-420",
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -15405,14 +15405,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000336,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.03e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -15485,13 +15485,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 86,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 277,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -15509,14 +15509,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000703,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.79e-14,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -15669,7 +15669,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 226,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -15700,14 +15700,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 9.42e-10,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.1e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -16024,7 +16024,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 30,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -16049,14 +16049,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.96e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.36e-10,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -16376,7 +16376,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -29.2,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -16401,14 +16401,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.4e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.45e-10,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -16535,13 +16535,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -22.3,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 121.3,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -16566,14 +16566,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.0177,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "24",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.67e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -16968,13 +16968,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -94.9,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 110.6,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -16999,14 +16999,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00664,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.96e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -17469,7 +17469,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 77,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -17494,14 +17494,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 6e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "20",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.25e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -17870,7 +17870,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 29,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -17895,14 +17895,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.2e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.33e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -18094,7 +18094,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 83.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -18119,14 +18119,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 2.28e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.14e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -18155,7 +18155,7 @@ TOXDB=[
   {
     "p": "Boiling Point",
     "d": 138.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -18180,14 +18180,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00663,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.87e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -18537,13 +18537,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 92.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 280,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -18568,14 +18568,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000114,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.1e-10,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -18649,13 +18649,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -83.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 77.3,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -18680,14 +18680,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000138,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 4.1e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -19394,7 +19394,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 141.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -19419,14 +19419,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.29e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.73e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -19473,13 +19473,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -24.8,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 173,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -19504,14 +19504,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00263,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.2e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -19576,14 +19576,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00298,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.48e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -19631,14 +19631,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.0013,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 3.97e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -19667,13 +19667,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 131,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 309,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -19691,14 +19691,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 4.39e-09,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.53e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -19746,14 +19746,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 9.26e-08,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.92e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -20036,7 +20036,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 168,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20060,14 +20060,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 6.57e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1.86e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -20096,13 +20096,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 217,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 480,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20120,14 +20120,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 5.84e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.36e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -20177,13 +20177,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 163.6,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 536,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20208,14 +20208,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 3.48e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 6.45e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -20244,13 +20244,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 151.2,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 404,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20275,14 +20275,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.19e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -20414,13 +20414,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -93.2,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 72.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20445,14 +20445,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000511,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.5e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -20605,13 +20605,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 6.6,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 80.7,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -20636,14 +20636,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.15,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 7.49e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -21326,14 +21326,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 6.19e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 4.11e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -21484,13 +21484,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 20.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 251,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -21515,14 +21515,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 1.11e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 6.26e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -22154,13 +22154,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": -35.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 83.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -22185,14 +22185,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00118,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 2.48e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -23044,14 +23044,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 7.09e-06,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.17e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -23128,14 +23128,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 3.91e-07,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 8.17e-12,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -23193,7 +23193,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 112.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -23218,14 +23218,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.000256,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.73e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -23434,13 +23434,13 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 17,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
     "p": "Boiling Point",
     "d": 213.5,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -23465,14 +23465,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00142,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 5.5e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }
@@ -23618,14 +23618,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 0.00355,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "25",
     "s": "EST"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 4e-13,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EST"
   }
@@ -23654,7 +23654,7 @@ TOXDB=[
   {
     "p": "Melting Point",
     "d": 106,
-    "u": "deg C",
+    "u": "ºC",
     "s": "EXP"
   },
   {
@@ -23679,14 +23679,14 @@ TOXDB=[
   {
     "p": "Henry's Law Constant",
     "d": 6.5e-05,
-    "u": "atm-m3/mole",
+    "u": "atm-m3/mol",
     "t": "20",
     "s": "EXP"
   },
   {
     "p": "Atmospheric OH Rate Constant",
     "d": 1e-11,
-    "u": "cm3/molecule-sec",
+    "u": "cm3/molecula.seg",
     "t": "25",
     "s": "EXP"
   }

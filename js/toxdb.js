@@ -62,8 +62,8 @@ $(document).ready(function(){
 	        <li class='grid-card'><a onclick="verCompuesto('`+i+`')">
 	                <section>
 	                	<div class='card-header'>
-	                	        <h1 class='card-titulo'>`+TOXDB[i].nombre+`</h1>
 	                	        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
+	                	        <h1 class='card-titulo'>`+TOXDB[i].nombre+`</h1>
 				</div>
 	                        <div class='card-content'>
 					<img src="src/PubChem/img2DHD/`+TOXDB[i].CID+`.png"></img>
@@ -157,24 +157,26 @@ function verCompuesto(index){
                         try{
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
-                        <section class='specimen_data' id='resumen'><h1> Resumen </h1>
-				<div class="about-half"> `+tox.descripcion+`</div>
+                        <section class='specimen_data' id='resumen'><!--h1> Resumen </h1 -->
                                <div class='resumen'>
 				<table>
                                 <tbody>
-                                <tr><td> Nombre IUPAC:          </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
-                                <tr><td> Fórmula Molecular:     </td><td>`+ summary.MolecularFormula+`</td></tr>
-                                <tr><td> SMILE canónico:        </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
-                                <tr><td> Estructura:            </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
-                                                                         <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
-                                <tr><td> Peso Molecular:        </td><td>`+ summary.MolecularWeight             +`</td></tr>
-                                <tr><td> XLogP:                 </td><td>`+ summary.XLogP               +`</td></tr>
-                                <tr><td> Carga Neta             </td><td>`+ summary.Charge               +`</td></tr>
-                                <tr><td> CID:                   </td><td>`+ tox.CID                     +`</td></tr>
-                                <tr><td> CAS:                   </td><td>`+ tox.CAS                     +`</td></tr>
+                                <tr><td> <h3>Nombre IUPAC:         </h3> </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
+                                <tr><td> <h3>Fórmula Molecular:    </h3> </td><td>`+ summary.MolecularFormula+`</td></tr>
+                                <tr><td> <h3>SMILE canónico:       </h3> </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
+                                <tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
+                                <tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
+				 <tr><td> <h3>Estructura:           </h3> </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
+                                         <h3>                      </h3>          <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
+                                <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
+                                <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
+                                <tr><td> <h3>Carga Neta            </h3> </td><td>`+ summary.Charge               +`</td></tr -->
+                                
+                                
                                 </tbody>
                                 </table> 
                         	</div>    
+				<div class="about-half"> `+tox.descripcion+`</div>
 			</section>`;
                         $(".specimen_page").append(Summary);
                         }catch(error){console.error(error);}
@@ -186,9 +188,9 @@ function verCompuesto(index){
                                 FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
                                 <table>`;                                                                                                       
                                 for (j=0;j< tox.FisProps.length;j++){
-                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.FisProps[j].p +':</h3><i>('+tox.FisProps[j].u+')</i></td>';
-                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d +`</td>`
-					FisQui+=`<td class="specimen_data_referencia"  onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i></td></tr><tr class="cita"><td> ChemIDPlus.</td></tr>`; 
+                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.FisProps[j].p +'</i></td>';
+                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d + " "+tox.FisProps[j].u+`</td>`
+					FisQui+=`<td class="specimen_data_referencia"  onclick="mostrarReferencia( $( this ) )" ><i class="fas fa-book"></i></td></tr><tr class="cita"><td colspan="3"> ChemIDPlus.</td></tr>`; 
                                 }
 				FisQui+=`</table></section>`
 			$(".specimen_page").append(FisQui);
@@ -198,12 +200,12 @@ function verCompuesto(index){
                                 Toxico=`<section class='specimen_data' id='toxicologia'><h1>Toxicología</h1>
                                 <table><tbody>`;
                                 for (j=0;j< tox.ToxProps.length;j++){
-                                        Toxico+='<tr><td class="specimen_data_name"><h3>'+tox.ToxProps[j].t +'</h3><i>('+tox.ToxProps[j].d.u+')</i><br> en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
-                                        Toxico+='<td class="specimen_data_value">'+tox.ToxProps[j].d.r +'<td>';
+                                        Toxico+='<tr><td class="specimen_data_name"><h3>'+tox.ToxProps[j].t +'</h3>en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
+                                        Toxico+='<td class="specimen_data_value">'+tox.ToxProps[j].d.r +' '+tox.ToxProps[j].d.u+'</td>';
                                         //Toxico+='<th>('+tox.ToxProps[j].o +')</th>';  		//organismo 
                                         //Toxico+='<th>'+tox.ToxProps[j].r +'</th>';		  	//vía
                                         //Toxico+='<td><i>'+tox.ToxProps[j].j.t +'</i></td></tr>';
-					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><span></span> <i class="fas fa-book"></i><td></tr><tr class="cita"><td>`+tox.ToxProps[j].j.t+`</td></tr>`;                                                                   
+					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><i class="fas fa-book"></i></td></tr><tr class="cita"><td colspan="3">`+tox.ToxProps[j].j.t+`</td></tr>`;                                                                   
                                 }                                                                       
                         Toxico+=`</table>
                                 </section>`;
@@ -225,6 +227,7 @@ function verCompuesto(index){
                         $(".specimen_page").append(ChemSafety);
                         }catch(error){console.error(error);}
                 //NFPA
+			if (tox.NFPA != null){
                         NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1>
                                 <table><tr><td>
 				<figure>
@@ -235,6 +238,7 @@ function verCompuesto(index){
 			      </section>`;                                              
 
                         $(".specimen_page").append(NFPA);
+			}
 			//Volatilidad, Difusividad
 			 try{
 			 epa=EPA_DB.find(x => x.CAS === tox.CAS);
@@ -242,11 +246,11 @@ function verCompuesto(index){
 			 <section class='specimen_data' id='Volatilidad'>
 				<h1> Volatilidad </h1>
 			 	<table><tbody>
-			        <tr><td><h3>Constante de Henry (H):</h3><i>(-)</i></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
+			        <tr><td><h3>Constante de Henry (H):</h3></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
 				<tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Constante de Henry (HLC)</h3><i>(atm-m3/mol)</i></td><td>`+ epa.HLC+`</td>`+RefCELL+`</tr>
+			        <tr><td><h3>Constante de Henry (HLC)</h3></td><td>`+ epa.HLC+` atm-m3/mol</td>`+RefCELL+`</tr>
 			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Presión de Vapor</h3><i>(mmHg)</i></td><td>`+ epa.VP+`</td>`+RefCELL+`</tr>
+			        <tr><td><h3>Presión de Vapor</h3></td><td>`+ epa.VP+` mmHg</td>`+RefCELL+`</tr>
 			        <tr class="cita"><td>`+epa.VP_ref+`</td></tr>                                                                   
 			         </tbody></table> 
 			 </section>`;
@@ -255,9 +259,9 @@ function verCompuesto(index){
 			<section class='specimen_data' id='Difusividad'>
 			       <h1> Difusividad</h1>
 				<table><tbody>
-			       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Dw+`</td>`+RefCELL+`</tr>
+			       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3></td><td>`+ epa.Dw+` cm2/s</td>`+RefCELL+`</tr>
 			       <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
-			       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Da+`</td>`+RefCELL+`</tr>
+			       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3></td><td>`+ epa.Da+` cm2/s</td>`+RefCELL+`</tr>
 			       <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
 			        </tbody></table> 
 			</section>`;
