@@ -85,6 +85,18 @@ $(document).ready(function(){
 
 	
 	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+	
 
 });
 
@@ -157,7 +169,7 @@ function verCompuesto(index){
                         try{
                         summary=SUMMARY_DB.find(x => x.CID === tox.CID);
                         Summary= `
-                        <section class='specimen_data' id='resumen'><!--h1> Resumen </h1 -->
+                        <section class='specimen_data' id='resumen'><h1> Resumen </h1>
                                <div class='resumen'>
 				<table>
                                 <tbody>
@@ -198,7 +210,7 @@ function verCompuesto(index){
 
                         try{
                                 Toxico=`<section class='specimen_data' id='toxicologia'><h1>Toxicología</h1>
-                                <table><tbody>`;
+                                <table><tbody id="ToxicList">`;
                                 for (j=0;j< tox.ToxProps.length;j++){
                                         Toxico+='<tr><td class="specimen_data_name"><h3>'+tox.ToxProps[j].t +'</h3>en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
                                         Toxico+='<td class="specimen_data_value">'+tox.ToxProps[j].d.r +' '+tox.ToxProps[j].d.u+'</td>';
@@ -208,11 +220,32 @@ function verCompuesto(index){
 					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><i class="fas fa-book"></i></td></tr><tr class="cita"><td colspan="3">`+tox.ToxProps[j].j.t+`</td></tr>`;                                                                   
                                 }                                                                       
                         Toxico+=`</table>
+					<div id="showLess">Ver menos</div>
+					<div id="loadMore">Ver más</div>
                                 </section>`;
                                                                                                                   
                         $(".specimen_page").append(Toxico);
-                        }catch(error){console.error(error);}
+			 //ShowMORE                                                             
+			 size_li = $("#ToxicList tr").length;
+			 x=6;
+			 $('#ToxicList tr:lt('+x+')').show();
+			
+			 $('#loadMore').click(function () {
+			     x= (x+5 <= size_li) ? x+5 : size_li;
+			     $('#ToxicList tr:lt('+x+')').show();
+				$('#ToxicList tbody .cita').hide();
+			 });
+			 $('#showLess').click(function () {
+			     x=(x-5<0) ? 3 : x-5;
+			     $('#ToxicList tr').not(':lt('+x+')').hide();
+			 });
+
+
+			}catch(error){console.error(error);}
  
+
+
+
                //SEGURIDAD QUIMICA:
                         try{
                         ChemSafety=`<section class='specimen_data' id='seguridad'> <h1>Seguridad Química</h1>
@@ -294,7 +327,7 @@ function verCompuesto(index){
 			secciones=$(".specimen_data")
 			//secciones_h1=$(".specimen_page h1")
 			secciones.each(function(i) {
-                        	sec_pos=$(this).position().top-80;
+                        	sec_pos=$(this).position().top;
                         	id=$(this)[0].id;
 				text=$(this).children("h1")[0].innerHTML;
 		        //for (j=0;j< secciones.length;j++){

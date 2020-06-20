@@ -894,6 +894,7 @@ text-align: right;
 	padding: 0 6px;
 	background: transparent;
 	color: currentColor;
+	color:var(--gris-medio);
 	white-space: nowrap;
 	font-weight: 500;
 	font-size: 14px;
@@ -902,7 +903,8 @@ text-align: right;
 	transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
 }
 
-.specimen_page_nav > ul > li > button:hover, .activo{
+.specimen_page_nav > ul > li > button:hover,
+.specimen_page_nav .activo>button{
 	border-bottom:2px solid var(--celeste-claro);
 	color:var(--azul);
 }
@@ -939,28 +941,42 @@ text-align: right;
 
 .specimen_data > table >tbody> tr>td:nth-child(3),
 .specimen_data_referencia {
-	padding-left:auto;
-	width:35px;	
+	width:45px;	
 	font-size:22px;
 	text-align:right;
 	color: var(--gris-claro);
-   
+}
+.specimen_data_referencia>i {
+	padding: 0;
+	min-width: 0;
+	width: 40px;
+	height: 40px;
+	flex-shrink: 0;
+	line-height: 40px;
+	border-radius: 50%;
+	opacity:0.8;
+		transition: all 50ms ease-in-out;
+
+}
+.specimen_data_referencia>i:hover {
+	background-color:var(--celeste-claro);
 }
 
 .specimen_data > table >tbody> tr>td:nth-child(3):hover,
 .specimen_data_referencia:hover{
-	color:var(--celeste-claro);
+	color:#fff;
 	cursor: pointer;
+
 }
 
-.specimen_data_referencia::before {content:"+";}
-.specimen_data_referencia.active::before {content:"-";}
-.specimen_data_referencia.active:hover {color:var(--celeste-claro);cursor: pointer}
-.specimen_data_referencia.active {color:var(--azul);}
+.specimen_data_referencia>i::before {content:"+"; margin-right:10px;}
+.specimen_data_referencia.active>i::before {content:"-";margin-right:10px;}
+.specimen_data_referencia.active>i:hover {color:#fff;background-color:var(--rosa);cursor: pointer}
+.specimen_data_referencia.active>i {color:var(--rosa);}
 
 
 .cita {
-       display:none;
+	visibility: hidden;
 }
 .cita.active{
    -webkit-animation-name: fade-in-down;
@@ -974,16 +990,14 @@ text-align: right;
 
 	display:flex;
 	width:100%; 
-	margin-top:0;
+	margin-top:-15px;
         	height:auto!important;
         	min-height:45px;
-
+  column-span: 3;
 }
 
 .cita.active > td{ 
 	display:flex;
-	padding:5px;
-	margin:5px 0px;
 	margin-left:auto;
 	/* border-right:1px solid gray; */
 	border-bottom:1px solid var(--gris-medio);
@@ -991,8 +1005,8 @@ text-align: right;
 	font-style:italic;
 	width:100%; 
 		color:var(--gris-medio);
-		
-
+	  column-span: 3;	
+	visibility:visible;
 
 }
 
@@ -1142,3 +1156,57 @@ a.github:hover >i{  color:inherit;}
 
 
 }
+
+
+
+#ToxicList tr{display:none;}
+#showLess,
+#loadMore{
+          	background:#fff;
+        	color:var(--celeste-claro);
+            		opacity:0.8;
+border-radius: 20px;
+border: 1px solid#dadce0;
+color:rgba(0,0,0,.87);
+display: inline-flex;
+font-family: Roboto,"Helvetica Neue",sans-serif;
+font-weight: 500;
+line-height: 32px;
+min-height: 32px;
+padding-left: 16px;
+padding-right: 21px;
+text-transform: none;
+margin: 0 10px 0 0;
+margin-top:10px;
+        }
+        
+#showLess:hover,
+#loadMore:hover{
+        	opacity:1;
+		background:var(--gris-claro);
+} 
+
+#showLess::before,
+#loadMore::after{
+color: var(--celeste-claro);
+display: block;
+content: "▼";
+position: relative;
+speak: none;
+font-size: 13px;
+transform: scaleY(0.5) scaleX(1);
+top: 1px;
+right: -7px;
+}
+
+
+
+#showLess::before{
+	left:-7px;
+    transform: scaleY(0.5) scaleX(1) rotate(180deg) translateY(3px);
+}
+
+
+
+
+
