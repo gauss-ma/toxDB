@@ -101,7 +101,7 @@ $(document).ready(function(){
 });
 
 
-function scrollUp(position){$('body').animate({ scrollTop: position }, 500);}
+function scrollUp(position){$('body').animate({ scrollTop: position + 1}, 500);}
 
 
 //Vista de tarjetitas en grilla o lista:
@@ -179,7 +179,7 @@ function verCompuesto(index){
                                 <tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
                                 <tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
 				 <tr><td> <h3>Estructura:           </h3> </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
-                                         <h3>                      </h3>          <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
+                                                                                  <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
                                 <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
                                 <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
                                 <tr><td> <h3>Carga Neta            </h3> </td><td>`+ summary.Charge               +`</td></tr -->
@@ -201,8 +201,9 @@ function verCompuesto(index){
                                 <table>`;                                                                                                       
                                 for (j=0;j< tox.FisProps.length;j++){
                                         FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.FisProps[j].p +'</i></td>';
-                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d + " "+tox.FisProps[j].u+`</td>`
-					FisQui+=`<td class="specimen_data_referencia"  onclick="mostrarReferencia( $( this ) )" ><i class="fas fa-book"></i></td></tr><tr class="cita"><td colspan="3"> ChemIDPlus.</td></tr>`; 
+                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d + " "+tox.FisProps[j].u+`</td>
+					         `+RefCELL+`</tr>
+						<tr class="cita"><td colspan="3">  ChemIDPlus/TOXNET database, National Library of Medicine, National Institutesof Health (NIH).</td></tr>`; 
                                 }
 				FisQui+=`</table></section>`
 			$(".specimen_page").append(FisQui);
@@ -217,12 +218,19 @@ function verCompuesto(index){
                                         //Toxico+='<th>('+tox.ToxProps[j].o +')</th>';  		//organismo 
                                         //Toxico+='<th>'+tox.ToxProps[j].r +'</th>';		  	//vía
                                         //Toxico+='<td><i>'+tox.ToxProps[j].j.t +'</i></td></tr>';
-					Toxico+=`<td class="specimen_data_referencia" onclick="mostrarReferencia( $( this ) )"><i class="fas fa-book"></i></td></tr><tr class="cita"><td colspan="3">`+tox.ToxProps[j].j.t+`</td></tr>`;                                                                   
-                                }                                                                       
-                        Toxico+=`</table>
-					<div id="showLess">Ver menos</div>
-					<div id="loadMore">Ver más</div>
-                                </section>`;
+					Toxico+=RefCELL+`</tr>
+						 <tr class="cita"><td colspan="3">`+tox.ToxProps[j].j.t+`</td></tr>
+
+					`;                                                                   
+                                }        
+				Toxico+='</table>'         
+				if (tox.ToxProps.length > 3){                                                      
+                        		Toxico+=`
+							<!-- div id="showLess">Ver menos</div -->
+							<div id="loadMore">Ver más</div>
+						`
+				}
+                                Toxico+='</section>'
                                                                                                                   
                         $(".specimen_page").append(Toxico);
 			 //ShowMORE                                                             
@@ -249,12 +257,12 @@ function verCompuesto(index){
                //SEGURIDAD QUIMICA:
                         try{
                         ChemSafety=`<section class='specimen_data' id='seguridad'> <h1>Seguridad Química</h1>
-					<table><tr><th>`;
+					<div id="SeguridadQuimica_figs">`;
                                 for (j=0;j< tox.GHS.length;j++){
                                         ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+tox.GHS[j]+`.svg' />`;      
                                         ChemSafety+=`<figcaption>`+tox.GHS[j]+`</figcaption></figure>`; 
                                 }                                                                       
-                        ChemSafety+='</th></tr></table></section>';                                                 
+                        ChemSafety+='</div></section>';                                                 
                 
                 
                         $(".specimen_page").append(ChemSafety);
@@ -262,12 +270,12 @@ function verCompuesto(index){
                 //NFPA
 			if (tox.NFPA != null){
                         NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1>
-                                <table><tr><td>
+                                <div id='NFPA_fig'>
 				<figure>
 					<img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
                                 	<figcaption>`+tox.NFPA+`</figcaption>
 				</figure> 
-                                </td></tr></table>
+                                </div>
 			      </section>`;                                              
 
                         $(".specimen_page").append(NFPA);

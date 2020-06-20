@@ -744,8 +744,9 @@ align-items: center;
 	width:100%;
 	max-width:1200px;
 	padding-left:20px;
-	padding-bottom:20px;
-	margin-bottom:5px;
+	padding-top:10px;
+	padding-bottom:30px;
+	margin-bottom:10px;
 	border-bottom:0.1px solid var(--gris-medio);
 	display:block;
 }
@@ -793,7 +794,7 @@ text-align: right;
 	/*margin-right:50px;
 	padding-right:10px;
 	border-right:1px solid var(--gris-oscuro);*/
-	vertical-align: text-top;
+	vertical-align: middle;
 	text-align: left;
 }
 .resumen > table >tbody> tr > td:nth-child(2) {
@@ -943,8 +944,9 @@ text-align: right;
 .specimen_data_referencia {
 	width:45px;	
 	font-size:22px;
-	text-align:right;
+	text-align:center;
 	color: var(--gris-claro);
+	margin:2px;
 }
 .specimen_data_referencia>i {
 	padding: 0;
@@ -969,8 +971,8 @@ text-align: right;
 
 }
 
-.specimen_data_referencia>i::before {content:"+"; margin-right:10px;}
-.specimen_data_referencia.active>i::before {content:"-";margin-right:10px;}
+.specimen_data_referencia>i::before {content:"+";}
+.specimen_data_referencia.active>i::before {content:"-";}
 .specimen_data_referencia.active>i:hover {color:#fff;background-color:var(--rosa);cursor: pointer}
 .specimen_data_referencia.active>i {color:var(--rosa);}
 
@@ -1100,9 +1102,14 @@ a.github:hover >i{  color:inherit;}
 /* Pantalla angosta */
 @media (max-width:1100px){
 
+	main{
+		padding-left:40px;
+		padding-right:40px;
+	}	
+
 	.specimen_page,
 	.specimen_page > section{
-		margin-left:0px;
+		margin-left:30px;
 	}
 	.specimen_page_nav{
    		padding-left: calc(60px + 0px);
@@ -1120,17 +1127,20 @@ a.github:hover >i{  color:inherit;}
 }
 
 
-@media (max-width:730px){
+@media (max-width:700px){
 
 	main{
 		padding-top:50px;
 	}
 	main,
+	.specimen_page,
+	.specimen_page>section,
 	.specimen_page_nav,
 	.search_toolbar,
 	.top_fixed-search_toolbar{
 		margin-right:0px;
 		margin-left:0px;
+		padding-left:10px;
 	}
 	#Logo{right:25px;}
 	.logoToxDB{
@@ -1157,6 +1167,23 @@ a.github:hover >i{  color:inherit;}
 
 }
 
+
+
+
+#NFPA_fig,
+#SeguridadQuimica_figs{
+	display:flex; 
+	flex-direction:row;
+	padding:10px;
+	height:100px;
+	width:80%;
+	max-width:700px;
+
+}
+#NFPA_fig figure,
+#SeguridadQuimica_figs figure{
+	width:100px;
+}
 
 
 #ToxicList tr{display:none;}
