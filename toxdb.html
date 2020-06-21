@@ -7,7 +7,7 @@
 	<!-- JS LIBS: -->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
 	<!-- <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css" /> -->
-	<script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+	<!-- script type="text/javascript" src="js/DataTables/datatables.min.js"></script -->
 	<!-- CSS      -->
 	<script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
 	<link href="css/transiciones.css" rel="stylesheet">
@@ -41,6 +41,27 @@
 		<i class="fa fa-arrow-up" aria-hidden="true"></i>
 	</button>
 
+	<button type="button" id="feedback-button" onclick="Feedback()" title="Feedback" aria-label="Feedback">
+        <a href="#popup1"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+          <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"></path>
+        </svg>
+	</a>
+      </button>
+		<form id="popup1" class="overlay form">
+		<a class="close" href="#">&times;</a>
+		  <h2>CONTACTANOS</h2>
+			Por sugerencias, bugs, ó contribuciones.
+		  <p type="Nombre:"><input placeholder="Tu nombre.."></input></p>
+		  <p type="Email:"><input placeholder="Dejá tu mail así te respondemos.."></input></p>
+		  <p type="Mensaje:"><input placeholder="Dejanos tu mensaje aquí.."></input></p>
+		  <button>Enviar</button>
+		  <!-- div>
+		    <!-- span class="fa fa-phone"></span>001 1023 567 -->
+		    <!--span class="fa fa-envelope-o"></span> contacto@gauss-ma.com.ar-->
+		  </div -->
+		</form>
+		</div>
+      
 
 
 	<header>

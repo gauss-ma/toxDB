@@ -81,9 +81,9 @@ do
 		printf " },\n" 						    >> $ToxDB_out
 done;
 	#=>PubChem: Summary
-		#props="MolecularFormula,MolecularWeight,IUPACName,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
-		#cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g')
-		#curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON" > summary_db.json
+		props="MolecularFormula,MolecularWeight,IUPACName,InChI,InChIKey,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
+		cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g')
+		curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON" > summary_db.json
 
 	#Merge jsons:
 		#jq -s '.[0] * .[1]' file1 file2

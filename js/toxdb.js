@@ -176,6 +176,7 @@ function verCompuesto(index){
                                 <tr><td> <h3>Nombre IUPAC:         </h3> </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
                                 <tr><td> <h3>Fórmula Molecular:    </h3> </td><td>`+ summary.MolecularFormula+`</td></tr>
                                 <tr><td> <h3>SMILE canónico:       </h3> </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
+                                <tr><td> <h3>InChI:                </h3> </td><td>`+ summary.InChI           +`</td></tr> 
                                 <tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
                                 <tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
 				 <tr><td> <h3>Estructura:           </h3> </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
@@ -285,25 +286,32 @@ function verCompuesto(index){
 			 epa=EPA_DB.find(x => x.CAS === tox.CAS);
 			 Summary= `
 			 <section class='specimen_data' id='Volatilidad'>
-				<h1> Volatilidad </h1>
+				<h1> Físico-Química </h1>
 			 	<table><tbody>
+
 			        <tr><td><h3>Constante de Henry (H):</h3></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
 				<tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
 			        <tr><td><h3>Constante de Henry (HLC)</h3></td><td>`+ epa.HLC+` atm-m3/mol</td>`+RefCELL+`</tr>
 			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
 			        <tr><td><h3>Presión de Vapor</h3></td><td>`+ epa.VP+` mmHg</td>`+RefCELL+`</tr>
 			        <tr class="cita"><td>`+epa.VP_ref+`</td></tr>                                                                   
-			         </tbody></table> 
-			 </section>`;
-
-			Summary+= `
-			<section class='specimen_data' id='Difusividad'>
-			       <h1> Difusividad</h1>
-				<table><tbody>
-			       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3></td><td>`+ epa.Dw+` cm2/s</td>`+RefCELL+`</tr>
-			       <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
-			       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3></td><td>`+ epa.Da+` cm2/s</td>`+RefCELL+`</tr>
-			       <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			        <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3></td><td>`+ epa.Dw+` cm2/s</td>`+RefCELL+`</tr>
+			        <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
+			        <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3></td><td>`+ epa.Da+` cm2/s</td>`+RefCELL+`</tr>
+			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>     
+ 				<tr><td><h3>Punto de fusión:</h3>			</td><td>`+ epa.MP+` ºC</td>`+RefCELL+`</tr>                                
+ 				<tr class="cita"><td>`+epa.MP_ref+`</td></tr>     
+				<tr><td><h3>Densidad:</h3>				</td><td>`+ epa.rho+` g/cm3</td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.rho_ref+`</td></tr>     
+				<tr><td><h3>Solubilidad en agua (S):</h3>		</td><td>`+ epa.S+` mg/L</td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.S_ref+`</td></tr>     
+				<tr><td><h3>Coef. particion octanol agua (log K<sub>ow</sub>):</h3></td><td>`+ epa.logKoc+` </td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.logKoc_ref+`</td></tr>     
+				<tr><td><h3>Coef. partición carbono orgánico (K<sub>oc</sub>):</h3></td><td>`+ epa.Koc+` L/kg</td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.Koc_ref+`</td></tr>     
+				<tr><td><h3>Coef. de adsorción-desoción (K<sub>d</sub>):</h3></td><td>`+ epa.Kd+` L/kg</td>`+RefCELL+`</tr>
+				<tr class="cita"><td>`+epa.Kd+`</td></tr>     
+                             
 			        </tbody></table> 
 			</section>`;
 
