@@ -240,14 +240,16 @@ function verCompuesto(index){
 			 $('#ToxicList tr:lt('+x+')').show();
 			
 			 $('#loadMore').click(function () {
-			     x= (x+5 <= size_li) ? x+5 : size_li;
+			     //x= (x+5 <= size_li) ? x+5 : size_li;
+				x=size_li;
 			     $('#ToxicList tr:lt('+x+')').show();
 				$('#ToxicList tbody .cita').hide();
+				$("#loadMore").hide();
 			 });
-			 $('#showLess').click(function () {
-			     x=(x-5<0) ? 3 : x-5;
-			     $('#ToxicList tr').not(':lt('+x+')').hide();
-			 });
+			 //$('#showLess').click(function () {
+			 //    x=(x-5<0) ? 3 : x-5;
+			 //    $('#ToxicList tr').not(':lt('+x+')').hide();
+			 //});
 
 
 			}catch(error){console.error(error);}
@@ -281,14 +283,13 @@ function verCompuesto(index){
 
                         $(".specimen_page").append(NFPA);
 			}
-			//Volatilidad, Difusividad
+			//EPA DATABASE
 			 try{
 			 epa=EPA_DB.find(x => x.CAS === tox.CAS);
 			 Summary= `
 			 <section class='specimen_data' id='Volatilidad'>
 				<h1> Físico-Química </h1>
 			 	<table><tbody>
-
 			        <tr><td><h3>Constante de Henry (H):</h3></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
 				<tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
 			        <tr><td><h3>Constante de Henry (HLC)</h3></td><td>`+ epa.HLC+` atm-m3/mol</td>`+RefCELL+`</tr>

@@ -206,13 +206,13 @@ figure figcaption {
     transition-property: background-color,box-shadow,transform;
     transition: box-shadow .3s cubic-bezier(0.55, 0, 0.55, 0.2);
     background-color: rgba(255, 255, 255, .9);
-	color:var(--celeste-claro);
+	color:var(--gris-medio);
     opacity:0.8;
 }
 
 .fixed-button:hover{
     background-color:#fff;
-	color:var(--celeste-claro);
+	color:var(--celeste-oscuro);
 	opacity:1;
 }
 
@@ -234,22 +234,30 @@ header{
 	box-shadow: 1px 1px transparent;
  	z-index:1000;
 }
+.Logo_gauss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  right: 5vw;
+  top: 25px;
+  height: 30px;
+  float: left;
+  font-size: 25px;
+  /*line-height:1.5em;*/margin:0;
+  cursor: pointer;
+  font-family: 'Montserrat';
+	font-weight:700;
+	vertical-align:baseline;
+}
+.Logo_gauss img{
+        height:30px;
+}
 
-#Logo {	
-	
-	position:absolute;
-	right:60px;
-	padding:5px;
-	width:40px;
-}
-#Logo >a> img{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
 
 .LogoToxDB{
 	display:flex;
+	vertical-align:baseline;
 	position:absolute;
 	top:15px;      
 	left:60px;        
@@ -261,7 +269,7 @@ header{
 	font-weight:bold ;
 	cursor: pointer;
 }
-
+.LogoToxDB span{padding:10px 0px;margin:0;}
 
 .botonMenu{
  padding:10px;
@@ -905,7 +913,7 @@ text-align: right;
 
 .specimen_page_nav > ul > li > button:hover,
 .specimen_page_nav .activo>button{
-	border-bottom:2px solid var(--celeste-claro);
+	border-bottom:2px solid var(--celeste-oscuro);
 	color:var(--azul);
 }
 
@@ -944,7 +952,7 @@ text-align: right;
 	width:45px;	
 	font-size:22px;
 	text-align:center;
-	color: var(--gris-claro);
+	color: var(--gris-medio);
 	margin:2px;
 }
 .specimen_data_referencia>i {
@@ -955,26 +963,24 @@ text-align: right;
 	flex-shrink: 0;
 	line-height: 40px;
 	border-radius: 50%;
-	opacity:0.8;
+	opacity:0.5;
 		transition: all 50ms ease-in-out;
 
 }
 .specimen_data_referencia>i:hover {
-	background-color:var(--celeste-claro);
 }
 
 .specimen_data > table >tbody> tr>td:nth-child(3):hover,
 .specimen_data_referencia:hover{
-	color:#fff;
+	color:var(--celeste-oscuro);
 	cursor: pointer;
 
 }
 
 .specimen_data_referencia>i::before {content:"+";}
 .specimen_data_referencia.active>i::before {content:"-";}
-.specimen_data_referencia.active>i:hover {color:#fff;background-color:var(--rosa);cursor: pointer}
-.specimen_data_referencia.active>i {color:var(--rosa);}
-
+.specimen_data_referencia.active>i {color:var(--gris-medio);}
+.specimen_data_referencia.active>i:hover {color:var(--rosa);cursor: pointer}
 
 .cita {
 	visibility: hidden;
@@ -1189,7 +1195,7 @@ a.github:hover >i{  color:inherit;}
 #showLess,
 #loadMore{
           	background:#fff;
-        	color:var(--celeste-claro);
+        	color:var(--celeste-oscuro);
             		opacity:0.8;
 border-radius: 20px;
 border: 1px solid#dadce0;
@@ -1214,7 +1220,7 @@ margin-top:10px;
 
 #showLess::before,
 #loadMore::after{
-color: var(--celeste-claro);
+color: var(--celeste-oscuro);
 display: block;
 content: "▼";
 position: relative;
@@ -1236,7 +1242,7 @@ right: -7px;
 
 
 #feedback-button {
-    fill: rgba(0,0,0,.6);
+    fill: var(--gris-medio);
     position: fixed;
     bottom:45px;
     left: 3px;
@@ -1245,37 +1251,8 @@ right: -7px;
 }
 
 #feedback-button:hover{
-    fill: var(--celeste-claro);
+    fill: var(--celeste-oscuro);
 }
-
-/*
-.overlay {
-  position: fixed;
-  top: 0;
-	bottom:0;
-  left: 0;
-  right: 0;
-  background: var(--blanco);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-	z-index:100;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 0.9;
-}
-*/
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1309,24 +1286,30 @@ visibility:hidden;
   color: var(--gris-claro);
 }
 .form .close:hover {
-  color: var(--celeste-claro);
+  color: var(--celeste-oscuro);
 }
 
-.form h2{font-weight: 800;
+.form h2{
+	padding-bottom:5px;
+	font-weight: 800;
 	font-family:'Montserrat';
 	margin:10px 0;
-	padding-bottom:10px;
-	width:180px;
 	color:var(--negro);
-	border-bottom:3px solid var(--gris-oscuro);
+	border-bottom:2px solid var(--gris-oscuro);
 }
+
 .form input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid var(--gris-claro);}
-.form input:focus{border-bottom:2px solid var(--celeste-claro);}
+.form input:focus{border-bottom:2px solid var(--celeste-oscuro);}
 .form p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
-.form button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;
-	border:2px solid var(--gris-claro);color:var(--gris-medio);background:#fff;cursor:pointer;transition:all .3s}
-.form button:hover{color:var(--celeste-claro);border:2px solid var(--celeste-claro)}
-.form div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000}
+.form button{float:right; padding:8px 12px; margin:8px 0 0; 
+	font-family:'Montserrat';
+	border:2px solid var(--gris-claro);
+	color:var(--gris-medio);background:#fff;cursor:pointer;
+	transition:all .3s transition-property: background-color,box-shadow,transform;
+}
+.form button:hover{color:var(--celeste-oscuro); }
+.form div{content:'Hi';position:absolute;bottom:-15px;right:-20px;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;
+}
 span{margin:0 5px 0 15px}
 
 
