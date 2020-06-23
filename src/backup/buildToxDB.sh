@@ -23,20 +23,12 @@ do
         	echo -e "\e[31m CID no encontrado.\e[0m"; echo "${cas};${nombre}">> Rechazados_CID.lst
 		continue
         fi;
-
-	#=>ChemIDPlus: 
-	#FísicoQuímica y Toxicología
-        	tmp_json=$(curl "https://chem.nlm.nih.gov/api/data/rn/sw/${cas}/?data=details")
-		if [ $? -eq 0 ]
-                then
-                	fisicoquimica=$(echo $tmp_json | jq -r '.results[0].physicalProps')
-                	toxicologia=$(  echo $tmp_json | jq -r '.results[0].toxicityList')
-                	#echo -e "\e[35m $fisicoquimica \e[0m"; 	echo -e "\e[35m $toxicologia \e[0m"
-                else
-                	echo -e "\e[31m ChemIDPlus data no encontrado.\e[0m"; echo "${cas};${nombre}" >> Rechazados_ChemIDPlus.lst
-			continue
-                fi;
-
+		printf " {\n"						    >> $Linker_out
+			printf "   \"CID\" : ${cid},\n" 		    >> $Linker_out
+			printf "   \"CAS\" : \"${cas}\",\n" 		    >> $Linker_out
+			printf "   \"nombre\" : \"${nombre}\",\n" 	    >> $Linker_out
+		printf " },\n" 						    >> $Linker_out
+	#------------------------------------------------------------------------------------------------------------------------------
 	#=>PubChem:
         #Imagen de estructura 2D y 3D:
 		img2D_file="PubChem/img2D/${cid}.png";img3D_file="PubChem/img3D/${cid}.png"
@@ -52,37 +44,54 @@ do
 		else
 			convert ${img3D_file} -transparent white ${img3D_file}
 		fi;
-        
 
-	#Sinonimos:
+		#Sinonimos:
 	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Synonyms")
 		sinonimos=$(echo $tmp_json | jq "[.. | ."String"? | strings][0:9]")
-	#Descripcion:
+		#Descripcion:
 	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Hazards+Summary")
 		descripcion=$(./trans --brief en:es <<< $(echo $tmp_json | jq '..|."String" ? | strings' | sed -e ':a;N;$!ba;s/\"//g;s/\n/<br>/'))
-	#Seguridad Química:
+		#Seguridad Química:
                 tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Chemical+Safety")
 		GHSs="$(echo $tmp_json | jq '.. | ."Extra"? |strings' | awk -F '\n' 'BEGIN{printf "["};{printf("%s,", $1)};END{printf "],\n"}')"
-	#NFPA 704 diamond
+		#NFPA 704 diamond
 		tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=NFPA+Hazard+Classification")
 		NFPA="$(echo $tmp_json | jq '[.. | ."Extra"? |strings][0]')"
 
-	#Print en ToxDB:
-		printf " {\n"						    >> $ToxDB_out
-			printf "   \"nombre\" : \"${nombre}\",\n" 	    >> $ToxDB_out
-			printf "   \"CAS\" : \"${cas}\",\n" 		    >> $ToxDB_out
-			printf "   \"CID\" : ${cid},\n" 		    >> $ToxDB_out
-			printf "   \"FisProps\": ${fisicoquimica},\n"       >> $ToxDB_out
-			printf "   \"ToxProps\": ${toxicologia},\n" 	    >> $ToxDB_out
-			printf "   \"GHS\" : ${GHSs}\n"			    >> $ToxDB_out 
-			printf "   \"NFPA\" : ${NFPA},\n"		    >> $ToxDB_out 
-			printf "   \"descripcion\" : ${descripcion},\n" >> $ToxDB_out 
-			printf "   \"sinonimos\" : ${sinonimos},\n"         >> $ToxDB_out 
-		printf " },\n" 						    >> $ToxDB_out
+		#Print en ToxDB:
+		printf " {\n"						    >> $PubChem_out
+			printf "   \"CID\" : ${cid},\n" 		    >> $PubChem_out
+			printf "   \"GHS\" : ${GHSs}\n"			    >> $PubChem_out 
+			printf "   \"NFPA\" : ${NFPA},\n"		    >> $PubChem_out 
+			printf "   \"descripcion\" : ${descripcion},\n"     >> $PubChem_out 
+			printf "   \"sinonimos\" : ${sinonimos},\n"         >> $PubChem_out 
+		printf " },\n" 						    >> $PubChem_out
+	#------------------------------------------------------------------------------------------------------------------------------
+	#=>ChemIDPlus: 
+	#FísicoQuímica y Toxicología
+        	tmp_json=$(curl "https://chem.nlm.nih.gov/api/data/rn/sw/${cas}/?data=details")
+		if [ $? -eq 0 ]
+                then
+                	fisicoquimica=$(echo $tmp_json | jq -r '.results[0].physicalProps')
+                	toxicologia=$(  echo $tmp_json | jq -r '.results[0].toxicityList')
+                	#echo -e "\e[35m $fisicoquimica \e[0m"; 	echo -e "\e[35m $toxicologia \e[0m"
+                else
+                	echo -e "\e[31m ChemIDPlus data no encontrado.\e[0m"; echo "${cas};${nombre}" >> Rechazados_ChemIDPlus.lst
+			continue
+                fi;
+
+		printf " {\n"						    >> $ChemIDPlus_out
+			printf "   \"CAS\" : \"${cas}\",\n" 		    >> $ChemIDPlus_out
+			printf "   \"FisProps\": ${fisicoquimica},\n"       >> $ChemIDPlus_out
+			printf "   \"ToxProps\": ${toxicologia},\n" 	    >> $ChemIDPlus_out
+		printf " },\n" 						    >> $ChemIDPlus_out
+	#------------------------------------------------------------------------------------------------------------------------------
+
+
 done;
 	#=>PubChem: Summary
 		props="MolecularFormula,MolecularWeight,IUPACName,InChI,InChIKey,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
-		cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g')
+		cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g;s/\,\,*/\,/g;')
 		curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids_str}/property/${props}/JSON" > summary_db.json
 
 	#Merge jsons:

@@ -96,7 +96,7 @@
     }
   }
 ],
-   "GHS" : ["Irritant","Health Hazard",],
+   "GHS" : ["Irritant","Health Hazard"],
    "NFPA" : null,
    "descripcion" : "",
    "sinonimos" : [

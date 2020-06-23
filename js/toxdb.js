@@ -69,7 +69,7 @@ $(document).ready(function(){
 					<img src="src/PubChem/img2DHD/`+TOXDB[i].CID+`.png"></img>
 				</div>
 	                        <div  class='card-footer'> 
-					<h2>`+SUMMARY_DB[j].MolecularFormula+`</h2>
+					`+SUMMARY_DB[j].MolecularFormula+`
 	                        	<!--span> `+SUMMARY_DB[j].CanonicalSMILES+`</span -->
 				</div>
 	                </section>
@@ -121,6 +121,16 @@ function vista(view){
 		
 	};
 }
+
+//MolView cambiar tipo de visualizacion
+	function MolViewSet(mode){
+		iframe=`<iframe style="width: 300px; height: 300px;" frameborder="1" src="https://embed.molview.org/v1/?mode=`+mode+`&cid=`+tox.CID+`"></iframe>`;
+		console.log(iframe);
+		$("#MolView").empty();
+		$("#MolView").append(iframe);
+		$("#MolView-botones button").prop("disabled",false)
+		$("#MolView-botones button[name="+mode+"]").prop("disabled",true)
+	}
 
 
 
@@ -179,8 +189,11 @@ function verCompuesto(index){
                                 <tr><td> <h3>InChI:                </h3> </td><td>`+ summary.InChI           +`</td></tr> 
                                 <tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
                                 <tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
-				 <tr><td> <h3>Estructura:           </h3> </td><td><img src='src/PubChem/img2DHD/`+tox.CID+`.png'></img>
-                                                                                  <img src='src/PubChem/img3D/`+tox.CID+`.png'></img></td></tr>
+				 <tr><td> <h3>Estructura:           </h3> </td>
+					<td class="imagen">
+					<figure><img src='src/PubChem/img2D/`+tox.CID+`.png'></img><figcaption>2D<figcaption></figure>
+                                        <figure><img src='src/PubChem/img3D/`+tox.CID+`.png'></img><figcaption>3D</figcaption></figure>
+				</td></tr>
                                 <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
                                 <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
                                 <tr><td> <h3>Carga Neta            </h3> </td><td>`+ summary.Charge               +`</td></tr -->
@@ -190,9 +203,62 @@ function verCompuesto(index){
                                 </table> 
                         	</div>    
 				<div class="about-half"> `+tox.descripcion+`</div>
+				
 			</section>`;
                         $(".specimen_page").append(Summary);
                         }catch(error){console.error(error);}
+
+			// ESTRUCTURA 3D:
+ 				//- smiles = resolve SMILES string                                                                               
+ 				//- cid = load CID
+ 				//- pdbid = load PDBID
+ 				//- codid = load CIF from COD
+ 				//- mode = balls || stick || vdw || wireframe || line
+ 				//- chainType = ribbon || cylinders || btube || ctrace || bonds (alias of chainBonds=true)
+ 				//- chainBonds = true || false
+ 				//- chainColor = ss || spectrum || chain || residue || polarity || bfactor
+ 				//- bg = black || gray || white
+			Estructura=`<section class='specimen_data' id='Estructura'>
+			<h1> Estructura </h1>
+			
+			<h3 style="position:relative;top:0;left:0;">Estructura 2D </h3>
+			<div id="MolView-container">
+				<img src='src/PubChem/img2DHD/`+tox.CID+`.png' style="width:300px; height:300px;padding-left:60px;"></img>
+		
+			</div>
+			<h3 style="position:relative;top:0;left:0;">Estructura 3D </h3>
+			<div id="MolView-container">
+				<div id="MolView-botones">
+					<button type="button" name="balls" disabled="" onclick="MolViewSet('balls');">
+						<img style="width:30px;30px;" src="src/CACTUS/balls.png"></img>
+					</button>
+					<button type="button" name="vdw" onclick="MolViewSet('vdw');">
+						<img style="width:30px;30px;" src="src/CACTUS/vanderwaals.png"></img>
+					</button>
+					<button type="button" name="stick" onclick="MolViewSet('stick');">
+						<img style="width:30px;30px;" src="src/CACTUS/stick.png"></img>
+					</button>
+					<button type="button" name="wireframe" onclick="MolViewSet('wireframe');">
+						<img style="width:30px;30px;" src="src/CACTUS/wireframe.png"></img>
+					</button>
+				</div>
+				<div id="MolView">
+					<iframe style="width: 300px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=`+tox.CID+`"></iframe>
+						
+				</div>
+			</div>
+
+
+			</section>
+			`
+                        $(".specimen_page").append(Estructura);
+
+
+		
+		
+		
+		
+		
 
 
 
