@@ -25,7 +25,7 @@ $(document).ready(function(){
 		//mostrar numero de compuestos
 		n=$("li.grid-card").length-$("li.grid-card").filter(":hidden").length;
 		$(".counter-show").empty();  $(".counter-show").append(n)
-		$(".counter-total").empty(); $(".counter-total").append(TOXDB.length)
+		$(".counter-total").empty(); $(".counter-total").append(linker.length)
 	});
 
 
@@ -197,6 +197,7 @@ function verCompuesto(index){
 			</td></tr>
 			<tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
 			<tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
+			<tr><td> <h3>Sinónimos:		   </h3> </td><td>  <div id="sinonimos"><ol></ol></div>   </td></tr>
 
                         <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
                         <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
@@ -205,12 +206,15 @@ function verCompuesto(index){
                         
                         </tbody>
                         </table> 
-                	</div>    
-			<div class="about-half"> `+tox.descripcion+`</div>
+                	</div>
+
+				<div id="descripcion"> </div>
+			</section>`
 			
-		</section>`;
+			
+			
                 $(".specimen_page").append(Summary);
-                }catch(error){console.error(error);}
+                }catch(error){console.error(error)};
 
 			// ESTRUCTURA 3D:
  				//- smiles = resolve SMILES string                                                                               
@@ -224,7 +228,7 @@ function verCompuesto(index){
  				//- bg = black || gray || white
 			Estructura=`<section class='specimen_data' id='Estructura'>
 			<h1> Estructura </h1>
-			<div  style="display:flex;flex-direction:row;flex-warp:warp;">
+			<div style="display:flex;flex-direction:row;flex-wrap:wrap;">
 				<div id="MolView2D-container">
 					<div id="MolView2D-botones">
 						<h3 style="position:relative;top:0;left:0;">2D </h3>
@@ -358,8 +362,16 @@ function verCompuesto(index){
 
 
                         try{
-				 pubchem=TOXDB.find(x => x.CID === tox.CID);
+				 pubchem=PubChem.find(x => x.CID === tox.CID);
         	
+				$("#descripcion").append(pubchem.descripcion);
+
+
+				for (j=0;j < pubchem.sinonimos.length;j++){
+					$("#sinonimos ol").append("<li>"+pubchem.sinonimos[j]+"</li>");
+
+				}
+
 		       		//SEGURIDAD QUIMICA:
                         	ChemSafety=`
 				<section class='specimen_data' id='seguridad'> 
@@ -367,7 +379,7 @@ function verCompuesto(index){
 						<div id="SeguridadQuimica_figs">`;
                         	        	for (j=0;j< pubchem.GHS.length;j++){
                         	        	        ChemSafety+=`<figure>
-									<img src='src/PubChem/imgGHS/`+pubchem.GHS[j]+`.svg'></img>
+									<img src='src/PubChem/imgGHS/es/`+pubchem.GHS[j]+`.svg'></img>
                         	        	        	     	<figcaption>`+pubchem.GHS[j]+`</figcaption>
 								     </figure>`; 
                         	        	}                                                                       

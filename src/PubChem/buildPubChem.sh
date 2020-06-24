@@ -1,6 +1,6 @@
 #!/bin/bash
 PubChem_out="PubChem.json"
-PubChem_in="../Linker.json"
+PubChem_in="Rechazados_PUBCHEM.json " #"../Linker.json"
 
 for cid in $( jq -r ".[] | .CID" ${PubChem_in} )
 do
@@ -10,18 +10,41 @@ do
 	#=>PubChem:
 		#Sinonimos:
 	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Synonyms")
+			if [ $? -ne 0 ] 
+			then  
+				echo -e "\e[32m $cid rechazado.\e[0m";
+				echo "{\"CID\":${cid} }," >>  Rechazados_PUBCHEM.json
+				continue;
+			fi
 		sinonimos=$(echo $tmp_json | jq "[.. | ."String"? | strings][0:9]")
-
 		#Descripcion:
 	        tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Hazards+Summary")
-		descripcion=$(./trans --brief en:es <<< $(echo $tmp_json | jq '..|."String" ? | strings' | sed -e ':a;N;$!ba;s/\"//g;s/\n/<br>/'))
+			if [ $? -ne 0 ] 
+			then
+				echo -e "\e[32m $cid rechazado.\e[0m";
+				echo "{\"CID\":${cid} }," >>  Rechazados_PUBCHEM.json
+				continue;
+			fi
+		descripcion=$(./trans --brief en:es <<< $(echo $tmp_json | jq '..|."String" ? | strings' | sed -e ':a;N;$!ba;s/"//g;s/\n/<br>/'))
 	
 		#Seguridad Química:
                 tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=Chemical+Safety")
+			if [ $? -ne 0 ] 
+			then  
+				echo -e "\e[32m $cid rechazado.\e[0m";
+				echo "{\"CID\":${cid} }," >>  Rechazados_PUBCHEM.json
+				continue;
+			fi
 		GHSs="$(echo $tmp_json | jq '.. | ."Extra"? |strings' | awk -F '\n' 'BEGIN{printf "["};{printf("%s,", $1)};END{printf "],\n"}')"
 	
 		#NFPA 704 diamond
 		tmp_json=$(curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/${cid}/JSON?heading=NFPA+Hazard+Classification")
+			if [ $? -ne 0 ] 
+			then  
+				echo -e "\e[32m $cid rechazado.\e[0m";
+				echo "{\"CID\":${cid} }," >>  Rechazados_PUBCHEM.json
+				continue;
+			fi
 		NFPA="$(echo $tmp_json | jq '[.. | ."Extra"? |strings][0]')"
 
 		#Print en ToxDB:
@@ -34,10 +57,10 @@ do
 		printf " },\n" 						    >> $PubChem_out
 done;
 	#=>PubChem: Summary
-		props="MolecularFormula,MolecularWeight,IUPACName,InChI,InChIKey,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
-		cids=$(jq -r ".[] | .CID" ${PubChem_in} | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g;s/\,\,*/\,/g;')
-		#cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g;s/\,\,*/\,/g;')
-		curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids}/property/${props}/JSON" > summary_db.json
+	#	props="MolecularFormula,MolecularWeight,IUPACName,InChI,InChIKey,XLogP,CanonicalSMILES,Charge,Fingerprint2D"
+	#	cids=$(jq -r ".[] | .CID" ${PubChem_in} | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g;s/\,\,*/\,/g;')
+	#	#cids=$(cat cid.lst | awk '{printf $1","}END{print "\n"}' | sed -e 's/null//g;s/\,*$//g;s/\,\,*/\,/g;')
+	#	curl "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cids}/property/${props}/JSON" > summary_db.json
 
 	#Merge jsons:
 		#jq -s '.[0] * .[1]' file1 file2
