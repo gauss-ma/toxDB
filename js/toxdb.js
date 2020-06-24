@@ -55,18 +55,18 @@ $(document).ready(function(){
 
 	//ARMADO DE CARTAS DE COMPUESTOS:
 	var item_content=" ";
-	for (i=0;i < TOXDB.length;i++){
+	for (i=0;i < linker.length;i++){
 	        try{
-		j=SUMMARY_DB.findIndex(x => x.CID === TOXDB[i].CID);
+		j=SUMMARY_DB.findIndex(x => x.CID === linker[i].CID);
 	        item_content+=`
 	        <li class='grid-card'><a onclick="verCompuesto('`+i+`')">
 	                <section>
 	                	<div class='card-header'>
-	                	        <h2 class='card-subtitulo'> CAS:`+TOXDB[i].CAS+`</h2>
-	                	        <h1 class='card-titulo'>`+TOXDB[i].nombre+`</h1>
+	                	        <h2 class='card-subtitulo'> CAS:`+linker[i].CAS+`</h2>
+	                	        <h1 class='card-titulo'>`+linker[i].nombre+`</h1>
 				</div>
 	                        <div class='card-content'>
-					<img src="src/PubChem/img2DHD/`+TOXDB[i].CID+`.png"></img>
+					<img src="src/PubChem/img2DHD/`+linker[i].CID+`.png"></img>
 				</div>
 	                        <div  class='card-footer'> 
 					`+SUMMARY_DB[j].MolecularFormula+`
