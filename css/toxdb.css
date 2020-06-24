@@ -1414,6 +1414,12 @@ span{margin:0 5px 0 15px}
 	flex-wrap:wrap;
 }
 
+#sinonimos ol >li{
+	padding:2px;
+}
+#sinonimos ol > li:before{content:", "}
+#sinonimos ol > li:first-child::before {content:" "}
+
 #descripcion {
 	font-size:16px;
 	line-height:16px;
