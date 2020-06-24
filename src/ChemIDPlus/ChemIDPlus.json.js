@@ -3,7 +3,7 @@ ChemIDPlus=[
    "CAS" : "139-13-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "v": "242 dec",
     "u": "deg C",
     "s": "EXP"
@@ -20,28 +20,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 59100,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 7e-09,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.3e-10,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.9e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -50,7 +50,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -66,7 +66,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -80,7 +80,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -100,13 +100,13 @@ ChemIDPlus=[
    "CAS" : "107-02-8",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -87.7,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 52.6,
     "u": "deg C",
     "s": "EXP"
@@ -117,28 +117,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 212000,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 274,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000122,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.99e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -147,9 +147,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1570,
       "u": "mg/m3/2H",
@@ -163,9 +163,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 15,
       "u": "mg/kg"
@@ -187,7 +187,7 @@ ChemIDPlus=[
   {
     "o": "child",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 300,
       "u": "ppb/2H",
@@ -217,9 +217,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 24,
       "u": "mg/m3/6H",
@@ -247,9 +247,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 178,
       "u": "ug/kg",
@@ -280,7 +280,7 @@ ChemIDPlus=[
   {
     "o": "hamster",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1000,
       "u": "ppm/10M",
@@ -308,9 +308,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5500,
       "u": "ppb",
@@ -325,9 +325,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 153,
       "u": "ppm/10M",
@@ -339,7 +339,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -354,7 +354,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -369,9 +369,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1,
       "u": "ppm"
@@ -390,9 +390,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 66,
       "u": "ppm/6H",
@@ -407,7 +407,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -422,7 +422,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -447,9 +447,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 30,
       "u": "mg/kg"
@@ -472,9 +472,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 24,
       "u": "mg/m3/6H",
@@ -502,7 +502,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -517,9 +517,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 200,
       "u": "mg/kg"
@@ -530,9 +530,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 250,
       "u": "mg/kg"
@@ -551,9 +551,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 18,
       "u": "mg/m3/4H",
@@ -567,7 +567,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -583,7 +583,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -598,9 +598,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 50,
       "u": "mg/kg"
@@ -628,7 +628,7 @@ ChemIDPlus=[
    "CAS" : "116-06-3",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 99,
     "u": "deg C",
     "s": "EXP"
@@ -639,28 +639,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 6030,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.47e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.44e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 9.2e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -686,7 +686,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -731,7 +731,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -749,9 +749,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2400,
       "u": "mg/kg"
@@ -764,7 +764,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -782,9 +782,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 250,
       "u": "ug/kg",
@@ -799,7 +799,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -816,7 +816,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -846,9 +846,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1400,
       "u": "mg/kg"
@@ -861,9 +861,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 200,
       "u": "mg/m3/5H",
@@ -877,7 +877,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -892,9 +892,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 470,
       "u": "ug/kg",
@@ -907,7 +907,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -922,9 +922,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2500,
       "u": "ug/kg",
@@ -940,9 +940,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 666,
       "u": "ug/kg",
@@ -958,7 +958,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -1007,7 +1007,7 @@ ChemIDPlus=[
    "CAS" : "309-00-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 104,
     "u": "deg C",
     "s": "EXP"
@@ -1018,28 +1018,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.017,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00012,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.4e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 6.46e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -1066,7 +1066,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -1095,9 +1095,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 75,
       "u": "mg/kg"
@@ -1124,7 +1124,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1170,7 +1170,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -1192,7 +1192,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1207,7 +1207,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -1222,7 +1222,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1237,7 +1237,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1268,7 +1268,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -1297,7 +1297,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -1312,7 +1312,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intracrebral",
     "d": {
@@ -1334,7 +1334,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -1349,9 +1349,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 21,
       "u": "mg/kg"
@@ -1364,7 +1364,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1379,7 +1379,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1396,7 +1396,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1413,7 +1413,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1428,9 +1428,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 15,
       "u": "mg/kg"
@@ -1457,9 +1457,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -1472,9 +1472,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5800,
       "u": "ug/m3/4H",
@@ -1489,7 +1489,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -1504,7 +1504,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1519,9 +1519,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 98,
       "u": "mg/kg"
@@ -1535,9 +1535,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 62,
       "u": "mg/kg"
@@ -1561,9 +1561,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 7,
       "u": "gm/m3/1H",
@@ -1588,9 +1588,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5000,
       "u": "ppm/5M",
@@ -1604,9 +1604,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 20,
       "u": "ppm"
@@ -1633,9 +1633,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5000,
       "u": "ppm/5M",
@@ -1649,7 +1649,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -1664,7 +1664,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -1688,9 +1688,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4230,
       "u": "ppm/1H",
@@ -1718,9 +1718,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 7,
       "u": "gm/m3/1H",
@@ -1745,9 +1745,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2000,
       "u": "ppm/4H",
@@ -1793,7 +1793,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -1818,9 +1818,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -1833,7 +1833,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -1864,7 +1864,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -1891,7 +1891,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1916,9 +1916,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -1931,7 +1931,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -1949,7 +1949,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1979,7 +1979,7 @@ ChemIDPlus=[
    "CAS" : "1912-24-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 173,
     "u": "deg C",
     "s": "EXP"
@@ -1995,28 +1995,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 34.7,
     "u": "mg/L",
     "t": "26",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 2.89e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.36e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.73e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2042,7 +2042,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -2057,7 +2057,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -2072,7 +2072,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2087,7 +2087,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2102,9 +2102,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 7500,
       "u": "mg/kg"
@@ -2117,9 +2117,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5200,
       "u": "mg/m3/4H",
@@ -2133,7 +2133,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -2148,7 +2148,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2163,9 +2163,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 12500,
@@ -2189,7 +2189,7 @@ ChemIDPlus=[
    "CAS" : "22781-23-3",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 130,
     "u": "deg C",
     "s": "EXP"
@@ -2200,28 +2200,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 260,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.45e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 3.9e-08,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.39e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2230,7 +2230,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2244,7 +2244,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2259,7 +2259,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2274,7 +2274,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2304,7 +2304,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2318,7 +2318,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2333,9 +2333,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 566,
       "u": "mg/kg"
@@ -2354,7 +2354,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intratracheal",
     "d": {
@@ -2362,16 +2362,16 @@ ChemIDPlus=[
       "u": "mg/kg"
     },
     "j": {
-      "t": "'Spravochnik po Toksikologii i Gigienicheskim Normativam ',
+      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam.",
       "v": "-",
       "p": "23",
       "y": "1999"
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 496,
       "u": "ug/kg",
@@ -2398,13 +2398,13 @@ ChemIDPlus=[
    "CAS" : "319-84-6",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 159.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 288,
     "u": "deg C",
     "s": "EXP"
@@ -2415,21 +2415,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 2,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.22e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.4e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2438,7 +2438,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -2455,7 +2455,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2470,7 +2470,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2491,7 +2491,7 @@ ChemIDPlus=[
    "CAS" : "319-85-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 314.5,
     "u": "deg C",
     "s": "EXP"
@@ -2502,21 +2502,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.24,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.4e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.73e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2525,7 +2525,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -2554,7 +2554,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2576,13 +2576,13 @@ ChemIDPlus=[
    "CAS" : "111-44-4",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -51.9,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 178.5,
     "u": "deg C",
     "s": "EXP"
@@ -2593,28 +2593,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 17200,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.55,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.7e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.16e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2623,9 +2623,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 500,
       "u": "ppm/1H",
@@ -2639,9 +2639,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -2654,7 +2654,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2669,9 +2669,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 650,
       "u": "mg/m3/2H",
@@ -2685,7 +2685,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2714,7 +2714,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2729,9 +2729,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 90,
       "u": "mg/kg"
@@ -2744,9 +2744,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 330,
       "u": "mg/m3/4H",
@@ -2760,7 +2760,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2780,13 +2780,13 @@ ChemIDPlus=[
    "CAS" : "108-60-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -97,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 187,
     "u": "deg C",
     "s": "EXP"
@@ -2797,28 +2797,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 1700,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.56,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 7.42e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.6e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2827,7 +2827,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2842,9 +2842,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3,
       "u": "mL/kg"
@@ -2857,9 +2857,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 700,
       "u": "ppm/5H",
@@ -2888,7 +2888,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2903,9 +2903,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -2926,13 +2926,13 @@ ChemIDPlus=[
    "CAS" : "117-81-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -55,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 384,
     "u": "deg C",
     "s": "EXP"
@@ -2943,28 +2943,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.27,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.42e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.7e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.2e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -2973,7 +2973,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -2991,9 +2991,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 10,
       "u": "gm/kg",
@@ -3009,7 +3009,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3024,7 +3024,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -3045,7 +3045,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -3073,9 +3073,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 1060,
       "u": "mg/kg"
@@ -3086,7 +3086,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3115,7 +3115,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3132,9 +3132,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 4,
       "u": "gm/kg",
@@ -3155,7 +3155,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD",
     "r": "intraperitoneal",
     "d": {
@@ -3171,7 +3171,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3189,9 +3189,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 25,
       "u": "gm/kg",
@@ -3206,7 +3206,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -3221,9 +3221,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 250,
       "u": "mg/kg"
@@ -3242,7 +3242,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3259,7 +3259,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3276,7 +3276,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intratracheal",
     "d": {
@@ -3305,9 +3305,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 4,
       "u": "gm/kg",
@@ -3334,7 +3334,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3349,7 +3349,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3364,7 +3364,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3379,7 +3379,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3394,7 +3394,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -3411,7 +3411,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3426,7 +3426,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3441,7 +3441,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -3458,7 +3458,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3478,7 +3478,7 @@ ChemIDPlus=[
    "CAS" : "1689-84-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 190,
     "u": "deg C",
     "s": "EXP"
@@ -3489,28 +3489,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 130,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 4.72e-08,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.32e-10,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.1e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -3534,7 +3534,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3549,7 +3549,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3563,7 +3563,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3578,7 +3578,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3593,7 +3593,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3608,9 +3608,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 56,
       "u": "mg/kg"
@@ -3621,7 +3621,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3636,7 +3636,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3651,9 +3651,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3660,
       "u": "mg/kg"
@@ -3666,7 +3666,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3681,9 +3681,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -3703,9 +3703,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 39,
       "u": "mg/m3/20M",
@@ -3734,7 +3734,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -3749,9 +3749,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 88,
       "u": "ug/m3/8.6Y",
@@ -3772,7 +3772,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -3790,7 +3790,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3805,7 +3805,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3820,9 +3820,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 5,
       "u": "mg/kg"
@@ -3835,7 +3835,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -3850,9 +3850,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 6,
       "u": "mg/kg"
@@ -3865,9 +3865,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 25,
       "u": "mg/m3/30M",
@@ -3887,7 +3887,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3902,7 +3902,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -3922,7 +3922,7 @@ ChemIDPlus=[
    "CAS" : "1563-66-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 151,
     "u": "deg C",
     "s": "EXP"
@@ -3933,28 +3933,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 320,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 4.85e-06,
     "u": "mm Hg",
     "t": "19",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 3.09e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.6e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -3983,7 +3983,7 @@ ChemIDPlus=[
   {
     "o": "bird - wild",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -3997,7 +3997,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4029,9 +4029,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 52,
       "u": "mg/m3"
@@ -4058,7 +4058,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4087,7 +4087,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4105,9 +4105,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 43,
       "u": "mg/m3/4H",
@@ -4134,9 +4134,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 837,
       "u": "mg/kg"
@@ -4163,9 +4163,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 450,
       "u": "ug/kg",
@@ -4178,7 +4178,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4194,7 +4194,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -4209,7 +4209,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4226,7 +4226,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4243,9 +4243,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 885,
       "u": "mg/kg"
@@ -4258,7 +4258,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -4273,9 +4273,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 85,
       "u": "mg/m3"
@@ -4302,7 +4302,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4317,9 +4317,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 120,
       "u": "mg/kg"
@@ -4332,7 +4332,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -4383,7 +4383,7 @@ ChemIDPlus=[
    "CAS" : "21725-46-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 168,
     "u": "deg C",
     "s": "EXP"
@@ -4399,28 +4399,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 170,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.38e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.57e-12,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 9.31e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -4429,7 +4429,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4454,7 +4454,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4472,9 +4472,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2470,
       "u": "mg/m3/4H",
@@ -4488,7 +4488,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -4503,7 +4503,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4518,9 +4518,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 6590,
@@ -4534,9 +4534,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 3715,
       "u": "mg/kg"
@@ -4549,7 +4549,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4564,7 +4564,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4579,9 +4579,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -4607,9 +4607,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 4900,
@@ -4633,7 +4633,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -4648,7 +4648,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4663,9 +4663,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1200,
       "u": "mg/kg"
@@ -4678,9 +4678,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 1738,
       "u": "mg/kg"
@@ -4699,7 +4699,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -4729,9 +4729,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 124,
       "u": "mg/m3/50M",
@@ -4764,13 +4764,13 @@ ChemIDPlus=[
    "CAS" : "108-90-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -45.2,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 131.7,
     "u": "deg C",
     "s": "EXP"
@@ -4781,28 +4781,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 498,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 12,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00311,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.7e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -4811,9 +4811,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 11,
@@ -4829,7 +4829,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4844,7 +4844,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -4873,9 +4873,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10,
       "u": "gm/m3",
@@ -4890,7 +4890,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4905,7 +4905,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -4920,9 +4920,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 15,
       "u": "gm/m3",
@@ -4937,7 +4937,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -4952,7 +4952,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4967,9 +4967,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2200,
@@ -4981,7 +4981,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -4996,9 +4996,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2965,
       "u": "ppm"
@@ -5009,7 +5009,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -5024,7 +5024,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5059,7 +5059,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -5083,7 +5083,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -5100,9 +5100,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 375,
       "u": "mg/kg"
@@ -5135,7 +5135,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -5162,7 +5162,7 @@ ChemIDPlus=[
    "CAS" : "333-41-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 25,
     "v": "< 25",
     "u": "deg C",
@@ -5174,28 +5174,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 40,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 9.01e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.13e-07,
     "u": "atm-m3/mole",
     "t": "23",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 9.67e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -5220,7 +5220,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5237,7 +5237,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5254,9 +5254,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5500,
       "u": "mg/m3/4H",
@@ -5270,7 +5270,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5285,7 +5285,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -5315,7 +5315,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -5330,9 +5330,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1600,
       "u": "mg/m3/4H",
@@ -5346,7 +5346,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -5362,9 +5362,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 180,
       "u": "mg/kg"
@@ -5375,7 +5375,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5390,9 +5390,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2750,
       "u": "mg/kg"
@@ -5406,9 +5406,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 58,
       "u": "mg/kg"
@@ -5438,7 +5438,7 @@ ChemIDPlus=[
   {
     "o": "pig",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 633,
       "u": "mg/kg"
@@ -5451,7 +5451,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5468,7 +5468,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5485,7 +5485,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5500,9 +5500,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3600,
       "u": "mg/kg"
@@ -5514,9 +5514,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3500,
       "u": "mg/m3/4H",
@@ -5530,7 +5530,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -5546,7 +5546,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intratracheal",
     "d": {
@@ -5562,7 +5562,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5577,9 +5577,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 180,
       "u": "mg/kg"
@@ -5592,7 +5592,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -5612,13 +5612,13 @@ ChemIDPlus=[
    "CAS" : "106-93-4",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 9.9,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 131.6,
     "u": "deg C",
     "s": "EXP"
@@ -5629,28 +5629,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 3910,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 11.2,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00065,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.5e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -5659,7 +5659,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5674,9 +5674,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 400,
       "u": "ppm/3H",
@@ -5700,7 +5700,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5715,7 +5715,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -5743,7 +5743,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -5758,7 +5758,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -5773,7 +5773,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -5789,7 +5789,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5819,7 +5819,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5834,9 +5834,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -5855,7 +5855,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "rectal",
     "d": {
@@ -5880,9 +5880,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 14300,
       "u": "mg/m3/30",
@@ -5910,7 +5910,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5925,9 +5925,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -5974,7 +5974,7 @@ ChemIDPlus=[
    "CAS" : "1918-00-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 115,
     "u": "deg C",
     "s": "EXP"
@@ -5990,28 +5990,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 8310,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.38e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.18e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.99e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -6020,7 +6020,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6037,7 +6037,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -6054,7 +6054,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6069,7 +6069,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -6084,7 +6084,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6101,9 +6101,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -6119,7 +6119,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6134,9 +6134,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 1,
@@ -6157,7 +6157,7 @@ ChemIDPlus=[
    "CAS" : "51338-27-3",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 40,
     "u": "deg C",
     "s": "EXP"
@@ -6168,28 +6168,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.8,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.5e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.97e-06,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.9e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -6198,7 +6198,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6212,7 +6212,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6227,7 +6227,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6245,9 +6245,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 8300,
       "u": "mg/m3/4H",
@@ -6260,7 +6260,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6275,9 +6275,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -6297,13 +6297,13 @@ ChemIDPlus=[
    "CAS" : "106-46-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 52.7,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 174,
     "u": "deg C",
     "s": "EXP"
@@ -6314,28 +6314,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 81.3,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.74,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00241,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.2e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -6344,9 +6344,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 37,
       "u": "gm/m3/30M",
@@ -6367,7 +6367,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -6382,7 +6382,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -6397,7 +6397,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -6412,7 +6412,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -6441,9 +6441,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 12,
       "u": "gm/m3",
@@ -6458,7 +6458,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6473,7 +6473,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -6488,7 +6488,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -6506,7 +6506,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6521,9 +6521,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 5145,
       "u": "mg/kg"
@@ -6542,7 +6542,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6557,9 +6557,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2,
@@ -6575,7 +6575,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -6590,7 +6590,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6605,9 +6605,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 6,
@@ -6628,13 +6628,13 @@ ChemIDPlus=[
    "CAS" : "107-06-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -35.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 83.5,
     "u": "deg C",
     "s": "EXP"
@@ -6645,28 +6645,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 8600,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 78.9,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00118,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.48e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -6675,9 +6675,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 3000,
@@ -6692,7 +6692,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -6721,9 +6721,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 175,
       "u": "mg/kg"
@@ -6736,9 +6736,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1500,
       "u": "ppm/7H",
@@ -6766,7 +6766,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -6782,7 +6782,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -6811,7 +6811,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -6840,9 +6840,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 3000,
@@ -6857,7 +6857,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -6886,9 +6886,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4000,
       "u": "ppm/1H",
@@ -6916,7 +6916,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -6948,7 +6948,7 @@ ChemIDPlus=[
   {
     "o": "monkey",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3000,
       "u": "ppm/7H",
@@ -6962,9 +6962,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5,
       "u": "gm/m3/2H",
@@ -6979,7 +6979,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -6994,7 +6994,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7020,9 +7020,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 380,
       "u": "mg/kg"
@@ -7037,7 +7037,7 @@ ChemIDPlus=[
   {
     "o": "pig",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3000,
       "u": "ppm/7H",
@@ -7065,9 +7065,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3000,
       "u": "ppm/7H",
@@ -7095,7 +7095,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7110,9 +7110,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2800,
       "u": "mg/kg"
@@ -7139,9 +7139,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 1200,
       "u": "mg/kg"
@@ -7154,9 +7154,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1000,
       "u": "ppm/7H",
@@ -7180,7 +7180,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7195,7 +7195,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7210,9 +7210,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 1,
       "u": "gm/kg",
@@ -7241,7 +7241,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intratracheal",
     "d": {
@@ -7259,13 +7259,13 @@ ChemIDPlus=[
    "CAS" : "540-59-0",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -57,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 55,
     "u": "deg C",
     "s": "EXP"
@@ -7276,28 +7276,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 3500,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 201,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00408,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.09e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -7308,7 +7308,7 @@ ChemIDPlus=[
   {
     "o": "frog",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 117,
       "u": "mg/m3/1H",
@@ -7336,7 +7336,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7353,7 +7353,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7373,13 +7373,13 @@ ChemIDPlus=[
    "CAS" : "156-60-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -49.8,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 48.7,
     "u": "deg C",
     "s": "EXP"
@@ -7390,21 +7390,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 4520,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00938,
     "u": "atm-m3/mole",
     "t": "24",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.34e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -7413,9 +7413,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 43,
       "u": "gm/m3/6H",
@@ -7444,9 +7444,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4800,
       "u": "mg/m3/10M",
@@ -7470,9 +7470,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 75,
       "u": "gm/m3/2H",
@@ -7501,7 +7501,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7517,7 +7517,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7547,9 +7547,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 5,
@@ -7571,9 +7571,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 24100,
       "u": "ppm"
@@ -7592,7 +7592,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7622,7 +7622,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7643,13 +7643,13 @@ ChemIDPlus=[
    "CAS" : "120-83-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 45,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 210,
     "u": "deg C",
     "s": "EXP"
@@ -7665,28 +7665,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 4500,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.116,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 5.51e-06,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.06e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -7695,7 +7695,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -7712,7 +7712,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7727,9 +7727,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 790,
       "u": "mg/kg"
@@ -7742,7 +7742,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7757,7 +7757,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7786,9 +7786,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3160,
       "u": "mg/kg"
@@ -7813,7 +7813,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -7839,7 +7839,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7866,9 +7866,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 1730,
       "u": "mg/kg"
@@ -7891,28 +7891,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 2700,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 90.8,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00491,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.97e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -7921,9 +7921,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 8750,
       "u": "mg/kg"
@@ -7936,7 +7936,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -7958,13 +7958,13 @@ ChemIDPlus=[
    "CAS" : "105-67-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 24.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 210.9,
     "u": "deg C",
     "s": "EXP"
@@ -7981,28 +7981,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 7870,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.102,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 9.51e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.15e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8011,7 +8011,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -8026,9 +8026,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -8047,7 +8047,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8062,9 +8062,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 30,
@@ -8078,7 +8078,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8093,9 +8093,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1040,
       "u": "mg/kg"
@@ -8113,13 +8113,13 @@ ChemIDPlus=[
    "CAS" : "121-14-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 71,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 300,
     "u": "deg C",
     "s": "EXP"
@@ -8130,28 +8130,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 270,
     "u": "mg/L",
     "t": "22",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.000147,
     "u": "mm Hg",
     "t": "22",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 5.4e-08,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.16e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8160,9 +8160,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 25,
       "u": "mg/kg"
@@ -8175,9 +8175,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 1,
@@ -8191,7 +8191,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8206,7 +8206,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8224,7 +8224,7 @@ ChemIDPlus=[
    "CAS" : "330-54-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 158,
     "u": "deg C",
     "s": "EXP"
@@ -8235,28 +8235,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 42,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 6.9e-08,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 5.04e-10,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.09e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8265,7 +8265,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -8283,7 +8283,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -8296,7 +8296,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8322,9 +8322,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 5,
@@ -8340,7 +8340,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -8360,13 +8360,13 @@ ChemIDPlus=[
    "CAS" : "100-42-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -31,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 145,
     "u": "deg C",
     "s": "EXP"
@@ -8377,28 +8377,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 310,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 6.4,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00275,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.8e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8407,9 +8407,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 12,
       "u": "gm/m3/14H",
@@ -8438,9 +8438,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10000,
       "u": "ppm/30M",
@@ -8454,9 +8454,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 20,
       "u": "ug/m3",
@@ -8477,9 +8477,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 376,
       "u": "ppm/1H",
@@ -8504,9 +8504,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 600,
       "u": "ppm"
@@ -8529,7 +8529,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8545,9 +8545,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 9500,
       "u": "mg/m3/4H",
@@ -8561,7 +8561,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -8577,9 +8577,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 90,
       "u": "mg/kg"
@@ -8593,7 +8593,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8607,9 +8607,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4000,
       "u": "ppm/4H",
@@ -8621,9 +8621,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 12,
       "u": "gm/m3/4H",
@@ -8639,7 +8639,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -8655,7 +8655,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8685,13 +8685,13 @@ ChemIDPlus=[
    "CAS" : "100-41-4",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -94.9,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 136.1,
     "u": "deg C",
     "s": "EXP"
@@ -8702,28 +8702,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 169,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 9.6,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00788,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.1e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8732,9 +8732,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10000,
       "u": "ppm"
@@ -8761,9 +8761,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 100,
       "u": "ppm/8H",
@@ -8792,9 +8792,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 50,
       "u": "gm/m3/2H",
@@ -8809,7 +8809,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -8827,9 +8827,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 17800,
       "u": "uL/kg",
@@ -8844,9 +8844,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4000,
       "u": "ppm/4H",
@@ -8861,7 +8861,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -8891,13 +8891,13 @@ ChemIDPlus=[
    "CAS" : "108-95-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 40.9,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 181.8,
     "u": "deg C",
     "s": "EXP"
@@ -8914,28 +8914,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 82800,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.35,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 3.33e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.63e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -8944,7 +8944,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -8959,9 +8959,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 80,
       "u": "mg/kg"
@@ -8974,7 +8974,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -8989,7 +8989,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9004,7 +9004,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -9050,7 +9050,7 @@ ChemIDPlus=[
   {
     "o": "frog",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 75,
       "u": "mg/kg"
@@ -9065,7 +9065,7 @@ ChemIDPlus=[
   {
     "o": "frog",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 290,
       "u": "mg/kg"
@@ -9078,7 +9078,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -9093,9 +9093,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 450,
       "u": "mg/kg"
@@ -9108,7 +9108,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9133,7 +9133,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9185,7 +9185,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9200,7 +9200,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "unreported",
     "d": {
@@ -9223,9 +9223,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 177,
       "u": "mg/m3"
@@ -9238,7 +9238,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -9253,9 +9253,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 112,
       "u": "mg/kg"
@@ -9274,7 +9274,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9289,9 +9289,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 344,
       "u": "mg/kg"
@@ -9304,9 +9304,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 630,
       "u": "mg/kg"
@@ -9317,7 +9317,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -9332,9 +9332,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 180,
       "u": "mg/kg"
@@ -9347,7 +9347,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9362,9 +9362,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 620,
       "u": "mg/kg"
@@ -9377,7 +9377,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -9392,9 +9392,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 316,
       "u": "mg/m3"
@@ -9407,7 +9407,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -9423,7 +9423,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9444,9 +9444,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 669,
       "u": "mg/kg"
@@ -9474,9 +9474,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 460,
       "u": "mg/kg"
@@ -9494,13 +9494,13 @@ ChemIDPlus=[
    "CAS" : "206-44-0",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 107.8,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 384,
     "u": "deg C",
     "s": "EXP"
@@ -9511,28 +9511,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.26,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 9.22e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 8.86e-06,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -9541,9 +9541,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -9554,9 +9554,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3180,
       "u": "mg/kg"
@@ -9570,7 +9570,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9594,7 +9594,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9624,7 +9624,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -9654,9 +9654,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 22800,
       "u": "ug/kg",
@@ -9676,7 +9676,7 @@ ChemIDPlus=[
    "CAS" : "298-02-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -15,
     "u": "deg C",
     "s": "EXP"
@@ -9687,28 +9687,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 50,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.000638,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.37e-06,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.5e-10,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -9733,7 +9733,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9750,9 +9750,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 203,
       "u": "mg/kg"
@@ -9797,9 +9797,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 20,
       "u": "mg/kg"
@@ -9812,7 +9812,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -9829,7 +9829,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9846,7 +9846,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9876,9 +9876,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 99,
       "u": "mg/kg"
@@ -9891,9 +9891,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 11,
       "u": "mg/m3/1H",
@@ -9905,7 +9905,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -9922,9 +9922,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 1200,
       "u": "ug/kg",
@@ -9937,7 +9937,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -9952,9 +9952,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2500,
       "u": "ug/kg",
@@ -9989,7 +9989,7 @@ ChemIDPlus=[
    "CAS" : "1071-83-6",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 189.5,
     "u": "deg C",
     "s": "EXP"
@@ -10005,28 +10005,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 12000,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 2.89e-10,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.08e-19,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.9e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -10035,7 +10035,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -10065,7 +10065,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -10095,7 +10095,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -10118,7 +10118,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10143,7 +10143,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10159,7 +10159,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10174,9 +10174,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 7940,
       "u": "mg/kg"
@@ -10188,9 +10188,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 12200,
@@ -10204,7 +10204,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -10227,7 +10227,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10289,7 +10289,7 @@ ChemIDPlus=[
    "CAS" : "1024-57-3",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 160,
     "u": "deg C",
     "s": "EXP"
@@ -10300,28 +10300,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.2,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.95e-05,
     "u": "mm Hg",
     "t": "30",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.1e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.17e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -10355,7 +10355,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intracrebral",
     "d": {
@@ -10377,7 +10377,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10392,9 +10392,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 10,
       "u": "mg/kg"
@@ -10408,7 +10408,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10423,7 +10423,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10443,13 +10443,13 @@ ChemIDPlus=[
    "CAS" : "118-74-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 231.8,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 325,
     "u": "deg C",
     "s": "EXP"
@@ -10460,28 +10460,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.0062,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.8e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.0017,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.7e-14,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -10490,9 +10490,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1600,
       "u": "mg/m3"
@@ -10505,7 +10505,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10520,7 +10520,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10538,7 +10538,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10564,7 +10564,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -10579,9 +10579,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4,
       "u": "gm/m3",
@@ -10596,7 +10596,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10613,7 +10613,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10629,9 +10629,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1800,
       "u": "mg/m3"
@@ -10644,7 +10644,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10659,9 +10659,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3600,
       "u": "mg/m3"
@@ -10674,7 +10674,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD",
     "r": "intraperitoneal",
     "d": {
@@ -10690,7 +10690,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10743,7 +10743,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10760,7 +10760,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -10773,7 +10773,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10795,7 +10795,7 @@ ChemIDPlus=[
    "CAS" : "121-75-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 2.8,
     "u": "deg C",
     "s": "EXP"
@@ -10806,28 +10806,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 143,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.38e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.89e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.74e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -10852,9 +10852,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10,
       "u": "mg/m3/4H",
@@ -10868,7 +10868,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
     "r": "intraarterial",
     "d": {
@@ -10943,7 +10943,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10965,7 +10965,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -10996,7 +10996,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11013,7 +11013,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -11028,7 +11028,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11044,9 +11044,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 6700,
       "u": "mg/kg"
@@ -11057,9 +11057,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 450,
       "u": "mg/kg"
@@ -11098,7 +11098,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -11113,7 +11113,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -11142,9 +11142,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 14,
       "u": "uL/kg",
@@ -11169,7 +11169,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -11185,9 +11185,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 184,
       "u": "mg/kg"
@@ -11200,7 +11200,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11215,9 +11215,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2330,
       "u": "mg/kg"
@@ -11230,9 +11230,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 221,
       "u": "mg/kg"
@@ -11245,7 +11245,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -11260,9 +11260,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 4100,
       "u": "mg/kg"
@@ -11275,9 +11275,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 280,
       "u": "mg/kg"
@@ -11300,7 +11300,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -11319,9 +11319,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 43790,
       "u": "ug/m3/4H",
@@ -11336,7 +11336,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -11352,9 +11352,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 50,
       "u": "mg/kg"
@@ -11368,7 +11368,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11383,9 +11383,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 4444,
@@ -11399,9 +11399,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 400,
       "u": "mg/kg"
@@ -11424,7 +11424,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -11569,9 +11569,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2300,
       "u": "ug/m3",
@@ -11601,7 +11601,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11624,9 +11624,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 44300,
       "u": "ug/m3/8H",
@@ -11651,9 +11651,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 571,
       "u": "uL/kg",
@@ -11683,7 +11683,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "multiple routes",
     "d": {
@@ -11714,7 +11714,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -11744,9 +11744,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 129,
       "u": "mg/kg/5H-C",
@@ -11775,9 +11775,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 714,
       "u": "uL/kg",
@@ -11799,9 +11799,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 254,
       "u": "mg/kg"
@@ -11820,9 +11820,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 29,
       "u": "mg/m3/30H",
@@ -11838,7 +11838,7 @@ ChemIDPlus=[
   {
     "o": "women",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 150,
       "u": "ug/m3/46D",
@@ -11873,7 +11873,7 @@ ChemIDPlus=[
    "CAS" : "51218-45-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -62.1,
     "u": "deg C",
     "s": "EXP"
@@ -11884,28 +11884,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 530,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.14e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 9e-09,
     "u": "atm-m3/mole",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.02e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -11914,7 +11914,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11930,7 +11930,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -11945,7 +11945,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11960,9 +11960,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 2400,
       "u": "mg/kg"
@@ -11975,9 +11975,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 10,
@@ -11991,9 +11991,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 1750,
@@ -12006,7 +12006,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -12021,7 +12021,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12036,9 +12036,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3170,
       "u": "mg/kg"
@@ -12051,9 +12051,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "m": ">",
       "r": 9,
@@ -12069,7 +12069,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -12089,7 +12089,7 @@ ChemIDPlus=[
    "CAS" : "21087-64-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 126,
     "u": "deg C",
     "s": "EXP"
@@ -12105,28 +12105,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 1050,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 4.35e-07,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.17e-10,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.56e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -12135,7 +12135,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12150,7 +12150,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12165,9 +12165,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 860,
@@ -12182,7 +12182,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -12203,7 +12203,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12218,9 +12218,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 1,
@@ -12236,9 +12236,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 367,
       "u": "mg/kg"
@@ -12251,7 +12251,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12266,7 +12266,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -12281,9 +12281,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 20,
@@ -12299,9 +12299,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 860,
@@ -12316,7 +12316,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -12331,7 +12331,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12346,9 +12346,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2,
       "u": "gm/kg",
@@ -12363,9 +12363,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 814,
       "u": "mg/kg"
@@ -12384,9 +12384,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 12500,
       "u": "ug/kg",
@@ -12399,7 +12399,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12414,9 +12414,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 50,
       "u": "mg/kg"
@@ -12444,7 +12444,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -12457,9 +12457,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 7500,
       "u": "ug/kg",
@@ -12472,7 +12472,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -12501,7 +12501,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intratracheal",
     "d": {
@@ -12514,7 +12514,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12540,14 +12540,14 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 700000,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.12e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -12556,7 +12556,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12571,7 +12571,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12615,9 +12615,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 4,
@@ -12633,7 +12633,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12648,9 +12648,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 34500,
       "u": "ug/kg",
@@ -12681,7 +12681,7 @@ ChemIDPlus=[
   {
     "o": "domestic animals - goat/sheep",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 1,
       "u": "mg/kg"
@@ -12709,7 +12709,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12725,9 +12725,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 600,
       "u": "mg/kg"
@@ -12757,9 +12757,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2200,
       "u": "ug/m3/2.5",
@@ -12775,7 +12775,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -12791,7 +12791,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -12817,7 +12817,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12842,7 +12842,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12873,7 +12873,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12904,7 +12904,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12933,7 +12933,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -12963,7 +12963,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "parenteral",
     "d": {
@@ -12995,9 +12995,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 3,
       "u": "uL/kg",
@@ -13027,7 +13027,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -13059,7 +13059,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -13115,9 +13115,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 2200,
@@ -13134,7 +13134,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -13160,9 +13160,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 180,
       "u": "mg/kg"
@@ -13173,7 +13173,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13195,9 +13195,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 37,
       "u": "mg/kg"
@@ -13225,9 +13225,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 2200,
@@ -13244,7 +13244,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -13274,9 +13274,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 325,
       "u": "mg/kg"
@@ -13296,7 +13296,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "ocular",
     "d": {
@@ -13312,7 +13312,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -13335,9 +13335,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1,
       "u": "mg/m3/6H",
@@ -13366,7 +13366,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -13396,9 +13396,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 21,
       "u": "mg/kg"
@@ -13426,7 +13426,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13442,9 +13442,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 80,
       "u": "mg/kg"
@@ -13457,9 +13457,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 27,
       "u": "mg/kg"
@@ -13474,7 +13474,7 @@ ChemIDPlus=[
   {
     "o": "turkey",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 375,
       "u": "mg/kg"
@@ -13518,7 +13518,7 @@ ChemIDPlus=[
   {
     "o": "turkey",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 12500,
       "u": "ug/kg",
@@ -13661,21 +13661,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.7,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000415,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.13e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -13684,7 +13684,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13715,28 +13715,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.42,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.0004,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000271,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.19e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -13745,7 +13745,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13768,21 +13768,21 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.277,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000343,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.13e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -13791,9 +13791,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 345,
       "u": "mg/kg"
@@ -13820,9 +13820,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10,
       "u": "mg/m3"
@@ -13845,7 +13845,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -13864,7 +13864,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13883,9 +13883,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1269,
       "u": "mg/kg"
@@ -13898,7 +13898,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -13929,7 +13929,7 @@ ChemIDPlus=[
    "CAS" : "12672-29-6",
    "FisProps": [
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "v": "340-375",
     "u": "deg C",
     "s": "EXP"
@@ -13940,28 +13940,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.1,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.000494,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00044,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.29e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -13970,9 +13970,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1269,
       "u": "mg/kg"
@@ -13985,7 +13985,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14007,7 +14007,7 @@ ChemIDPlus=[
    "CAS" : "11097-69-1",
    "FisProps": [
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "v": "365-390",
     "u": "deg C",
     "s": "EXP"
@@ -14018,28 +14018,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.043,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 7.71e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000283,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.35e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -14048,7 +14048,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -14065,7 +14065,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14083,7 +14083,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -14099,9 +14099,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 358,
       "u": "mg/kg"
@@ -14129,7 +14129,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14150,7 +14150,7 @@ ChemIDPlus=[
    "CAS" : "11096-82-5",
    "FisProps": [
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "v": "385-420",
     "u": "deg C",
     "s": "EXP"
@@ -14161,28 +14161,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.0144,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 4.05e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000336,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.03e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -14191,9 +14191,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2,
       "u": "gm/kg",
@@ -14208,7 +14208,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14239,13 +14239,13 @@ ChemIDPlus=[
    "CAS" : "608-93-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 86,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 277,
     "u": "deg C",
     "s": "EXP"
@@ -14256,21 +14256,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.831,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000703,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.79e-14,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -14279,7 +14279,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14304,7 +14304,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14329,9 +14329,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 2500,
@@ -14351,7 +14351,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD",
     "r": "oral",
     "d": {
@@ -14369,7 +14369,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD",
     "r": "oral",
     "d": {
@@ -14393,9 +14393,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10,
       "u": "ug/m3",
@@ -14421,7 +14421,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -14436,7 +14436,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -14491,9 +14491,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 2500,
       "u": "ug/kg",
@@ -14508,9 +14508,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 33,
       "u": "mg/m3/8H",
@@ -14538,9 +14538,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 6,
       "u": "mg/kg"
@@ -14553,7 +14553,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14584,7 +14584,7 @@ ChemIDPlus=[
    "CAS" : "122-34-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 226,
     "u": "deg C",
     "s": "EXP"
@@ -14601,28 +14601,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 6.2,
     "u": "mg/L",
     "t": "22",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 2.21e-08,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 9.42e-10,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.1e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -14631,7 +14631,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14648,7 +14648,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14675,7 +14675,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -14690,9 +14690,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -14703,7 +14703,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -14734,7 +14734,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14751,7 +14751,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14768,9 +14768,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 10200,
@@ -14784,9 +14784,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 9800,
       "u": "mg/m3/4H",
@@ -14800,7 +14800,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -14815,9 +14815,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 5,
@@ -14833,7 +14833,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -14854,7 +14854,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -14871,7 +14871,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -14907,7 +14907,7 @@ ChemIDPlus=[
    "CAS" : "3383-96-8",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 30,
     "u": "deg C",
     "s": "EXP"
@@ -14918,28 +14918,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.27,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 7.91e-08,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.96e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.36e-10,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -14964,9 +14964,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "m": ">",
       "r": 1,
@@ -14989,7 +14989,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15005,7 +15005,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15020,7 +15020,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -15037,7 +15037,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -15066,7 +15066,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15081,7 +15081,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15097,7 +15097,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15113,7 +15113,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15128,9 +15128,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 970,
       "u": "mg/kg"
@@ -15141,7 +15141,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -15170,7 +15170,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15187,9 +15187,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1370,
       "u": "mg/kg"
@@ -15202,9 +15202,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 2302,
       "u": "mg/kg"
@@ -15223,7 +15223,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -15243,7 +15243,7 @@ ChemIDPlus=[
    "CAS" : "13071-79-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -29.2,
     "u": "deg C",
     "s": "EXP"
@@ -15254,28 +15254,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 5.07,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00032,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.4e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.45e-10,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -15284,7 +15284,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15301,7 +15301,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15331,9 +15331,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1100,
       "u": "ug/kg/24H",
@@ -15348,7 +15348,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15364,9 +15364,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 7400,
       "u": "ug/kg",
@@ -15386,13 +15386,13 @@ ChemIDPlus=[
    "CAS" : "127-18-4",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -22.3,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 121.3,
     "u": "deg C",
     "s": "EXP"
@@ -15403,28 +15403,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 206,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 18.5,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.0177,
     "u": "atm-m3/mole",
     "t": "24",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.67e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -15433,7 +15433,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -15482,7 +15482,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -15504,9 +15504,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 85,
       "u": "mg/kg"
@@ -15519,7 +15519,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -15546,9 +15546,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 96,
       "u": "ppm/7H",
@@ -15574,9 +15574,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 600,
       "u": "ppm/10M",
@@ -15600,9 +15600,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5200,
       "u": "ppm/4H",
@@ -15617,7 +15617,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD",
     "r": "intraperitoneal",
     "d": {
@@ -15633,7 +15633,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15652,9 +15652,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 65,
       "u": "gm/kg",
@@ -15680,9 +15680,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 3228,
@@ -15694,7 +15694,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -15721,9 +15721,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 2200,
       "u": "mg/kg"
@@ -15736,9 +15736,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 34200,
       "u": "mg/m3/8H",
@@ -15753,7 +15753,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -15769,7 +15769,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15785,7 +15785,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intratracheal",
     "d": {
@@ -15803,13 +15803,13 @@ ChemIDPlus=[
    "CAS" : "108-88-3",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -94.9,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 110.6,
     "u": "deg C",
     "s": "EXP"
@@ -15820,28 +15820,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 526,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 28.4,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00664,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.96e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -15852,7 +15852,7 @@ ChemIDPlus=[
   {
     "o": "frog",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 920,
       "u": "mg/kg"
@@ -15879,9 +15879,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1600,
       "u": "ppm"
@@ -15908,7 +15908,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -15924,7 +15924,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -15939,9 +15939,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 200,
       "u": "ppm"
@@ -15968,9 +15968,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 30,
       "u": "gm/m3",
@@ -15985,7 +15985,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16002,7 +16002,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -16027,7 +16027,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -16059,9 +16059,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 100,
       "u": "ppm"
@@ -16088,9 +16088,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 400,
       "u": "ppm/24H",
@@ -16105,7 +16105,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16121,9 +16121,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 2250,
       "u": "mg/kg"
@@ -16137,7 +16137,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -16154,9 +16154,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 55000,
       "u": "ppm/40M",
@@ -16170,9 +16170,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 14100,
       "u": "uL/kg",
@@ -16188,9 +16188,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 130,
       "u": "mg/kg"
@@ -16204,9 +16204,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 49,
       "u": "gm/m3/4H",
@@ -16221,7 +16221,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16237,9 +16237,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 1960,
       "u": "mg/kg"
@@ -16252,7 +16252,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16268,7 +16268,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -16288,13 +16288,13 @@ ChemIDPlus=[
    "CAS" : "208-96-8",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 92.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 280,
     "u": "deg C",
     "s": "EXP"
@@ -16305,28 +16305,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 16.1,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00668,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000114,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.1e-10,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16335,7 +16335,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16364,7 +16364,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16385,7 +16385,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16401,7 +16401,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16416,7 +16416,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16431,7 +16431,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16454,7 +16454,7 @@ ChemIDPlus=[
    "CAS" : "319-86-8",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 141.5,
     "u": "deg C",
     "s": "EXP"
@@ -16465,28 +16465,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 10,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.52e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.29e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.73e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16495,7 +16495,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16517,13 +16517,13 @@ ChemIDPlus=[
    "CAS" : "541-73-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -24.8,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 173,
     "u": "deg C",
     "s": "EXP"
@@ -16534,28 +16534,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 125,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 2.15,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00263,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.2e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16564,7 +16564,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -16590,28 +16590,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 2700,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 50.8,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00298,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.48e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16629,28 +16629,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 2700,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 24,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.0013,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.97e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16668,28 +16668,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 270,
     "u": "mg/L",
     "t": "22",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.000397,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 9.26e-08,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.92e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16698,7 +16698,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16727,7 +16727,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16762,28 +16762,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.51,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 7.09e-06,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.17e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16792,7 +16792,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -16807,7 +16807,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16830,28 +16830,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.45,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 6e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 3.91e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.17e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16860,7 +16860,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -16875,7 +16875,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16893,7 +16893,7 @@ ChemIDPlus=[
    "CAS" : "608-73-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 112.5,
     "u": "deg C",
     "s": "EXP"
@@ -16904,28 +16904,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 8,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.000783,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000256,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.73e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -16950,7 +16950,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -16980,7 +16980,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -16995,9 +16995,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 400,
       "u": "ug/kg/3D",
@@ -17022,7 +17022,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17037,7 +17037,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17052,9 +17052,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 75,
       "u": "mg/kg"
@@ -17067,9 +17067,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 690,
       "u": "mg/m3/4H",
@@ -17083,7 +17083,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17098,9 +17098,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 900,
       "u": "mg/kg"
@@ -17118,13 +17118,13 @@ ChemIDPlus=[
    "CAS" : "120-82-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 17,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 213.5,
     "u": "deg C",
     "s": "EXP"
@@ -17135,28 +17135,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 49,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.46,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00142,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.5e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -17165,7 +17165,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -17181,7 +17181,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17210,7 +17210,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17236,9 +17236,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 6139,
       "u": "mg/kg"
@@ -17272,28 +17272,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 80,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.47,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00355,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 4e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -17306,7 +17306,7 @@ ChemIDPlus=[
    "CAS" : "115-29-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 106,
     "u": "deg C",
     "s": "EXP"
@@ -17317,28 +17317,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.325,
     "u": "mg/L",
     "t": "22",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.73e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 6.5e-05,
     "u": "atm-m3/mole",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -17363,9 +17363,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 90,
       "u": "mg/m3/4H",
@@ -17379,7 +17379,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17394,7 +17394,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17440,7 +17440,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17487,9 +17487,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 147,
       "u": "mg/kg"
@@ -17512,7 +17512,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -17543,7 +17543,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -17574,7 +17574,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -17604,7 +17604,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -17634,7 +17634,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -17664,7 +17664,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17692,7 +17692,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -17707,7 +17707,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17736,9 +17736,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 90,
       "u": "mg/kg"
@@ -17762,9 +17762,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 360,
       "u": "mg/kg"
@@ -17792,9 +17792,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 80,
       "u": "mg/m3/4H",
@@ -17809,7 +17809,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -17839,7 +17839,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17854,9 +17854,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 34,
       "u": "mg/kg"
@@ -17869,7 +17869,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -17886,7 +17886,7 @@ ChemIDPlus=[
   {
     "o": "women",
     "t": "TDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 6,
       "u": "uL/kg",
@@ -17922,9 +17922,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1120,
       "u": "mg/m3/15M",
@@ -17945,16 +17945,16 @@ ChemIDPlus=[
       }
     ],
     "j": {
-      "t": "'Spravochnik po Toksikologii i Gigienicheskim Normativam ',
+      "t": "Spravochnik po Toksikologii i Gigienicheskim Normativam",
       "v": "-",
       "p": "234",
       "y": "1999"
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 170,
       "u": "ppm/1H",
@@ -17979,9 +17979,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 150,
       "u": "ppm/1H",
@@ -18006,9 +18006,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 270,
       "u": "ppm/30M",
@@ -18033,9 +18033,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 185,
       "u": "ppm/1H",
@@ -18066,7 +18066,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -18088,7 +18088,7 @@ ChemIDPlus=[
    "CAS" : "205-99-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 168,
     "u": "deg C",
     "s": "EXP"
@@ -18099,27 +18099,27 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.0015,
     "u": "mg/L",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 5e-07,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 6.57e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.86e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18132,13 +18132,13 @@ ChemIDPlus=[
    "CAS" : "207-08-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 217,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 480,
     "u": "deg C",
     "s": "EXP"
@@ -18149,21 +18149,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.0008,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 5.84e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.36e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18181,13 +18181,13 @@ ChemIDPlus=[
    "CAS" : "193-39-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 163.6,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 536,
     "u": "deg C",
     "s": "EXP"
@@ -18198,28 +18198,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.00019,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 1.25e-10,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 3.48e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 6.45e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18232,13 +18232,13 @@ ChemIDPlus=[
    "CAS" : "129-00-0",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 151.2,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 404,
     "u": "deg C",
     "s": "EXP"
@@ -18249,28 +18249,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.135,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 4.5e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.19e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18279,7 +18279,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -18294,7 +18294,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18323,9 +18323,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 170,
       "u": "mg/m3"
@@ -18352,7 +18352,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18386,13 +18386,13 @@ ChemIDPlus=[
    "CAS" : "108-05-4",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -93.2,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 72.5,
     "u": "deg C",
     "s": "EXP"
@@ -18403,28 +18403,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 20000,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 90.2,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000511,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.5e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18433,9 +18433,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 6200,
       "u": "ppm/4H",
@@ -18447,7 +18447,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -18469,9 +18469,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1550,
       "u": "ppm/4H",
@@ -18484,7 +18484,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18497,9 +18497,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2500,
       "u": "ppm/4H",
@@ -18513,9 +18513,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2335,
       "u": "mg/kg"
@@ -18527,9 +18527,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 11400,
       "u": "mg/m3/4H",
@@ -18543,7 +18543,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18561,13 +18561,13 @@ ChemIDPlus=[
    "CAS" : "110-82-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 6.6,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 80.7,
     "u": "deg C",
     "s": "EXP"
@@ -18578,28 +18578,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 55,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 96.9,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.15,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.49e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -18608,9 +18608,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 70,
       "u": "gm/m3",
@@ -18625,9 +18625,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 70,
       "u": "gm/m3/2H",
@@ -18642,7 +18642,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18657,9 +18657,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 89600,
       "u": "mg/m3/1H",
@@ -18687,9 +18687,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 180,
@@ -18705,7 +18705,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -18726,7 +18726,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18748,9 +18748,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4413,
       "u": "ppm/30M",
@@ -18778,9 +18778,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1300,
       "u": "ppm/30M",
@@ -18794,9 +18794,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3000,
       "u": "ppm/5M",
@@ -18810,7 +18810,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -18842,7 +18842,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -18857,9 +18857,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1108,
       "u": "ppm/1H",
@@ -18887,7 +18887,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -18905,9 +18905,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 4413,
       "u": "ppm/30M",
@@ -18935,7 +18935,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -18950,9 +18950,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3124,
       "u": "ppm/1H",
@@ -19022,28 +19022,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 9070,
     "u": "mg/L",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.17,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 6.19e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 4.11e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -19052,7 +19052,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -19073,7 +19073,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -19099,7 +19099,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19114,9 +19114,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2,
       "u": "gm/kg",
@@ -19132,7 +19132,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19178,13 +19178,13 @@ ChemIDPlus=[
    "CAS" : "584-84-9",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 20.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 251,
     "u": "deg C",
     "s": "EXP"
@@ -19195,28 +19195,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 37.6,
     "u": "mg/L",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.008,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.11e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 6.26e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -19241,9 +19241,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 13,
       "u": "ppm/4H",
@@ -19271,9 +19271,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 20,
       "u": "ppb/2Y",
@@ -19299,9 +19299,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 80,
       "u": "ppb",
@@ -19330,9 +19330,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 500,
       "u": "ppb",
@@ -19357,9 +19357,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10,
       "u": "ppm/4H",
@@ -19383,9 +19383,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 56,
       "u": "mg/kg"
@@ -19396,9 +19396,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 11,
       "u": "ppm/4H",
@@ -19426,9 +19426,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 16,
@@ -19440,9 +19440,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 14,
       "u": "ppm/4H",
@@ -19470,7 +19470,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19493,7 +19493,7 @@ ChemIDPlus=[
   {
     "o": "women",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 300,
       "u": "ppt/8H/5D",
@@ -19521,9 +19521,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 18,
       "u": "mg/m3"
@@ -19543,9 +19543,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1,
       "u": "mg/m3/3H",
@@ -19565,9 +19565,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3,
       "u": "mg/m3/24W",
@@ -19588,7 +19588,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -19603,9 +19603,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 320,
       "u": "mg/m3/2H",
@@ -19619,9 +19619,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 510,
       "u": "mg/m3/2H",
@@ -19635,7 +19635,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19656,7 +19656,7 @@ ChemIDPlus=[
    "CAS" : "298-00-0",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 35.5,
     "u": "deg C",
     "s": "EXP"
@@ -19672,28 +19672,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 37.7,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 3.5e-06,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 5.9e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -19717,7 +19717,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19738,7 +19738,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19753,9 +19753,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 54,
       "u": "mg/kg"
@@ -19769,9 +19769,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 50,
       "u": "mg/kg"
@@ -19782,7 +19782,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19795,7 +19795,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19822,7 +19822,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -19837,9 +19837,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 120,
       "u": "mg/m3/4H",
@@ -19851,7 +19851,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intracrebral",
     "d": {
@@ -19866,7 +19866,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -19883,9 +19883,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 9800,
       "u": "ug/kg",
@@ -19898,7 +19898,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19916,9 +19916,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1200,
       "u": "mg/kg"
@@ -19932,9 +19932,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 18,
       "u": "mg/kg"
@@ -19947,7 +19947,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -19963,7 +19963,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19976,9 +19976,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 300,
       "u": "mg/kg"
@@ -19991,9 +19991,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 34,
       "u": "mg/m3/4H",
@@ -20021,7 +20021,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -20038,9 +20038,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 9,
       "u": "mg/kg"
@@ -20051,7 +20051,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20068,9 +20068,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 67,
       "u": "mg/kg"
@@ -20083,9 +20083,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 6,
       "u": "mg/kg"
@@ -20098,7 +20098,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -20118,13 +20118,13 @@ ChemIDPlus=[
    "CAS" : "122-66-7",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 131,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 309,
     "u": "deg C",
     "s": "EXP"
@@ -20135,21 +20135,21 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 221,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 4.39e-09,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 8.53e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -20163,9 +20163,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 800,
       "u": "ppm/30M",
@@ -20193,9 +20193,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3200,
       "u": "ppm/3H",
@@ -20209,9 +20209,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 500,
       "u": "ppm/5M",
@@ -20225,9 +20225,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2530,
       "u": "mg/m3/30M",
@@ -20255,9 +20255,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 500,
       "u": "ppb/2D-I",
@@ -20278,9 +20278,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 66,
       "u": "ppm/1H",
@@ -20309,9 +20309,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 500,
       "u": "ppm/5M",
@@ -20325,9 +20325,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 137,
       "u": "ppm/1H",
@@ -20340,9 +20340,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 293,
       "u": "ppm/1H",
@@ -20360,7 +20360,7 @@ ChemIDPlus=[
    "CAS" : "2921-88-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 42,
     "u": "deg C",
     "s": "EXP"
@@ -20371,28 +20371,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 1.12,
     "u": "mg/L",
     "t": "24",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 2.03e-05,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.93e-06,
     "u": "atm-m3/mole",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 9.17e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -20417,7 +20417,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "chicken",
+    "o": "gallina",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20449,7 +20449,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20465,7 +20465,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20480,9 +20480,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 100,
       "u": "mg/kg"
@@ -20495,7 +20495,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -20510,7 +20510,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -20540,7 +20540,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -20556,7 +20556,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20572,9 +20572,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 120,
       "u": "mg/kg"
@@ -20587,7 +20587,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "pigeon",
+    "o": "paloma",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20602,7 +20602,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20619,7 +20619,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20636,9 +20636,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2,
       "u": "gm/kg",
@@ -20653,9 +20653,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 200,
@@ -20670,7 +20670,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20686,9 +20686,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 202,
       "u": "mg/kg"
@@ -20702,7 +20702,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -20722,7 +20722,7 @@ ChemIDPlus=[
    "CAS" : "11104-28-2",
    "FisProps": [
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "v": "290-325",
     "u": "deg C",
     "s": "EXP"
@@ -20733,28 +20733,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 15,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.0067,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000228,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.48e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -20763,7 +20763,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -20780,7 +20780,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20797,9 +20797,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3169,
       "u": "mg/kg"
@@ -20812,7 +20812,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20837,28 +20837,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 1.45,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00406,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000695,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.48e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -20867,9 +20867,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2,
       "u": "gm/kg",
@@ -20884,7 +20884,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20905,7 +20905,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -20927,13 +20927,13 @@ ChemIDPlus=[
    "CAS" : "542-88-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -41.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 106,
     "u": "deg C",
     "s": "EXP"
@@ -20944,28 +20944,28 @@ ChemIDPlus=[
     "s": "EST"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 22000,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 29.4,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00436,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 7.1e-13,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -20976,7 +20976,7 @@ ChemIDPlus=[
   {
     "o": "hamster",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 7,
       "u": "ppm/7H",
@@ -21001,9 +21001,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 100,
       "u": "ppm/3M",
@@ -21023,9 +21023,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 3,
       "u": "ppm"
@@ -21052,9 +21052,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 25,
       "u": "mg/m3/6H",
@@ -21069,9 +21069,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 280,
       "u": "uL/kg",
@@ -21087,9 +21087,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 7,
       "u": "ppm/7H",
@@ -21114,7 +21114,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21137,7 +21137,7 @@ ChemIDPlus=[
    "CAS" : "8001-35-2",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 77,
     "u": "deg C",
     "s": "EXP"
@@ -21148,28 +21148,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 0.55,
     "u": "mg/L",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 6.69e-06,
     "u": "mm Hg",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 6e-06,
     "u": "atm-m3/mole",
     "t": "20",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.25e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -21178,7 +21178,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21193,7 +21193,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "duck",
+    "o": "pato",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21208,7 +21208,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21238,7 +21238,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -21267,9 +21267,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 657,
       "u": "mg/kg"
@@ -21288,7 +21288,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -21317,7 +21317,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -21332,9 +21332,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 2000,
       "u": "mg/m3/2H",
@@ -21349,7 +21349,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -21365,7 +21365,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21380,7 +21380,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -21395,7 +21395,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21409,9 +21409,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 1025,
       "u": "mg/kg"
@@ -21438,7 +21438,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21454,7 +21454,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "parenteral",
     "d": {
@@ -21469,9 +21469,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 600,
       "u": "mg/kg"
@@ -21484,7 +21484,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -21499,7 +21499,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -21534,7 +21534,7 @@ ChemIDPlus=[
    "CAS" : "2303-17-5",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 29,
     "u": "deg C",
     "s": "EXP"
@@ -21545,28 +21545,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 4,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00012,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 1.2e-05,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 3.33e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -21575,9 +21575,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 400,
       "u": "mg/m3/4H",
@@ -21601,7 +21601,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LD",
     "r": "unreported",
     "d": {
@@ -21618,7 +21618,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21647,7 +21647,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -21662,7 +21662,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "quail",
+    "o": "codorniz",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21677,9 +21677,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2225,
       "u": "mg/kg"
@@ -21692,7 +21692,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21706,7 +21706,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "unreported",
     "d": {
@@ -21722,9 +21722,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 3500,
       "u": "mg/kg"
@@ -21742,7 +21742,7 @@ ChemIDPlus=[
    "CAS" : "15950-66-0",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": 83.5,
     "u": "deg C",
     "s": "EXP"
@@ -21753,28 +21753,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 97.5,
     "u": "mg/L",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 0.00246,
     "u": "mm Hg",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 2.28e-07,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EST"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 2.14e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -21787,7 +21787,7 @@ ChemIDPlus=[
    "CAS" : "1330-20-7",
    "FisProps": [
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 138.5,
     "u": "deg C",
     "s": "EXP"
@@ -21798,28 +21798,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 106,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 7.99,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.00663,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 1.87e-11,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -21828,9 +21828,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 450,
       "u": "ppm"
@@ -21853,7 +21853,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -21877,7 +21877,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -21892,9 +21892,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 200,
       "u": "ppm"
@@ -21921,9 +21921,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 30,
       "u": "gm/m3",
@@ -21938,7 +21938,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -21953,7 +21953,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LDLo",
     "r": "intraperitoneal",
     "d": {
@@ -21984,9 +21984,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 10000,
       "u": "ppm/6H",
@@ -22015,7 +22015,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -22031,7 +22031,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22044,9 +22044,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "m": ">",
       "r": 1700,
@@ -22060,9 +22060,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 129,
       "u": "mg/kg"
@@ -22076,9 +22076,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5000,
       "u": "ppm/4H",
@@ -22092,7 +22092,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -22108,7 +22108,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22133,9 +22133,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 1700,
       "u": "mg/kg"
@@ -22153,13 +22153,13 @@ ChemIDPlus=[
    "CAS" : "107-13-1",
    "FisProps": [
   {
-    "p": "Melting Point",
+    "p": "Punto de Fusión",
     "d": -83.5,
     "u": "deg C",
     "s": "EXP"
   },
   {
-    "p": "Boiling Point",
+    "p": "Punto de ebullición",
     "d": 77.3,
     "u": "deg C",
     "s": "EXP"
@@ -22170,28 +22170,28 @@ ChemIDPlus=[
     "s": "EXP"
   },
   {
-    "p": "Water Solubility",
+    "p": "Solubilidad",
     "d": 74500,
     "u": "mg/L",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Vapor Pressure",
+    "p": "Presión de Vapor",
     "d": 109,
     "u": "mm Hg",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Henry's Law Constant",
+    "p": "Constante de Henry",
     "d": 0.000138,
     "u": "atm-m3/mole",
     "t": "25",
     "s": "EXP"
   },
   {
-    "p": "Atmospheric OH Rate Constant",
+    "p": "Tasa de OH Atmosférica",
     "d": 4.1e-12,
     "u": "cm3/molecule-sec",
     "t": "25",
@@ -22200,9 +22200,9 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "cat",
+    "o": "gato",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 600,
       "u": "ppm/4H",
@@ -22232,7 +22232,7 @@ ChemIDPlus=[
   {
     "o": "child",
     "t": "LDLo",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 2015,
       "u": "mg/kg"
@@ -22259,9 +22259,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 110,
       "u": "ppm/4H",
@@ -22289,9 +22289,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "dog",
+    "o": "perro",
     "t": "LDLo",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 200,
       "u": "mg/kg"
@@ -22318,9 +22318,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 575,
       "u": "ppm/4H",
@@ -22348,7 +22348,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22364,9 +22364,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 202,
       "u": "mg/kg"
@@ -22379,9 +22379,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "guinea pig",
+    "o": "cerdo de guinea",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 130,
       "u": "mg/kg"
@@ -22406,9 +22406,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "TCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 16,
       "u": "ppm/20M",
@@ -22436,9 +22436,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 1,
       "u": "gm/m3/1H",
@@ -22470,7 +22470,7 @@ ChemIDPlus=[
   {
     "o": "monkey",
     "t": "LC",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "m": ">",
       "r": 90,
@@ -22483,7 +22483,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -22513,7 +22513,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22543,9 +22543,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 25,
       "u": "mg/kg"
@@ -22572,9 +22572,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 260,
       "u": "ppm/4H",
@@ -22602,9 +22602,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "intravenous",
+    "r": "intravenosa",
     "d": {
       "r": 69,
       "u": "mg/kg"
@@ -22629,9 +22629,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rabbit",
+    "o": "conejo",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 63,
       "u": "mg/kg"
@@ -22652,9 +22652,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 333,
       "u": "ppm/4H",
@@ -22680,7 +22680,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "intraperitoneal",
     "d": {
@@ -22695,7 +22695,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22725,9 +22725,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "skin",
+    "r": "piel",
     "d": {
       "r": 148,
       "u": "mg/kg"
@@ -22740,9 +22740,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LD50",
-    "r": "subcutaneous",
+    "r": "subcutánea",
     "d": {
       "r": 75,
       "u": "mg/kg"
@@ -22770,7 +22770,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LDLo",
     "r": "unreported",
     "d": {
@@ -22797,9 +22797,9 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 600,
       "u": "ppm/30M",
@@ -22813,9 +22813,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "human",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 800,
       "u": "ppm/5M",
@@ -22829,9 +22829,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mammal (species unspecified)",
+    "o": "mamífero (no especificado)",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 800,
       "u": "ppm/5M",
@@ -22845,9 +22845,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "man",
+    "o": "humano",
     "t": "LCLo",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 5700,
       "u": "ug/kg",
@@ -22872,9 +22872,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "mouse",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 634,
       "u": "ppm/1H",
@@ -22887,9 +22887,9 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "rat",
+    "o": "rata",
     "t": "LC50",
-    "r": "inhalation",
+    "r": "inhalación",
     "d": {
       "r": 444,
       "u": "ppm"

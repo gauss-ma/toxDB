@@ -182,6 +182,7 @@ font-weight: 400;
 }
 h3{
 font-size: 18px;
+font-weight: 400;
 
 }
 
@@ -1233,7 +1234,7 @@ margin-top:10px;
 		color:var(--celeste-oscuro);
 } 
 
-#showLess::before,
+/*#showLess::before,
 #loadMore::after{
 color: var(--celeste-oscuro);
 display: block;
@@ -1252,7 +1253,7 @@ right: -7px;
 	left:-7px;
     transform: scaleY(0.5) scaleX(1) rotate(180deg) translateY(3px);
 }
-
+*/
 
 
 
@@ -1348,20 +1349,36 @@ span{margin:0 5px 0 15px}
 
 
 /* VISUALIZACION DE MOLECULA 3D */
+#MolView2D-container,
 #MolView-container{
 	display:flex;
 	flex-direction:row;
 	position:relative;
+	margin:10px;
+	border: 1px solid var(--gris-medio);
 }
 
+#MolView2D-botones,
 #MolView-botones{
 	display:flex;flex-direction:column;
-	border: 1px dashed var(--gris-medio)
+	width:50px;
+}
+#MolView-botones>button{
+	padding:5px;
+}
+#MolView2D-botones>h3,
+#MolView-botones>h3{
+	font-weight:500;
+	margin-left:10px;
+	margin-bottom:5px;
 }
 
+#MolView2D,
 #MolView{
-	display:flex;flex-direction:column;
-	border: 1px dashed var(--gris-medio);
+	background:white;
+	display:flex;
+	flex-direction:column;
+	border: 1px dotted var(--gris-medio);
 
 }
 

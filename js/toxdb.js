@@ -158,7 +158,8 @@ RefCELL='<td class="specimen_data_referencia" onclick="mostrarReferencia( $( thi
 
 //ARMAR ARTICULO DE UN COMPUESTO EN PARTICULAR:
 function verCompuesto(index){
-        tox=TOXDB[index];
+        tox=linker[index];
+        //tox=TOXDB[index];
         console.log(tox.CAS);
         console.log(tox.nombre);
         console.log(tox.CID);
@@ -176,37 +177,40 @@ function verCompuesto(index){
 		
 		$(".specimen_page").append(header);
                 //PubChem Summary:
-                        try{
-                        summary=SUMMARY_DB.find(x => x.CID === tox.CID);
-                        Summary= `
-                        <section class='specimen_data' id='resumen'><h1> Resumen </h1>
-                               <div class='resumen'>
-				<table>
-                                <tbody>
-                                <tr><td> <h3>Nombre IUPAC:         </h3> </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
-                                <tr><td> <h3>Fórmula Molecular:    </h3> </td><td>`+ summary.MolecularFormula+`</td></tr>
-                                <tr><td> <h3>SMILE canónico:       </h3> </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
-                                <tr><td> <h3>InChI:                </h3> </td><td>`+ summary.InChI           +`</td></tr> 
-                                <tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
-                                <tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
-				 <tr><td> <h3>Estructura:           </h3> </td>
-					<td class="imagen">
-					<figure><img src='src/PubChem/img2D/`+tox.CID+`.png'></img><figcaption>2D<figcaption></figure>
-                                        <figure><img src='src/PubChem/img3D/`+tox.CID+`.png'></img><figcaption>3D</figcaption></figure>
-				</td></tr>
-                                <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
-                                <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
-                                <tr><td> <h3>Carga Neta            </h3> </td><td>`+ summary.Charge               +`</td></tr -->
-                                
-                                
-                                </tbody>
-                                </table> 
-                        	</div>    
-				<div class="about-half"> `+tox.descripcion+`</div>
-				
-			</section>`;
-                        $(".specimen_page").append(Summary);
-                        }catch(error){console.error(error);}
+                try{
+                	summary=SUMMARY_DB.find(x => x.CID === tox.CID);
+                	Summary= `
+                <section class='specimen_data' id='resumen'><h1> Resumen </h1>
+                       <div class='resumen'>
+			<table>
+                        <tbody>
+                        <tr><td> <h3>Nombre IUPAC:         </h3> </td><td><i>`+ summary.IUPACName    +`</i></td></tr>
+                        <tr><td> <h3>Fórmula Molecular:    </h3> </td><td>`+ summary.MolecularFormula+`</td></tr>
+                        <tr><td> <h3>SMILE canónico:       </h3> </td><td>`+ summary.CanonicalSMILES +`</td></tr> 
+                        <tr><td> <h3>InChI:                </h3> </td><td>`+ summary.InChI           +`</td></tr> 
+                        
+                        
+			 <tr><td> <h3>Estructura:           </h3> </td>
+				<td class="imagen">
+				<figure><img src='src/PubChem/img2D/`+tox.CID+`.png'></img><figcaption>2D<figcaption></figure>
+                                <figure><img src='src/PubChem/img3D/`+tox.CID+`.png'></img><figcaption>3D</figcaption></figure>
+			</td></tr>
+			<tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID                     +`</td></tr>
+			<tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS                     +`</td></tr>
+
+                        <!--tr><td> <h3>Peso Molecular:       </h3> </td><td>`+ summary.MolecularWeight             +`</td></tr>
+                        <tr><td> <h3>XLogP:                </h3> </td><td>`+ summary.XLogP               +`</td></tr>
+                        <tr><td> <h3>Carga Neta            </h3> </td><td>`+ summary.Charge               +`</td></tr -->
+                        
+                        
+                        </tbody>
+                        </table> 
+                	</div>    
+			<div class="about-half"> `+tox.descripcion+`</div>
+			
+		</section>`;
+                $(".specimen_page").append(Summary);
+                }catch(error){console.error(error);}
 
 			// ESTRUCTURA 3D:
  				//- smiles = resolve SMILES string                                                                               
@@ -220,187 +224,174 @@ function verCompuesto(index){
  				//- bg = black || gray || white
 			Estructura=`<section class='specimen_data' id='Estructura'>
 			<h1> Estructura </h1>
-			
-			<h3 style="position:relative;top:0;left:0;">Estructura 2D </h3>
-			<div id="MolView-container">
-				<img src='src/PubChem/img2DHD/`+tox.CID+`.png' style="width:300px; height:300px;padding-left:60px;"></img>
-		
-			</div>
-			<h3 style="position:relative;top:0;left:0;">Estructura 3D </h3>
-			<div id="MolView-container">
-				<div id="MolView-botones">
-					<button type="button" name="balls" disabled="" onclick="MolViewSet('balls');">
-						<img style="width:30px;30px;" src="src/CACTUS/balls.png"></img>
-					</button>
-					<button type="button" name="vdw" onclick="MolViewSet('vdw');">
-						<img style="width:30px;30px;" src="src/CACTUS/vanderwaals.png"></img>
-					</button>
-					<button type="button" name="stick" onclick="MolViewSet('stick');">
-						<img style="width:30px;30px;" src="src/CACTUS/stick.png"></img>
-					</button>
-					<button type="button" name="wireframe" onclick="MolViewSet('wireframe');">
-						<img style="width:30px;30px;" src="src/CACTUS/wireframe.png"></img>
-					</button>
+			<div  style="display:flex;flex-direction:row;flex-warp:warp;">
+				<div id="MolView2D-container">
+					<div id="MolView2D-botones">
+						<h3 style="position:relative;top:0;left:0;">2D </h3>
+					</div>
+					<div id="MolView2D">
+					<img src='src/PubChem/img2DHD/`+tox.CID+`.png' style="width:300px; height:300px;"></img>
+					</div>
 				</div>
-				<div id="MolView">
-					<iframe style="width: 300px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=`+tox.CID+`"></iframe>
-						
+				<div id="MolView-container">
+					<div id="MolView-botones">
+					<h3>3D </h3>
+						<button type="button" name="balls" disabled="" onclick="MolViewSet('balls');">
+							<img style="width:30px;30px;" src="src/CACTUS/balls.png"></img>
+						</button>
+						<button type="button" name="vdw" onclick="MolViewSet('vdw');">
+							<img style="width:30px;30px;" src="src/CACTUS/vanderwaals.png"></img>
+						</button>
+						<button type="button" name="stick" onclick="MolViewSet('stick');">
+							<img style="width:30px;30px;" src="src/CACTUS/stick.png"></img>
+						</button>
+						<button type="button" name="wireframe" onclick="MolViewSet('wireframe');">
+							<img style="width:30px;30px;" src="src/CACTUS/wireframe.png"></img>
+						</button>
+					</div>
+					<div id="MolView">
+						<iframe style="width: 300px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=`+tox.CID+`"></iframe>
+							
+					</div>
 				</div>
 			</div>
-
 
 			</section>
 			`
                         $(".specimen_page").append(Estructura);
 
 
-		
-		
-		
-		
-		
 
-
-
-                     //TOXICO Y FISQUIM.
-                        try{
-                                FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
-                                <table>`;                                                                                                       
-                                for (j=0;j< tox.FisProps.length;j++){
-                                        FisQui+='<tr><td class="specimen_data_name"><h3>'+tox.FisProps[j].p +'</i></td>';
-                                        FisQui+=`<td class="specimen_data_value">`+tox.FisProps[j].d + " "+tox.FisProps[j].u+`</td>
-					         `+RefCELL+`</tr>
-						<tr class="cita"><td colspan="3">  ChemIDPlus/TOXNET database, National Library of Medicine, National Institutesof Health (NIH).</td></tr>`; 
-                                }
-				FisQui+=`</table></section>`
-			$(".specimen_page").append(FisQui);
-                        }catch(error){console.error(error);}
-
-                        try{
-                                Toxico=`<section class='specimen_data' id='toxicologia'><h1>Toxicología</h1>
-                                <table><tbody id="ToxicList">`;
-                                for (j=0;j< tox.ToxProps.length;j++){
-                                        Toxico+='<tr><td class="specimen_data_name"><h3>'+tox.ToxProps[j].t +'</h3>en '+tox.ToxProps[j].o  +' vía '+tox.ToxProps[j].r+'.</td>';	//parametro
-                                        Toxico+='<td class="specimen_data_value">'+tox.ToxProps[j].d.r +' '+tox.ToxProps[j].d.u+'</td>';
-                                        //Toxico+='<th>('+tox.ToxProps[j].o +')</th>';  		//organismo 
-                                        //Toxico+='<th>'+tox.ToxProps[j].r +'</th>';		  	//vía
-                                        //Toxico+='<td><i>'+tox.ToxProps[j].j.t +'</i></td></tr>';
-					Toxico+=RefCELL+`</tr>
-						 <tr class="cita"><td colspan="3">`+tox.ToxProps[j].j.t+`</td></tr>
-
-					`;                                                                   
-                                }        
-				Toxico+='</table>'         
-				if (tox.ToxProps.length > 3){                                                      
-                        		Toxico+=`
-							<!-- div id="showLess">Ver menos</div -->
-							<div id="loadMore">Ver más</div>
-						`
-				}
-                                Toxico+='</section>'
-                                                                                                                  
-                        $(".specimen_page").append(Toxico);
-			 //ShowMORE                                                             
-			 size_li = $("#ToxicList tr").length;
-			 x=6;
-			 $('#ToxicList tr:lt('+x+')').show();
-			
-			 $('#loadMore').click(function () {
-			     //x= (x+5 <= size_li) ? x+5 : size_li;
-				x=size_li;
-			     $('#ToxicList tr:lt('+x+')').show();
-				$('#ToxicList tbody .cita').hide();
-				$("#loadMore").hide();
-			 });
-			 //$('#showLess').click(function () {
-			 //    x=(x-5<0) ? 3 : x-5;
-			 //    $('#ToxicList tr').not(':lt('+x+')').hide();
-			 //});
-
-
-			}catch(error){console.error(error);}
- 
-
-
-
-               //SEGURIDAD QUIMICA:
-                        try{
-                        ChemSafety=`<section class='specimen_data' id='seguridad'> <h1>Seguridad Química</h1>
-					<div id="SeguridadQuimica_figs">`;
-                                for (j=0;j< tox.GHS.length;j++){
-                                        ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+tox.GHS[j]+`.svg' />`;      
-                                        ChemSafety+=`<figcaption>`+tox.GHS[j]+`</figcaption></figure>`; 
-                                }                                                                       
-                        ChemSafety+='</div></section>';                                                 
-                
-                
-                        $(".specimen_page").append(ChemSafety);
-                        }catch(error){console.error(error);}
-                //NFPA
-			if (tox.NFPA != null){
-                        NFPA=`<section class='specimen_data' id='NFPA'> <h1>NFPA 704</h1>
-                                <div id='NFPA_fig'>
-				<figure>
-					<img src='src/PubChem/imgNFPA/`+tox.NFPA+`.svg'/>      
-                                	<figcaption>`+tox.NFPA+`</figcaption>
-				</figure> 
-                                </div>
-			      </section>`;                                              
-
-                        $(".specimen_page").append(NFPA);
-			}
 			//EPA DATABASE
 			 try{
 			 epa=EPA_DB.find(x => x.CAS === tox.CAS);
-			 Summary= `
-			 <section class='specimen_data' id='Volatilidad'>
+			 EPAdata= `
+			 <section class='specimen_data' id='fisicoquimica'>
 				<h1> Físico-Química </h1>
 			 	<table><tbody>
-			        <tr><td><h3>Constante de Henry (H):</h3></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Constante de Henry (HLC)</h3></td><td>`+ epa.HLC+` atm-m3/mol</td>`+RefCELL+`</tr>
-			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Presión de Vapor</h3></td><td>`+ epa.VP+` mmHg</td>`+RefCELL+`</tr>
-			        <tr class="cita"><td>`+epa.VP_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3></td><td>`+ epa.Dw+` cm2/s</td>`+RefCELL+`</tr>
-			        <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
-			        <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3></td><td>`+ epa.Da+` cm2/s</td>`+RefCELL+`</tr>
-			        <tr class="cita"><td>`+epa.H_ref+`</td></tr>     
- 				<tr><td><h3>Punto de fusión:</h3>			</td><td>`+ epa.MP+` ºC</td>`+RefCELL+`</tr>                                
- 				<tr class="cita"><td>`+epa.MP_ref+`</td></tr>     
-				<tr><td><h3>Densidad:</h3>				</td><td>`+ epa.rho+` g/cm3</td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.rho_ref+`</td></tr>     
-				<tr><td><h3>Solubilidad en agua (S):</h3>		</td><td>`+ epa.S+` mg/L</td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.S_ref+`</td></tr>     
-				<tr><td><h3>Coef. particion octanol agua (log K<sub>ow</sub>):</h3></td><td>`+ epa.logKoc+` </td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.logKoc_ref+`</td></tr>     
-				<tr><td><h3>Coef. partición carbono orgánico (K<sub>oc</sub>):</h3></td><td>`+ epa.Koc+` L/kg</td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.Koc_ref+`</td></tr>     
-				<tr><td><h3>Coef. de adsorción-desoción (K<sub>d</sub>):</h3></td><td>`+ epa.Kd+` L/kg</td>`+RefCELL+`</tr>
-				<tr class="cita"><td>`+epa.Kd+`</td></tr>     
-                             
+			         <tr><td><h3>Constante de Henry (H):</h3></td><td>`+ epa.H+`</td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			         <tr><td><h3>Constante de Henry (HLC)</h3></td><td>`+ epa.HLC+` atm-m3/mol</td>`+RefCELL+`</tr>
+			         <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
+			         <tr><td><h3>Presión de Vapor</h3></td><td>`+ epa.VP+` mmHg</td>`+RefCELL+`</tr>
+			         <tr class="cita"><td>`+epa.VP_ref+`</td></tr>                                                                   
+			         <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3></td><td>`+ epa.Dw+` cm2/s</td>`+RefCELL+`</tr>
+			         <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
+			         <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3></td><td>`+ epa.Da+` cm2/s</td>`+RefCELL+`</tr>
+			         <tr class="cita"><td>`+epa.H_ref+`</td></tr>     
+				 <tr><td><h3>Punto de fusión:</h3>			</td><td>`+ epa.MP+` ºC</td>`+RefCELL+`</tr>                                
+				 <tr class="cita"><td>`+epa.MP_ref+`</td></tr>     
+				 <tr><td><h3>Densidad:</h3>				</td><td>`+ epa.rho+` g/cm3</td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.rho_ref+`</td></tr>     
+				 <tr><td><h3>Solubilidad en agua (S):</h3>		</td><td>`+ epa.S+` mg/L</td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.S_ref+`</td></tr>     
+				 <tr><td><h3>Coef. particion octanol agua (log K<sub>ow</sub>):</h3></td><td>`+ epa.logKoc+` </td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.logKoc_ref+`</td></tr>     
+				 <tr><td><h3>Coef. partición carbono orgánico (K<sub>oc</sub>):</h3></td><td>`+ epa.Koc+` L/kg</td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.Koc_ref+`</td></tr>     
+				 <tr><td><h3>Coef. de adsorción-desoción (K<sub>d</sub>):</h3></td><td>`+ epa.Kd+` L/kg</td>`+RefCELL+`</tr>
+				 <tr class="cita"><td>`+epa.Kd+`</td></tr>     
 			        </tbody></table> 
 			</section>`;
-
-
-			//Summary+= `
-			//<section class='specimen_data' id='Coefs_Particion'>
-			//       <h1> Partición</h1>
-			//	<table><tbody>
-			//       <tr><td><h3>Diffusividad en agua (D<sub>w</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Dw+`</td>`+RefCELL+`</tr>
-			//       <tr class="cita"><td>`+epa.D_ref+`</td></tr>                                                                   
-			//       <tr><td><h3>Diffusividad en aire (D<sub>a</sub>):</h3><i>(cm2/s)</i></td><td>`+ epa.Da+`</td>`+RefCELL+`</tr>
-			//       <tr class="cita"><td>`+epa.H_ref+`</td></tr>                                                                   
-			//        </tbody></table> 
-			//</section>`;
-
-
-
-                        $(".specimen_page").append(Summary);
+			$(".specimen_page").append(EPAdata);
 			 }catch(error){console.error(error);}
+
+                //Chem ID Plus (TOXICO Y FISQUIM.)
+                if (epa == null | epa == undefined){
+			try{
+		 		chemidplus=ChemIDPlus.find(x => x.CAS === tox.CAS);
+                        	FisQui=`<section class='specimen_data' id='fisicoquimica'><h1>Físico-Química</h1>
+                        	<table>`;                                                                                                       
+                        	for (j=0;j< chemidplus.FisProps.length;j++){
+                                	FisQui+='<tr><td class="specimen_data_name"><h3>'+chemidplus.FisProps[j].p +'</i></td>';
+                                	FisQui+=`<td class="specimen_data_value">`+chemidplus.FisProps[j].d + " "+chemidplus.FisProps[j].u+`</td>
+				         `+RefCELL+`</tr>
+					<tr class="cita"><td>  ChemIDPlus/TOXNET database, National Library of Medicine, National Institutesof Health (NIH).</td></tr>`; 
+                	        }
+				FisQui+=`</table></section>`
+			$(".specimen_page").append(FisQui);
+                	}catch(error){console.error(error);}
+		}
+                try{
+		 	chemidplus=ChemIDPlus.find(x => x.CAS === tox.CAS);
+                        Toxico=`<section class='specimen_data' id='toxicologia'>
+				<h1>Toxicología</h1>
+                        	<table><tbody id="ToxicList">`;
+                        for (j=0;j< chemidplus.ToxProps.length;j++){
+                                Toxico+='<tr><td><h3>'+chemidplus.ToxProps[j].t +'</h3>en '+chemidplus.ToxProps[j].o  +' vía '+chemidplus.ToxProps[j].r+'.</td>';
+                                Toxico+='<td>'+chemidplus.ToxProps[j].d.r +' '+chemidplus.ToxProps[j].d.u+'</td>';
+				Toxico+=RefCELL+`</tr>
+					 <tr class="cita"><td colspan="3">`+chemidplus.ToxProps[j].j.t+`</td></tr>
+
+				`;                                                                   
+                        }        
+			Toxico+='</table>'         
+			if (chemidplus.ToxProps.length > 3){                                                      
+                		Toxico+=`
+						<!-- div id="showLess">Ver menos</div -->
+						<div id="loadMore">Ver más</div>
+					`
+			}
+                        Toxico+='</section>'
+                                                                                                          
+                $(".specimen_page").append(Toxico);
+		 //ShowMORE                                                             
+		 size_li = $("#ToxicList tr").length;
+		 x=6;
+		 $('#ToxicList tr:lt('+x+')').show();
+		
+		 $('#loadMore').click(function () {
+		     //x= (x+5 <= size_li) ? x+5 : size_li;
+			x=size_li;
+		     $('#ToxicList tr:lt('+x+')').show();
+			$('#ToxicList tbody .cita').hide();
+			$("#loadMore").hide();
+		 });
+		 //$('#showLess').click(function () {
+		 //    x=(x-5<0) ? 3 : x-5;
+		 //    $('#ToxicList tr').not(':lt('+x+')').hide();
+		 //});
+
+
+		}catch(error){console.error(error);}
+ 
+
+
+                        try{
+				 pubchem=TOXDB.find(x => x.CID === tox.CID);
+        	
+		       		//SEGURIDAD QUIMICA:
+                        	ChemSafety=`
+				<section class='specimen_data' id='seguridad'> 
+					<h1>Seguridad Química</h1>
+						<div id="SeguridadQuimica_figs">`;
+                        	        	for (j=0;j< pubchem.GHS.length;j++){
+                        	        	        ChemSafety+=`<figure>
+									<img src='src/PubChem/imgGHS/`+pubchem.GHS[j]+`.svg'></img>
+                        	        	        	     	<figcaption>`+pubchem.GHS[j]+`</figcaption>
+								     </figure>`; 
+                        	        	}                                                                       
+                        	ChemSafety+='</div></section>';                                                 
+                
+                        	$(".specimen_page").append(ChemSafety);
+                		
+				//NFPA
+				if (pubchem.NFPA != null & pubchem.NFPA != undefined ){
+                        	NFPA=`<section class='specimen_data' id='NFPA'> 
+					<h1>NFPA 704</h1>
+                        	        <div id='NFPA_fig'>
+					<figure>
+						<img src='src/PubChem/imgNFPA/`+pubchem.NFPA+`.svg'/>      
+                        	        	<figcaption>`+pubchem.NFPA+`</figcaption>
+					</figure> 
+                        	        </div>
+				      </section>`;                                              
+
+                        	$(".specimen_page").append(NFPA);
+				}
+
+			}catch(error){console.error(error);}
 			
-
-
 
 	
 		//navbar
@@ -421,28 +412,5 @@ function verCompuesto(index){
 			$(".specimen_page").append(navbar);
 
 };
-
- //Ripple
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
