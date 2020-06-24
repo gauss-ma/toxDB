@@ -1,0 +1,9 @@
+{
+  "Fault": {
+    "Code": "PUGREST.BadRequest",
+    "Message": "Missing CID list",
+    "Details": [
+      "Expected a comma-separated list of CIDs via URL or POST"
+    ]
+  }
+}

@@ -1,0 +1,468 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>Tox.db</title>
+        
+        <!-- JS LIBS: -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js">//JQUERY</script>
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+        <script type="text/javascript" src="js/DataTables/datatables.min.js"></script>
+        <!-- CSS      -->
+        <link href="css/toxdb_desktop.css" rel="stylesheet">
+        <link href="css/toxdb_mobile.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/32f3fc8ac1.js" crossorigin="anonymous"></script>
+        <link href="css/font-style.css" rel="stylesheet">
+ 	<!-- SCRIPTS -->
+
+ 	<!-- DB -->
+        <script type="text/javascript" src="src/GSI/gsi.js"></script>
+        <script type="text/javascript" src="src/PubChem/PC_Summary_db.js"></script>
+        <script type="text/javascript" src="src/Tox.db.js"></script>
+</head> 
+
+<body>
+<header class="Layout_header Header_root8 Header_delay">
+   <div class="Header_nombre_compania">
+           <div><a href="https://www.gauss-ma.com.ar"><span class="Logo_logo white"><img src="img/icon-gauss.png" style="height:30px;margin-top:5px;"></img> &nbsp;gauss </span></a></div>
+   </div>
+        <div class="Header_burguer">
+                <div class="burguer_root">
+                        <div id="botonMenu" class="burger_inactivo black" style="padding-right:3vw;">
+			<a href="https://github.com/gauss-ma/toxicoDB"><i class="fa fa-github" style="color:white;font-size:45pt;" aria-hidden="true"></i></a>
+                        </div>
+                </div>
+        </div>
+</header>
+
+<main id="content" class="Layout_content">
+<div class="Content_root">
+	<div name="" class="PartDetector_root">
+	<section> <!--class="TextoCentradoGrande_root"-->
+	<div class="BloqueCentrado_root" style="box-sizing:border-box; /*padding-bottom:100px;*/  padding-top:100px;">
+	
+	
+		<h1><i aria-hidden="true">{≡}</i> <!-- i class="fa fa-database" style="color:white;" aria-hidden="true"></i--> &nbsp;Tox.db 	</h1>
+	    
+		<table id="TablaPrincipal" class="hover " style="width:50%">
+	        	<thead>
+	            		<tr>
+					<th>CAS</th>
+					<th>Contaminante</th>
+				</tr>
+	        	</thead>
+			<tbody>
+			</tbody>
+	   	</table>
+		
+		<center>
+		<button id="cleanAll" type="button" class="boton">Borrar Selección</button> 
+		</center>
+	
+	</div>
+	</section>
+
+	<div id="dump" class="bloqueCentrado_root"></div>
+</div>
+</div>
+</main>
+
+</body>
+
+
+
+<script>
+$(document).ready(function() {
+   MiTabla=$('#TablaPrincipal').DataTable( {
+    data:TOXDB,
+    columns: [
+        {data:"CAS"},
+        {data:"name"},
+    ],   
+    dom: 'Bfrtip',
+    buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+    //select:true,
+    });
+
+    //Cuando clickeo en una fila, se selecciona:
+    MiTabla.on( 'click', 'tr', function () {
+        $(this).toggleClass('selected');
+	showChem();
+    } );
+
+    //Boton de borrar selección.
+    $('#cleanAll').click( function () {
+	$('.selected').each(function() { $(this).removeClass('selected'); });
+	$("#dump").empty();
+    });
+
+	//Boton de mostrar propiedades
+    function showChem() {
+	//Vaciar dump
+   	$("#dump").empty();
+
+	//Llenar el dump de cosas
+	for (i=0;i< MiTabla.rows(".selected").data().length;i++){
+		coc=MiTabla.rows(".selected").data()[i];
+		console.log(coc.name);
+		
+			Header=`<h2>`+coc.name +`</h2><small>(CAS:`+coc.CAS+`, CID: `+coc.CID+`)</small>`
+			$("#dump").append(Header);
+			
+		//PubChem Summary:
+			try{
+			summary=SUMMARY_DB.find(x => x.CID === coc.CID);
+			Summary= `
+			<div class='PubChem_Summary'>
+				<table>
+				<tbody>
+				<tr><th> Nombre IUPAC: 		</th><td><i>`+ summary.IUPACName      	+`</i></td></tr>
+				<tr><th> Fórmula Molecular:	</th><td><a href="#">`+ summary.MolecularFormula	+`</a></td></tr>
+				<tr><th> SMILE canónico:        </th><td><a href="#">`+ summary.CanonicalSMILES	+`</a></td></tr>
+				<tr><th> Estructura:		</th><td><img src='src/PubChem/img2D/`+coc.CID+`.png'></img>
+									 <img src='src/PubChem/img3D/`+coc.CID+`.png'></img></td></tr>
+				<tr><th> Peso Molecular:	</th><td>`+ summary.MolecularWeight		+`</td></tr>
+				<tr><th> XLogP:            	</th><td>`+ summary.XLogP    		+`</td></tr>
+				<tr><th> CID:			</th><td>`+ coc.CID 			+`</td></tr>
+				<tr><th> CAS:			</th><td>`+ coc.CAS 			+`</td></tr>
+				</tbody>
+				</table> 
+			    </div>`;
+			$("#dump").append(Summary);
+			}catch(error){console.error(error);}
+
+		//SEGURIDAD QUIMICA:
+			try{
+			//ghs=GHS_DB.find(x => x.CID === coc.CID);
+			ChemSafety=`<div class='PubChem_ChemSafety'> <table><tr><th> Seguridad Química</th><td>`;
+				for (j=0;j< coc.GHS.length;j++){
+					ChemSafety+=`<figure><img src='src/PubChem/imgGHS/`+coc.GHS[j]+`.svg' />`;	
+					ChemSafety+=`<figcaption>`+coc.GHS[j]+`</figcaption></figure>`;	
+				}                                                                   	
+			ChemSafety+='</td></tr></table></div>';                                          	
+		
+		
+			$("#dump").append(ChemSafety);
+			}catch(error){console.error(error);}
+		//NFPA
+			NFPA=`<div class='PubChem_ChemSafety'> <table><tr><th> NFPA 704</th><td>
+				<figure><img src='src/PubChem/imgNFPA/`+coc.NFPA+`.svg' />	
+				<figcaption>`+coc.NFPA+`</figcaption></figure>;	
+				</td></tr></table></div>`;                                          	
+
+			$("#dump").append(NFPA);
+
+
+		//TOXICO Y FISQUIM.
+			try{
+			//tox=TOX_DB.find(x => x.CAS === coc.CAS);
+				Toxico=`<div class='PubChem_Toxico'> `
+				Toxico+=`</table>     
+        			<h4>Propiedades Físico-Químicas:</h4>
+        			<table>`;                                                                                  			
+        			for (j=0;j< coc.PhysProps.length;j++){
+        				Toxico+='<tr><th>'+coc.PhysProps[j].p +'</th>';
+					Toxico+='<td>'+coc.PhysProps[j].d +'<i> '+coc.PhysProps[j].u+'</i><td></tr>';                                           			
+        			}
+				Toxico+=`</table><h4>Toxicología:</h4>
+				<table>`;
+				for (j=0;j< coc.ToxProps.length;j++){
+					Toxico+='<tr><th>'+coc.ToxProps[j].t +'</th>';
+					Toxico+='    <td>'+coc.ToxProps[j].d.r +'<i> '+coc.ToxProps[j].d.nu+'</i><td></tr>';
+				}                                                                   	
+			Toxico+=`</table>
+				</div>`;
+			                                                                                          
+			$("#dump").append(Toxico);
+			}catch(error){console.error(error);}
+
+
+
+
+
+
+
+
+	};
+};
+
+    $("#TablaPrincipal").append('<caption style="caption-side: bottom;">Tabla de Contaminantes Regulados en Argentina.</caption>');
+           
+
+} );
+
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+
+
+</script>
+
+
+
+
+
+<style>
+/* Variables globales: Paleta y fuente */
+
+/* 
+g <- global 
+-- implica asignación de variable
+*/
+
+:root{
+        --g-col-1:#f7f7f7;
+        --g-col-2: #404040;
+        --g-text-col-1:#000000;
+        --g-text-col-2:#ffffff;
+        --g-text-col-3:#f18ea9;
+	--g-bg-col-1: #5bbebf;
+        --g-bg-col-2: #f18ea9;
+        /*--g-bg-col-3°: #1dcbce;
+	--g-bg-col-4º:#ec3939;*/
+}
+body{
+ color:var(--g-col-1);
+}
+
+section{
+ background-color: var(--g-bg-col-1);;
+ opacity:0.8;
+} 
+
+
+
+i{
+font-family: "AvenirNextCyrMedium", serif
+}
+
+[id^='TablaPrincipal']{
+        color:var(--g-col-2)!important;
+
+}
+
+
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+
+
+article {
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
+
+}
+
+article > div{
+	min-width:49hw; 
+	padding-top:20px;
+	width:48.9%;
+}
+
+article > div:nth-of-type(1) {
+	margin-right:10px;
+}
+
+article > div:nth-of-type(2) {
+	margin-left:10px;
+}
+
+article >div> ul{
+	list-style-type: circle;
+	padding-left:35px;
+}
+
+
+article >div>ul>li{
+	font-style:italic;
+}
+article >div>ul>li>b{
+        color: var(--g-text-col-2);
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom:5px;
+}
+
+#TablaPrincipal >tr>td{
+ border-bottom:.05px solid #f18ea9 !important;
+
+}
+hr {
+	width:80%;
+  border-top: 0.05px solid white;
+	color:white;
+}
+
+.boton:hover {
+ color:#f18ea9;
+ border:5px solid #f18ea9;
+}
+
+.selected > .sorting_1 {
+	background-color:#f18ea9 !important;
+}
+
+
+
+
+/* DUMP */
+#dump {
+ width:100%;
+ background-color:#f7f7f7;
+ color:var(--g-col-2);
+ display:blocK;
+}
+
+#dump *{
+ color:var(--g-col-2);
+}
+
+
+
+
+
+
+
+
+
+/*  Sección de Summary */
+.PubChem_Summary{
+    padding: .5em;
+    border-radius: 2px;
+    border-width: 4px;
+    border-style: solid;
+    width: 50%;
+    border-color: var(--g-bg-col-1);
+    margin:30px 30px;
+}
+.PubChem_Summary > table{
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    padding:20px;
+    vertical-align: top;
+}
+.PubChem_Summary > table> tbody > tr > th {
+    width: 15em;
+    max-width: 50%;
+    text-align: left !important;
+    vertical-align: middle;
+}
+.PubChem_Summary > table> tbody > tr > td >img{
+	width:40%;
+}
+.PubChem_Summary > table> tbody > tr > td >a{
+color:#0071bc !important;
+text-decoration: none;
+opacity:0.8;
+}
+.PubChem_Summary > table> tbody > tr > td >a:hover{
+	opacity:1;
+}
+
+
+/*  Sección de Chemical Security */
+.PubChem_ChemSafety{
+    padding: .5em;
+    border-radius: 2px;
+    border-width: 4px;
+    border-style: solid;
+    width: 50%;
+    border-color: var(--g-bg-col-2);
+    margin:30px 30px;
+}
+.PubChem_ChemSafety > table{
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    padding:20px;
+    vertical-align: top;
+}
+.PubChem_ChemSafety > table> tbody > tr > th {
+    width: 15em;
+    max-width: 50%;
+    text-align: left !important;
+    vertical-align: middle;
+}
+.PubChem_ChemSafety > table> tbody > tr > td >img{
+	width:40%;
+}
+.PubChem_ChemSafety > table> tbody > tr > td >a{
+color:#0071bc !important;
+text-decoration: none;
+opacity:0.8;
+}
+.PubChem_ChemSafety > table> tbody > tr > td >a:hover{
+	opacity:1;
+}
+
+figure {
+  float: right;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.3em;
+  padding: 0.3em;
+}
+
+/* TOXICIDAD */
+.PubChem_Toxico{
+    padding: .5em;
+    border-radius: 2px;
+    border-width: 4px;
+    border-style: solid;
+    width: 50%;
+    border-color: var(--g-bg-col-3);
+    margin:30px 30px;
+}
+.PubChem_Toxico > table{
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    padding:20px;
+    vertical-align: top;
+}
+.PubChem_Toxico > table> tbody > tr > th {
+    width: 15em;
+    max-width: 50%;
+    text-align: left !important;
+    vertical-align: middle;
+}
+.PubChem_Toxico > table> tbody > tr > td >img{
+	width:40%;
+}
+.PubChem_Toxico > table> tbody > tr > td >a{
+color:#0071bc !important;
+text-decoration: none;
+opacity:0.8;
+}
+.PubChem_Toxico > table> tbody > tr > td >a:hover{
+	opacity:1;
+}
+
+
+
+
+</style>
+</html>
