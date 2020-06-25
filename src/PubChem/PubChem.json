@@ -1882,3 +1882,471 @@
   "SCHEMBL536269"
 ] 
  },
+ {
+   "CID" : 11245,
+   "GHS" : ["Flammable","Acute Toxic",],
+   "NFPA" : null,
+   "descripcion" : ""Los dicloropropenos son químicos sintéticos hechos de una cadena de tres átomos de carbono con un doble enlace que conecta los dos primeros carbonos. Dos átomos de cloro están unidos en diferentes posiciones en esta cadena de carbono generando cinco tipos o isómeros diferentes de moléculas de dicloropropeno. Los nombres de los isómeros son 1,1-dicloropropeno 1,2-dicloropropeno 1,3-dicloropropeno 2,3-dicloropropeno y 3,3-dicloropropeno ".",
+   "sinonimos" : [
+  "1,1-dichloropropene",
+  "1,1-DICHLOROPROPENE",
+  "563-58-6",
+  "1,1-Dichloro-1-propene",
+  "1,1-Dichloropropylene",
+  "1-Propene, 1,1-dichloro-",
+  "1,1-dichloroprop-1-ene",
+  "Propene, 1,1-dichloro-",
+  "CCRIS 9037"
+] 
+ },
+ {
+   "CID" : 11443,
+   "GHS" : ["Corrosive","Acute Toxic","Irritant","Health Hazard",],
+   "NFPA" : "3-1-2- ̵W̵",
+   "descripcion" : "El diisocianato de tolueno existe en dos formas isoméricas (diisocianato de 2,4-tolueno y diisocianato de 2,6-tolueno) que tienen propiedades y efectos similares. El diisocianato de tolueno se produce comercialmente como una mezcla 80:20 (diisocianato de 2,4-tolueno: diisocianato de 2,6-tolueno) de los dos isómeros. A temperatura ambiente, la mezcla es un líquido transparente de color amarillo pálido con un olor fuerte y penetrante. Debe almacenarse bajo refrigeración, lejos de la luz y la humedad, en un recipiente herméticamente cerrado bajo una atmósfera inerte. El diisocianato de tolueno es insoluble en agua y miscible con los solventes orgánicos más comunes. <br> El diisocianato de 2,4-tolueno se usa principalmente como un intermediario químico en la producción de productos de poliuretano. El 2,4-tolueno diisocianato es extremadamente tóxico por exposiciones agudas (a corto plazo) y crónicas (a largo plazo). La exposición aguda a altos niveles de 2,4-tolueno diisocianato en humanos, por inhalación, produce irritación severa de la piel y los ojos y afecta los sistemas respiratorio, gastrointestinal y nervioso central (SNC). La exposición por inhalación crónica al diisocianato de 2,4-tolueno en humanos ha resultado en una disminución significativa de la función pulmonar en los trabajadores, una reacción similar al asma caracterizada por sibilancias, disnea y constricción bronquial. Los estudios en animales han reportado una incidencia significativamente mayor de tumores del páncreas, el hígado y las glándulas mamarias por la exposición al diisocianato de 2,4-tolueno a través de una sonda (colocando experimentalmente el químico en el estómago). La Agencia Internacional para la Investigación del Cáncer (IARC) ha clasificado el 2,4-tolueno diisocianato como un posible carcinógeno humano del Grupo 2B.",
+   "sinonimos" : [
+  "2,4 Toluenediisocyanate",
+  "2,4-Diisocyanate, Toluene",
+  "2,4-Toluenediisocyanate",
+  "Diisocyanate, Toluene",
+  "Diisocyanate, Tolylene",
+  "Diisocyanatotoluene",
+  "Toluene 2,4 Diisocyanate",
+  "Toluene 2,4-Diisocyanate",
+  "Toluene Diisocyanate"
+] 
+ },
+ {
+   "CID" : 12309460,
+   "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "alpha Endosulfan",
+  "alpha-Endosulfan",
+  "beta Endosulfan",
+  "beta-Endosulfan",
+  "Endosulfan",
+  "Thiodan",
+  "Thiodon",
+  "Thiotox",
+  "Endosulfan I"
+] 
+ },
+ {
+   "CID" : 12309460,
+   "GHS" : ["Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "alpha Endosulfan",
+  "alpha-Endosulfan",
+  "beta Endosulfan",
+  "beta-Endosulfan",
+  "Endosulfan",
+  "Thiodan",
+  "Thiodon",
+  "Thiotox",
+  "Endosulfan I"
+] 
+ },
+ {
+   "CID" : 24526,
+   "GHS" : ["Oxidizer","Acute Toxic","Irritant","Environmental Hazard",],
+   "NFPA" : "4-0-0-OX",
+   "descripcion" : "A temperatura ambiente, el cloro es un gas amarillo verdoso que es más pesado que el aire y tiene un fuerte olor irritante. Se puede convertir en un líquido bajo presión o bajas temperaturas. El cloro se usa principalmente como blanqueador en la fabricación de papel y tela y para hacer una amplia variedad de productos. <br> El cloro es un limpiador y desinfectante doméstico de uso común. El cloro es un irritante potente para los ojos, el tracto respiratorio superior y los pulmones. La exposición crónica (a largo plazo) al gas de cloro en los trabajadores ha tenido efectos respiratorios, como irritación de los ojos y la garganta y obstrucción del flujo de aire. No hay información disponible sobre los efectos cancerígenos del cloro en humanos por exposición por inhalación. Un estudio del Programa Nacional de Toxicología (NTP) no mostró evidencia de actividad cancerígena en ratas machos o ratones machos y hembras, y evidencia equívoca en ratas hembras, por ingestión de agua clorada. La EPA no ha clasificado el cloro por su potencial carcinogénesis.",
+   "sinonimos" : [
+  "Chlorine",
+  "Chlorine 35",
+  "Chlorine Gas",
+  "Chlorine-35",
+  "Cl2 Gas",
+  "Gas, Chlorine",
+  "Gas, Cl2",
+  "7782-50-5",
+  "Chlorine"
+] 
+ },
+ {
+   "CID" : 28179,
+   "GHS" : [],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "Fluoride",
+  "Fluorides",
+  "fluoride",
+  "fluoride ion",
+  "16984-48-8",
+  "Fluoride(1-)",
+  "Fluoride ion(1-)",
+  "Perfluoride",
+  "Fluoride dust"
+] 
+ },
+ {
+   "CID" : 2879,
+   "GHS" : ["Corrosive","Acute Toxic",],
+   "NFPA" : "3-2-0",
+   "descripcion" : "Los cresoles son un grupo de productos químicos naturales y manufacturados ampliamente extendido. En su forma pura, son sólidos incoloros y pueden ser líquidos si son mezclas. Los cresoles huelen a medicina. Hay tres formas de cresoles que difieren ligeramente en su estructura química: orto-cresol (o-cresol), meta-cresol (m-cresol y para-cresol (p-cresol). Estas formas se presentan por separado o como una mezcla. Los cresoles se usan para disolver otros químicos, como desinfectantes y desodorantes, y para fabricar otros químicos. Los cresoles pueden formarse normalmente en el cuerpo a partir de otros compuestos. Los cresoles se encuentran en muchos alimentos y en la madera y el humo del tabaco, petróleo crudo, alquitrán de hulla, y en mezclas químicas utilizadas como conservantes de la madera. Pequeños organismos en el suelo y el agua producen cresoles cuando descomponen los materiales en el medio ambiente. <br> Los principales peligros encontrados en el uso y manejo del tallo de p-cresol por sus propiedades toxicológicas. Todas las rutas (es decir, inhalación, ingestión y absorción dérmica), la exposición a esta sustancia cristalina incolora a blanca, con olor a alquitrán, puede ocurrir por su uso en la desulfuración de carbón y en la producción de desinfectantes, explosivos, materiales de perfumería y fenol. resinas ic. Los efectos de la exposición pueden incluir náuseas, quemaduras de contacto en la piel y los ojos, arritmias ventriculares, edema pulmonar, convulsiones, coma y muerte. Tanto el PEL de OSHA como el TLV de ACGIH se han establecido en un TWA de 5 ppm. En actividades o situaciones en las que puede producirse una exposición excesiva, use un aparato de respiración autónomo y ropa protectora contra productos químicos que el transportista o productor recomienda específicamente para evitar el contacto de la piel con p-cresol. En caso de contacto, enjuague inmediatamente la piel u ojos afectados con agua corriente durante al menos 15 minutos y quítese la ropa y los zapatos contaminados en el sitio. Las instalaciones de lavado ocular y de drenaje rápido deben estar fácilmente disponibles en las áreas de trabajo de p-cresol. Si bien el p-cresol no se enciende fácilmente, puede arder con la producción de gases irritantes y venenosos. Además, los contenedores de p-cresol pueden explotar violentamente en el calor de un incendio. Los incendios que involucran p-cresol pueden extinguirse con productos químicos secos, CO2, halón, agua pulverizada o espuma estándar. El rocío de agua, si se usa, debe aplicarse con precaución porque puede causar espuma. Combata el fuego desde una distancia máxima y elimine el dique del agua de control de incendios. El p-Cresol debe almacenarse en recipientes de hierro o acero, en áreas frescas, secas y bien ventiladas, lejos de materiales oxidantes y fuentes de ignición y daños físicos. p-Cresol puede enviarse por vía aérea, ferroviaria, por carretera y por agua. Los pequeños derrames de p-cresol pueden introducirse en recipientes limpios, secos y cubiertos para su posterior eliminación (las soluciones primero se absorben con arena u otro material no combustible). Los derrames grandes en tierra deben estar contenidos en pozos u otras áreas de retención excavadas que estén selladas con un revestimiento de membrana flexible impermeable. Cualquier flujo superficial debe ser diqueado con bolsas de arena, hormigón celular o poliuretano expandido. Una vez contenidas, las soluciones de p-cresol a granel pueden neutralizarse con piedra caliza triturada, carbonato de sodio o cal, y absorberse con cenizas volantes, cemento en polvo o aserrín. Para derrames en cuerpos de agua, atrape el material en el fondo con bolsas de arena, o agregue carbón activado, luego use dragas mecánicas para eliminar las masas inmovilizadas. p-Cresol es un buen candidato para las formas de incineración de lecho fluidizado y horno rotatorio. Antes de implementar la disposición de p-cresol en la tierra, consulte con las agencias reguladoras ambientales para obtener orientación.",
+   "sinonimos" : [
+  "4-cresol",
+  "4-cresol, aluminum salt",
+  "4-cresol, potassium salt",
+  "4-cresol, sodium salt",
+  "4-methylphenol",
+  "p-cresol",
+  "para-cresol",
+  "P-CRESOL",
+  "4-Methylphenol"
+] 
+ },
+ {
+   "CID" : 3028194,
+   "GHS" : ["Flammable","Corrosive",],
+   "NFPA" : null,
+   "descripcion" : "",
+   "sinonimos" : [
+  "Lithium",
+  "Lithium 7",
+  "Lithium-7",
+  "7439-93-2",
+  "Li",
+  "Lithium",
+  "litio",
+  "Lithium, metallic",
+  "Lithium, elemental"
+] 
+ },
+ {
+   "CID" : 31222,
+   "GHS" : ["Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "La 1,2-difenilhidrazina es un sólido blanco. No hay información sobre cómo huele o si se quemará. No se disuelve fácilmente en agua, pero cuando se coloca en agua, se descompone rápidamente en otras sustancias químicas. Estos incluyen los productos químicos tóxicos bencidina y azobenceno. No se evapora fácilmente, pero puede liberarse al aire cuando se une a partículas de polvo. La 1,2-difenilhidrazina es una sustancia química hecha por el hombre que se utilizó en el pasado para fabricar bencidina, que se utilizó para fabricar diversos tintes de tela. Los tintes de bencidina ya no se usan en los Estados Unidos, pero aún se pueden usar en otros países. El único uso actual de 1,2-difenilhidrazina en los Estados Unidos es en la producción de medicamentos para tratar la inflamación y un tipo de artritis. En el pasado, la 1,2-difenilhidrazina se usaba para producir colorantes a base de bencidina. Actualmente, el único uso en los Estados Unidos es en la producción de medicamentos antiinflamatorios. Se dispone de información limitada sobre los efectos de la 1,2-difenilhidrazina en la salud. No hay información disponible sobre los efectos agudos (a corto plazo), crónicos (a largo plazo), reproductivos, de desarrollo o carcinogénicos de la 1,2-difenilhidrazina en humanos. En un estudio del Instituto Nacional del Cáncer (NCI), se observaron tumores hepáticos en ambos sexos de ratas y ratones hembra expuestos a 1,2-difenilhidrazina en su dieta. La EPA ha clasificado la 1,2-difenilhidrazina como un grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "1,2-diphenylhydrazine",
+  "hydrazobenzene",
+  "1,2-DIPHENYLHYDRAZINE",
+  "Hydrazobenzene",
+  "122-66-7",
+  "1,2-diphenyldiazane",
+  "Hydrazine, 1,2-diphenyl-",
+  "N,N'-Bianiline",
+  "N,N'-Diphenylhydrazine"
+] 
+ },
+ {
+   "CID" : 313,
+   "GHS" : ["Corrosive","Acute Toxic",],
+   "NFPA" : "3-0-1",
+   "descripcion" : "A temperatura ambiente, el cloruro de hidrógeno es un gas incoloro a ligeramente amarillo, corrosivo, no inflamable que es más pesado que el aire y tiene un fuerte olor irritante. Al exponerse al aire, el cloruro de hidrógeno forma vapores corrosivos blancos densos. El cloruro de hidrógeno se puede liberar de los volcanes. El cloruro de hidrógeno tiene muchos usos, incluyendo limpieza, decapado, galvanoplastia de metales, curtido de cuero y refinación y producción de una amplia variedad de productos. El cloruro de hidrógeno se puede formar durante la combustión de muchos plásticos. Al entrar en contacto con el agua, forma ácido clorhídrico. Tanto el cloruro de hidrógeno como el ácido clorhídrico son corrosivos. El ácido clorhídrico tiene muchos usos. Se utiliza en la producción de cloruros, fertilizantes y colorantes, en galvanoplastia y en las industrias fotográfica, textil y del caucho. El ácido clorhídrico es corrosivo para los ojos, la piel y las membranas mucosas. La exposición por inhalación aguda (a corto plazo) puede causar irritación e inflamación de los ojos, la nariz y las vías respiratorias y edema pulmonar en humanos. La exposición oral aguda puede causar corrosión de las membranas mucosas, el esófago y el estómago y el contacto dérmico puede producir quemaduras graves, ulceración y cicatrices en humanos. Se ha informado que la exposición ocupacional crónica (a largo plazo) al ácido clorhídrico causa gastritis, bronquitis crónica, dermatitis y fotosensibilización en los trabajadores. La exposición prolongada a bajas concentraciones también puede causar decoloración y erosión dental. La EPA no ha clasificado el ácido clorhídrico como carcinogénico.",
+   "sinonimos" : [
+  "Acid, Hydrochloric",
+  "Acid, Muriatic",
+  "Chloride, Hydrogen",
+  "Hydrochloric Acid",
+  "Hydrogen Chloride",
+  "Muriatic Acid",
+  "hydrochloric acid",
+  "hydrogen chloride",
+  "7647-01-0"
+] 
+ },
+ {
+   "CID" : 5352425,
+   "GHS" : ["Health Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El plomo es un metal gris azulado natural que se encuentra en pequeñas cantidades en la corteza terrestre. El plomo se puede encontrar en todas las partes de nuestro entorno. Gran parte proviene de actividades humanas, como la quema de combustibles fósiles, la minería y la fabricación. El plomo tiene muchos usos diferentes. Se utiliza en la producción de baterías, municiones, productos metálicos (soldadura y tuberías) y dispositivos para proteger los rayos X. Debido a problemas de salud, el plomo de la gasolina, pinturas y productos cerámicos, calafateo y soldadura de tuberías se ha reducido drásticamente en los últimos años. * Los CDC han actualizado sus recomendaciones sobre los niveles de plomo en la sangre de los niños. Los expertos ahora usan un valor de nivel de referencia superior de 97. 5 0e la distribución de la población para el plomo en la sangre de los niños. En 2012-2015, ese valor es de 5 microgramos por decilitro (g / dL) para identificar a los niños con niveles de plomo en la sangre que son mucho más altos que los niveles de la mayoría de los niños. La información en esta página se refiere al "nivel de preocupación de plomo en la sangre" anterior de los CDC de 10 g / dL. Esta información se actualizará en futuras ediciones ToxProfile y ToxFAQ. Para obtener más información sobre las recomendaciones actualizadas de los CDC sobre los niveles de plomo en la sangre de los niños, visite: http: // www. Centros para el Control y la Prevención de Enfermedades. gov / nceh / lead / ACCLPP / blood_lead_levels. htm. <br> El plomo se utiliza en la fabricación de baterías, productos metálicos y municiones. La exposición al plomo puede ocurrir al respirar aire contaminado en o cerca de los lugares de trabajo que procesan plomo o materiales con plomo, así como también por la ingestión accidental de polvo o astillas de pintura en casas con pintura a base de plomo. El plomo puede causar efectos en la sangre, así como en los sistemas nervioso, inmune, renal y cardiovascular. La primera infancia y las exposiciones prenatales se asocian con un desarrollo cognitivo lento, déficit de aprendizaje y otros efectos. La exposición a altas cantidades de plomo puede causar síntomas gastrointestinales, dañar gravemente el cerebro y los riñones, y puede causar efectos reproductivos. Grandes dosis de algunos compuestos de plomo han causado cáncer en animales de laboratorio.",
+   "sinonimos" : [
+  "Lead",
+  "7439-92-1",
+  "Lead",
+  "Pb",
+  "Plumbum",
+  "Blei",
+  "Lead metal",
+  "Lead cation Pb4+",
+  "Glover"
+] 
+ },
+ {
+   "CID" : 5354495,
+   "GHS" : ["Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El antimonio es un metal blanco plateado que se encuentra en la corteza terrestre. Los minerales de antimonio se extraen y luego se mezclan con otros metales para formar aleaciones de antimonio o se combinan con oxígeno para formar óxido de antimonio. Actualmente se extrae poco antimonio en los Estados Unidos. Es traído a este país desde otros países para su procesamiento. Sin embargo, hay empresas en los Estados Unidos que producen antimonio como subproducto de la fundición de plomo y otros metales. El antimonio no se usa solo porque se rompe fácilmente, pero cuando se mezcla en aleaciones, se usa en baterías de almacenamiento de plomo, soldadura, chapa y tubos de metal, rodamientos, piezas fundidas y peltre. El óxido de antimonio se agrega a los textiles y plásticos para evitar que se incendien. También se usa en pinturas, cerámicas y fuegos artificiales, y como esmaltes para plásticos, metales y vidrio. Todos están expuestos a bajos niveles de antimonio en el medio ambiente. La exposición aguda (a corto plazo) al antimonio por inhalación en humanos produce efectos en la piel y los ojos. Los efectos respiratorios, como la inflamación de los pulmones, la bronquitis crónica y el enfisema crónico, son los principales efectos observados por la exposición crónica (a largo plazo) al antimonio en humanos por inhalación. Los estudios en humanos no son concluyentes con respecto a la exposición al antimonio y el cáncer, mientras que los estudios en animales han informado tumores pulmonares en ratas expuestas al trióxido de antimonio por inhalación. La EPA no ha clasificado el antimonio por carcinogenicidad.",
+   "sinonimos" : [
+  "Antimony",
+  "7440-36-0",
+  "Antimony",
+  "Sb",
+  "Stibium metallicum",
+  "Antimony, metallic",
+  "Antimony, elemental",
+  "UNII-9IT35J3UV3",
+  "Antymonowodor [Polish]"
+] 
+ },
+ {
+   "CID" : 5359268,
+   "GHS" : ["Flammable",],
+   "NFPA" : "0-3-1",
+   "descripcion" : ""El aluminio es el metal más abundante en la corteza terrestre. Siempre se encuentra combinado con otros elementos como oxígeno, silicio y flúor. El aluminio como el metal se obtiene de minerales que contienen aluminio. Se pueden encontrar pequeñas cantidades de aluminio disuelto en agua. El metal de aluminio es liviano y de aspecto blanco plateado. El aluminio se usa para latas de bebidas, ollas y sartenes, aviones, revestimientos y techos y papel de aluminio. El aluminio a menudo se mezcla con pequeñas cantidades de otros metales para formar aleaciones de aluminio, que son más fuertes y más duros. Los compuestos de aluminio tienen muchos usos diferentes, por ejemplo, como alumbre en el tratamiento de agua y alúmina en abrasivos y revestimientos de hornos. También se encuentran en productos de consumo como antiácidos, astringentes, aspirina tamponada, aditivos alimentarios y antitranspirantes ".",
+   "sinonimos" : [
+  "Aluminium 27",
+  "Aluminium-27",
+  "Aluminum",
+  "Aluminum 27",
+  "Aluminum-27",
+  "7429-90-5",
+  "Al",
+  "Aluminum",
+  "Aluminium"
+] 
+ },
+ {
+   "CID" : 5359464,
+   "GHS" : ["Acute Toxic","Health Hazard",],
+   "NFPA" : null,
+   "descripcion" : ""El talio puro es un metal blanco azulado que se encuentra en pequeñas cantidades en la corteza terrestre. En el pasado, el talio se obtenía como un subproducto de la fundición de otros metales; sin embargo, no se ha producido en los Estados Unidos desde 1984 Actualmente, todo el talio se obtiene de las importaciones y de las reservas de talio. En su forma pura, el talio es inodoro e insípido. También se puede encontrar combinado con otras sustancias como el bromo, el cloro, el flúor y el yodo. Cuando se combina , parece incoloro a blanco o amarillo. El talio se usa principalmente en la fabricación de dispositivos electrónicos, interruptores y cierres, principalmente para la industria de semiconductores. También tiene un uso limitado en la fabricación de vidrio especial y para ciertos procedimientos médicos ".",
+   "sinonimos" : [
+  "Thallium",
+  "Thallium 205",
+  "Thallium-205",
+  "7440-28-0",
+  "Thallium",
+  "Tl",
+  "Ramor",
+  "Thallium, metallic",
+  "Thallium, elemental"
+] 
+ },
+ {
+   "CID" : 5359596,
+   "GHS" : ["Acute Toxic","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El arsénico es un elemento natural ampliamente distribuido en la corteza terrestre. En el medio ambiente, el arsénico se combina con oxígeno, cloro y azufre para formar compuestos de arsénico inorgánico. El arsénico en animales y plantas se combina con carbono e hidrógeno para formar compuestos orgánicos de arsénico. Los compuestos de arsénico inorgánico se utilizan principalmente para preservar la madera. El arsénico cromado de cobre (CCA) se usa para hacer \ presión tratada \ madera. CCA ya no se usa en los EE. UU. Para usos residenciales; todavía se usa en aplicaciones industriales. Los compuestos de arsénico orgánico se usan como pesticidas, principalmente en plantas de algodón. <br> El arsénico, un elemento natural, se encuentra en todo el medio ambiente; Para la mayoría de las personas, la comida es la principal fuente de exposición. La exposición aguda (a corto plazo) por inhalación de alto nivel al polvo o humos de arsénico ha tenido efectos gastrointestinales (náuseas, diarrea, dolor abdominal); Se han producido trastornos del sistema nervioso central y periférico en trabajadores expuestos de forma aguda al arsénico inorgánico. La exposición por inhalación crónica (a largo plazo) al arsénico inorgánico humano se asocia con irritación de la piel y las membranas mucosas y efectos en el cerebro y el sistema nervioso. La exposición oral crónica a niveles elevados de arsénico inorgánico ha provocado efectos gastrointestinales, anemia, neuropatía periférica, lesiones cutáneas, hiperpigmentación y daño hepático o renal en humanos. Se ha demostrado que la exposición al arsénico inorgánico de los humanos, por la vía de inhalación, está fuertemente asociada con el cáncer de pulmón, mientras que la ingestión de arsénico inorgánico por los humanos se ha relacionado con una forma de cáncer de piel y también con el cáncer de vejiga, hígado y pulmón. La EPA ha clasificado el arsénico inorgánico como carcinógeno humano.",
+   "sinonimos" : [
+  "7440-38-2",
+  "Arsenic",
+  "As",
+  "Arsenicals",
+  "Arsenic compounds",
+  "Arsenic, inorganic",
+  "Arsenic-75",
+  "Arsen",
+  "Gray arsenic"
+] 
+ },
+ {
+   "CID" : 5460467,
+   "GHS" : ["Acute Toxic","Irritant","Health Hazard",],
+   "NFPA" : "3-1-0",
+   "descripcion" : "El berilio es un metal duro y grisáceo que se encuentra naturalmente en rocas minerales, carbón, tierra y polvo volcánico. Los compuestos de berilio se extraen comercialmente, y el berilio se purifica para su uso en armas nucleares y reactores, estructuras de aviones y vehículos espaciales, instrumentos, máquinas de rayos X y espejos. Los minerales de berilio se utilizan para fabricar cerámicas especiales para aplicaciones eléctricas y de alta tecnología. Las aleaciones de berilio se usan en automóviles, computadoras, equipos deportivos (palos de golf y cuadros de bicicletas) y puentes dentales. La exposición por inhalación al berilio ocurre principalmente en los lugares de trabajo donde se extrae, procesa o convierte en aleaciones y productos químicos, o de la quema de carbón o fuel oil y en el humo del tabaco. Se ha observado que la exposición por inhalación aguda (a corto plazo) a altos niveles de berilio causa inflamación de los pulmones o neumonitis aguda (enrojecimiento e hinchazón de los pulmones) en humanos; después de que termina la exposición, estos síntomas pueden ser reversibles. Se ha informado que la exposición por inhalación crónica (a largo plazo) de humanos al berilio causa enfermedad crónica por berilio (berilio), en la cual se desarrollan lesiones granulomatosas (no cancerosas) en el pulmón. Los estudios de epidemiología en humanos son limitados, pero sugieren una relación causal entre la exposición al berilio y un mayor riesgo de cáncer de pulmón. La exposición por inhalación al berilio ha demostrado causar cáncer de pulmón en ratas y monos. La EPA ha clasificado al berilio como Grupo B1, probable carcinógeno humano. Los principales peligros encontrados en el uso y manejo del berilio provienen de sus propiedades toxicológicas e inflamabilidad. Tóxico principalmente por inhalación y contacto dérmico (como humos, soluciones salinas en aerosol o polvo finamente dividido), la exposición a este metal inodoro de color blanco grisáceo puede ocurrir por su uso como aleación o metal en materiales para la fabricación de aviones y naves espaciales, reactores nucleares , equipos eléctricos y componentes electrónicos. Los efectos de la exposición pueden incluir quemaduras de contacto en la piel y los ojos, ulceración de la piel, náuseas, dolor de cabeza, debilidad, dolor en el pecho, dificultad para respirar, fiebre, bronquitis, neumonitis aguda y posiblemente la muerte por insuficiencia cardíaca. El OSHA PEL y ACGIH TLV se establecen en un TWA de 2 ug / cu m. Es necesaria una ventilación de extracción local adecuada para evitar la inhalación y el contacto de la piel con el berilio. En actividades o situaciones donde es posible la sobreexposición, los trabajadores deben usar una respiración autónoma con máscara facial completa. También se debe usar ropa protectora, incluidos trajes protectores (preferiblemente desechables, de una pieza y ajustados en los tobillos y muñecas), guantes, cubiertas para el cabello y zapatos. En caso de contacto, quítese inmediatamente la ropa contaminada y lave la piel u ojos afectados con agua corriente durante al menos 15 minutos. Mientras esté prohibido fumar, beber y comer en áreas de trabajo de berilio. El polvo de berilio finamente dividido presenta el mayor peligro de incendio, formando mezclas en el aire que pueden inflamarse explosivamente cuando se exponen al calor, chispas o llamas. Para incendios con berilio, extinguir con agua pulverizada, niebla o espuma estándar. Use un aparato de respiración autónomo y ropa protectora cuando combata tales incendios. El berilio debe almacenarse en áreas secas, lejos de ácidos, álcalis, hidrocarburos clorados, materiales oxidables y fuentes de ignición, incluidos cualquier aparato eléctrico que genere chispas o arcos. Las regulaciones de envío y otros requisitos reglamentarios del DOT deben consultarse antes del transporte. Para derrames pequeños y secos, recolecte el berilio y colóquelo en un recipiente limpio y seco para su eliminación posterior. Para derrames grandes, primero dique el área, luego humedezca el material con agua para su posterior eliminación. Antes de implementar la eliminación en tierra de los residuos de berilio, consulte con las agencias reguladoras ambientales para obtener orientación. Además, la recuperación y el reciclaje de berilio es una alternativa a su eliminación.",
+   "sinonimos" : [
+  "Beryllium",
+  "7440-41-7",
+  "Be",
+  "Beryllium",
+  "Beryllium metal",
+  "Beryllium metallic",
+  "berilio",
+  "Glucinium",
+  "Glucinum"
+] 
+ },
+ {
+   "CID" : 5462311,
+   "GHS" : ["Irritant",],
+   "NFPA" : null,
+   "descripcion" : ""El boro es un compuesto que ocurre en la naturaleza. A menudo se encuentra combinado con otras sustancias para formar compuestos llamados boratos. Los compuestos de borato comunes incluyen ácido bórico, sales de boratos y óxido de boro. Varias compañías en los Estados Unidos producen la mayor parte del mundo boratos mediante el procesamiento de compuestos de boro. Los boratos se usan principalmente para producir vidrio. También se usan en retardantes de fuego, industrias de curtido de cuero, cosméticos, materiales fotográficos, jabones y limpiadores, y como combustible de alta energía. Algunos pesticidas utilizados para el control de cucarachas y otros los conservantes para madera también contienen boratos ".",
+   "sinonimos" : [
+  "Boron",
+  "Boron 11",
+  "Boron-11",
+  "7440-42-8",
+  "B",
+  "Boron",
+  "Boron, metallic",
+  "UNII-N9E3X5056Q",
+  "HSDB 4482"
+] 
+ },
+ {
+   "CID" : 6326970,
+   "GHS" : ["Acute Toxic","Health Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El selenio es un elemento mineral natural que se distribuye ampliamente en la naturaleza en la mayoría de las rocas y los suelos. En su forma pura, existe como cristales hexagonales metálicos de gris a negro, pero en la naturaleza generalmente se combina con sulfuro o con minerales de plata, cobre, plomo y níquel. La mayoría del selenio procesado se usa en la industria electrónica, pero también se usa: como suplemento nutricional; en la industria del vidrio; como componente de pigmentos en plásticos, pinturas, esmaltes, tintas y caucho; en la preparación de productos farmacéuticos; como aditivo alimenticio para aves y ganado; en formulaciones de pesticidas; en la producción de caucho; como ingrediente en champús anticaspa; y como constituyente de fungicidas. El selenio radioactivo se usa en medicina diagnóstica. <br> El selenio es una sustancia natural que es tóxica en altas concentraciones, pero también es un elemento nutricionalmente esencial. El seleniuro de hidrógeno es el compuesto de selenio más tóxico. La exposición aguda (a corto plazo) al selenio elemental, el seleniuro de hidrógeno y el dióxido de selenio por inhalación produce principalmente efectos respiratorios, como irritación de las membranas mucosas, edema pulmonar, bronquitis grave y neumonía bronquial. Los estudios epidemiológicos de humanos expuestos crónicamente (a largo plazo) a altos niveles de selenio en alimentos y agua han reportado decoloración de la piel, deformación patológica y pérdida de uñas, pérdida de cabello, caries y decoloración excesiva de dientes, falta de alerta mental y languidez. Los estudios epidemiológicos han informado una asociación inversa entre los niveles de selenio en la sangre y la aparición de cáncer, y los estudios en animales han informado que la suplementación con selenio, como selenato de sodio, selenito de sodio y formas orgánicas de selenio, resulta en una incidencia reducida de varios tipos de tumores. El único compuesto de selenio que se ha demostrado que es cancerígeno en animales es el sulfuro de selenio, que resultó en un aumento de los tumores hepáticos por exposición oral. La EPA ha clasificado el selenio elemental como un Grupo D, no clasificable en cuanto a carcinogenicidad humana, y el sulfuro de selenio como un Grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "Selenium",
+  "Selenium 80",
+  "Selenium-80",
+  "7782-49-2",
+  "Se",
+  "Selenium",
+  "SELENIUM ATOM",
+  "Selane",
+  "Selenium hydride"
+] 
+ },
+ {
+   "CID" : 638186,
+   "GHS" : ["Flammable","Irritant",],
+   "NFPA" : "1-3-2- ̵W̵",
+   "descripcion" : ""El 1,2-dicloroeteno, también llamado 1,2-dicloroetileno, es un líquido incoloro altamente inflamable con un olor fuerte y fuerte. Se utiliza para producir solventes y en mezclas químicas. Puede oler cantidades muy pequeñas de 1, 2 -dicloroeteno en el aire (aproximadamente 17 partes de 1, 2-dicloroeteno por millón de partes de aire [17 ppm]). Hay dos formas de 1, 2-dicloroeteno; una se llama cis-1, 2-dicloroeteno y la otra es llamado trans-1,2-di-cloroeteno. A veces ambas formas están presentes como una mezcla ".",
+   "sinonimos" : [
+  "1,2-dichloroethene",
+  "1,2-dichloroethylene",
+  "1,2-dichloroethylene, (E)-isomer",
+  "1,2-dichloroethylene, (Z)-isomer",
+  "TRANS-1,2-DICHLOROETHYLENE",
+  "trans-1,2-Dichloroethene",
+  "156-60-5",
+  "(E)-1,2-Dichloroethene",
+  "(E)-1,2-Dichloroethylene"
+] 
+ },
+ {
+   "CID" : 7839,
+   "GHS" : ["Acute Toxic","Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : "3-0-0",
+   "descripcion" : "El 1,2-dibromoetano es un producto químico fabricado. También ocurre naturalmente en pequeñas cantidades en el océano donde se forma, probablemente por algas y algas. Es un líquido incoloro con un olor suave y dulce. Otros nombres para el 1,2-dibromoetano son dibromuro de etileno, EDB y bromuro de glicol. Los nombres comerciales incluyen Bromofume y Dowfume. El 1,2-dibromoetano se ha utilizado como pesticida en el suelo y en cultivos de cítricos, vegetales y granos. La Agencia de Protección Ambiental (EPA) ha detenido la mayoría de estos usos desde 1984. Otro uso importante fue como aditivo en la gasolina con plomo; sin embargo, dado que la gasolina con plomo ahora está prohibida, ya no se usa para este propósito. Los usos actuales incluyen el tratamiento de troncos para termitas y escarabajos, el control de las polillas en las colmenas y como preparación para tintes y ceras. El dibromuro de etileno es un líquido incoloro no inflamable con un olor dulce a cloroformo a temperatura ambiente por encima de 50ºF (10ºC) ) Es ligeramente soluble en agua y soluble en la mayoría de los solventes orgánicos. Es más pesado que el agua. Cuando se calienta hasta la descomposición, puede liberar gases y vapores tales como bromuro de hidrógeno, bromo y monóxido de carbono. El dibromuro de etileno debe almacenarse en un lugar seco a temperatura ambiente. La exposición al dibromuro de etileno ocurre principalmente por su uso anterior como aditivo de la gasolina con plomo y como fumigante. El dibromuro de etileno es extremadamente tóxico para los humanos. Los efectos crónicos (a largo plazo) de la exposición al dibromuro de etileno no han sido bien documentados en humanos. Los estudios en animales indican que la exposición crónica al dibromuro de etileno puede provocar efectos tóxicos para el hígado, los riñones y los testículos, independientemente de la ruta de exposición. Los datos limitados sobre hombres expuestos ocupacionalmente al dibromuro de etileno indican que la exposición a largo plazo al dibromuro de etileno puede perjudicar la reproducción al dañar las células espermáticas en los testículos. Varios estudios en animales indican que la exposición a largo plazo al dibromuro de etileno aumenta la incidencia de una variedad de tumores en ratas y ratones en ambos sexos por todas las vías de exposición. La EPA ha clasificado el dibromuro de etileno como un grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "1,2 Dibromoethane",
+  "1,2-Dibromoethane",
+  "Bromide, Ethylene",
+  "Dibromide, Ethylene",
+  "Dibromides, Ethylene",
+  "Dowfume W 85",
+  "Dowfume W85",
+  "Ethylene Bromide",
+  "Ethylene Dibromide"
+] 
+ },
+ {
+   "CID" : 7855,
+   "GHS" : ["Flammable","Corrosive","Acute Toxic","Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : "4-3-2- ̵W̵",
+   "descripcion" : "El acrilonitrilo es un químico incoloro, líquido, hecho por el hombre, con un fuerte olor a cebolla o ajo. Se puede disolver en agua y se evapora rápidamente. El acrilonitrilo se usa para fabricar otras sustancias químicas como plásticos, caucho sintético y fibras acrílicas. En el pasado se usó una mezcla de acrilonitrilo y tetracloruro de carbono como pesticida; sin embargo, todos los usos de pesticidas se han detenido. La exposición al acrilonitrilo es principalmente ocupacional: se usa en la fabricación de ácido acrílico y fibras modacrílicas. Se ha observado que la exposición aguda (a corto plazo) de los trabajadores al acrilonitrilo causa irritación de la membrana mucosa, dolores de cabeza, mareos y náuseas. No hay información disponible sobre los efectos reproductivos o de desarrollo del acrilonitrilo en humanos. Basado en evidencia limitada en humanos y evidencia en ratas, la EPA ha clasificado el acrilonitrilo como un probable carcinógeno humano (Grupo B1).",
+   "sinonimos" : [
+  "Acrylonitrile",
+  "Cyanide, Vinyl",
+  "Vinyl Cyanide",
+  "ACRYLONITRILE",
+  "2-Propenenitrile",
+  "107-13-1",
+  "Prop-2-enenitrile",
+  "Propenenitrile",
+  "Vinyl cyanide"
+] 
+ },
+ {
+   "CID" : 7929,
+   "GHS" : ["Flammable","Corrosive","Irritant","Health Hazard",],
+   "NFPA" : "2-3-0",
+   "descripcion" : "El xileno comercial o mixto generalmente contiene aproximadamente 40-65 0e m-xileno y hasta 20 0e cada uno de o-xileno y p-xileno y etilbenceno. Los xilenos se liberan a la atmósfera como emisiones fugitivas de fuentes industriales, de escape automático y mediante la volatilización de su uso como solventes. La exposición por inhalación aguda (a corto plazo) a xilenos mixtos en humanos produce irritación de los ojos, nariz y garganta, efectos gastrointestinales, irritación ocular y efectos neurológicos. La exposición por inhalación crónica (a largo plazo) de humanos a xilenos mixtos produce principalmente efectos en el sistema nervioso central (SNC), como dolor de cabeza, mareos, fatiga, temblores e incoordinación; También se han informado efectos respiratorios, cardiovasculares y renales. La EPA ha clasificado a los xilenos mixtos como Grupo D, no clasificables en cuanto a la carcinogenicidad humana. <br> Los principales peligros encontrados en el uso y manejo del 3-xileno provienen de sus propiedades toxicológicas e inflamabilidad. La exposición a este líquido transparente e incoloro de olor dulce puede ocurrir por su uso como un químico intermedio, como un componente de la gasolina y como un solvente industrial. Tóxico por todas las vías de exposición (es decir, dérmica, ingestión e inhalación), el 3-xileno puede causar efectos que incluyen dolor de cabeza, mareos, irritación de la piel y los ojos, daño renal y hepático, edema pulmonar, coma y muerte. La ACGIH recomienda un límite de exposición en el lugar de trabajo (TLV) de 100 ppm como un promedio ponderado de tiempo de 8 horas (TWA); sin embargo, para garantizar la protección, use una lata aprobada o una máscara con suministro de aire, careta, guantes de plástico y botas y use herramientas que no produzcan chispas al manipular 3-xileno. En situaciones de emergencia, se recomienda un aparato de respiración autónomo y ropa protectora completa. Si se produce contacto, lave inmediatamente los ojos expuestos con agua corriente, lave la piel expuesta con agua y jabón y quítese la ropa contaminada. Las personas con enfermedades del sistema nervioso central, hígado, riñones y sangre deben protegerse de la exposición. El 3-xileno es fácilmente inflamable por calor, chispas o llamas (punto de inflamación: 25 ° C, copa cerrada) y puede hacerlo explosivamente en un área cerrada. Además, el vapor puede viajar una distancia considerable hasta una fuente de ignición y retroceder. El calor de un incendio puede hacer que los contenedores exploten y / o causen degradación térmica del 3-xileno, produciendo humo acre y gases tóxicos. Los incendios que involucran 3-xileno pueden extinguirse con productos químicos secos, CO2, agua pulverizada, niebla o espuma. Para incendios masivos en áreas cerradas, use soportes de manguera no tripulados o boquillas de monitor. Si un carro tanque o camión de 3-xileno está involucrado en un incendio, aísle 1/2 milla en todas las direcciones. La escorrentía del agua de control de incendios puede causar contaminación y, al ingresar a una alcantarilla, puede crear un peligro de explosión. El almacenamiento de 3-xileno se realiza preferiblemente en áreas exteriores o separadas, lejos del calor, cualquier fuente de ignición, agentes oxidantes y cualquier actividad que pueda causar daños físicos a los contenedores. Para derrames pequeños de 3-xileno, tome arena u otro absorbente no combustible y colóquelo en contenedores para su posterior eliminación, o absorba en papel y evapórelo en una campana de extracción adecuada. En cualquier caso, tenga cuidado de evitar el contacto con el líquido o el vapor. Para derrames grandes, aislar el área, colocar el dique muy por delante del derrame y recoger el material para su eliminación. El 3-xileno es un buen candidato para el proceso de destrucción oxidativa de Belliot, así como para la inyección de líquidos, horno rotativo e incineración de lecho fluidizado. El 3-xileno puede enviarse a una empresa de eliminación de solventes, pero antes de implementar cualquier disposición en la tierra de residuos de residuos (incluidos los lodos de residuos), consulte a las agencias reguladoras para obtener orientación.",
+   "sinonimos" : [
+  "3-xylene",
+  "m-xylene",
+  "m-xylol",
+  "meta-xylene",
+  "M-XYLENE",
+  "1,3-Dimethylbenzene",
+  "108-38-3",
+  "1,3-Xylene",
+  "m-Xylol"
+] 
+ },
+ {
+   "CID" : 935,
+   "GHS" : ["Irritant","Health Hazard",],
+   "NFPA" : "2-4-1",
+   "descripcion" : "El níquel es un elemento natural muy abundante. El níquel puro es un metal blanco plateado duro. El níquel se puede combinar con otros metales, como hierro, cobre, cromo y zinc, para formar aleaciones. Estas aleaciones se utilizan para fabricar monedas, joyas y artículos como válvulas e intercambiadores de calor. La mayoría del níquel se usa para hacer acero inoxidable. El níquel se puede combinar con otros elementos como el cloro, el azufre y el oxígeno para formar compuestos de níquel. Muchos compuestos de níquel se disuelven bastante fácilmente en agua y tienen un color verde. Los compuestos de níquel se utilizan para el niquelado, para colorear la cerámica, para fabricar algunas baterías y como sustancias conocidas como catalizadores que aumentan la velocidad de las reacciones químicas. El níquel se encuentra en todo el suelo y se emite desde los volcanes. El níquel también se encuentra en meteoritos y en el fondo del océano. El níquel y sus compuestos no tienen olor ni sabor característicos. <br> El níquel se produce naturalmente en el medio ambiente a niveles bajos. El níquel es un elemento esencial en algunas especies animales, y se ha sugerido que puede ser esencial para la nutrición humana. La dermatitis por níquel, que consiste en picazón en los dedos, las manos y los antebrazos, es el efecto más común en humanos por el contacto crónico (a largo plazo) de la piel con el níquel. También se han informado efectos respiratorios en humanos por exposición por inhalación al níquel. Estudios en humanos y animales han reportado un mayor riesgo de cánceres de pulmón y nasales por la exposición al polvo de la refinería de níquel y al subsulfuro de níquel. Los estudios en animales de compuestos de níquel solubles (es decir, níquel carbonilo) han reportado tumores pulmonares. La EPA ha clasificado el polvo de la refinería de níquel y el subsulfuro de níquel como Grupo A, carcinógenos humanos y el níquel carbonilo como Grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "Nickel",
+  "7440-02-0",
+  "Ni",
+  "Nickel",
+  "Raney alloy",
+  "Fibrex",
+  "Nickel catalyst",
+  "Nickel, soluble salts",
+  "Nickel ion"
+] 
+ },
+ {
+   "CID" : 38037,
+   "GHS" : ["Health Hazard","Environmental Hazard",],
+   "NFPA" : "2-1-0",
+   "descripcion" : "",
+   "sinonimos" : [
+  "Aroclor 1016",
+  "aroclor-1016",
+  "3,3',5-TRICHLOROBIPHENYL",
+  "AROCLOR 1016",
+  "38444-87-0",
+  "1,1'-Biphenyl, 3,3',5-trichloro-",
+  "12674-11-2",
+  "UNII-D998089L9E",
+  "PCB 36"
+] 
+ },
+ {
+   "CID" : 40470,
+   "GHS" : ["Acute Toxic","Irritant","Health Hazard",],
+   "NFPA" : "2-1-0",
+   "descripcion" : ""Los bifenilos policlorados son mezclas de hasta 209 compuestos clorados individuales (conocidos como congéneres). No se conocen fuentes naturales de PCB. Los PCB son líquidos aceitosos o sólidos que son incoloros a amarillo claro. Algunos PCB pueden existir como vapor en el aire Los PCB no tienen olor o sabor conocidos. Muchas mezclas comerciales de PCB se conocen en los Estados Unidos por el nombre comercial Aroclor. Los PCB se han utilizado como refrigerantes y lubricantes en transformadores, condensadores y otros equipos eléctricos porque no se queman fácilmente y son buenos aislantes. La fabricación de PCB se detuvo en los EE. UU. en 1977 debido a la evidencia de que se acumulan en el medio ambiente y pueden causar efectos nocivos para la salud. y viejos microscopios y aceites hidráulicos ".",
+   "sinonimos" : [
+  "Aroclor 1254",
+  "Aroclor-1254",
+  "Chlorodiphenyl (54 },
+ {
+   "CID" : 5284469,
+   "GHS" : ["Acute Toxic","Irritant","Health Hazard","Environmental Hazard",],
+   "NFPA" : null,
+   "descripcion" : "El toxafeno fue uno de los pesticidas más utilizados en los Estados Unidos en los años setenta y principios de los ochenta. Fue utilizado principalmente para controlar las plagas de insectos en el algodón y otros cultivos en el sur de los Estados Unidos. Otros usos incluyeron el control de plagas de insectos en el ganado y la muerte de peces no deseados en los lagos. El toxafeno fue prohibido para todos los usos registrados en 1990. El toxafeno se produce al hacer reaccionar el gas de cloro con una sustancia llamada canfeno. El producto resultante (toxafeno) es una mezcla de cientos de diferentes camphenos clorados y productos químicos relacionados. <br> El toxafeno era un pesticida ampliamente utilizado en el algodón, otros cultivos y en ganado y aves de corral. En 1982, la mayoría de sus usos fueron cancelados y en 1990, todos los usos fueron cancelados en los Estados Unidos. El principal efecto del toxafeno es la estimulación del sistema nervioso central (SNC), que produce convulsiones convulsivas. No hay estudios disponibles sobre la exposición por inhalación aguda (a corto plazo) al toxafeno en humanos o animales. La exposición por inhalación crónica (a largo plazo) al toxafeno en humanos produce toxicidad respiratoria reversible, mientras que la exposición oral crónica en animales ha tenido efectos en el hígado, los riñones, el bazo, las glándulas suprarrenales y tiroideas, el SNC y el sistema inmunitario. Los estudios en animales han informado una mayor incidencia de tumores de la glándula tiroides y tumores hepáticos a través de la ingestión. La EPA ha clasificado el toxafeno como un grupo B2, probable carcinógeno humano.",
+   "sinonimos" : [
+  "Polychlorocamphene",
+  "Toxaphene",
+  "8001-35-2",
+  "1,4,5,6,7,7-hexachloro-2,2-bis(chloromethyl)-3-methylidenebicyclo[2.2.1]heptane",
+  "NCGC00091881-01",
+  "DSSTox_CID_1368",
+  "DSSTox_RID_76114",
+  "DSSTox_GSID_21368",
+  "CAS-8001-35-2"
+] 
+ },
+ {
+   "CID" : 7500,
+   "GHS" : ["Flammable","Irritant","Health Hazard",],
+   "NFPA" : "2-3-0",
+   "descripcion" : "El etilbenceno es un líquido incoloro e inflamable que huele a gasolina. Se encuentra en productos naturales como el alquitrán de hulla y el petróleo y también se encuentra en productos manufacturados como tintas, insecticidas y pinturas. El etilbenceno se usa principalmente para hacer otro químico, el estireno. Otros usos incluyen como solvente, en combustibles y para fabricar otros químicos. <br> El etilbenceno se usa principalmente en la fabricación de estireno. La exposición aguda (a corto plazo) al etilbenceno en humanos produce efectos respiratorios, como irritación de la garganta y constricción torácica, irritación de los ojos y efectos neurológicos como mareos. La exposición crónica (a largo plazo) al etilbenceno por inhalación en humanos ha mostrado resultados contradictorios con respecto a sus efectos en la sangre. Los estudios en animales han reportado efectos en la sangre, el hígado y los riñones por la exposición crónica por inhalación al etilbenceno. Se dispone de información limitada sobre los efectos cancerígenos del etilbenceno en humanos. En un estudio realizado por el National Toxicology Program (NTP), la exposición al etilbenceno por inhalación resultó en una mayor incidencia de tumores renales y testiculares en ratas, y tumores de pulmón e hígado en ratones. La EPA ha clasificado el etilbenceno como un Grupo D, no clasificable en cuanto a carcinogenicidad en humanos.",
+   "sinonimos" : [
+  "ethylbenzene",
+  "ETHYLBENZENE",
+  "100-41-4",
+  "Phenylethane",
+  "Ethylbenzol",
+  "Benzene, ethyl-",
+  "Ethyl benzene",
+  "Aethylbenzol",
+  "Ethylenzene"
+] 
+ },
+ {
+   "CID" : 7501,
+   "GHS" : ["Flammable","Irritant","Health Hazard",],
+   "NFPA" : "2-3-2- ̵W̵",
+   "descripcion" : "El estireno es principalmente un químico sintético. También se conoce como vinilbenceno, etenilbenceno, cinnameno o feniletileno. Es un líquido incoloro que se evapora fácilmente y tiene un olor dulce. A menudo contiene otros químicos que le dan un olor fuerte y desagradable. Se disuelve en algunos líquidos, pero no se disuelve fácilmente en agua. Miles de millones de libras se producen cada año para fabricar productos como caucho, plástico, aislamiento, fibra de vidrio, tuberías, piezas de automóviles, contenedores de alimentos y respaldo de alfombras. La mayoría de estos productos contienen estireno unido en una cadena larga (poliestireno), así como estireno no unido. Los niveles bajos de estireno también ocurren naturalmente en una variedad de alimentos como frutas, verduras, nueces, bebidas y carnes. El estireno se usa principalmente en la producción de resinas y plásticos de poliestireno. La exposición aguda (a corto plazo) al estireno en humanos produce irritación de la membrana mucosa y de los ojos, y efectos gastrointestinales. La exposición crónica (a largo plazo) al estireno en humanos produce efectos en el sistema nervioso central (SNC), como dolor de cabeza, fatiga, debilidad y depresión, disfunción del CSN, pérdida auditiva y neuropatía periférica. Los estudios en humanos no son concluyentes sobre los efectos reproductivos y de desarrollo del estireno; Varios estudios no informaron un aumento en los efectos sobre el desarrollo en las mujeres que trabajaban en la industria de los plásticos, mientras que en otro estudio se informó una mayor frecuencia de abortos espontáneos y una menor frecuencia de nacimientos. Varios estudios epidemiológicos sugieren que puede haber una asociación entre la exposición al estireno y un mayor riesgo de leucemia y linfoma. Sin embargo, la evidencia no es concluyente debido a factores de confusión. La EPA no ha otorgado una clasificación carcinogénica formal al estireno. Los principales peligros encontrados en el uso y manejo del estireno provienen de sus propiedades toxicológicas e inflamabilidad. Tóxico por todas las vías (es decir, inhalación, ingestión y contacto dérmico), la exposición a este líquido de olor incoloro a amarillo puede ocurrir debido a su presencia en la fabricación y uso de plásticos, caucho sintético, resinas, recubrimientos, pinturas , ceras para pisos, adhesivos, masillas, limpiadores para metales, rellenos para carrocerías y barnices. Los efectos de la exposición pueden incluir dolor de cabeza, fatiga, náuseas, sensación de embriaguez, depresión del sistema nervioso central e irritación de los ojos, la piel y las vías respiratorias (incluido el edema pulmonar). Además, la Agencia Internacional para la Investigación del Cáncer (IARC) ha clasificado el estireno como un carcinógeno del Grupo 2B (definido como un agente que posiblemente sea cancerígeno para los humanos). OSHA ha establecido un límite de TWA para el estireno de 100 ppm. Se debe usar ventilación mecánica si es necesario para mantener los niveles de estireno en el aire en o por debajo del límite permitido. En actividades y situaciones en las que puede ocurrir una sobreexposición, use ropa protectora (se recomienda neopreno) y un aparato de respiración autónomo. En caso de contacto, irrigue los ojos expuestos con abundante agua tibia durante al menos 15 minutos y lave bien la piel expuesta con agua y jabón. La ropa contaminada se debe quitar y dejar en el lugar de trabajo para su limpieza. El estireno se enciende fácilmente por calor, chispas (incluida la descarga estática) o llamas. Su vapor más pesado que el aire puede viajar distancias considerables a una fuente de ignición y retroceder, o formar concentraciones explosivas en espacios cerrados como alcantarillas. Además, los contenedores de estireno pueden explotar en el calor de un incendio. Para incendios que involucran estireno, extinguir con productos químicos secos, CO2, halón, agua pulverizada (una corriente sólida puede propagar el fuego) o espuma estándar. Combatir el fuego lo más lejos posible y considerar la evacuación de un radio de media milla, especialmente si se trata de un carro tanque o camión. El estireno (inhibido) puede enviarse a nivel nacional a través del aire, el ferrocarril, la carretera y el agua, en contenedores con la etiqueta, \ Líquido inflamable. \ El estireno debe almacenarse en contenedores herméticos y lejos de fuentes de ignición o daños físicos, humedad , calor, sales metálicas, peróxidos y ácidos fuertes. Los pequeños derrames de estireno deben recogerse con vermiculita, arena seca o tierra, y colocarse en contenedores para su posterior eliminación. Los derrames grandes en la tierra se deben diquear con tierra, bolsas de arena, poliuretano espumado u hormigón espumado, y el líquido a granel se absorbe con cenizas volantes, cemento en polvo o sorbentes comerciales. Los derrames en cuerpos de agua deben estar rodeados por barreras naturales o barreras de control de derrames de petróleo, y se debe inyectar un agente gelificante \ universal \ para solidificar el material. Aplique carbón activado y retire el material atrapado con mangueras de succión o elevadores mecánicos o dragas. Antes de implementar la eliminación de residuos de estireno en la tierra, consulte con las agencias reguladoras ambientales para obtener orientación.",
+   "sinonimos" : [
+  "Monomer, Styrene",
+  "Styrene",
+  "Styrene Monomer",
+  "Styrol",
+  "Vinylbenzene",
+  "STYRENE",
+  "Ethenylbenzene",
+  "Phenylethylene",
+  "100-42-5"
+] 
+ },

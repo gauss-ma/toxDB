@@ -20,19 +20,19 @@ linker=[
    "nombre" : "ALDRIN"
  },
  {
-   "CID" : 14488,
+   "CID" : 5359268,
    "CAS" : "7429-90-5",
-   "nombre" : "ALUMINIO (TOTAL)"
+   "nombre" : "ALUMINIO"
  },
  {
    "CID" : 222,
    "CAS" : "7664-41-7",
-   "nombre" : "AMONIO (ug/1 NH4)"
+   "nombre" : "AMONIO"
  },
  {
-   "CID" : 23969,
+   "CID" : 5359596,
    "CAS" : "7440-38-2",
-   "nombre" : "ARSENICO (TOTAL)"
+   "nombre" : "ARSENICO"
  },
  {
    "CID" : 2256,
@@ -42,7 +42,7 @@ linker=[
  {
    "CID" : 5355457,
    "CAS" : "7440-39-3",
-   "nombre" : "BARIO (TOTAL)"
+   "nombre" : "BARIO"
  },
  {
    "CID" : 2314,
@@ -50,9 +50,9 @@ linker=[
    "nombre" : "BENDIOCARB"
  },
  {
-   "CID" : 139073,
+   "CID" :  5460467,
    "CAS" : "7440-41-7",
-   "nombre" : "BERILIO (TOTAL)"
+   "nombre" : "BERILIO"
  },
  {
    "CID" : 727,
@@ -85,9 +85,9 @@ linker=[
    "nombre" : "BIS (ETILHELIX) FTALATO"
  },
  {
-   "CID" : 6331,
+   "CID" : 5462311,
    "CAS" : "7440-42-8",
-   "nombre" : "BORO (TOTAL)"
+   "nombre" : "BORO"
  },
  {
    "CID" : 15531,
@@ -140,7 +140,7 @@ linker=[
    "nombre" : "DIAZINON"
  },
  {
-   "CID" : 3024,
+   "CID" : 7839,
    "CAS" : "106-93-4",
    "nombre" : "DIBROMOETILENO"
  },
@@ -170,7 +170,7 @@ linker=[
    "nombre" : "DICLOROETILENO (1,2-sis)"
  },
  {
-   "CID" : 10900,
+   "CID" : 638186,
    "CAS" : "156-60-5",
    "nombre" : "DICLOROETILENO (1,2-trans)"
  },
@@ -200,12 +200,12 @@ linker=[
    "nombre" : "DIURON"
  },
  {
-   "CID" : 5984,
+   "CID" : 7501,
    "CAS" : "100-42-5",
    "nombre" : "ESTIRENO"
  },
  {
-   "CID" : 6837,
+   "CID" : 7500,
    "CAS" : "100-41-4",
    "nombre" : "ETILBENCENO"
  },
@@ -220,9 +220,9 @@ linker=[
    "nombre" : "FLUORANTENO"
  },
  {
-   "CID" : 24524,
+   "CID" : 28179,
    "CAS" : "16984-48-8",
-   "nombre" : "FLUORURO (TOTAL)"
+   "nombre" : "FLUORURO"
  },
  {
    "CID" : 4790,
@@ -275,7 +275,7 @@ linker=[
    "nombre" : "METRIBUZINA"
  },
  {
-   "CID" : 934,
+   "CID" : 935,
    "CAS" : "7440-02-0",
    "nombre" : "NIQUEL (TOTAL)"
  },
@@ -290,7 +290,7 @@ linker=[
    "nombre" : "PCB (TOTAL)"
  },
  {
-   "CID" : 23448,
+   "CID" : 38037,
    "CAS" : "12674-11-2",
    "nombre" : "PCB - 1016 (AROCHLOR 1016)"
  },
@@ -305,7 +305,7 @@ linker=[
    "nombre" : "PCB - 1248 (AROCHLOR 1248)"
  },
  {
-   "CID" : 36188,
+   "CID" : 40470,
    "CAS" : "11097-69-1",
    "nombre" : "PCB - 1254 (AROCHLOR 1254)"
  },
@@ -322,17 +322,17 @@ linker=[
  {
    "CID" : 23954,
    "CAS" : "7440-22-4",
-   "nombre" : "PLATA (TOTAL)"
+   "nombre" : "PLATA"
  },
  {
-   "CID" : 3061,
+   "CID" : 5352425,
    "CAS" : "7439-92-1",
-   "nombre" : "PLOMO (TOTAL)"
+   "nombre" : "PLOMO"
  },
  {
-   "CID" : 533,
+   "CID" : 6326970,
    "CAS" : "7782-49-2",
-   "nombre" : "SELENIO (TOTAL )"
+   "nombre" : "SELENIO"
  },
  {
    "CID" : 5216,
@@ -340,9 +340,9 @@ linker=[
    "nombre" : "SIMAZINE"
  },
  {
-   "CID" : 67634,
+   "CID" : 5359464,
    "CAS" : "7440-28-0",
-   "nombre" : "TALIO (TOTAL)"
+   "nombre" : "TALIO"
  },
  {
    "CID" : 5392,
@@ -365,7 +365,7 @@ linker=[
    "nombre" : "TOLUENO"
  },
  {
-   "CID" : 6413,
+   "CID" : 5284469,
    "CAS" : "8001-35-2",
    "nombre" : "TOXAFENO"
  },
@@ -380,9 +380,9 @@ linker=[
    "nombre" : "TRICLOROFENOL (2,3,4-)"
  },
  {
-   "CID" : 7237,
+   "CID" : 7929,
    "CAS" : "1330-20-7",
-   "nombre" : "XILENOS (TOTALES)0"
+   "nombre" : "XILENOS"
  },
  {
    "CID" : 9161,
@@ -390,14 +390,14 @@ linker=[
    "nombre" : "ACENAFTILENO"
  },
  {
-   "CID" : 6579,
+   "CID" : 7855,
    "CAS" : "107-13-1",
    "nombre" : "ACRILONITRILO"
  },
  {
-   "CID" : 23967,
+   "CID" : 5354495,
    "CAS" : "7440-36-0",
-   "nombre" : "ANTIMONIO (TOTAL)"
+   "nombre" : "ANTIMONIO"
  },
  {
    "CID" : 727,
@@ -415,7 +415,7 @@ linker=[
    "nombre" : "DICLOROPROPANOS"
  },
  {
-   "CID" : 11243,
+   "CID" : 11245,
    "CAS" : "26952-23-8",
    "nombre" : "DICLOROPROPENOS"
  },
@@ -425,12 +425,12 @@ linker=[
    "nombre" : "DINITROTOLUENO"
  },
  {
-   "CID" : 3224,
+   "CID" : 12309460,
    "CAS" : "959-98-8",
    "nombre" : "ENDOSULFAN-ALFA"
  },
  {
-   "CID" : 3224,
+   "CID" : 12309460,
    "CAS" : "33213-65-9",
    "nombre" : "ENDOSULFAN-BETA"
  },
@@ -455,14 +455,14 @@ linker=[
    "nombre" : "ENDOSULFAN"
  },
  {
-   "CID" : 14917,
+   "CID" : 24524,
    "CAS" : "7782-41-4",
    "nombre" : "FLUOR"
  },
  {
-   "CID" : 28486,
+   "CID" : 3028194,
    "CAS" : "7439-93-2",
-   "nombre" : "LITIO (TOTAL)"
+   "nombre" : "LITIO"
  },
  {
    "CID" : 9153,
@@ -500,24 +500,24 @@ linker=[
    "nombre" : "CICLOHEXANO"
  },
  {
-   "CID" : 312,
+   "CID" : 313,
    "CAS" : "7647-01-0",
    "nombre" : "CLORURO DE HIDROGENO"
  },
  {
-   "CID" : 335,
+   "CID" : 2879,
    "CAS" : "1319-77-3",
    "nombre" : "CRESOLES"
  },
  {
-   "CID" : 7040,
+   "CID" : 11443,
    "CAS" : "584-84-9",
    "nombre" : "DI-ISOCIANATO DE TOLUENO"
  },
  {
-   "CID" : 1118,
+   "CID" : 1118 ,
    "CAS" : "7664-93-9",
-   "nombre" : "NIEBLA ACIDA (H2S04)"
+   "nombre" : "ÁCIDO SULFURICO"
  },
  {
    "CID" : 402,
@@ -530,7 +530,7 @@ linker=[
    "nombre" : "METIL PARATION"
  },
  {
-   "CID" : 887,
+   "CID" : 31222,
    "CAS" : "122-66-7",
    "nombre" : "DIFENIL HIDRAZINA (1,2)"
  },
@@ -554,9 +554,9 @@ linker=[
    "CAS":   "11141-16-5",
    "nombre":"AROCHLOR 1232" 
  },
- {
-   "CID":23976,
-   "CAS":   "7440-47-3",
-   "nombre":"CROMO"
- }
+{
+   "CID":24526,
+   "CAS":"7782-50-5",
+   "nombre":"CLORO"
+}
 ]
