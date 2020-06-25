@@ -1614,20 +1614,6 @@
 ] 
  },
  {
-   "CID" : 53788752,
-   "GHS" : [],
-   "NFPA" : null,
-   "descripcion" : "",
-   "sinonimos" : [] 
- },
- {
-   "CID" : 176261332,
-   "GHS" : [],
-   "NFPA" : null,
-   "descripcion" : "",
-   "sinonimos" : [] 
- },
- {
    "CID" : 23976,
    "GHS" : ["Irritant","Health Hazard","Environmental Hazard",],
    "NFPA" : null,

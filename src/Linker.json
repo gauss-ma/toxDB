@@ -535,11 +535,6 @@
    "nombre" : "DIFENIL HIDRAZINA (1,2)"
  },
  {
-   "CID" : 313,
-   "CAS" : "7782-50-5",
-   "nombre" : "CLORO"
- },
- {
    "CID":   2730,
    "CAS":   "2921-88-2",
    "nombre":"CLORPIRIFOS" 
