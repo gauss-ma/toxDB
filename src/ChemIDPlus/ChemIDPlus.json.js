@@ -185,7 +185,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "child",
+    "o": "niño",
     "t": "TCLo",
     "r": "inhalación",
     "d": {
@@ -669,7 +669,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -975,7 +975,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -1048,7 +1048,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -1153,7 +1153,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "child",
+    "o": "niño",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -1767,7 +1767,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "child",
+    "o": "niño",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -3519,7 +3519,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3963,7 +3963,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -3981,7 +3981,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "piel",
     "d": {
@@ -4347,7 +4347,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -5204,7 +5204,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -5940,7 +5940,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -9717,7 +9717,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -10252,7 +10252,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -10713,7 +10713,7 @@ ChemIDPlus=[
    "FisProps": null,
    "ToxProps": [
   {
-    "o": "child",
+    "o": "niño",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -10836,7 +10836,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -11439,7 +11439,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -11469,7 +11469,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -11499,7 +11499,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -11531,7 +11531,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -11836,7 +11836,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TCLo",
     "r": "inhalación",
     "d": {
@@ -12587,7 +12587,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "child",
+    "o": "niño",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -13562,7 +13562,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "multiple routes",
     "d": {
@@ -13590,7 +13590,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -13620,7 +13620,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -14454,7 +14454,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -14948,7 +14948,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -15460,7 +15460,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "child",
+    "o": "niño",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -16934,7 +16934,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17347,7 +17347,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -17884,7 +17884,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "intravenosa",
     "d": {
@@ -18975,7 +18975,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "LDLo",
     "r": "oral",
     "d": {
@@ -19145,7 +19145,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TDLo",
     "r": "oral",
     "d": {
@@ -19225,7 +19225,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -19491,7 +19491,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "women",
+    "o": "mujer",
     "t": "TCLo",
     "r": "inhalación",
     "d": {
@@ -19702,7 +19702,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -20401,7 +20401,7 @@ ChemIDPlus=[
 ],
    "ToxProps": [
   {
-    "o": "bird - wild",
+    "o": "pájaro salvaje",
     "t": "LD50",
     "r": "oral",
     "d": {
@@ -22230,7 +22230,7 @@ ChemIDPlus=[
     }
   },
   {
-    "o": "child",
+    "o": "niño",
     "t": "LDLo",
     "r": "piel",
     "d": {
