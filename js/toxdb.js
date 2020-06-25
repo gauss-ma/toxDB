@@ -124,7 +124,7 @@ function vista(view){
 
 //MolView cambiar tipo de visualizacion
 	function MolViewSet(mode){
-		iframe=`<iframe style="width: 300px; height: 300px;" frameborder="1" src="https://embed.molview.org/v1/?mode=`+mode+`&cid=`+tox.CID+`"></iframe>`;
+		iframe=`<iframe style="width: 300px; height: 300px;" frameborder="1" src="https://embed.molview.org/v1/?mode=`+mode+`&smiles=`+summary.CanonicalSMILES+`"></iframe>`;
 		console.log(iframe);
 		$("#MolView").empty();
 		$("#MolView").append(iframe);
@@ -254,7 +254,7 @@ function verCompuesto(index){
 						</button>
 					</div>
 					<div id="MolView">
-						<iframe style="width: 300px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=`+tox.CID+`"></iframe>
+						<iframe style="width: 300px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&smiles=`+summary.CanonicalSMILES+`"></iframe>
 							
 					</div>
 				</div>
