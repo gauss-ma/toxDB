@@ -366,6 +366,8 @@ function verCompuesto(index){
         	
 				$("#descripcion").append(pubchem.descripcion);
 
+				// para tener en cuenta
+				// https://codepen.io/pbakaus/pen/gOYrwNp
 
 				for (j=0;j < pubchem.sinonimos.length;j++){
 					$("#sinonimos ol").append("<li>"+pubchem.sinonimos[j]+"</li>");
@@ -375,7 +377,7 @@ function verCompuesto(index){
 		       		//SEGURIDAD QUIMICA:
                         	ChemSafety=`
 				<section class='specimen_data' id='seguridad'> 
-					<h1>Seguridad Química</h1>
+					<h1>Pictograma SGA</h1>
 						<div id="SeguridadQuimica_figs">`;
                         	        	for (j=0;j< pubchem.GHS.length;j++){
                         	        	        ChemSafety+=`<figure>
