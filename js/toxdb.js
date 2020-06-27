@@ -143,6 +143,23 @@ function mostrarReferencia(Ref) {
 
 };
 
+
+function VerMasDescripcion(){
+                                                   
+const $descr = $('#descripcion');
+const $btn_vermasdescr = $('#loadMoredescr');
+                                                   
+	$descr.removeClass("clamped");
+	$descr.addClass("unclamped");
+	$btn_vermasdescr.style.display = "none";
+	console.log("CLickkkkk")
+                                                   
+};
+
+
+
+
+
 //Restart
 
 function restart() {
@@ -357,35 +374,6 @@ function verCompuesto(index) {
 
 		//Showmore.. para texto descr
 
-		const $descr = $('#descripcion');
-		const $btn_vermasdescr = $('#loadMoredescr');
-
-
-		$descr.on("click", function () {
-			console.log("Hola estoy clickeando descr")
-
-		});
-
-		$btn_vermasdescr.on("click", function () {
-
-			$descr.removeClass("clamped");
-			$descr.addClass("unclamped");
-			$btn_vermasdescr.style.display = "none";
-			console.log("CLickkkkk")
-
-		});
-
-
-
-
-
-
-		//$('#showLess').click(function () {
-		//    x=(x-5<0) ? 3 : x-5;
-		//    $('#ToxicList tr').not(':lt('+x+')').hide();
-		//});
-
-
 	} catch (error) { console.error(error); }
 
 
@@ -393,16 +381,12 @@ function verCompuesto(index) {
 	try {
 		pubchem = PubChem.find(x => x.CID === tox.CID);
 
+		//ver más descripcion:
 		$("#descripcion").append(pubchem.descripcion);
-
 		botonvermas = `
-		<div id="loadMoredescr" class="loadmore">Ver más</div>
+		<div id="loadMoredescr" class="loadmore" onclick="VerMasDescripcion();">Ver más</div>
 		`
 		$("#descripcionwrap").append(botonvermas)
-
-
-
-
 
 
 
