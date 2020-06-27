@@ -1243,7 +1243,7 @@ a.github:hover >i{  color:inherit;}
 
 #ToxicList tr{display:none;}
 #showLess,
-#loadMore{
+#loadMore,.loadmore{
           	background:#fff;
         	color:var(--gris-medio);
             		opacity:0.8;
@@ -1260,12 +1260,24 @@ padding-right: 21px;
 text-transform: none;
 margin: 0 10px 0 0;
 margin-top:10px;
-        }
+overflow: hidden;
+transition: all 0.2s;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+/* opacity: 0.5; */
+/* background: none !important; */
+/* color: #202020 !important; */
+cursor: pointer;
+
+}
         
 #showLess:hover,
-#loadMore:hover{
+#loadMore:hover,
+.loadmore:hover{
         	opacity:1;
 		color:var(--celeste-oscuro);
+		  /* border: 2px solid var(--); */
+		  transform: translateY(-2px);
+		  box-shadow: 0 3px 6px 0 rgba(0,0,0,.26);
 } 
 
 /*#showLess::before,
@@ -1303,12 +1315,6 @@ right: -7px;
 #feedback-button:hover{
     fill: var(--celeste-oscuro);
 }
-
-
-
-
-
-
 
 .form{
 	width:340px;
@@ -1458,7 +1464,6 @@ span{margin:0 5px 0 15px}
 
 
 #descripcion{
-
 	color: var(--gris-oscuro);
 	/* font-family: 'RobotoRegular, Roboto'!important; */
 	font-weight: 400!important;
@@ -1469,14 +1474,25 @@ span{margin:0 5px 0 15px}
 	letter-spacing: .03em;
 	font-size: 18px;
     line-height: 1.5em;
-    padding: 0 0 1em 0;
+    /* padding: 0 0 1em 0; */
 	text-align: justify;
 	max-width: 700px;
+	/* para el "ver mas" */
+	display: -webkit-box;
+    
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
 
+.clamped{
+	-webkit-line-clamp: 4;
 
 }
 
+.unclamped{
+	-webkit-line-clamp: unset;
 
+}
 
 
 
