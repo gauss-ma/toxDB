@@ -614,9 +614,6 @@ align-items: center;
 .grid_view > li{
 	width: -moz-calc(25% - 20px);
 	width: calc(25% - 20px);
-/*	width: -moz-calc(33.333% - 20px);
-	width: calc(33.333% - 20px);
-*/  
  margin-left:10px;
    margin-right:10px;
 }
@@ -627,8 +624,7 @@ align-items: center;
 	padding:5px;
 }
 
-.grid_view > .grid-card > a{
-}
+
 
 
 .list_view > .grid-card > a{
@@ -1396,7 +1392,12 @@ span{margin:0 5px 0 15px}
 	position:relative;
 	margin-top:10px;
 	margin-right:10px;
-	border: 1px solid var(--gris-medio);
+	border: 1px solid var(--gris-claro);
+	border-radius: 5px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .22);
+
 }
 
 #MolView2D-botones,
@@ -1404,22 +1405,42 @@ span{margin:0 5px 0 15px}
 	display:flex;
 	flex-direction:column;
 	width:50px;
+	
+	
+	
 }
 #MolView-botones>button{
-	padding:5px;
-	background:#fff;
+	padding:3px;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	color:var(--gris-medio);
+			opacity:0.8;
+
+			border-radius: 20px;
+border: 1px solid var(--gris-claro);
+color:rgba(0,0,0,.87);
+display: inline-flex;
+margin: auto;
+overflow: hidden;
+transition: all 0.2s;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+cursor: pointer;
 }
 #MolView-botones>button:hover{
   transition-property: background-color,box-shadow,transform;
   transition: box-shadow .3s cubic-bezier(0.55, 0, 0.55, 0.2);
-	background:var(--blanco);
+	
+	opacity:1;
+	 /* border: 2px solid var(--); */
+	  transform: translateY(-2px);
+	  box-shadow: 0 3px 6px 0 rgba(0,0,0,.26);
+	  
+
 
 }
 #MolView-botones>button:disabled,
 #MolView-botones>button:disabled:hover{
 	background:var(--gris-claro);
-	box-shadow: 0 0px 0px 0 rgba(0,0,0,.0);
+	/* box-shadow: 0 0px 0px 0 rgba(0,0,0,.0); */
 }
 
 #MolView2D-botones>h3,
@@ -1434,7 +1455,9 @@ span{margin:0 5px 0 15px}
 	background:white;
 	display:flex;
 	flex-direction:column;
-	border: 1px dotted var(--gris-medio);
+	
+
+	/* border: 1px dotted var(--gris-medio); */
 
 }
 
