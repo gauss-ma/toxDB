@@ -151,8 +151,7 @@ const $btn_vermasdescr = $('#loadMoredescr');
                                                    
 	$descr.removeClass("clamped");
 	$descr.addClass("unclamped");
-	$btn_vermasdescr.style.display = "none";
-	console.log("CLickkkkk")
+	$btn_vermasdescr.hide();
                                                    
 };
 
