@@ -67,7 +67,7 @@ $(document).ready(function () {
 	                	        <h1 class='card-titulo'>`+ linker[i].nombre + `</h1>
 				</div>
 	                        <div class='card-content'>
-					<img src="src/PubChem/img2DHD/`+ linker[i].CID + `.png"></img>
+					<img src="img/img2DHD/`+ linker[i].CID + `.png"></img>
 				</div>
 	                        <div  class='card-footer'> 
 					`+ SUMMARY_DB[j].MolecularFormula + `
@@ -207,8 +207,8 @@ function verCompuesto(index) {
                         
 			 <tr><td> <h3>Estructura:           </h3> </td>
 				<td class="imagen">
-				<figure><img src='src/PubChem/img2D/`+ tox.CID + `.png'></img><figcaption>2D<figcaption></figure>
-                                <figure><img src='src/PubChem/img3D/`+ tox.CID + `.png'></img><figcaption>3D</figcaption></figure>
+				<figure><img src='img/img2D/`+ tox.CID + `.png'></img><figcaption>2D<figcaption></figure>
+                                <figure><img src='img/img3D/`+ tox.CID + `.png'></img><figcaption>3D</figcaption></figure>
 			</td></tr>
 			<tr><td> <h3>CID:                  </h3> </td><td>`+ tox.CID + `</td></tr>
 			<tr><td> <h3>CAS:                  </h3> </td><td>`+ tox.CAS + `</td></tr>
@@ -253,7 +253,7 @@ function verCompuesto(index) {
 						<h3 style="position:relative;top:0;left:0;">2D </h3>
 					</div>
 					<div id="MolView2D">
-					<img src='src/PubChem/img2DHD/`+ tox.CID + `.png' style="width:300px; height:300px;"></img>
+					<img src='img/img2DHD/`+ tox.CID + `.png' style="width:300px; height:300px;"></img>
 					</div>
 				</div>
 				<div id="MolView-container">
@@ -404,7 +404,7 @@ function verCompuesto(index) {
 						<div id="SeguridadQuimica_figs">`;
 		for (j = 0; j < pubchem.GHS.length; j++) {
 			ChemSafety += `<figure>
-									<img src='src/PubChem/imgGHS/es/`+ pubchem.GHS[j] + `.svg'></img>
+									<img src='img/imgGHS/es/`+ pubchem.GHS[j] + `.svg'></img>
                         	        	        	     	<figcaption>`+ pubchem.GHS[j] + `</figcaption>
 								     </figure>`;
 		}
@@ -418,7 +418,7 @@ function verCompuesto(index) {
 					<h1>NFPA 704</h1>
                         	        <div id='NFPA_fig'>
 					<figure>
-						<img src='src/PubChem/imgNFPA/`+ pubchem.NFPA + `.svg'/>      
+						<img src='img/imgNFPA/`+ pubchem.NFPA + `.svg'/>      
                         	        	<figcaption>`+ pubchem.NFPA + `</figcaption>
 					</figure> 
                         	        </div>
