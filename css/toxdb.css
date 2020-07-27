@@ -1,44 +1,33 @@
 :root{
-
 /* Paleta de colores GAUSS v1.0 -
 Para mas información, consultar la StyleSheet:
 https://www.figma.com/file/20SQRpHpszMnntGvWCy0ge/Gauss-Stylesheet?node-id=99%3A2 */
 
+  /* Escala de grises */
+  --negro-0:#1F1F1F;
+  --gris-oscuro-0:#363636;
+  --gris-medio-0: #ACACAC;  /* todavía no le elegí color */
+  --gris-claro-0:#E1E1E1;
+  --blanco-0: #fafafa;      /* todavía es incoherente esto del 0 xq este blanco-0 es mas claro que el otro y los otros -0 son mas oscuros */
 
-/* 
-color: #52C0C0;
-color: #108AA8;
-color: #063959;
-color: #8C5B8D;
-color: #F2809F;
-color: #1F1F1F;
-color: #363636;
-color: #ACACAC;
-color: #E1E1E1;
-color: #F7F7F7;
-color: #FEC439;
-color: #EF3974;
-color: #37D6FF; 
-*/
+ --negro:#232323;       /*alternativa suave: TESERA*/
+ --gris-oscuro:#4b4e53; /*alternativa suave: TESERA*/
+ --gris-medio: #ACACAC;
+ --gris-claro:#E7E7E7;  /*alternativa suave: TESERA*/
+ --blanco: #f7f7f7;
 
-/* Escala de grises */
---negro: #1F1F1F;
---gris-oscuro:#363636;
---gris-medio: #ACACAC;
---gris-claro:#E1E1E1;
---blanco: #fafafa;
 
-/* Paleta pentacroma */
---celeste-claro:#52C0C0;
---celeste-oscuro:#108AA8;
---azul:#063959;
---violeta:#8C5B8D;
---rosa:#F2809F;
+  /* Paleta pentacroma */
+  --celeste-claro:#52C0C0;
+  --celeste-oscuro:#108AA8;
+  --azul:#063959;
+  --violeta:#8C5B8D;
+  --rosa:#F2809F;
 
-/* colores saturados para interacción */
---amarillo-saturado:#FEC439;
---rosa-saturado: #EF3974;
---celeste-saturado:#37D6FF;
+  /* colores saturados para interacción */
+  --amarillo-saturado:#FEC439;
+  --rosa-saturado: #EF3974;
+  --celeste-saturado:#37D6FF;
 
 /* Familia inicial de tipografías */
 
@@ -116,7 +105,7 @@ font-size: 16px;
 line-height: 1em;
 
 /* identical to box height, or 257% */
-color: var(--negro);
+color: var(--gris-oscuro);
 
 
 }
@@ -243,29 +232,33 @@ header{
 	box-shadow: 1px 1px transparent;
  	z-index:1000;
 }
+
+
+
+
 .Logo_gauss {
   display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+	align-items:center;
   position: absolute;
   right: 5vw;
   top: 25px;
   height: 30px;
   float: left;
   font-size: 25px;
-  line-height:25px;
-margin:0;
+  /*line-height:1.5em;*/margin:0;
   cursor: pointer;
-  font-family: 'Montserrat';
+  font-family: "Montserrat","MontserratBold";
 	font-weight:700;
-	vertical-align:baseline;
-
-	text-decoration:none;
-	color:var(--negro);
+        pointer-events:auto;
 }
 .Logo_gauss img{
         height:30px;
 }
+
 
 
 .LogoToxDB{
